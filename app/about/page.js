@@ -432,7 +432,7 @@ export default function AboutPage() {
         <VisitorCounter />
       </Section>
 
-      <Section title="Made by">
+      <Section title="Developed by">
         <p className="text-lg font-medium text-[hsl(var(--foreground))]">
           niranyousf —{" "}
           <a
