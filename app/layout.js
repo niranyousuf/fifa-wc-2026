@@ -3,7 +3,13 @@ import Link from "next/link";
 import { Navbar } from "@/components/Navbar";
 import { Providers } from "@/components/Providers";
 import { ThemeToggleFloating } from "@/components/ThemeToggleFloating";
+import { getSiteUrl } from "@/lib/siteUrl";
 import "./globals.css";
+
+const siteUrl = getSiteUrl();
+const siteTitle = "FIFA World Cup 2026 Hub";
+const siteDescription =
+  "Follow WC 2026 — fixtures, group standings, teams, knockout bracket, favorites, and a tournament prediction simulator.";
 
 const displayFont = Playfair_Display({
   subsets: ["latin"],
@@ -17,8 +23,34 @@ const bodyFont = Inter({
 });
 
 export const metadata = {
-  title: "FIFA World Cup 2026",
-  description: "Fixtures, standings, teams, and knockout bracket for WC 2026.",
+  metadataBase: new URL(siteUrl),
+  title: {
+    default: siteTitle,
+    template: `%s | FIFA World Cup 2026`,
+  },
+  description: siteDescription,
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: siteUrl,
+    siteName: siteTitle,
+    title: siteTitle,
+    description: siteDescription,
+    images: [
+      {
+        url: "/opengraph-image.png",
+        width: 1200,
+        height: 630,
+        alt: "FIFA World Cup 2026 Hub — fixtures, standings, and knockout bracket",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: siteTitle,
+    description: siteDescription,
+    images: ["/opengraph-image.png"],
+  },
 };
 
 export default function RootLayout({ children }) {
