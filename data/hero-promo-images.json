@@ -1,0 +1,45 @@
+{
+  "source": "Manually verified football/soccer only — Unsplash & Pexels",
+  "images": [
+    {
+      "url": "https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=1920&q=80",
+      "alt": "Football on the pitch with player boots"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1522778119026-d647f0596c20?auto=format&fit=crop&w=1920&q=80",
+      "alt": "Night match in a football stadium"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1517466787929-bc90951d0974?auto=format&fit=crop&w=1920&q=80",
+      "alt": "Football player on the pitch"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1560272564-c83b66b1ad12?auto=format&fit=crop&w=1920&q=80",
+      "alt": "Soccer ball on the pitch"
+    },
+    {
+      "url": "https://images.pexels.com/photos/46798/the-ball-stadion-football-the-pitch-46798.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "alt": "World Cup ball in an empty stadium"
+    },
+    {
+      "url": "https://images.pexels.com/photos/274506/pexels-photo-274506.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "alt": "Soccer ball on artificial turf"
+    },
+    {
+      "url": "https://images.pexels.com/photos/1884574/pexels-photo-1884574.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "alt": "Crowd at a live football match"
+    },
+    {
+      "url": "https://images.pexels.com/photos/3621104/pexels-photo-3621104.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "alt": "Player with foot on the football"
+    },
+    {
+      "url": "https://images.pexels.com/photos/399187/pexels-photo-399187.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "alt": "Football goal under floodlights"
+    },
+    {
+      "url": "https://images.pexels.com/photos/114296/pexels-photo-114296.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "alt": "Soccer ball on the pitch at dusk"
+    }
+  ]
+}

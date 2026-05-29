@@ -1,0 +1,22 @@
+{
+  "note": "Fallback when roster API omits (captain) on player name — verified against Zafronix 2026 squads.",
+  "captains": {
+    "Argentina": "Lionel Messi",
+    "Uruguay": "Diego Godín",
+    "Iran": "Ehsan Hajsafi",
+    "Ecuador": "Enner Valencia",
+    "Australia": "Mathew Ryan",
+    "Algeria": "Riyad Mahrez",
+    "Panama": "Aníbal Godoy",
+    "DR Congo": "Chancel Mbemba",
+    "Iraq": "Mohanad Ali",
+    "Saudi Arabia": "Salman Al-Faraj",
+    "Uzbekistan": "Odil Ahmedov",
+    "Ghana": "André Ayew",
+    "Jordan": "Hassan Al-Mutlaq",
+    "Bosnia and Herzegovina": "Edin Džeko",
+    "Curaçao": "Cuco Martina",
+    "Haiti": "Steeven Saba",
+    "New Zealand": "Winston Reid"
+  }
+}

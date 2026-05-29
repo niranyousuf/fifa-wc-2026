@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 96%;
+    --foreground: 0 0% 7%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 7%;
+    --muted: 220 14% 92%;
+    --muted-foreground: 220 9% 40%;
+    --border: 220 13% 88%;
+    --accent: 174 62% 36%;
+    --accent-foreground: 0 0% 100%;
+    --ring: 174 62% 36%;
+    --wc-accent: 174 62% 36%;
+  }
+
+  .dark {
+    --background: 222 47% 8%;
+    --foreground: 0 0% 100%;
+    --card: 222 40% 11%;
+    --card-foreground: 0 0% 100%;
+    --muted: 222 30% 16%;
+    --muted-foreground: 220 10% 70%;
+    --border: 222 25% 20%;
+    --accent: 174 76% 52%;
+    --accent-foreground: 222 47% 6%;
+    --ring: 174 76% 52%;
+    --wc-accent: 174 76% 52%;
+  }
+
+  body {
+    @apply overflow-x-hidden bg-[hsl(var(--background))] text-[hsl(var(--foreground))] font-sans antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-display font-semibold;
+  }
+
+  .font-display {
+    font-weight: 600;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Home hero — Swiper */
+.hero-swiper-section .swiper-slide {
+  height: 100%;
+}
+
+.hero-swiper-section .swiper-fade .swiper-slide {
+  pointer-events: none;
+}
+
+.hero-swiper-section .swiper-fade .swiper-slide-active {
+  pointer-events: auto;
+}
+
+.hero-swiper-section .swiper-pagination {
+  bottom: 1rem !important;
+}
+
+.hero-swiper-section .swiper-pagination-bullet {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.4);
+  opacity: 1;
+  transition: width 0.2s ease, background 0.2s ease;
+}
+
+.hero-swiper-section .swiper-pagination-bullet-active {
+  width: 1.5rem;
+  background: hsl(var(--wc-accent));
+}

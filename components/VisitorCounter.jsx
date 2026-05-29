@@ -1,0 +1,86 @@
+"use client";
+
+import { useEffect, useState } from "react";
+import { Eye } from "lucide-react";
+import { formatNumber } from "@/lib/utils";
+
+const SESSION_KEY = "wc2026_visitor_counted";
+
+export function VisitorCounter({ floating = false }) {
+  const [count, setCount] = useState(0);
+  const [displayCount, setDisplayCount] = useState(0);
+
+  useEffect(() => {
+    let active = true;
+
+    async function trackVisitor() {
+      try {
+        const alreadyCounted = sessionStorage.getItem(SESSION_KEY);
+
+        if (alreadyCounted) {
+          const response = await fetch("/api/visitor");
+          const data = await response.json();
+          if (active) setCount(data.count ?? 0);
+          return;
+        }
+
+        // Claim this tab session before POST so rapid refresh cannot double-count.
+        sessionStorage.setItem(SESSION_KEY, "1");
+
+        const postResponse = await fetch("/api/visitor", { method: "POST" });
+
+        if (!postResponse.ok) {
+          sessionStorage.removeItem(SESSION_KEY);
+          throw new Error("Failed to record visit");
+        }
+
+        const postData = await postResponse.json();
+        if (active) setCount(postData.count ?? 0);
+      } catch {
+        if (active) {
+          const response = await fetch("/api/visitor").catch(() => null);
+          if (response?.ok) {
+            const data = await response.json();
+            setCount(data.count ?? 0);
+          } else {
+            setCount(0);
+          }
+        }
+      }
+    }
+
+    trackVisitor();
+
+    return () => {
+      active = false;
+    };
+  }, []);
+
+  useEffect(() => {
+    if (displayCount === count) return undefined;
+
+    const step = Math.max(1, Math.ceil((count - displayCount) / 20));
+    const timer = setTimeout(() => {
+      setDisplayCount((current) => {
+        const next = current + step;
+        return next >= count ? count : next;
+      });
+    }, 20);
+
+    return () => clearTimeout(timer);
+  }, [count, displayCount]);
+
+  return (
+    <div
+      className={[
+        "flex items-center gap-2 border border-[hsl(var(--border))] bg-[hsl(var(--card))] text-sm",
+        floating
+          ? "fixed bottom-4 right-4 z-50 rounded-full px-4 py-2 shadow-lg"
+          : "w-fit rounded-lg px-3 py-2",
+      ].join(" ")}
+    >
+      <Eye className="h-4 w-4 text-wc-accent" />
+      <span>{formatNumber(displayCount)} visitors</span>
+    </div>
+  );
+}
