@@ -39,7 +39,7 @@ export function SimulatorKnockoutRound({
               winner && "border-[hsl(var(--accent))]/40",
             )}
           >
-            <p className="mb-3 text-xs font-medium uppercase tracking-wide text-[hsl(var(--muted-foreground))]">
+            <p className="mb-3 text-center text-xs font-medium uppercase tracking-wide text-[hsl(var(--muted-foreground))]">
               {roundName === "Final"
                 ? "Final"
                 : roundName === THIRD_PLACE_ROUND
@@ -47,7 +47,7 @@ export function SimulatorKnockoutRound({
                   : `Match ${match.matchNumber} · ${roundName}`}
             </p>
 
-            <div className="grid gap-4 md:grid-cols-[1fr_auto_1fr] md:items-center">
+            <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-3 sm:gap-6">
               <TeamSide name={match.homeLabel} logo={match.home.logo} align="left" />
               <ScoreInputs
                 home={pick.home}
@@ -122,7 +122,7 @@ function TeamSide({ name, logo, align }) {
     <div
       className={cn(
         "flex min-w-0 items-center gap-2",
-        align === "right" && "md:flex-row-reverse md:text-right",
+        align === "right" && "flex-row-reverse",
       )}
     >
       {logo ? (
@@ -130,7 +130,7 @@ function TeamSide({ name, logo, align }) {
           <Image src={logo} alt="" fill className="object-contain" sizes="32px" />
         </span>
       ) : null}
-      <span className="truncate text-sm font-medium">{name}</span>
+      <span className="text-sm font-medium">{name}</span>
     </div>
   );
 }

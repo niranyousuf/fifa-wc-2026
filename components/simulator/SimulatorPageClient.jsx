@@ -377,13 +377,13 @@ export function SimulatorPageClient({ fixtures: fixturesProp = [] }) {
                       key={fixture.fixture.id}
                       className="space-y-3 px-4 py-4"
                     >
-                      <p className="text-xs text-[hsl(var(--muted-foreground))]">
+                      <p className="text-center text-xs text-[hsl(var(--muted-foreground))]">
                         <LocalKickoffDateTime
                           date={fixture.fixture.date}
                           dateVariant="short"
                         />
                       </p>
-                      <div className="grid gap-3 sm:grid-cols-[1fr_auto_1fr] sm:items-center">
+                      <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-3 sm:gap-6">
                         <TeamLine team={fixture.teams.home} />
                         <ScoreInputs
                           home={pick.home}
@@ -605,7 +605,7 @@ function TeamLine({ team, align = "left" }) {
     <div
       className={cn(
         "flex min-w-0 items-center gap-2",
-        align === "right" && "justify-end sm:flex-row-reverse",
+        align === "right" && "flex-row-reverse",
       )}
     >
       {team.logo ? (
@@ -619,7 +619,7 @@ function TeamLine({ team, align = "left" }) {
           />
         </span>
       ) : null}
-      <span className="truncate text-sm font-medium">{team.name}</span>
+      <span className="text-sm font-medium">{team.name}</span>
     </div>
   );
 }
