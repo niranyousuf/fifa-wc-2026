@@ -156,6 +156,7 @@ function CaptainFigure({ side, team, captain }) {
             src={photoUrl}
             alt={captain.name ? `${captain.name}, ${team.name}` : team.name}
             fill
+            unoptimized
             className="object-contain object-bottom drop-shadow-[0_8px_32px_rgba(0,0,0,0.5)]"
             sizes="(max-width: 768px) 42vw, 360px"
           />

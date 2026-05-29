@@ -20,10 +20,7 @@ const PLAYER_ALIASES = {
 
 function readCache() {
   try {
-    if (!fs.existsSync(CACHE_PATH)) {
-      fs.mkdirSync(path.dirname(CACHE_PATH), { recursive: true });
-      fs.writeFileSync(CACHE_PATH, JSON.stringify({}, null, 2));
-    }
+    if (!fs.existsSync(CACHE_PATH)) return {};
     return JSON.parse(fs.readFileSync(CACHE_PATH, "utf8"));
   } catch {
     return {};
@@ -31,8 +28,12 @@ function readCache() {
 }
 
 function writeCache(cache) {
-  fs.mkdirSync(path.dirname(CACHE_PATH), { recursive: true });
-  fs.writeFileSync(CACHE_PATH, JSON.stringify(cache, null, 2));
+  try {
+    fs.mkdirSync(path.dirname(CACHE_PATH), { recursive: true });
+    fs.writeFileSync(CACHE_PATH, JSON.stringify(cache, null, 2));
+  } catch {
+    // Read-only on Vercel — return cached photos from the request anyway.
+  }
 }
 
 async function fetchPlayerPhoto(name) {
@@ -132,7 +133,14 @@ export async function POST(request) {
 
     writeCache(cache);
 
-    return NextResponse.json({ photos: result });
+    return NextResponse.json(
+      { photos: result },
+      {
+        headers: {
+          "Cache-Control": "public, s-maxage=86400, stale-while-revalidate=604800",
+        },
+      },
+    );
   } catch (error) {
     return NextResponse.json(
       { error: error.message || "Failed to fetch player photos" },
