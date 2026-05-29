@@ -1,15 +1,10 @@
 import Link from "next/link";
-import { Facebook, Github, Linkedin } from "lucide-react";
+import { Facebook, Linkedin } from "lucide-react";
 import { VisitorCounter } from "@/components/VisitorCounter";
 
 const SOURCE_REPO_URL = "https://github.com/niranyousuf/fifa-wc-2026";
 
 const DEVELOPER_SOCIAL_LINKS = [
-  {
-    href: SOURCE_REPO_URL,
-    label: "GitHub — fifa-wc-2026 source code",
-    Icon: Github,
-  },
   {
     href: "https://www.linkedin.com/in/niranyousuf/",
     label: "LinkedIn — AHM Yousuf Niran",
@@ -28,13 +23,15 @@ export const metadata = {
     "What this site offers, how the tournament prediction simulator works, credits, and data sources for the WC 2026 hub.",
 };
 
-function Section({ title, children, className = "" }) {
+function Section({ title, children, className = "", contentClassName = "" }) {
   return (
     <section
       className={`rounded-xl border border-[hsl(var(--border))] bg-[hsl(var(--card))] p-6 md:p-8 ${className}`}
     >
       <h2 className="font-display text-2xl tracking-wide">{title}</h2>
-      <div className="mt-4 space-y-4 text-[hsl(var(--muted-foreground))] [&_a]:text-[hsl(var(--accent))] [&_a]:underline-offset-2 hover:[&_a]:underline [&_h3]:text-[hsl(var(--foreground))] [&_li]:leading-relaxed [&_strong]:font-medium [&_strong]:text-[hsl(var(--foreground))] [&_ul]:list-disc [&_ul]:space-y-2 [&_ul]:pl-5">
+      <div
+        className={`mt-4 space-y-4 text-[hsl(var(--muted-foreground))] [&_a]:text-[hsl(var(--accent))] [&_a]:underline-offset-2 hover:[&_a]:underline [&_h3]:text-[hsl(var(--foreground))] [&_li]:leading-relaxed [&_strong]:font-medium [&_strong]:text-[hsl(var(--foreground))] [&_ul]:list-disc [&_ul]:space-y-2 [&_ul]:pl-5 ${contentClassName}`}
+      >
         {children}
       </div>
     </section>
@@ -432,7 +429,10 @@ export default function AboutPage() {
         <VisitorCounter />
       </Section>
 
-      <Section title="Developed by">
+      <Section
+        title="Developed by"
+        contentClassName="!space-y-0 flex flex-col gap-2"
+      >
         <p className="text-lg font-medium text-[hsl(var(--foreground))]">
           niranyousf —{" "}
           <a
@@ -447,9 +447,9 @@ export default function AboutPage() {
           Design, development, and maintenance of this project. Questions or bugs:
           reach out via the site above or on social:
         </p>
-        <ul className="flex flex-wrap items-center gap-3 !pl-0 !list-none">
+        <ul className="flex flex-wrap items-center gap-3 !mt-0 !space-y-0 !pl-0 !list-none [&>li]:!mt-0">
           {DEVELOPER_SOCIAL_LINKS.map(({ href, label, Icon }) => (
-            <li key={href}>
+            <li key={href} className="!mt-0">
               <a
                 href={href}
                 target="_blank"
