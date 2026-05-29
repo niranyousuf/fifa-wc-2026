@@ -2,6 +2,8 @@
 
 Fan-built site to follow the 2026 World Cup — fixtures, standings, teams, knockout bracket, and favorites — powered by the [Zafronix World Cup API](https://api.zafronix.com/). Includes a separate **tournament prediction simulator** (entertainment only; not linked to real results). Not affiliated with FIFA.
 
+**Live demo:** [https://fifa-wc-2026-alpha.vercel.app/](https://fifa-wc-2026-alpha.vercel.app/)
+
 ## Features
 
 - **Home** — Hero slider, match feed with stage filters, high-voltage / favorite countdowns, 48-team format guide
