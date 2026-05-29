@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { DragScrollArea } from "@/components/DragScrollArea";
 import { TeamLabel } from "@/components/TeamLabel";
+import { matchDetailPath } from "@/lib/matchPaths";
 import { getScore } from "@/lib/utils";
 import { KNOCKOUT_ROUNDS } from "@/lib/wcConstants";
 
@@ -140,7 +141,7 @@ function BracketMatch({ fixture }) {
 
   return (
     <Link
-      href={`/match/${fixture.fixture.id}`}
+      href={matchDetailPath(fixture.fixture.id)}
       className="block transition-colors hover:[&>div]:border-wc-accent/50"
     >
       {content}

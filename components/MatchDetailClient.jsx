@@ -54,9 +54,11 @@ export function MatchDetailClient({ data }) {
           <Badge variant="muted">{fixture.fixture.status.long}</Badge>
         </div>
 
-        <div className="grid grid-cols-1 items-center gap-6 md:grid-cols-[1fr_auto_1fr]">
-          <TeamHeader team={home} align="left" href={`/team/${home.id}`} />
-          <div className="order-first text-center md:order-none">
+        <div className="grid grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] items-center gap-3 sm:gap-4 md:gap-6">
+          <div className="flex min-w-0 w-full justify-start">
+            <TeamHeader team={home} align="left" href={`/team/${home.id}`} />
+          </div>
+          <div className="text-center">
             {score ? (
               <p className="font-sans text-4xl tabular-nums tracking-wider text-wc-accent sm:text-5xl">
                 {score.home} - {score.away}
@@ -75,7 +77,9 @@ export function MatchDetailClient({ data }) {
               </p>
             )}
           </div>
-          <TeamHeader team={away} align="right" href={`/team/${away.id}`} />
+          <div className="flex min-w-0 w-full justify-end">
+            <TeamHeader team={away} align="right" href={`/team/${away.id}`} />
+          </div>
         </div>
 
         {fixture.fixture.venue?.name && (
@@ -115,12 +119,8 @@ function TeamHeader({ team, align, href }) {
       href={href}
       align={align}
       size="lg"
-      className={cn(
-        "flex-col items-center gap-3 text-center",
-        align === "right"
-          ? "md:flex-row-reverse md:items-end md:text-right"
-          : "md:flex-row md:items-start md:text-left",
-      )}
+      mobileStack={false}
+      className="min-w-0 shrink-0"
     />
   );
 }

@@ -1,0 +1,6 @@
+{
+  "note": "Optional manual captain cutout URLs when TheSportsDB lookup fails.",
+  "overrides": {
+    "Cape Verde": "https://r2.thesportsdb.com/images/media/player/cutout/owa7n21705487718.png"
+  }
+}

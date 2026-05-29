@@ -63,7 +63,7 @@ export default function RootLayout({ children }) {
             {children}
           </main>
           <footer className="border-t border-[hsl(var(--border))]">
-            <div className="mx-auto flex max-w-content flex-col gap-3 px-4 py-4 text-sm text-[hsl(var(--muted-foreground))] sm:flex-row sm:items-center sm:justify-between">
+            <div className="mx-auto flex max-w-content flex-col gap-2 px-4 py-3 text-xs text-[hsl(var(--muted-foreground))] sm:flex-row sm:items-center sm:justify-between">
               <span>© {new Date().getFullYear()} niranyousf</span>
               <div className="flex flex-wrap items-center gap-x-4 gap-y-1">
                 <Link

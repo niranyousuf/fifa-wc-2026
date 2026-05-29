@@ -23,6 +23,7 @@ export function TeamLabel({
   showFlag = true,
   starPosition = "after-name",
   mobileStack,
+  stackCentered = false,
   nameClassName,
   className,
 }) {
@@ -30,14 +31,17 @@ export function TeamLabel({
   const flags = flagSizes[size] ?? flagSizes.md;
   const favorite = canFavoriteTeam(team);
   const starBeforeFlag = starPosition === "before-flag";
-  const stackOnMobile = mobileStack ?? (size === "md" || size === "lg");
+  const stackOnMobile =
+    stackCentered || (mobileStack ?? (size === "md" || size === "lg"));
 
   const nameContent = (
     <span
       className={cn(
         "min-w-0 font-medium leading-tight",
         stackOnMobile
-          ? "w-full break-words text-center text-[11px] leading-snug sm:w-auto sm:truncate sm:text-left sm:text-sm"
+          ? stackCentered
+            ? "min-w-0 break-words text-center"
+            : "w-full break-words text-center text-[11px] leading-snug sm:w-auto sm:truncate sm:text-left sm:text-sm"
           : "truncate",
         size === "sm" && "text-sm",
         size === "lg" &&
@@ -93,13 +97,28 @@ export function TeamLabel({
     nameContent
   );
 
+  if (stackCentered) {
+    return (
+      <div
+        className={cn(
+          "flex min-w-0 items-center justify-center gap-2 text-center sm:gap-3",
+          className,
+        )}
+      >
+        {flag || null}
+        {name}
+        {star}
+      </div>
+    );
+  }
+
   if (stackOnMobile) {
     return (
       <div
         className={cn(
           "flex min-w-0 flex-col items-center gap-1 text-center",
-          "sm:flex-row sm:items-center sm:gap-2 sm:text-left",
-          isRight && "sm:flex-row-reverse sm:text-right",
+          !stackCentered && "sm:flex-row sm:items-center sm:gap-2 sm:text-left",
+          !stackCentered && isRight && "sm:flex-row-reverse sm:text-right",
           className,
         )}
       >
@@ -110,7 +129,7 @@ export function TeamLabel({
         <div
           className={cn(
             "flex max-w-full items-center justify-center gap-0.5",
-            "sm:contents",
+            !stackCentered && "sm:contents",
           )}
         >
           {name}

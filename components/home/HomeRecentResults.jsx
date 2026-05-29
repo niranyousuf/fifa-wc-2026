@@ -8,6 +8,7 @@ import { LocalKickoffDate } from "@/components/LocalKickoffDateTime";
 import { useFavoriteTeams } from "@/components/FavoriteTeamsProvider";
 import { TeamFavoriteStar, canFavoriteTeam } from "@/components/TeamFavoriteStar";
 import { getHighVoltageInfo } from "@/lib/highVoltage";
+import { matchDetailPath } from "@/lib/matchPaths";
 import {
   cn,
   getFinishedFixtures,
@@ -79,7 +80,7 @@ function ResultMatchRow({ fixture, favoriteIds, hydrated }) {
   return (
     <li>
       <Link
-        href={`/match/${fixture.fixture.id}`}
+        href={matchDetailPath(fixture.fixture.id)}
         className={cn(
           "grid grid-cols-[4.25rem_minmax(0,1fr)_2.75rem_2.5rem] items-center gap-3 px-3 py-3 transition-colors hover:bg-[hsl(var(--muted))]/40 sm:grid-cols-[4.5rem_minmax(0,1fr)_3rem_2.75rem] sm:gap-4 sm:px-4",
           involvesFavorite && "bg-[hsl(var(--accent))]/5",

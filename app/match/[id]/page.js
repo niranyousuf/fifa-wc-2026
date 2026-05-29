@@ -5,7 +5,10 @@ import { MatchDetailClient } from "@/components/MatchDetailClient";
 export const revalidate = 60;
 
 export default async function MatchPage({ params }) {
-  const { id } = await params;
+  const { id: rawId } = await params;
+  const id = decodeURIComponent(String(rawId ?? "")).trim();
+
+  if (!id) notFound();
 
   let data;
   try {
@@ -14,7 +17,7 @@ export default async function MatchPage({ params }) {
     notFound();
   }
 
-  if (!data.fixture) notFound();
+  if (!data?.fixture?.fixture?.id) notFound();
 
   return <MatchDetailClient data={data} />;
 }

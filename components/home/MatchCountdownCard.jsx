@@ -5,6 +5,7 @@ import { HighVoltageBadge } from "@/components/HighVoltageBadge";
 import { TeamLabel } from "@/components/TeamLabel";
 import { useKickoffCountdown } from "@/components/home/useKickoffCountdown";
 import { getHighVoltageInfo } from "@/lib/highVoltage";
+import { matchDetailPath } from "@/lib/matchPaths";
 import {
   LocalKickoffDate,
   LocalKickoffTime,
@@ -22,7 +23,7 @@ export function MatchCountdownCard({ fixture, className }) {
 
   return (
     <Link
-      href={`/match/${fixture.fixture.id}`}
+      href={matchDetailPath(fixture.fixture.id)}
       className={cn(
         "group block rounded-xl border border-[hsl(var(--border))] bg-[hsl(var(--card))] p-4 transition-all duration-200 hover:shadow-fixture-hover",
         highVoltage.highVoltage && "border-[hsl(var(--accent))]",

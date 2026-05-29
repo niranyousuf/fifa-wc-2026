@@ -1,0 +1,198 @@
+{
+  "note": "Bundled captain photos for hero banners. Regenerate with: npm run cache:captains",
+  "updatedAt": "2026-05-29T16:46:09.643Z",
+  "captains": {
+    "Mexico": {
+      "name": "Edson Álvarez",
+      "photo": "https://r2.thesportsdb.com/images/media/player/cutout/nt933u1769179587.png"
+    },
+    "South Africa": {
+      "name": "Ronwen Williams",
+      "photo": "https://r2.thesportsdb.com/images/media/player/cutout/kd7edx1750875629.png"
+    },
+    "South Korea": {
+      "name": "Son Heung-min",
+      "photo": "https://r2.thesportsdb.com/images/media/player/cutout/a5cqf81766425262.png"
+    },
+    "Czech Republic": {
+      "name": "Ladislav Krejčí",
+      "photo": "https://r2.thesportsdb.com/images/media/player/cutout/koz6bp1772026272.png"
+    },
+    "Canada": {
+      "name": "Alphonso Davies",
+      "photo": "https://r2.thesportsdb.com/images/media/player/cutout/11afh31756409066.png"
+    },
+    "Bosnia and Herzegovina": {
+      "name": "Edin Džeko",
+      "photo": "https://r2.thesportsdb.com/images/media/player/cutout/0jo14d1773611434.png"
+    },
+    "Qatar": {
+      "name": "Hassan Al-Haydos",
+      "photo": "https://r2.thesportsdb.com/images/media/player/cutout/3xhwao1707597905.png"
+    },
+    "Switzerland": {
+      "name": "Granit Xhaka",
+      "photo": "https://r2.thesportsdb.com/images/media/player/cutout/2xa5dp1756903726.png"
+    },
+    "Brazil": {
+      "name": "Casemiro",
+      "photo": "https://r2.thesportsdb.com/images/media/player/cutout/ydr3j41766826524.png"
+    },
+    "Morocco": {
+      "name": "Achraf Hakimi",
+      "photo": "https://r2.thesportsdb.com/images/media/player/cutout/oqu69c1766335243.png"
+    },
+    "Haiti": {
+      "name": "Johny Placide",
+      "photo": "https://www.thesportsdb.com/images/media/player/cutout/v6gt5k1779018079.png"
+    },
+    "Scotland": {
+      "name": "Andy Robertson",
+      "photo": "https://r2.thesportsdb.com/images/media/player/cutout/t0yil51757088652.png"
+    },
+    "United States": {
+      "name": "Christian Pulisic",
+      "photo": "https://r2.thesportsdb.com/images/media/player/cutout/qwii9r1758893548.png"
+    },
+    "Paraguay": {
+      "name": "Gustavo Gómez",
+      "photo": "https://r2.thesportsdb.com/images/media/player/cutout/ytrnlp1750412203.png"
+    },
+    "Australia": {
+      "name": "Mathew Ryan",
+      "photo": "https://r2.thesportsdb.com/images/media/player/cutout/5qed4z1665143810.png"
+    },
+    "Turkey": {
+      "name": "Hakan Çalhanoğlu",
+      "photo": "https://r2.thesportsdb.com/images/media/player/cutout/hw8uxm1759408821.png"
+    },
+    "Germany": {
+      "name": "Joshua Kimmich",
+      "photo": "https://r2.thesportsdb.com/images/media/player/cutout/oqb7rg1756408859.png"
+    },
+    "Curaçao": {
+      "name": "Leandro Bacuna",
+      "photo": "https://r2.thesportsdb.com/images/media/player/cutout/13dolh1726605947.png"
+    },
+    "Ivory Coast": {
+      "name": "Franck Kessié",
+      "photo": "https://r2.thesportsdb.com/images/media/player/cutout/wcmpma1771663848.png"
+    },
+    "Ecuador": {
+      "name": "Enner Valencia",
+      "photo": "https://r2.thesportsdb.com/images/media/player/cutout/gplbd81668544491.png"
+    },
+    "Netherlands": {
+      "name": "Virgil van Dijk",
+      "photo": "https://r2.thesportsdb.com/images/media/player/cutout/9cxf2q1757087742.png"
+    },
+    "Japan": {
+      "name": "Wataru Endo",
+      "photo": "https://r2.thesportsdb.com/images/media/player/cutout/eawsfp1757087920.png"
+    },
+    "Sweden": {
+      "name": "Victor Lindelöf",
+      "photo": "https://r2.thesportsdb.com/images/media/player/cutout/07mdel1756984093.png"
+    },
+    "Tunisia": {
+      "name": "Ellyes Skhiri",
+      "photo": "https://r2.thesportsdb.com/images/media/player/cutout/zhs8151762287564.png"
+    },
+    "Belgium": {
+      "name": "Youri Tielemans",
+      "photo": "https://r2.thesportsdb.com/images/media/player/cutout/dvyawe1756987280.png"
+    },
+    "Egypt": {
+      "name": "Mohamed Salah",
+      "photo": "https://r2.thesportsdb.com/images/media/player/cutout/3blc581757088735.png"
+    },
+    "Iran": {
+      "name": "Ehsan Hajsafi",
+      "photo": "https://r2.thesportsdb.com/images/media/player/cutout/3rvehf1668782022.png"
+    },
+    "New Zealand": {
+      "name": "Chris Wood",
+      "photo": "https://r2.thesportsdb.com/images/media/player/cutout/03zmjz1757163261.png"
+    },
+    "Spain": {
+      "name": "Rodri",
+      "photo": "https://r2.thesportsdb.com/images/media/player/cutout/0ml2zi1761148957.png"
+    },
+    "Cape Verde": {
+      "name": "Ryan Mendes",
+      "photo": "https://r2.thesportsdb.com/images/media/player/cutout/owa7n21705487718.png"
+    },
+    "Saudi Arabia": {
+      "name": "Salem Al-Dawsari",
+      "photo": null
+    },
+    "Uruguay": {
+      "name": "Diego Godín",
+      "photo": "https://r2.thesportsdb.com/images/media/player/cutout/t7lux81632342837.png"
+    },
+    "France": {
+      "name": "Kylian Mbappé",
+      "photo": "https://r2.thesportsdb.com/images/media/player/cutout/h9u9vz1733653583.png"
+    },
+    "Senegal": {
+      "name": "Kalidou Koulibaly",
+      "photo": "https://r2.thesportsdb.com/images/media/player/cutout/nirqe51750672288.png"
+    },
+    "Iraq": {
+      "name": "Jalal Hassan",
+      "photo": null
+    },
+    "Norway": {
+      "name": "Martin Ødegaard",
+      "photo": "https://r2.thesportsdb.com/images/media/player/cutout/5g6vww1769331695.png"
+    },
+    "Argentina": {
+      "name": "Lionel Messi",
+      "photo": "https://r2.thesportsdb.com/images/media/player/cutout/e0i2051750317027.png"
+    },
+    "Algeria": {
+      "name": "Riyad Mahrez",
+      "photo": "https://r2.thesportsdb.com/images/media/player/cutout/g0ay2p1771662753.png"
+    },
+    "Austria": {
+      "name": "David Alaba",
+      "photo": "https://r2.thesportsdb.com/images/media/player/cutout/zxblp31733653341.png"
+    },
+    "Jordan": {
+      "name": "Ihsan Haddad",
+      "photo": null
+    },
+    "Portugal": {
+      "name": "Cristiano Ronaldo",
+      "photo": "https://r2.thesportsdb.com/images/media/player/cutout/a19jje1761592498.png"
+    },
+    "DR Congo": {
+      "name": "Chancel Mbemba",
+      "photo": "https://r2.thesportsdb.com/images/media/player/cutout/t1hca41766077569.png"
+    },
+    "Uzbekistan": {
+      "name": "Eldor Shomurodov",
+      "photo": "https://r2.thesportsdb.com/images/media/player/cutout/pzj8ab1697923953.png"
+    },
+    "Colombia": {
+      "name": "James Rodríguez",
+      "photo": "https://www.thesportsdb.com/images/media/player/cutout/2604ez1778161086.png"
+    },
+    "England": {
+      "name": "Harry Kane",
+      "photo": null
+    },
+    "Croatia": {
+      "name": "Luka Modrić",
+      "photo": "https://r2.thesportsdb.com/images/media/player/cutout/msewdx1758892756.png"
+    },
+    "Ghana": {
+      "name": "Jordan Ayew",
+      "photo": "https://r2.thesportsdb.com/images/media/player/cutout/kiav0x1761861279.png"
+    },
+    "Panama": {
+      "name": "Aníbal Godoy",
+      "photo": "https://r2.thesportsdb.com/images/media/player/cutout/xq1uij1762901226.png"
+    }
+  }
+}

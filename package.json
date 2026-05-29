@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "cache:warm": "node scripts/warm-api-cache.mjs"
+    "cache:warm": "node scripts/warm-api-cache.mjs",
+    "cache:captains": "node scripts/warm-captain-photos.mjs",
+    "cache:captains:force": "node scripts/warm-captain-photos.mjs --force"
   },
   "dependencies": {
     "@teispace/next-themes": "^0.5.0",
