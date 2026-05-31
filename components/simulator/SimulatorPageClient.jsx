@@ -1,12 +1,11 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import { SimulatorGroupTable } from "@/components/simulator/SimulatorGroupTable";
 import { SimulatorThirdPlaceTable } from "@/components/simulator/SimulatorThirdPlaceTable";
 import { SimulatorKnockoutRound } from "@/components/simulator/SimulatorKnockoutRound";
-import { ScoreInputs } from "@/components/simulator/ScoreInputs";
+import { MatchScorePicker } from "@/components/simulator/ScoreInputs";
 import { groupFixturesByLetter } from "@/lib/tournamentSimulator/groupFixtures";
 import {
   advanceKnockoutBracket,
@@ -383,20 +382,18 @@ export function SimulatorPageClient({ fixtures: fixturesProp = [] }) {
                           dateVariant="short"
                         />
                       </p>
-                      <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-3 sm:gap-6">
-                        <TeamLine team={fixture.teams.home} />
-                        <ScoreInputs
-                          home={pick.home}
-                          away={pick.away}
-                          onHomeChange={(value) =>
-                            setGroupPick(fixture.fixture.id, { home: value })
-                          }
-                          onAwayChange={(value) =>
-                            setGroupPick(fixture.fixture.id, { away: value })
-                          }
-                        />
-                        <TeamLine team={fixture.teams.away} align="right" />
-                      </div>
+                      <MatchScorePicker
+                        homeSide={fixture.teams.home}
+                        awaySide={fixture.teams.away}
+                        home={pick.home}
+                        away={pick.away}
+                        onHomeChange={(value) =>
+                          setGroupPick(fixture.fixture.id, { home: value })
+                        }
+                        onAwayChange={(value) =>
+                          setGroupPick(fixture.fixture.id, { away: value })
+                        }
+                      />
                     </li>
                   );
                 })}
@@ -597,29 +594,5 @@ function ViewTab({ active, onClick, disabled, children }) {
     >
       {children}
     </button>
-  );
-}
-
-function TeamLine({ team, align = "left" }) {
-  return (
-    <div
-      className={cn(
-        "flex min-w-0 items-center gap-2",
-        align === "right" && "flex-row-reverse",
-      )}
-    >
-      {team.logo ? (
-        <span className="relative h-5 w-7 shrink-0">
-          <Image
-            src={team.logo}
-            alt=""
-            fill
-            className="object-contain"
-            sizes="28px"
-          />
-        </span>
-      ) : null}
-      <span className="text-sm font-medium">{team.name}</span>
-    </div>
   );
 }

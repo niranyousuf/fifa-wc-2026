@@ -56,7 +56,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${displayFont.variable} ${bodyFont.variable}`}>
+      <body
+        className={`${displayFont.variable} ${bodyFont.variable}`}
+        suppressHydrationWarning
+      >
         <Providers>
           <Navbar />
           <main className="mx-auto min-h-[calc(100dvh-12rem)] w-full max-w-content px-4 py-6 sm:py-8">

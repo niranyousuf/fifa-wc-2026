@@ -60,27 +60,26 @@ export function MatchPromoSlide({ fixture, variant = "high-voltage" }) {
           src={background.url}
           alt={background.alt}
           fill
-          className="object-cover"
+          className="object-cover brightness-[0.72] saturate-[0.95]"
           sizes="100vw"
           onError={() => setImageFailed(true)}
         />
       )}
       <div
-        className="absolute inset-0 bg-gradient-to-r from-[#0a0f1e]/92 via-[#0a0f1e]/78 to-[#0a0f1e]/92"
+        className="pointer-events-none absolute inset-0 z-[2]"
         aria-hidden
-      />
-      <div
-        className="absolute inset-0 bg-gradient-to-t from-[#0a0f1e]/98 via-[#0a0f1e]/72 to-[#0a0f1e]/20 sm:from-[#0a0f1e]/85 sm:via-[#0a0f1e]/35 sm:to-transparent"
-        aria-hidden
-      />
-      <div
-        className="absolute inset-0 opacity-40 max-sm:opacity-25"
-        style={{
-          background:
-            "radial-gradient(ellipse at 18% 80%, hsl(var(--wc-accent) / 0.14), transparent 50%), radial-gradient(ellipse at 82% 80%, rgba(48,63,159,0.15), transparent 50%)",
-        }}
-        aria-hidden
-      />
+      >
+        <div className="absolute inset-0 bg-[#070b16]/30" />
+        <div className="absolute inset-0 bg-gradient-to-r from-[#070b16]/55 via-transparent to-[#070b16]/55" />
+        <div className="absolute inset-0 bg-gradient-to-t from-[#070b16]/92 via-[#070b16]/45 to-transparent" />
+        <div
+          className="absolute inset-0"
+          style={{
+            background:
+              "radial-gradient(ellipse 70% 42% at 50% 88%, rgba(7,11,22,0.75) 0%, rgba(7,11,22,0.2) 50%, transparent 100%)",
+          }}
+        />
+      </div>
 
       <CaptainFigure
         side="home"
@@ -97,19 +96,19 @@ export function MatchPromoSlide({ fixture, variant = "high-voltage" }) {
         <div
           className={cn(
             HERO_INNER_CONTAINER,
-            "flex flex-col items-center text-center",
+            "flex w-full max-w-[13rem] flex-col items-center text-center sm:max-w-content",
           )}
         >
-          <span className="rounded-full border border-wc-accent/50 bg-wc-accent/10 px-2.5 py-0.5 text-[10px] font-semibold uppercase tracking-wider text-wc-accent sm:px-3 sm:py-1 sm:text-xs">
+          <span className="rounded-full border border-wc-accent/60 bg-[#0a0f1e]/80 px-2.5 py-0.5 text-[10px] font-semibold uppercase tracking-wider text-wc-accent shadow-lg sm:px-3 sm:py-1 sm:text-xs">
             {badgeLabel}
           </span>
-          <p className="mt-2 font-display text-base uppercase tracking-[0.12em] text-white/90 sm:mt-4 sm:text-3xl sm:tracking-[0.15em]">
+          <p className="mt-2 font-display text-base uppercase tracking-[0.12em] text-white [text-shadow:0_2px_12px_rgba(0,0,0,0.85)] sm:mt-4 sm:text-3xl sm:tracking-[0.15em]">
             {fixture.league.round}
           </p>
 
           <div className="mt-3 flex items-end justify-center gap-2 sm:mt-6 sm:items-center sm:gap-8">
             <TeamBadge team={home} />
-            <span className="pb-6 font-sans text-lg text-wc-accent sm:pb-0 sm:text-3xl">
+            <span className="pb-6 font-sans text-lg text-wc-accent [text-shadow:0_2px_10px_rgba(0,0,0,0.8)] sm:pb-0 sm:text-3xl">
               VS
             </span>
             <TeamBadge team={away} />
@@ -118,16 +117,16 @@ export function MatchPromoSlide({ fixture, variant = "high-voltage" }) {
           <HeroKickoffCountdown kickoff={kickoff} className="mt-2 sm:mt-6" />
 
           <div className="mt-2 w-full max-w-xl sm:mt-6">
-            <p className="hidden font-display text-2xl tracking-wide text-white sm:block">
+            <p className="hidden font-display text-2xl tracking-wide text-white [text-shadow:0_2px_12px_rgba(0,0,0,0.85)] sm:block">
               {home.name}
               <span className="mx-2 text-wc-accent">vs</span>
               {away.name}
             </p>
-            <p className="text-[10px] text-white/75 sm:mt-2 sm:text-sm">
+            <p className="text-[10px] text-white/95 [text-shadow:0_1px_8px_rgba(0,0,0,0.9)] sm:mt-2 sm:text-sm">
               <LocalKickoffDateTime date={kickoff} />
             </p>
             {fixture.fixture.venue?.name && (
-              <p className="mt-0.5 text-[10px] text-white/50 sm:mt-1 sm:text-xs">
+              <p className="mt-0.5 text-[10px] text-white/85 [text-shadow:0_1px_8px_rgba(0,0,0,0.9)] sm:mt-1 sm:text-xs">
                 {fixture.fixture.venue.name}
                 {fixture.fixture.venue.city ? `, ${fixture.fixture.venue.city}` : ""}
               </p>
@@ -147,20 +146,20 @@ function CaptainFigure({ side, team, captain }) {
     return (
       <div
         className={cn(
-          "pointer-events-none absolute bottom-0 z-[1] w-[32%] max-w-[120px] opacity-80 sm:w-[38%] sm:max-w-[360px] sm:opacity-100",
+          "pointer-events-none absolute bottom-0 z-[5] w-[34%] max-w-[130px] sm:w-[36%] sm:max-w-[340px] md:max-w-[380px]",
           isHome
-            ? "left-0 sm:left-[12%] md:left-[14%]"
-            : "right-0 sm:right-[12%] md:right-[14%]",
+            ? "left-[1%] sm:left-[8%] md:left-[10%]"
+            : "right-[1%] sm:right-[8%] md:right-[10%]",
         )}
       >
-        <div className="relative mx-auto h-[min(46vh,240px)] w-full max-h-[260px] sm:h-[min(88vh,680px)] sm:max-h-[720px]">
+        <div className="relative mx-auto h-[min(52vh,280px)] w-full max-h-[300px] sm:h-[min(78vh,640px)] sm:max-h-[680px]">
           <Image
             src={photoUrl}
             alt={captain.name ? `${captain.name}, ${team.name}` : team.name}
             fill
             unoptimized
-            className="object-contain object-bottom drop-shadow-[0_8px_32px_rgba(0,0,0,0.5)]"
-            sizes="(max-width: 640px) 32vw, 360px"
+            className="object-contain object-bottom drop-shadow-[0_8px_32px_rgba(0,0,0,0.55)]"
+            sizes="(max-width: 640px) 34vw, 380px"
           />
         </div>
       </div>
@@ -203,7 +202,7 @@ function TeamBadge({ team }) {
       ) : (
         <span className="inline-block h-10 w-14 border border-white/20 bg-white/5 sm:h-12 sm:w-20" />
       )}
-      <p className="max-w-full break-words text-center text-[10px] font-medium leading-tight text-white/90 sm:hidden">
+      <p className="max-w-full break-words text-center text-[10px] font-medium leading-tight text-white drop-shadow-sm sm:hidden">
         {team.name}
       </p>
     </div>

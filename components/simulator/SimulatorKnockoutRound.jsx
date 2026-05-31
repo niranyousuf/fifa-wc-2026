@@ -1,7 +1,6 @@
 "use client";
 
-import Image from "next/image";
-import { ScoreInputs } from "@/components/simulator/ScoreInputs";
+import { MatchScorePicker } from "@/components/simulator/ScoreInputs";
 import {
   resolveKnockoutWinner,
   THIRD_PLACE_ROUND,
@@ -31,6 +30,15 @@ export function SimulatorKnockoutRound({
           hasCompleteScore(pick) && pick.home === pick.away;
         const winner = resolveKnockoutWinner(pick);
 
+        const homeSide = {
+          name: match.homeLabel,
+          logo: match.home.logo,
+        };
+        const awaySide = {
+          name: match.awayLabel,
+          logo: match.away.logo,
+        };
+
         return (
           <article
             key={match.id}
@@ -47,24 +55,18 @@ export function SimulatorKnockoutRound({
                   : `Match ${match.matchNumber} · ${roundName}`}
             </p>
 
-            <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-3 sm:gap-6">
-              <TeamSide name={match.homeLabel} logo={match.home.logo} align="left" />
-              <ScoreInputs
-                home={pick.home}
-                away={pick.away}
-                onHomeChange={(value) =>
-                  onPickChange(match.id, { ...pick, home: value })
-                }
-                onAwayChange={(value) =>
-                  onPickChange(match.id, { ...pick, away: value })
-                }
-              />
-              <TeamSide
-                name={match.awayLabel}
-                logo={match.away.logo}
-                align="right"
-              />
-            </div>
+            <MatchScorePicker
+              homeSide={homeSide}
+              awaySide={awaySide}
+              home={pick.home}
+              away={pick.away}
+              onHomeChange={(value) =>
+                onPickChange(match.id, { ...pick, home: value })
+              }
+              onAwayChange={(value) =>
+                onPickChange(match.id, { ...pick, away: value })
+              }
+            />
 
             {isDraw && (
               <div className="mt-4 rounded-lg border border-[hsl(var(--border))] bg-[hsl(var(--muted))]/20 p-3">
@@ -86,13 +88,17 @@ export function SimulatorKnockoutRound({
                 </label>
 
                 {pick.usePenalties && (
-                  <div className="mt-3 flex flex-wrap items-center justify-center gap-3">
-                    <span className="text-xs text-[hsl(var(--muted-foreground))]">
+                  <div className="mt-3 space-y-2">
+                    <p className="text-center text-xs font-medium uppercase tracking-wide text-[hsl(var(--muted-foreground))]">
                       Penalties
-                    </span>
-                    <ScoreInputs
+                    </p>
+                    <MatchScorePicker
+                      homeSide={homeSide}
+                      awaySide={awaySide}
                       home={pick.penHome}
                       away={pick.penAway}
+                      homeLabel="Home penalties"
+                      awayLabel="Away penalties"
                       onHomeChange={(value) =>
                         onPickChange(match.id, { ...pick, penHome: value })
                       }
@@ -113,24 +119,6 @@ export function SimulatorKnockoutRound({
           </article>
         );
       })}
-    </div>
-  );
-}
-
-function TeamSide({ name, logo, align }) {
-  return (
-    <div
-      className={cn(
-        "flex min-w-0 items-center gap-2",
-        align === "right" && "flex-row-reverse",
-      )}
-    >
-      {logo ? (
-        <span className="relative h-6 w-8 shrink-0">
-          <Image src={logo} alt="" fill className="object-contain" sizes="32px" />
-        </span>
-      ) : null}
-      <span className="text-sm font-medium">{name}</span>
     </div>
   );
 }

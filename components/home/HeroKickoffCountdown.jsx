@@ -100,10 +100,10 @@ export function HeroKickoffCountdown({ kickoff, className }) {
 function CountdownUnit({ value, label }) {
   return (
     <div className="flex min-w-[2.5rem] flex-col items-center sm:min-w-[4.25rem] md:min-w-[5rem]">
-      <span className="font-sans text-2xl font-bold tabular-nums leading-none tracking-wide text-wc-accent sm:text-5xl md:text-6xl">
+      <span className="font-sans text-2xl font-bold tabular-nums leading-none tracking-wide text-wc-accent [text-shadow:0_2px_10px_rgba(0,0,0,0.85)] sm:text-5xl md:text-6xl">
         {String(value).padStart(2, "0")}
       </span>
-      <span className="mt-1 text-[9px] font-bold uppercase tracking-[0.14em] text-white/55 sm:mt-2 sm:text-xs sm:tracking-[0.18em]">
+      <span className="mt-1 text-[9px] font-bold uppercase tracking-[0.14em] text-white/80 [text-shadow:0_1px_6px_rgba(0,0,0,0.85)] sm:mt-2 sm:text-xs sm:tracking-[0.18em]">
         {label}
       </span>
     </div>

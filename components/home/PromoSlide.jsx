@@ -23,29 +23,30 @@ export function PromoSlide({ promoImage = null }) {
           alt={image.alt}
           fill
           priority
-          className="object-cover"
+          className="object-cover brightness-[0.72] saturate-[0.95]"
           sizes="100vw"
           onError={() => setImageFailed(true)}
         />
       )}
+      <div className="absolute inset-0 bg-[#070b16]/30" aria-hidden />
       <div
-        className="absolute inset-0 bg-gradient-to-r from-[#0a0f1e]/95 via-[#0a0f1e]/75 to-[#0a0f1e]/40"
+        className="absolute inset-0 bg-gradient-to-r from-[#070b16]/55 via-transparent to-[#070b16]/55"
         aria-hidden
       />
       <div
-        className="absolute inset-0 bg-gradient-to-t from-[#0a0f1e]/80 via-transparent to-transparent"
+        className="absolute inset-0 bg-gradient-to-t from-[#070b16]/92 via-[#070b16]/40 to-transparent"
         aria-hidden
       />
 
       <div className="absolute inset-0 flex flex-col justify-end pb-14 pt-10 sm:pb-16">
         <div className={HERO_INNER_CONTAINER}>
-          <p className="text-sm uppercase tracking-[0.2em] text-wc-accent">
+          <p className="text-sm uppercase tracking-[0.2em] text-wc-accent [text-shadow:0_1px_8px_rgba(0,0,0,0.75)]">
             FIFA World Cup 2026
           </p>
-          <h2 className="mt-2 max-w-xl font-display text-4xl tracking-wide text-white sm:text-5xl md:text-6xl">
+          <h2 className="mt-2 max-w-xl font-display text-4xl tracking-wide text-white [text-shadow:0_2px_14px_rgba(0,0,0,0.85)] sm:text-5xl md:text-6xl">
             Your World Cup home
           </h2>
-          <p className="mt-3 max-w-lg text-sm text-white/80 sm:text-base">
+          <p className="mt-3 max-w-lg text-sm text-white/90 [text-shadow:0_1px_10px_rgba(0,0,0,0.85)] sm:text-base">
             Follow every group, knockout tie, and nation — star your teams for a
             personalized feed.
           </p>
