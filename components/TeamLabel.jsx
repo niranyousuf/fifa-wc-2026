@@ -45,7 +45,7 @@ export function TeamLabel({
           : "truncate",
         size === "sm" && "text-sm",
         size === "lg" &&
-          "font-display text-xl tracking-wide sm:text-2xl md:text-3xl",
+          "font-display tracking-wide sm:text-2xl md:text-3xl",
         nameClassName,
       )}
     >

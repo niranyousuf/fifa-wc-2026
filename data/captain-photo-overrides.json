@@ -1,6 +1,7 @@
 {
   "note": "Optional manual captain cutout URLs when TheSportsDB lookup fails.",
   "overrides": {
+    "Spain": "https://r2.thesportsdb.com/images/media/player/cutout/6ggnc31769182523.png",
     "Cape Verde": "https://r2.thesportsdb.com/images/media/player/cutout/owa7n21705487718.png"
   }
 }

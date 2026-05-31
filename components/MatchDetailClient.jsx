@@ -37,11 +37,11 @@ export function MatchDetailClient({ data }) {
 
       <section
         className={cn(
-          "rounded-2xl border border-[hsl(var(--border))] bg-[hsl(var(--card))] p-6 md:p-8",
+          "rounded-2xl border border-[hsl(var(--border))] bg-[hsl(var(--card))] p-4 sm:p-6 md:p-8",
           highVoltage.highVoltage && "border-[hsl(var(--accent))]",
         )}
       >
-        <div className="mb-4 flex flex-wrap items-center justify-between gap-3">
+        <div className="mb-3 flex flex-wrap items-center justify-between gap-2 sm:mb-4 sm:gap-3">
           <div className="flex flex-wrap items-center gap-2">
             <Badge variant="outline">{fixture.league.round}</Badge>
             {highVoltage.highVoltage && (
@@ -54,36 +54,40 @@ export function MatchDetailClient({ data }) {
           <Badge variant="muted">{fixture.fixture.status.long}</Badge>
         </div>
 
-        <div className="grid grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] items-center gap-3 sm:gap-4 md:gap-6">
-          <div className="flex min-w-0 w-full justify-start">
+        <div className="grid grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] items-center gap-1.5 sm:gap-4 md:gap-6">
+          <div className="flex min-w-0 w-full justify-center sm:justify-start">
             <TeamHeader team={home} align="left" href={`/team/${home.id}`} />
           </div>
-          <div className="text-center">
+          <div className="min-w-[2.25rem] shrink-0 text-center px-0.5 sm:min-w-0 sm:px-0">
             {score ? (
-              <p className="font-sans text-4xl tabular-nums tracking-wider text-wc-accent sm:text-5xl">
+              <p className="font-sans text-2xl tabular-nums tracking-wider text-wc-accent sm:text-4xl md:text-5xl">
                 {score.home} - {score.away}
               </p>
             ) : (
               <div>
-                <p className="font-sans text-3xl">VS</p>
-                <p className="mt-2 text-sm text-[hsl(var(--muted-foreground))]">
+                <p className="font-sans text-lg sm:text-3xl">VS</p>
+                <p className="mt-1 hidden text-[10px] text-[hsl(var(--muted-foreground))] sm:mt-2 sm:block sm:text-sm">
                   <LocalKickoffDateTime date={fixture.fixture.date} />
                 </p>
               </div>
             )}
             {finished && (
-              <p className="mt-2 text-sm text-[hsl(var(--muted-foreground))]">
+              <p className="mt-1 hidden text-[10px] text-[hsl(var(--muted-foreground))] sm:mt-2 sm:block sm:text-sm">
                 <LocalKickoffDateTime date={fixture.fixture.date} />
               </p>
             )}
           </div>
-          <div className="flex min-w-0 w-full justify-end">
+          <div className="flex min-w-0 w-full justify-center sm:justify-end">
             <TeamHeader team={away} align="right" href={`/team/${away.id}`} />
           </div>
         </div>
 
+        <p className="mt-3 text-center text-[10px] text-[hsl(var(--muted-foreground))] sm:hidden">
+          <LocalKickoffDateTime date={fixture.fixture.date} />
+        </p>
+
         {fixture.fixture.venue?.name && (
-          <p className="mt-6 text-center text-sm text-[hsl(var(--muted-foreground))]">
+          <p className="mt-3 text-center text-[10px] text-[hsl(var(--muted-foreground))] sm:mt-6 sm:text-sm">
             {fixture.fixture.venue.name}
             {fixture.fixture.venue.city ? `, ${fixture.fixture.venue.city}` : ""}
           </p>
@@ -119,8 +123,11 @@ function TeamHeader({ team, align, href }) {
       href={href}
       align={align}
       size="lg"
-      mobileStack={false}
-      className="min-w-0 shrink-0"
+      nameClassName="text-[11px] leading-snug sm:text-2xl md:text-3xl"
+      className={cn(
+        "min-w-0 max-w-[5.25rem] sm:max-w-none",
+        "[&_img]:!h-9 [&_img]:!w-9 sm:[&_img]:!h-16 sm:[&_img]:!w-16 md:[&_img]:!h-20 md:[&_img]:!w-20",
+      )}
     />
   );
 }

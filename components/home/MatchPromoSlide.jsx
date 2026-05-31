@@ -70,11 +70,11 @@ export function MatchPromoSlide({ fixture, variant = "high-voltage" }) {
         aria-hidden
       />
       <div
-        className="absolute inset-0 bg-gradient-to-t from-[#0a0f1e]/85 via-[#0a0f1e]/35 to-transparent"
+        className="absolute inset-0 bg-gradient-to-t from-[#0a0f1e]/98 via-[#0a0f1e]/72 to-[#0a0f1e]/20 sm:from-[#0a0f1e]/85 sm:via-[#0a0f1e]/35 sm:to-transparent"
         aria-hidden
       />
       <div
-        className="absolute inset-0 opacity-40"
+        className="absolute inset-0 opacity-40 max-sm:opacity-25"
         style={{
           background:
             "radial-gradient(ellipse at 18% 80%, hsl(var(--wc-accent) / 0.14), transparent 50%), radial-gradient(ellipse at 82% 80%, rgba(48,63,159,0.15), transparent 50%)",
@@ -93,44 +93,46 @@ export function MatchPromoSlide({ fixture, variant = "high-voltage" }) {
         captain={captains.away}
       />
 
-      <div className="relative z-10 flex h-full flex-col justify-end pb-16 pt-10 sm:pb-20">
+      <div className="relative z-10 flex h-full flex-col justify-end pb-11 pt-6 sm:pb-20 sm:pt-10">
         <div
           className={cn(
             HERO_INNER_CONTAINER,
             "flex flex-col items-center text-center",
           )}
         >
-        <span className="rounded-full border border-wc-accent/50 bg-wc-accent/10 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-wc-accent">
-          {badgeLabel}
-        </span>
-        <p className="mt-4 font-display text-2xl uppercase tracking-[0.15em] text-white/90 sm:text-3xl">
-          {fixture.league.round}
-        </p>
-
-        <div className="mt-6 flex items-center gap-4 sm:gap-8">
-          <TeamBadge team={home} />
-          <span className="font-sans text-2xl text-wc-accent sm:text-3xl">VS</span>
-          <TeamBadge team={away} />
-        </div>
-
-        <HeroKickoffCountdown kickoff={kickoff} />
-
-        <div className="mt-5 max-w-xl sm:mt-6">
-          <p className="font-display text-xl tracking-wide text-white sm:text-2xl">
-            {home.name}
-            <span className="mx-2 text-wc-accent">vs</span>
-            {away.name}
+          <span className="rounded-full border border-wc-accent/50 bg-wc-accent/10 px-2.5 py-0.5 text-[10px] font-semibold uppercase tracking-wider text-wc-accent sm:px-3 sm:py-1 sm:text-xs">
+            {badgeLabel}
+          </span>
+          <p className="mt-2 font-display text-base uppercase tracking-[0.12em] text-white/90 sm:mt-4 sm:text-3xl sm:tracking-[0.15em]">
+            {fixture.league.round}
           </p>
-          <p className="mt-2 text-sm text-white/70">
-            <LocalKickoffDateTime date={kickoff} />
-          </p>
-          {fixture.fixture.venue?.name && (
-            <p className="mt-1 text-xs text-white/50">
-              {fixture.fixture.venue.name}
-              {fixture.fixture.venue.city ? `, ${fixture.fixture.venue.city}` : ""}
+
+          <div className="mt-3 flex items-end justify-center gap-2 sm:mt-6 sm:items-center sm:gap-8">
+            <TeamBadge team={home} />
+            <span className="pb-6 font-sans text-lg text-wc-accent sm:pb-0 sm:text-3xl">
+              VS
+            </span>
+            <TeamBadge team={away} />
+          </div>
+
+          <HeroKickoffCountdown kickoff={kickoff} className="mt-2 sm:mt-6" />
+
+          <div className="mt-2 w-full max-w-xl sm:mt-6">
+            <p className="hidden font-display text-2xl tracking-wide text-white sm:block">
+              {home.name}
+              <span className="mx-2 text-wc-accent">vs</span>
+              {away.name}
             </p>
-          )}
-        </div>
+            <p className="text-[10px] text-white/75 sm:mt-2 sm:text-sm">
+              <LocalKickoffDateTime date={kickoff} />
+            </p>
+            {fixture.fixture.venue?.name && (
+              <p className="mt-0.5 text-[10px] text-white/50 sm:mt-1 sm:text-xs">
+                {fixture.fixture.venue.name}
+                {fixture.fixture.venue.city ? `, ${fixture.fixture.venue.city}` : ""}
+              </p>
+            )}
+          </div>
         </div>
       </div>
     </div>
@@ -145,20 +147,20 @@ function CaptainFigure({ side, team, captain }) {
     return (
       <div
         className={cn(
-          "pointer-events-none absolute bottom-0 z-[1] w-[38%] max-w-[320px] sm:max-w-[360px]",
+          "pointer-events-none absolute bottom-0 z-[1] w-[32%] max-w-[120px] opacity-80 sm:w-[38%] sm:max-w-[360px] sm:opacity-100",
           isHome
-            ? "left-[8%] sm:left-[12%] md:left-[14%]"
-            : "right-[8%] sm:right-[12%] md:right-[14%]",
+            ? "left-0 sm:left-[12%] md:left-[14%]"
+            : "right-0 sm:right-[12%] md:right-[14%]",
         )}
       >
-        <div className="relative mx-auto h-[min(85vh,620px)] w-full max-h-[680px] sm:h-[min(88vh,680px)] md:max-h-[720px]">
+        <div className="relative mx-auto h-[min(46vh,240px)] w-full max-h-[260px] sm:h-[min(88vh,680px)] sm:max-h-[720px]">
           <Image
             src={photoUrl}
             alt={captain.name ? `${captain.name}, ${team.name}` : team.name}
             fill
             unoptimized
             className="object-contain object-bottom drop-shadow-[0_8px_32px_rgba(0,0,0,0.5)]"
-            sizes="(max-width: 768px) 42vw, 360px"
+            sizes="(max-width: 640px) 32vw, 360px"
           />
         </div>
       </div>
@@ -170,8 +172,8 @@ function CaptainFigure({ side, team, captain }) {
   return (
     <div
       className={cn(
-        "pointer-events-none absolute bottom-0 top-8 z-0 w-[36%] opacity-25",
-        isHome ? "left-[6%] sm:left-[10%]" : "right-[6%] sm:right-[10%]",
+        "pointer-events-none absolute bottom-0 top-8 z-0 w-[28%] opacity-20 sm:w-[36%] sm:opacity-25",
+        isHome ? "left-[2%] sm:left-[10%]" : "right-[2%] sm:right-[10%]",
       )}
     >
       <Image
@@ -187,9 +189,9 @@ function CaptainFigure({ side, team, captain }) {
 
 function TeamBadge({ team }) {
   return (
-    <div className="flex flex-col items-center gap-2">
+    <div className="flex w-[4.25rem] flex-col items-center gap-1 sm:w-auto sm:gap-2">
       {team.logo ? (
-        <div className="relative h-16 w-24 sm:h-20 sm:w-28">
+        <div className="relative h-10 w-14 sm:h-20 sm:w-28">
           <Image
             src={team.logo}
             alt={team.name}
@@ -199,8 +201,11 @@ function TeamBadge({ team }) {
           />
         </div>
       ) : (
-        <span className="inline-block h-12 w-20 border border-white/20 bg-white/5" />
+        <span className="inline-block h-10 w-14 border border-white/20 bg-white/5 sm:h-12 sm:w-20" />
       )}
+      <p className="max-w-full break-words text-center text-[10px] font-medium leading-tight text-white/90 sm:hidden">
+        {team.name}
+      </p>
     </div>
   );
 }

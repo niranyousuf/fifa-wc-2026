@@ -67,7 +67,13 @@
 }
 
 .hero-swiper-section .swiper-pagination {
-  bottom: 1rem !important;
+  bottom: 0.625rem !important;
+}
+
+@media (min-width: 640px) {
+  .hero-swiper-section .swiper-pagination {
+    bottom: 1rem !important;
+  }
 }
 
 .hero-swiper-section .swiper-pagination-bullet {
