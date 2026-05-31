@@ -132,7 +132,8 @@ export default function AboutPage() {
             <strong>Team search</strong> — Find a country quickly from the navbar.
           </li>
           <li>
-            <strong>Visitor counter</strong> — A simple session-based count (see below).
+            <strong>Visitor counter</strong> — One count per browser session on any page
+            (see below).
           </li>
         </ul>
       </Section>
@@ -283,7 +284,7 @@ export default function AboutPage() {
             <li>
               <strong>Visitor count</strong> —{" "}
               <code className="text-xs">data/visitors.json</code> on the server (one
-              increment per browser session).
+              increment per browser tab session, on first visit to any page).
             </li>
           </ul>
           <p className="text-sm">
@@ -423,8 +424,9 @@ export default function AboutPage() {
 
       <Section title="Visitors">
         <p>
-          The counter below increases once per browser session when you visit. It is
-          stored on the server for fun, not analytics.
+          The total below increases once per browser tab session when you first open
+          any page on this site (home, hub, teams, and so on). It is stored on the
+          server for fun, not analytics.
         </p>
         <VisitorCounter />
       </Section>

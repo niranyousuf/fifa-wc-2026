@@ -4,6 +4,7 @@ import Link from "next/link";
 import { Navbar } from "@/components/Navbar";
 import { Providers } from "@/components/Providers";
 import { ThemeToggleFloating } from "@/components/ThemeToggleFloating";
+import { VisitorTracker } from "@/components/VisitorTracker";
 import { getSiteUrl } from "@/lib/siteUrl";
 import "./globals.css";
 
@@ -62,6 +63,7 @@ export default function RootLayout({ children }) {
         suppressHydrationWarning
       >
         <Providers>
+          <VisitorTracker />
           <Navbar />
           <main className="mx-auto min-h-[calc(100dvh-12rem)] w-full max-w-content px-4 py-6 sm:py-8">
             {children}

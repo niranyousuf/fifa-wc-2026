@@ -107,7 +107,7 @@ scripts/             # cache warm, hero image verify
 
 **Notes:**
 
-- **Visitor counter** — `POST /api/visitor` writes `data/visitors.json`; on serverless hosts the count does not persist across instances. The bundled file value is shown; use Redis/KV later if you need a live global count.
+- **Visitor counter** — `VisitorTracker` in the root layout POSTs once per browser tab session on first page load (any route); About shows the total via `GET /api/visitor`. On serverless hosts the file count may not persist reliably; use Redis/KV for production-grade totals.
 - **Disk cache** — `data/api-cache/` writes are best-effort on Vercel; in-memory + API caching still applies.
 - Commit static `data/` files (`visitors.json`, `player-photos.json`, `fifa-rankings.json`, etc.). `data/api-cache/` is gitignored.
 

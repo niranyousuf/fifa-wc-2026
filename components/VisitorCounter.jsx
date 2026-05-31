@@ -4,8 +4,6 @@ import { useEffect, useState } from "react";
 import { Eye } from "lucide-react";
 import { formatNumber } from "@/lib/utils";
 
-const SESSION_KEY = "wc2026_visitor_counted";
-
 export function VisitorCounter({ floating = false }) {
   const [count, setCount] = useState(0);
   const [displayCount, setDisplayCount] = useState(0);
@@ -13,43 +11,18 @@ export function VisitorCounter({ floating = false }) {
   useEffect(() => {
     let active = true;
 
-    async function trackVisitor() {
+    async function loadCount() {
       try {
-        const alreadyCounted = sessionStorage.getItem(SESSION_KEY);
-
-        if (alreadyCounted) {
-          const response = await fetch("/api/visitor");
-          const data = await response.json();
-          if (active) setCount(data.count ?? 0);
-          return;
-        }
-
-        // Claim this tab session before POST so rapid refresh cannot double-count.
-        sessionStorage.setItem(SESSION_KEY, "1");
-
-        const postResponse = await fetch("/api/visitor", { method: "POST" });
-
-        if (!postResponse.ok) {
-          sessionStorage.removeItem(SESSION_KEY);
-          throw new Error("Failed to record visit");
-        }
-
-        const postData = await postResponse.json();
-        if (active) setCount(postData.count ?? 0);
+        const response = await fetch("/api/visitor");
+        if (!response.ok) return;
+        const data = await response.json();
+        if (active) setCount(data.count ?? 0);
       } catch {
-        if (active) {
-          const response = await fetch("/api/visitor").catch(() => null);
-          if (response?.ok) {
-            const data = await response.json();
-            setCount(data.count ?? 0);
-          } else {
-            setCount(0);
-          }
-        }
+        if (active) setCount(0);
       }
     }
 
-    trackVisitor();
+    loadCount();
 
     return () => {
       active = false;
