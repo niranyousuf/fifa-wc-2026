@@ -282,8 +282,8 @@ export default function AboutPage() {
               and team ordering (manual update; not live FIFA data).
             </li>
             <li>
-              <strong>Visitor count</strong> —{" "}
-              <code className="text-xs">data/visitors.json</code> on the server (one
+              <strong>Visitor count</strong> — Upstash Redis on Vercel when configured;
+              otherwise <code className="text-xs">data/visitors.json</code> locally (one
               increment per browser tab session, on first visit to any page).
             </li>
           </ul>
@@ -424,9 +424,25 @@ export default function AboutPage() {
 
       <Section title="Visitors">
         <p>
-          The total below increases once per browser tab session when you first open
-          any page on this site (home, hub, teams, and so on). It is stored on the
-          server for fun, not analytics.
+          <strong>This counter</strong> increases once per browser tab when you first
+          open any page (home, hub, teams, and so on). On production it is stored in{" "}
+          <strong>Vercel Redis (Upstash)</strong> so the total persists across deploys.
+          It is a simple fan tally, not a full analytics product.
+        </p>
+        <p>
+          <strong>Vercel Web Analytics</strong> (in your{" "}
+          <a
+            href="https://vercel.com/dashboard"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Vercel dashboard
+          </a>
+          {" "}
+          → this project → <strong>Analytics</strong>) measures unique visitors, page
+          views, and devices over time. Those numbers will{" "}
+          <strong>not match</strong> this counter — use Analytics for real traffic
+          insights; use the badge below for a fun all-time visit count.
         </p>
         <VisitorCounter />
       </Section>

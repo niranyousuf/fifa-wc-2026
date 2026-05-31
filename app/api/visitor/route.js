@@ -1,29 +1,12 @@
-import fs from "fs";
-import path from "path";
 import { NextResponse } from "next/server";
+import { getVisitorCount, incrementVisitorCount } from "@/lib/visitorCount";
 
 export const runtime = "nodejs";
 
-const visitorsPath = path.join(process.cwd(), "data", "visitors.json");
-
-function readCount() {
-  if (!fs.existsSync(visitorsPath)) {
-    fs.mkdirSync(path.dirname(visitorsPath), { recursive: true });
-    fs.writeFileSync(visitorsPath, JSON.stringify({ count: 0 }, null, 2));
-  }
-
-  const raw = fs.readFileSync(visitorsPath, "utf8");
-  const data = JSON.parse(raw);
-  return Number.isFinite(data.count) ? data.count : 0;
-}
-
-function writeCount(count) {
-  fs.writeFileSync(visitorsPath, JSON.stringify({ count }, null, 2));
-}
-
 export async function GET() {
   try {
-    return NextResponse.json({ count: readCount() });
+    const count = await getVisitorCount();
+    return NextResponse.json({ count });
   } catch (error) {
     return NextResponse.json(
       { error: error.message || "Failed to read visitor count" },
@@ -34,9 +17,8 @@ export async function GET() {
 
 export async function POST() {
   try {
-    const nextCount = readCount() + 1;
-    writeCount(nextCount);
-    return NextResponse.json({ count: nextCount });
+    const count = await incrementVisitorCount();
+    return NextResponse.json({ count });
   } catch (error) {
     return NextResponse.json(
       { error: error.message || "Failed to increment visitor count" },

@@ -107,7 +107,7 @@ scripts/             # cache warm, hero image verify
 
 **Notes:**
 
-- **Visitor counter** — `VisitorTracker` in the root layout POSTs once per browser tab session on first page load (any route); About shows the total via `GET /api/visitor`. On serverless hosts the file count may not persist reliably; use Redis/KV for production-grade totals.
+- **Visitor counter** — `VisitorTracker` POSTs once per tab session on first page load. **Production:** connect [Upstash Redis](https://vercel.com/marketplace?category=storage&search=redis) to the project (sets `UPSTASH_REDIS_REST_URL` / `UPSTASH_REDIS_REST_TOKEN`). **Local:** falls back to `data/visitors.json`. This counter is separate from **Vercel Web Analytics** (dashboard → Analytics).
 - **Disk cache** — `data/api-cache/` writes are best-effort on Vercel; in-memory + API caching still applies.
 - Commit static `data/` files (`visitors.json`, `player-photos.json`, `fifa-rankings.json`, etc.). `data/api-cache/` is gitignored.
 

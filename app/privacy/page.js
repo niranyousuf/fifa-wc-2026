@@ -156,10 +156,12 @@ export default function PrivacyPage() {
       <Section title="Server-side data">
         <h3>Visitor counter</h3>
         <p>
-          The public visitor count is stored in a file on our server (
-          <code className="text-xs">data/visitors.json</code>). When you first
-          load a page in a tab, we increment that total once per tab session. We
-          do not store your name or a persistent user ID with that count.
+          The public visitor count on the About page is stored in{" "}
+          <strong>Upstash Redis</strong> on Vercel when configured, or in{" "}
+          <code className="text-xs">data/visitors.json</code> during local
+          development. When you first load any page in a tab, we increment that
+          total once per tab session. We do not store your name or a persistent user
+          ID with that count. This is separate from Vercel Web Analytics.
         </p>
         <h3>Tournament data from third parties</h3>
         <p>
