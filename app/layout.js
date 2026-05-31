@@ -1,4 +1,5 @@
 import { Inter, Playfair_Display } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react";
 import Link from "next/link";
 import { Navbar } from "@/components/Navbar";
 import { Providers } from "@/components/Providers";
@@ -91,6 +92,7 @@ export default function RootLayout({ children }) {
           </footer>
           <ThemeToggleFloating />
         </Providers>
+        <Analytics />
       </body>
     </html>
   );
