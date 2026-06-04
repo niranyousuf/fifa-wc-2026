@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Facebook, Linkedin } from "lucide-react";
 import { VisitorCounter } from "@/components/VisitorCounter";
+import { VercelAnalyticsLink } from "@/components/VercelAnalyticsLink";
 
 const SOURCE_REPO_URL = "https://github.com/niranyousuf/fifa-wc-2026";
 
@@ -424,25 +425,17 @@ export default function AboutPage() {
 
       <Section title="Visitors">
         <p>
-          <strong>This counter</strong> increases once per browser tab when you first
-          open any page (home, hub, teams, and so on). On production it is stored in{" "}
-          <strong>Vercel Redis (Upstash)</strong> so the total persists across deploys.
-          It is a simple fan tally, not a full analytics product.
+          <strong>Vercel Web Analytics</strong> (dashboard → your project →{" "}
+          <strong>Analytics</strong>) shows real unique visitors and page views. Vercel
+          does <strong>not</strong> provide an API to display that number on this page —
+          it only works inside the Vercel dashboard.
         </p>
+        <VercelAnalyticsLink className="mb-4" />
         <p>
-          <strong>Vercel Web Analytics</strong> (in your{" "}
-          <a
-            href="https://vercel.com/dashboard"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Vercel dashboard
-          </a>
-          {" "}
-          → this project → <strong>Analytics</strong>) measures unique visitors, page
-          views, and devices over time. Those numbers will{" "}
-          <strong>not match</strong> this counter — use Analytics for real traffic
-          insights; use the badge below for a fun all-time visit count.
+          The badge below is our <strong>own site-visit counter</strong> (one count per
+          browser tab on first load). It is stored in Upstash Redis on production when
+          connected, otherwise it may reset — it is <strong>not</strong> the same as
+          Vercel Analytics.
         </p>
         <VisitorCounter />
       </Section>

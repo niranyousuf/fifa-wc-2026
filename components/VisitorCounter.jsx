@@ -53,7 +53,7 @@ export function VisitorCounter({ floating = false }) {
       ].join(" ")}
     >
       <Eye className="h-4 w-4 text-wc-accent" />
-      <span>{formatNumber(displayCount)} visitors</span>
+      <span>{formatNumber(displayCount)} site visits</span>
     </div>
   );
 }
