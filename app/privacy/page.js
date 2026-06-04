@@ -54,8 +54,7 @@ export default function PrivacyPage() {
           you to create an account, and we do <strong>not</strong> sell your
           personal information. Most “personalization” (favorite teams, simulator
           scores, theme) stays in <strong>your own browser</strong> via
-          localStorage. We use a simple visitor counter that stores one flag per
-          browser tab in sessionStorage and a total count on our server.
+          localStorage.
         </p>
       </Section>
 
@@ -88,8 +87,7 @@ export default function PrivacyPage() {
         <p>
           When you use the site, data may be saved in your browser so features
           work without an account. Nothing in the table below is uploaded to our
-          servers as a personal profile — except where noted for the visitor
-          counter.
+          servers as a personal profile.
         </p>
 
         <h3>localStorage (persists until cleared or expired)</h3>
@@ -119,32 +117,36 @@ export default function PrivacyPage() {
           </table>
         </div>
 
-        <h3>sessionStorage (cleared when you close the tab)</h3>
-        <div className="overflow-x-auto rounded-lg border border-[hsl(var(--border))]">
-          <table className="min-w-full text-left text-sm">
-            <thead>
-              <tr className="border-b border-[hsl(var(--border))] bg-[hsl(var(--muted))]/40 text-xs uppercase tracking-wide text-[hsl(var(--muted-foreground))]">
-                <th className="px-4 py-3">Key</th>
-                <th className="px-4 py-3">Purpose</th>
-                <th className="px-4 py-3">Retention</th>
-              </tr>
-            </thead>
-            <tbody className="text-[hsl(var(--muted-foreground))]">
-              {SITE_SESSION_STORAGE_KEYS.map((row) => (
-                <tr
-                  key={row.key}
-                  className="border-b border-[hsl(var(--border))] last:border-0"
-                >
-                  <td className="px-4 py-3 font-mono text-xs text-[hsl(var(--foreground))]">
-                    {row.key}
-                  </td>
-                  <td className="px-4 py-3">{row.purpose}</td>
-                  <td className="px-4 py-3">{row.ttl}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
+        {SITE_SESSION_STORAGE_KEYS.length > 0 && (
+          <>
+            <h3>sessionStorage (cleared when you close the tab)</h3>
+            <div className="overflow-x-auto rounded-lg border border-[hsl(var(--border))]">
+              <table className="min-w-full text-left text-sm">
+                <thead>
+                  <tr className="border-b border-[hsl(var(--border))] bg-[hsl(var(--muted))]/40 text-xs uppercase tracking-wide text-[hsl(var(--muted-foreground))]">
+                    <th className="px-4 py-3">Key</th>
+                    <th className="px-4 py-3">Purpose</th>
+                    <th className="px-4 py-3">Retention</th>
+                  </tr>
+                </thead>
+                <tbody className="text-[hsl(var(--muted-foreground))]">
+                  {SITE_SESSION_STORAGE_KEYS.map((row) => (
+                    <tr
+                      key={row.key}
+                      className="border-b border-[hsl(var(--border))] last:border-0"
+                    >
+                      <td className="px-4 py-3 font-mono text-xs text-[hsl(var(--foreground))]">
+                        {row.key}
+                      </td>
+                      <td className="px-4 py-3">{row.purpose}</td>
+                      <td className="px-4 py-3">{row.ttl}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </>
+        )}
 
         <p className="text-sm">
           Favorites and simulator data automatically expire after{" "}
@@ -154,15 +156,6 @@ export default function PrivacyPage() {
       </Section>
 
       <Section title="Server-side data">
-        <h3>Visitor counter</h3>
-        <p>
-          The public visitor count on the About page is stored in{" "}
-          <strong>Upstash Redis</strong> on Vercel when configured, or in{" "}
-          <code className="text-xs">data/visitors.json</code> during local
-          development. When you first load any page in a tab, we increment that
-          total once per tab session. We do not store your name or a persistent user
-          ID with that count. This is separate from Vercel Web Analytics.
-        </p>
         <h3>Tournament data from third parties</h3>
         <p>
           Fixtures, standings, and team information are fetched from the{" "}
@@ -183,8 +176,9 @@ export default function PrivacyPage() {
         <p>
           If you deploy or access this site on a host such as Vercel, the host
           may log standard web data (IP address, browser type, pages requested,
-          timestamps) for security and operations. We do not use third-party
-          advertising or analytics cookies on this site.
+          timestamps) for security and operations. Vercel Web Analytics may be
+          enabled for aggregate traffic insights in the host dashboard (not shown
+          on this site).
         </p>
       </Section>
 
@@ -242,10 +236,6 @@ export default function PrivacyPage() {
           depend on Chrome, Safari, Firefox, or Edge.
         </p>
 
-        <p className="text-sm">
-          Clearing browser data here does <strong>not</strong> lower the public
-          visitor counter on the server; that number is anonymous and aggregate.
-        </p>
       </Section>
 
       <p className="text-sm text-[hsl(var(--muted-foreground))]">

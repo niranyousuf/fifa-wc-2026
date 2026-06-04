@@ -1,7 +1,5 @@
 import Link from "next/link";
 import { Facebook, Linkedin } from "lucide-react";
-import { VisitorCounter } from "@/components/VisitorCounter";
-import { VercelAnalyticsLink } from "@/components/VercelAnalyticsLink";
 
 const SOURCE_REPO_URL = "https://github.com/niranyousuf/fifa-wc-2026";
 
@@ -131,10 +129,6 @@ export default function AboutPage() {
           </li>
           <li>
             <strong>Team search</strong> — Find a country quickly from the navbar.
-          </li>
-          <li>
-            <strong>Visitor counter</strong> — One count per browser session on any page
-            (see below).
           </li>
         </ul>
       </Section>
@@ -282,11 +276,6 @@ export default function AboutPage() {
               <code className="text-xs">data/fifa-rankings.json</code> for high-voltage
               and team ordering (manual update; not live FIFA data).
             </li>
-            <li>
-              <strong>Visitor count</strong> — Upstash Redis on Vercel when configured;
-              otherwise <code className="text-xs">data/visitors.json</code> locally (one
-              increment per browser tab session, on first visit to any page).
-            </li>
           </ul>
           <p className="text-sm">
             Squads, logos, and live stats depend on the upstream feed and may be
@@ -421,23 +410,6 @@ export default function AboutPage() {
             — UI text (OFL)
           </li>
         </ul>
-      </Section>
-
-      <Section title="Visitors">
-        <p>
-          <strong>Vercel Web Analytics</strong> (dashboard → your project →{" "}
-          <strong>Analytics</strong>) shows real unique visitors and page views. Vercel
-          does <strong>not</strong> provide an API to display that number on this page —
-          it only works inside the Vercel dashboard.
-        </p>
-        <VercelAnalyticsLink className="mb-4" />
-        <p>
-          The badge below is our <strong>own site-visit counter</strong> (one count per
-          browser tab on first load). It is stored in Upstash Redis on production when
-          connected, otherwise it may reset — it is <strong>not</strong> the same as
-          Vercel Analytics.
-        </p>
-        <VisitorCounter />
       </Section>
 
       <Section

@@ -38,8 +38,6 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000).
 
-Ensure `data/visitors.json` exists (default: `{ "count": 0 }`).
-
 ### Optional: warm API disk cache
 
 ```bash
@@ -87,7 +85,7 @@ API keys are **server-only** — never exposed to the client. Pages use internal
 
 ### API routes
 
-`GET /api/fixtures` · `GET /api/standings` · `GET /api/team/[id]` · `GET /api/match/[id]` · `GET /api/search?q=` · `GET|POST /api/visitor` · `POST /api/player-photos` · `GET /api/captain-photos?home=&away=`
+`GET /api/fixtures` · `GET /api/standings` · `GET /api/team/[id]` · `GET /api/match/[id]` · `GET /api/search?q=` · `POST /api/player-photos` · `GET /api/captain-photos?home=&away=`
 
 ## Project structure
 
@@ -95,7 +93,7 @@ API keys are **server-only** — never exposed to the client. Pages use internal
 app/                 # App Router pages & API routes
 components/          # UI (home, hub, simulator, shared)
 lib/                 # API client, cache, simulator logic, utils
-data/                # Static JSON (rankings, visitors, photos, captains)
+data/                # Static JSON (rankings, photos, captains)
 scripts/             # cache warm, hero image verify
 ```
 
@@ -107,9 +105,9 @@ scripts/             # cache warm, hero image verify
 
 **Notes:**
 
-- **Visitor counter** — `VisitorTracker` POSTs once per tab session on first page load. **Production:** connect [Upstash Redis](https://vercel.com/marketplace?category=storage&search=redis) to the project (sets `UPSTASH_REDIS_REST_URL` / `UPSTASH_REDIS_REST_TOKEN`). **Local:** falls back to `data/visitors.json`. This counter is separate from **Vercel Web Analytics** (dashboard → Analytics).
+- **Web Analytics** — Vercel Web Analytics is enabled in the root layout; view stats in the Vercel dashboard (Analytics tab).
 - **Disk cache** — `data/api-cache/` writes are best-effort on Vercel; in-memory + API caching still applies.
-- Commit static `data/` files (`visitors.json`, `player-photos.json`, `fifa-rankings.json`, etc.). `data/api-cache/` is gitignored.
+- Commit static `data/` files (`player-photos.json`, `fifa-rankings.json`, etc.). `data/api-cache/` is gitignored.
 
 ## 2026 tournament format
 
