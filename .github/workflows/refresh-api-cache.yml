@@ -1,0 +1,49 @@
+name: Refresh API cache
+
+on:
+  schedule:
+    # Every 12 hours (UTC) — push triggers a new Vercel production deploy.
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-api-cache
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Warm API cache from Zafronix
+        env:
+          ZAFRONIX_API_KEY: ${{ secrets.ZAFRONIX_API_KEY }}
+          ZAFRONIX_API_KEYS: ${{ secrets.ZAFRONIX_API_KEYS }}
+          WC_YEAR: "2026"
+        run: npm run cache:warm
+
+      - name: Commit and push cache (deploy via Vercel)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/api-cache/teams data/api-cache/standings data/api-cache/matches
+          if git diff --staged --quiet; then
+            echo "Cache unchanged — no commit needed."
+            exit 0
+          fi
+          git commit -m "chore: refresh API cache from Zafronix"
+          git push

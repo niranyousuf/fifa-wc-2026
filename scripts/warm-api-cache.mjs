@@ -2,6 +2,8 @@
 /**
  * Fetches core Zafronix endpoints and writes data/api-cache/{teams|standings|matches}/.
  * Run when API quota is available: npm run cache:warm
+ *
+ * Keys: process.env.ZAFRONIX_API_KEY(S) (CI/Vercel) or .env.local (local dev).
  */
 import fs from "fs";
 import path from "path";
@@ -31,9 +33,27 @@ function cacheFileRelPath(apiPath) {
   return path.join(segment, `${label}.json`);
 }
 
-function loadApiKeys() {
+function keysFromEnv() {
+  const keys = [];
+
+  if (process.env.ZAFRONIX_API_KEYS) {
+    for (const part of process.env.ZAFRONIX_API_KEYS.split(",")) {
+      const trimmed = part.trim();
+      if (trimmed) keys.push(trimmed);
+    }
+  }
+
+  const primary = process.env.ZAFRONIX_API_KEY?.trim();
+  if (primary && !keys.includes(primary)) {
+    keys.unshift(primary);
+  }
+
+  return [...new Set(keys)];
+}
+
+function keysFromEnvFile() {
   if (!fs.existsSync(envPath)) {
-    throw new Error("Missing .env.local with ZAFRONIX_API_KEY");
+    return [];
   }
 
   const env = fs.readFileSync(envPath, "utf8");
@@ -53,11 +73,19 @@ function loadApiKeys() {
     keys.unshift(primary);
   }
 
+  return [...new Set(keys)];
+}
+
+function loadApiKeys() {
+  const keys = keysFromEnv().length ? keysFromEnv() : keysFromEnvFile();
+
   if (!keys.length) {
-    throw new Error("Set ZAFRONIX_API_KEY or ZAFRONIX_API_KEYS in .env.local");
+    throw new Error(
+      "Set ZAFRONIX_API_KEY or ZAFRONIX_API_KEYS in the environment or .env.local",
+    );
   }
 
-  return [...new Set(keys)];
+  return keys;
 }
 
 async function fetchPath(apiKeys, apiPath) {
@@ -107,7 +135,9 @@ async function main() {
     console.log("ok →", relativePath);
   }
 
-  console.log("\nCache warmed (24h TTL). Commit data/api-cache/ and push for production fallback.");
+  console.log(
+    "\nCache warmed (24h TTL). Push triggers a Vercel deploy with bundled fallback data.",
+  );
 }
 
 main().catch((error) => {

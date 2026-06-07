@@ -12,6 +12,6 @@ Each file includes `savedAt` (timestamp) and `data` (API JSON).
 
 - **Fresh window:** 24 hours — the app prefers this file instead of calling the API.
 - **Stale fallback:** up to 7 days if the API returns 429 or errors.
-- **Refresh:** `npm run cache:warm` locally, or Vercel Cron hits `/api/cron/refresh-cache` daily (set `CRON_SECRET`).
+- **Refresh:** `npm run cache:warm` locally, or **GitHub Actions every 12h** (commits + pushes → Vercel redeploy). Optional: Vercel Cron `/api/cron/refresh-cache`.
 
 These files are committed so production always has a fallback when API quota is exhausted.

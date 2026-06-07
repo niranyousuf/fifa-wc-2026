@@ -2,8 +2,9 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
-import { Menu, Trophy, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { NAV_LINKS } from "@/lib/navLinks";
 import { cn } from "@/lib/utils";
 
@@ -57,7 +58,14 @@ export function Navbar() {
             className="flex min-w-0 shrink-0 items-center gap-2"
             onClick={closeMenu}
           >
-            <Trophy className="h-6 w-6 shrink-0 text-wc-accent" />
+            <Image
+              src="/wc-2026-logo.png"
+              alt="FIFA World Cup 2026"
+              width={32}
+              height={44}
+              className="h-9 w-auto shrink-0 object-contain sm:h-10"
+              priority
+            />
             <span className="truncate font-display text-xl tracking-wide sm:text-2xl">
               WC 2026
             </span>
