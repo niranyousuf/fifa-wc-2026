@@ -1,0 +1,343 @@
+{
+  "savedAt": 1780063918367,
+  "data": [
+    {
+      "jersey": null,
+      "name": "Alisson",
+      "position": "GK",
+      "born": "1992-10-02",
+      "ageAtTournament": 33,
+      "club": {
+        "name": "Liverpool",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Ederson",
+      "position": "GK",
+      "born": "1993-08-17",
+      "ageAtTournament": 32,
+      "club": {
+        "name": "Fenerbahçe",
+        "country": "Turkey"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Weverton",
+      "position": "GK",
+      "born": "1987-12-13",
+      "ageAtTournament": 38,
+      "club": {
+        "name": "Grêmio",
+        "country": "Brazil"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Marquinhos",
+      "position": "DF",
+      "born": "1994-05-14",
+      "ageAtTournament": 32,
+      "club": {
+        "name": "Paris Saint-Germain",
+        "country": "France"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Danilo Luiz",
+      "position": "DF",
+      "born": "1991-07-15",
+      "ageAtTournament": 34,
+      "club": {
+        "name": "Flamengo",
+        "country": "Brazil"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Alex Sandro",
+      "position": "DF",
+      "born": "1991-01-26",
+      "ageAtTournament": 35,
+      "club": {
+        "name": "Flamengo",
+        "country": "Brazil"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Gabriel Magalhães",
+      "position": "DF",
+      "born": "1997-12-19",
+      "ageAtTournament": 28,
+      "club": {
+        "name": "Arsenal",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Bremer",
+      "position": "DF",
+      "born": "1997-03-18",
+      "ageAtTournament": 29,
+      "club": {
+        "name": "Juventus",
+        "country": "Italy"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Wesley",
+      "position": "DF",
+      "born": "2003-09-06",
+      "ageAtTournament": 22,
+      "club": {
+        "name": "Roma",
+        "country": "Italy"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Roger Ibañez",
+      "position": "DF",
+      "born": "1998-11-23",
+      "ageAtTournament": 27,
+      "club": {
+        "name": "Al-Ahli",
+        "country": "Saudi Arabia"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Douglas Santos",
+      "position": "DF",
+      "born": "1994-03-22",
+      "ageAtTournament": 32,
+      "club": {
+        "name": "Zenit Saint Petersburg",
+        "country": "Russia"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Léo Pereira",
+      "position": "DF",
+      "born": "1996-01-31",
+      "ageAtTournament": 30,
+      "club": {
+        "name": "Flamengo",
+        "country": "Brazil"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Casemiro (captain)",
+      "position": "MF",
+      "born": "1992-02-23",
+      "ageAtTournament": 34,
+      "club": {
+        "name": "Manchester United",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Lucas Paquetá",
+      "position": "MF",
+      "born": "1997-08-27",
+      "ageAtTournament": 28,
+      "club": {
+        "name": "Flamengo",
+        "country": "Brazil"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Bruno Guimarães",
+      "position": "MF",
+      "born": "1997-11-16",
+      "ageAtTournament": 28,
+      "club": {
+        "name": "Newcastle United",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Fabinho",
+      "position": "MF",
+      "born": "1993-10-23",
+      "ageAtTournament": 32,
+      "club": {
+        "name": "Al-Ittihad",
+        "country": "Saudi Arabia"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Danilo Santos",
+      "position": "MF",
+      "born": "2001-04-29",
+      "ageAtTournament": 25,
+      "club": {
+        "name": "Botafogo",
+        "country": "Brazil"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Neymar",
+      "position": "FW",
+      "born": "1992-02-05",
+      "ageAtTournament": 34,
+      "club": {
+        "name": "Santos",
+        "country": "Brazil"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Vinícius Júnior",
+      "position": "FW",
+      "born": "2000-07-12",
+      "ageAtTournament": 25,
+      "club": {
+        "name": "Real Madrid",
+        "country": "Spain"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Raphinha",
+      "position": "FW",
+      "born": "1996-12-14",
+      "ageAtTournament": 29,
+      "club": {
+        "name": "Barcelona",
+        "country": "Spain"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Gabriel Martinelli",
+      "position": "FW",
+      "born": "2001-06-18",
+      "ageAtTournament": 24,
+      "club": {
+        "name": "Arsenal",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Matheus Cunha",
+      "position": "FW",
+      "born": "1999-05-27",
+      "ageAtTournament": 27,
+      "club": {
+        "name": "Manchester United",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Endrick",
+      "position": "FW",
+      "born": "2006-07-21",
+      "ageAtTournament": 19,
+      "club": {
+        "name": "Lyon",
+        "country": "France"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Luiz Henrique",
+      "position": "FW",
+      "born": "2001-01-02",
+      "ageAtTournament": 25,
+      "club": {
+        "name": "Zenit Saint Petersburg",
+        "country": "Russia"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Igor Thiago",
+      "position": "FW",
+      "born": "2001-06-26",
+      "ageAtTournament": 24,
+      "club": {
+        "name": "Brentford",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Rayan",
+      "position": "FW",
+      "born": "2006-08-03",
+      "ageAtTournament": 19,
+      "club": {
+        "name": "Bournemouth",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    }
+  ]
+}

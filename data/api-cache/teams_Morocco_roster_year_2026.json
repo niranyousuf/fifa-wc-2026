@@ -1,0 +1,343 @@
+{
+  "savedAt": 1780063918367,
+  "data": [
+    {
+      "jersey": null,
+      "name": "Yassine Bounou",
+      "position": "GK",
+      "born": "1991-04-05",
+      "ageAtTournament": 35,
+      "club": {
+        "name": "Al-Hilal",
+        "country": "Saudi Arabia"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Munir Mohamedi",
+      "position": "GK",
+      "born": "1989-05-10",
+      "ageAtTournament": 37,
+      "club": {
+        "name": "RS Berkane",
+        "country": "Morocco"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Ahmed Reda Tagnaouti",
+      "position": "GK",
+      "born": "1996-04-05",
+      "ageAtTournament": 30,
+      "club": {
+        "name": "AS FAR",
+        "country": "Morocco"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Achraf Hakimi (captain)",
+      "position": "DF",
+      "born": "1998-11-04",
+      "ageAtTournament": 27,
+      "club": {
+        "name": "Paris Saint-Germain",
+        "country": "France"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Nayef Aguerd",
+      "position": "DF",
+      "born": "1996-03-30",
+      "ageAtTournament": 30,
+      "club": {
+        "name": "Marseille",
+        "country": "France"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Noussair Mazraoui",
+      "position": "DF",
+      "born": "1997-11-14",
+      "ageAtTournament": 28,
+      "club": {
+        "name": "Manchester United",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Youssef Belammari",
+      "position": "DF",
+      "born": "1998-09-20",
+      "ageAtTournament": 27,
+      "club": {
+        "name": "Al Ahly",
+        "country": "Egypt"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Anass Salah-Eddine",
+      "position": "DF",
+      "born": "2002-01-18",
+      "ageAtTournament": 24,
+      "club": {
+        "name": "PSV Eindhoven",
+        "country": "Netherlands"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Chadi Riad",
+      "position": "DF",
+      "born": "2003-06-17",
+      "ageAtTournament": 22,
+      "club": {
+        "name": "Crystal Palace",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Issa Diop",
+      "position": "DF",
+      "born": "1997-01-09",
+      "ageAtTournament": 29,
+      "club": {
+        "name": "Fulham",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Zakaria El Ouahdi",
+      "position": "DF",
+      "born": "2001-12-31",
+      "ageAtTournament": 24,
+      "club": {
+        "name": "Genk",
+        "country": ""
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Redouane Halhal",
+      "position": "DF",
+      "born": "2003-03-05",
+      "ageAtTournament": 23,
+      "club": {
+        "name": "Mechelen",
+        "country": ""
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Sofyan Amrabat",
+      "position": "MF",
+      "born": "1996-08-21",
+      "ageAtTournament": 29,
+      "club": {
+        "name": "Real Betis",
+        "country": "Spain"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Azzedine Ounahi",
+      "position": "MF",
+      "born": "2000-04-19",
+      "ageAtTournament": 26,
+      "club": {
+        "name": "Girona",
+        "country": "Spain"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Bilal El Khannouss",
+      "position": "MF",
+      "born": "2004-05-10",
+      "ageAtTournament": 22,
+      "club": {
+        "name": "VfB Stuttgart",
+        "country": "Germany"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Ismael Saibari",
+      "position": "MF",
+      "born": "2001-01-28",
+      "ageAtTournament": 25,
+      "club": {
+        "name": "PSV Eindhoven",
+        "country": "Netherlands"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Neil El Aynaoui",
+      "position": "MF",
+      "born": "2001-07-02",
+      "ageAtTournament": 24,
+      "club": {
+        "name": "Roma",
+        "country": "Italy"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Samir El Mourabet",
+      "position": "MF",
+      "born": "2006-08-06",
+      "ageAtTournament": 19,
+      "club": {
+        "name": "Strasbourg",
+        "country": "France"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Ayyoub Bouaddi",
+      "position": "MF",
+      "born": "2007-10-02",
+      "ageAtTournament": 18,
+      "club": {
+        "name": "Lille",
+        "country": "France"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Ayoub El Kaabi",
+      "position": "FW",
+      "born": "1993-06-25",
+      "ageAtTournament": 32,
+      "club": {
+        "name": "Olympiacos",
+        "country": "Greece"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Abde Ezzalzouli",
+      "position": "FW",
+      "born": "2001-12-17",
+      "ageAtTournament": 24,
+      "club": {
+        "name": "Real Betis",
+        "country": "Spain"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Soufiane Rahimi",
+      "position": "FW",
+      "born": "1996-06-02",
+      "ageAtTournament": 30,
+      "club": {
+        "name": "Al Ain",
+        "country": "United Arab Emirates"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Brahim Díaz",
+      "position": "FW",
+      "born": "1999-08-03",
+      "ageAtTournament": 26,
+      "club": {
+        "name": "Real Madrid",
+        "country": "Spain"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Chemsdine Talbi",
+      "position": "FW",
+      "born": "2005-05-09",
+      "ageAtTournament": 21,
+      "club": {
+        "name": "Sunderland",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Gessime Yassine",
+      "position": "FW",
+      "born": "2005-11-22",
+      "ageAtTournament": 20,
+      "club": {
+        "name": "Strasbourg",
+        "country": "France"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Ayoube Amaimouni",
+      "position": "FW",
+      "born": "2004-11-30",
+      "ageAtTournament": 21,
+      "club": {
+        "name": "Eintracht Frankfurt",
+        "country": "Germany"
+      },
+      "goals": 0,
+      "captain": false
+    }
+  ]
+}

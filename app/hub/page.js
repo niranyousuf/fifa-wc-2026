@@ -1,7 +1,7 @@
 import { HomeClient } from "@/components/HomeClient";
 import { getHubDataSafe } from "@/lib/api";
 
-export const revalidate = 300;
+export const revalidate = 86400;
 
 export const metadata = {
   title: "Tournament Hub | FIFA World Cup 2026",

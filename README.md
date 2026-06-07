@@ -38,13 +38,13 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000).
 
-### Optional: warm API disk cache
+### Optional: warm API disk cache (24h)
 
 ```bash
 npm run cache:warm
 ```
 
-Writes JSON under `data/api-cache/` (gitignored) to speed up local dev and cold starts.
+Writes JSON under `data/api-cache/{teams,standings,matches}/` (committed to git for production fallback when API quota is exhausted). Cache is considered fresh for **24 hours**; Vercel Cron can refresh daily via `/api/cron/refresh-cache` when `CRON_SECRET` is set.
 
 ## Environment
 
@@ -54,6 +54,7 @@ Writes JSON under `data/api-cache/` (gitignored) to speed up local dev and cold 
 | `ZAFRONIX_API_KEYS` | No | Comma-separated fallback keys on 429 rate limit |
 | `WC_YEAR` | No | Tournament year (default `2026`) |
 | `NEXT_PUBLIC_APP_URL` | No | Canonical app URL (metadata / links) |
+| `CRON_SECRET` | No | Protects daily `/api/cron/refresh-cache` (Vercel Cron) |
 
 \*Or set only `ZAFRONIX_API_KEYS`.
 
@@ -105,9 +106,10 @@ scripts/             # cache warm, hero image verify
 
 **Notes:**
 
+- **API cache** — Core Zafronix responses live in `data/api-cache/` (24h fresh, 7d stale fallback). Run `npm run cache:warm` and commit. Set `CRON_SECRET` for daily auto-refresh on Vercel.
 - **Web Analytics** — Vercel Web Analytics is enabled in the root layout; view stats in the Vercel dashboard (Analytics tab).
-- **Disk cache** — `data/api-cache/` writes are best-effort on Vercel; in-memory + API caching still applies.
-- Commit static `data/` files (`player-photos.json`, `fifa-rankings.json`, etc.). `data/api-cache/` is gitignored.
+- **Disk cache on serverless** — Runtime writes are best-effort; bundled git files are the reliable production fallback.
+- Commit static `data/` files (`data/api-cache/`, `player-photos.json`, `fifa-rankings.json`, etc.).
 
 ## 2026 tournament format
 

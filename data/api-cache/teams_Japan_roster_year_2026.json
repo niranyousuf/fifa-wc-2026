@@ -1,0 +1,343 @@
+{
+  "savedAt": 1780063918378,
+  "data": [
+    {
+      "jersey": null,
+      "name": "Zion Suzuki",
+      "position": "GK",
+      "born": "2002-08-21",
+      "ageAtTournament": 23,
+      "club": {
+        "name": "Parma",
+        "country": "Italy"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Keisuke Ōsako",
+      "position": "GK",
+      "born": "1999-07-28",
+      "ageAtTournament": 26,
+      "club": {
+        "name": "Sanfrecce Hiroshima",
+        "country": "Japan"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Tomoki Hayakawa",
+      "position": "GK",
+      "born": "1999-03-03",
+      "ageAtTournament": 27,
+      "club": {
+        "name": "Kashima Antlers",
+        "country": "Japan"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Yūto Nagatomo",
+      "position": "DF",
+      "born": "1986-09-12",
+      "ageAtTournament": 39,
+      "club": {
+        "name": "FC Tokyo",
+        "country": "Japan"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Takehiro Tomiyasu",
+      "position": "DF",
+      "born": "1998-11-05",
+      "ageAtTournament": 27,
+      "club": {
+        "name": "Ajax",
+        "country": "Netherlands"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Kō Itakura",
+      "position": "DF",
+      "born": "1997-01-27",
+      "ageAtTournament": 29,
+      "club": {
+        "name": "Ajax",
+        "country": "Netherlands"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Shōgo Taniguchi",
+      "position": "DF",
+      "born": "1991-07-15",
+      "ageAtTournament": 34,
+      "club": {
+        "name": "Sint-Truiden",
+        "country": ""
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Hiroki Itō",
+      "position": "DF",
+      "born": "1999-05-12",
+      "ageAtTournament": 27,
+      "club": {
+        "name": "Bayern Munich",
+        "country": "Germany"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Yukinari Sugawara",
+      "position": "DF",
+      "born": "2000-06-28",
+      "ageAtTournament": 25,
+      "club": {
+        "name": "Werder Bremen",
+        "country": "Germany"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Ayumu Seko",
+      "position": "DF",
+      "born": "2000-06-07",
+      "ageAtTournament": 26,
+      "club": {
+        "name": "Le Havre",
+        "country": "France"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Tsuyoshi Watanabe",
+      "position": "DF",
+      "born": "1997-02-05",
+      "ageAtTournament": 29,
+      "club": {
+        "name": "Feyenoord",
+        "country": "Netherlands"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Junnosuke Suzuki",
+      "position": "DF",
+      "born": "2003-07-12",
+      "ageAtTournament": 22,
+      "club": {
+        "name": "Copenhagen",
+        "country": "Denmark"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Wataru Endo (captain)",
+      "position": "MF",
+      "born": "1993-02-09",
+      "ageAtTournament": 33,
+      "club": {
+        "name": "Liverpool",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Junya Itō",
+      "position": "MF",
+      "born": "1993-03-09",
+      "ageAtTournament": 33,
+      "club": {
+        "name": "Genk",
+        "country": ""
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Ritsu Dōan",
+      "position": "MF",
+      "born": "1998-06-16",
+      "ageAtTournament": 27,
+      "club": {
+        "name": "Eintracht Frankfurt",
+        "country": "Germany"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Daichi Kamada",
+      "position": "MF",
+      "born": "1996-08-05",
+      "ageAtTournament": 29,
+      "club": {
+        "name": "Crystal Palace",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Takefusa Kubo",
+      "position": "MF",
+      "born": "2001-06-04",
+      "ageAtTournament": 25,
+      "club": {
+        "name": "Real Sociedad",
+        "country": "Spain"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Ao Tanaka",
+      "position": "MF",
+      "born": "1998-09-10",
+      "ageAtTournament": 27,
+      "club": {
+        "name": "Leeds United",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Keito Nakamura",
+      "position": "MF",
+      "born": "2000-07-28",
+      "ageAtTournament": 25,
+      "club": {
+        "name": "Reims",
+        "country": "France"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Kaishū Sano",
+      "position": "MF",
+      "born": "2000-12-30",
+      "ageAtTournament": 25,
+      "club": {
+        "name": "Mainz 05",
+        "country": "Germany"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Ayase Ueda",
+      "position": "FW",
+      "born": "1998-08-28",
+      "ageAtTournament": 27,
+      "club": {
+        "name": "Feyenoord",
+        "country": "Netherlands"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Daizen Maeda",
+      "position": "FW",
+      "born": "1997-10-20",
+      "ageAtTournament": 28,
+      "club": {
+        "name": "Celtic",
+        "country": "Scotland"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Kōki Ogawa",
+      "position": "FW",
+      "born": "1997-08-08",
+      "ageAtTournament": 28,
+      "club": {
+        "name": "NEC",
+        "country": "Netherlands"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Yuito Suzuki",
+      "position": "FW",
+      "born": "2001-10-25",
+      "ageAtTournament": 24,
+      "club": {
+        "name": "SC Freiburg",
+        "country": "Germany"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Keisuke Gotō",
+      "position": "FW",
+      "born": "2005-06-03",
+      "ageAtTournament": 21,
+      "club": {
+        "name": "Sint-Truiden",
+        "country": ""
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Kento Shiogai",
+      "position": "FW",
+      "born": "2005-03-26",
+      "ageAtTournament": 21,
+      "club": {
+        "name": "VfL Wolfsburg",
+        "country": "Germany"
+      },
+      "goals": 0,
+      "captain": false
+    }
+  ]
+}

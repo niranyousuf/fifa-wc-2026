@@ -1,0 +1,30 @@
+{
+  "savedAt": 1780073769794,
+  "data": {
+    "id": "2026-012",
+    "matchNo": 12,
+    "date": "2026-06-15",
+    "kickoff": "20:00",
+    "kickoffUtc": "2026-06-15T02:00:00.000Z",
+    "timezone": "mexico_city",
+    "stage": "group_f",
+    "homeTeam": "Sweden",
+    "awayTeam": "Tunisia",
+    "homeRef": "Sweden",
+    "awayRef": "Tunisia",
+    "homeScore": null,
+    "awayScore": null,
+    "result": null,
+    "extraTime": false,
+    "penalties": null,
+    "stadium": "Monterrey Stadium",
+    "stadiumId": "estadio-bbva",
+    "city": "Guadalupe",
+    "country": "Mexico",
+    "attendance": null,
+    "referee": null,
+    "weather": null,
+    "stageNormalized": "group_f",
+    "events": []
+  }
+}

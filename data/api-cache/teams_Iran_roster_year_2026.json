@@ -1,0 +1,395 @@
+{
+  "savedAt": 1780041795904,
+  "data": [
+    {
+      "jersey": null,
+      "name": "Alireza Beiranvand",
+      "position": "GK",
+      "born": "1992-09-21",
+      "ageAtTournament": 33,
+      "club": {
+        "name": "Tractor",
+        "country": "Iran"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Payam Niazmand",
+      "position": "GK",
+      "born": "1995-04-06",
+      "ageAtTournament": 31,
+      "club": {
+        "name": "Persepolis",
+        "country": "Iran"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Hossein Hosseini",
+      "position": "GK",
+      "born": "1992-06-30",
+      "ageAtTournament": 33,
+      "club": {
+        "name": "Sepahan",
+        "country": "Iran"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Mohammad Khalife",
+      "position": "GK",
+      "born": "2004-08-19",
+      "ageAtTournament": 21,
+      "club": {
+        "name": "Aluminium Arak",
+        "country": "Iran"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Ehsan Hajsafi",
+      "position": "DF",
+      "born": "1990-02-25",
+      "ageAtTournament": 36,
+      "club": {
+        "name": "Sepahan",
+        "country": "Iran"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Milad Mohammadi",
+      "position": "DF",
+      "born": "1993-09-29",
+      "ageAtTournament": 32,
+      "club": {
+        "name": "Persepolis",
+        "country": "Iran"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Ramin Rezaeian",
+      "position": "DF",
+      "born": "1990-03-21",
+      "ageAtTournament": 36,
+      "club": {
+        "name": "Foolad",
+        "country": "Iran"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Hossein Kanaanizadegan",
+      "position": "DF",
+      "born": "1994-03-23",
+      "ageAtTournament": 32,
+      "club": {
+        "name": "Persepolis",
+        "country": "Iran"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Shojae Khalilzadeh",
+      "position": "DF",
+      "born": "1989-05-14",
+      "ageAtTournament": 37,
+      "club": {
+        "name": "Tractor",
+        "country": "Iran"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Saleh Hardani",
+      "position": "DF",
+      "born": "1998-12-26",
+      "ageAtTournament": 27,
+      "club": {
+        "name": "Esteghlal",
+        "country": "Iran"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Ali Nemati",
+      "position": "DF",
+      "born": "1996-02-07",
+      "ageAtTournament": 30,
+      "club": {
+        "name": "Foolad",
+        "country": "Iran"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Aria Yousefi",
+      "position": "DF",
+      "born": "2002-04-22",
+      "ageAtTournament": 24,
+      "club": {
+        "name": "Sepahan",
+        "country": "Iran"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Danial Eiri",
+      "position": "DF",
+      "born": "2003-10-26",
+      "ageAtTournament": 22,
+      "club": {
+        "name": "Malavan",
+        "country": "Iran"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Alireza Jahanbakhsh",
+      "position": "MF",
+      "born": "1993-08-11",
+      "ageAtTournament": 32,
+      "club": {
+        "name": "Dender",
+        "country": ""
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Saeid Ezatolahi",
+      "position": "MF",
+      "born": "1996-10-01",
+      "ageAtTournament": 29,
+      "club": {
+        "name": "Shabab Al-Ahli",
+        "country": "United Arab Emirates"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Saman Ghoddos",
+      "position": "MF",
+      "born": "1993-09-06",
+      "ageAtTournament": 32,
+      "club": {
+        "name": "Kalba",
+        "country": "United Arab Emirates"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Mehdi Torabi",
+      "position": "MF",
+      "born": "1994-09-10",
+      "ageAtTournament": 31,
+      "club": {
+        "name": "Tractor",
+        "country": "Iran"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Rouzbeh Cheshmi",
+      "position": "MF",
+      "born": "1993-07-24",
+      "ageAtTournament": 32,
+      "club": {
+        "name": "Esteghlal",
+        "country": "Iran"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Omid Noorafkan",
+      "position": "MF",
+      "born": "1997-04-09",
+      "ageAtTournament": 29,
+      "club": {
+        "name": "Sepahan",
+        "country": "Iran"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Mohammad Mohebi",
+      "position": "MF",
+      "born": "1998-12-20",
+      "ageAtTournament": 27,
+      "club": {
+        "name": "Rostov",
+        "country": "Russia"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Mohammad Ghorbani",
+      "position": "MF",
+      "born": "2001-05-21",
+      "ageAtTournament": 25,
+      "club": {
+        "name": "Al-Wahda",
+        "country": "United Arab Emirates"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Amirmohammad Razzaghinia",
+      "position": "MF",
+      "born": "2006-04-11",
+      "ageAtTournament": 20,
+      "club": {
+        "name": "Esteghlal",
+        "country": "Iran"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Hadi Habibinejad",
+      "position": "MF",
+      "born": "1995-10-17",
+      "ageAtTournament": 30,
+      "club": {
+        "name": "Chadormalou",
+        "country": "Iran"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Mehdi Taremi",
+      "position": "FW",
+      "born": "1992-07-18",
+      "ageAtTournament": 33,
+      "club": {
+        "name": "Olympiacos",
+        "country": "Greece"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Mehdi Ghayedi",
+      "position": "FW",
+      "born": "1998-12-05",
+      "ageAtTournament": 27,
+      "club": {
+        "name": "Al-Nasr",
+        "country": "United Arab Emirates"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Amirhossein Hosseinzadeh",
+      "position": "FW",
+      "born": "2000-10-30",
+      "ageAtTournament": 25,
+      "club": {
+        "name": "Tractor",
+        "country": "Iran"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Ali Alipour",
+      "position": "FW",
+      "born": "1995-11-11",
+      "ageAtTournament": 30,
+      "club": {
+        "name": "Persepolis",
+        "country": "Iran"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Kasra Taheri",
+      "position": "FW",
+      "born": "2006-08-06",
+      "ageAtTournament": 19,
+      "club": {
+        "name": "Paykan",
+        "country": "Iran"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Amirhossein Mahmoudi",
+      "position": "FW",
+      "born": "2006-07-12",
+      "ageAtTournament": 19,
+      "club": {
+        "name": "Persepolis",
+        "country": "Iran"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Dennis Eckert",
+      "position": "FW",
+      "born": "1997-01-09",
+      "ageAtTournament": 29,
+      "club": {
+        "name": "Standard Liège",
+        "country": ""
+      },
+      "goals": 0,
+      "captain": false
+    }
+  ]
+}

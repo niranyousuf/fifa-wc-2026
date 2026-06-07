@@ -1,0 +1,343 @@
+{
+  "savedAt": 1780041795913,
+  "data": [
+    {
+      "jersey": null,
+      "name": "Thibaut Courtois",
+      "position": "GK",
+      "born": "1992-05-11",
+      "ageAtTournament": 34,
+      "club": {
+        "name": "Real Madrid",
+        "country": "Spain"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Senne Lammens",
+      "position": "GK",
+      "born": "2002-07-07",
+      "ageAtTournament": 23,
+      "club": {
+        "name": "Manchester United",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Mike Penders",
+      "position": "GK",
+      "born": "2005-07-31",
+      "ageAtTournament": 20,
+      "club": {
+        "name": "Strasbourg",
+        "country": "France"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Thomas Meunier",
+      "position": "DF",
+      "born": "1991-09-12",
+      "ageAtTournament": 34,
+      "club": {
+        "name": "Lille",
+        "country": "France"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Timothy Castagne",
+      "position": "DF",
+      "born": "1995-12-05",
+      "ageAtTournament": 30,
+      "club": {
+        "name": "Fulham",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Arthur Theate",
+      "position": "DF",
+      "born": "2000-05-25",
+      "ageAtTournament": 26,
+      "club": {
+        "name": "Eintracht Frankfurt",
+        "country": "Germany"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Zeno Debast",
+      "position": "DF",
+      "born": "2003-10-24",
+      "ageAtTournament": 22,
+      "club": {
+        "name": "Sporting CP",
+        "country": ""
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Maxim De Cuyper",
+      "position": "DF",
+      "born": "2000-12-22",
+      "ageAtTournament": 25,
+      "club": {
+        "name": "Brighton & Hove Albion",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Brandon Mechele",
+      "position": "DF",
+      "born": "1993-01-28",
+      "ageAtTournament": 33,
+      "club": {
+        "name": "Club Brugge",
+        "country": ""
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Koni De Winter",
+      "position": "DF",
+      "born": "2002-06-12",
+      "ageAtTournament": 23,
+      "club": {
+        "name": "Milan",
+        "country": "Italy"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Joaquin Seys",
+      "position": "DF",
+      "born": "2005-03-28",
+      "ageAtTournament": 21,
+      "club": {
+        "name": "Club Brugge",
+        "country": ""
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Nathan Ngoy",
+      "position": "DF",
+      "born": "2003-06-10",
+      "ageAtTournament": 23,
+      "club": {
+        "name": "Lille",
+        "country": "France"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Axel Witsel",
+      "position": "MF",
+      "born": "1989-01-12",
+      "ageAtTournament": 37,
+      "club": {
+        "name": "Girona",
+        "country": "Spain"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Kevin De Bruyne",
+      "position": "MF",
+      "born": "1991-06-28",
+      "ageAtTournament": 34,
+      "club": {
+        "name": "Napoli",
+        "country": "Italy"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Youri Tielemans (captain)",
+      "position": "MF",
+      "born": "1997-05-07",
+      "ageAtTournament": 29,
+      "club": {
+        "name": "Aston Villa",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Hans Vanaken",
+      "position": "MF",
+      "born": "1992-08-24",
+      "ageAtTournament": 33,
+      "club": {
+        "name": "Club Brugge",
+        "country": ""
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Amadou Onana",
+      "position": "MF",
+      "born": "2001-08-16",
+      "ageAtTournament": 24,
+      "club": {
+        "name": "Aston Villa",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Nicolas Raskin",
+      "position": "MF",
+      "born": "2001-02-23",
+      "ageAtTournament": 25,
+      "club": {
+        "name": "Rangers",
+        "country": "Scotland"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Romelu Lukaku",
+      "position": "FW",
+      "born": "1993-05-13",
+      "ageAtTournament": 33,
+      "club": {
+        "name": "Napoli",
+        "country": "Italy"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Leandro Trossard",
+      "position": "FW",
+      "born": "1994-12-04",
+      "ageAtTournament": 31,
+      "club": {
+        "name": "Arsenal",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Jérémy Doku",
+      "position": "FW",
+      "born": "2002-05-27",
+      "ageAtTournament": 24,
+      "club": {
+        "name": "Manchester City",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Dodi Lukébakio",
+      "position": "FW",
+      "born": "1997-09-24",
+      "ageAtTournament": 28,
+      "club": {
+        "name": "Benfica",
+        "country": ""
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Charles De Ketelaere",
+      "position": "FW",
+      "born": "2001-03-10",
+      "ageAtTournament": 25,
+      "club": {
+        "name": "Atalanta",
+        "country": "Italy"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Alexis Saelemaekers",
+      "position": "FW",
+      "born": "1999-06-27",
+      "ageAtTournament": 26,
+      "club": {
+        "name": "Milan",
+        "country": "Italy"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Diego Moreira",
+      "position": "FW",
+      "born": "2004-08-06",
+      "ageAtTournament": 21,
+      "club": {
+        "name": "Strasbourg",
+        "country": "France"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Matias Fernandez-Pardo",
+      "position": "FW",
+      "born": "2005-02-03",
+      "ageAtTournament": 21,
+      "club": {
+        "name": "Lille",
+        "country": "France"
+      },
+      "goals": 0,
+      "captain": false
+    }
+  ]
+}

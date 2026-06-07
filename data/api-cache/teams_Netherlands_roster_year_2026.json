@@ -1,0 +1,343 @@
+{
+  "savedAt": 1780063918377,
+  "data": [
+    {
+      "jersey": null,
+      "name": "Bart Verbruggen",
+      "position": "GK",
+      "born": "2002-08-18",
+      "ageAtTournament": 23,
+      "club": {
+        "name": "Brighton & Hove Albion",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Mark Flekken",
+      "position": "GK",
+      "born": "1993-06-13",
+      "ageAtTournament": 32,
+      "club": {
+        "name": "Bayer Leverkusen",
+        "country": "Germany"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Robin Roefs",
+      "position": "GK",
+      "born": "2003-01-17",
+      "ageAtTournament": 23,
+      "club": {
+        "name": "Sunderland",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Virgil van Dijk (captain)",
+      "position": "DF",
+      "born": "1991-07-08",
+      "ageAtTournament": 34,
+      "club": {
+        "name": "Liverpool",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Denzel Dumfries",
+      "position": "DF",
+      "born": "1996-04-18",
+      "ageAtTournament": 30,
+      "club": {
+        "name": "Inter Milan",
+        "country": "Italy"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Nathan Aké",
+      "position": "DF",
+      "born": "1995-02-18",
+      "ageAtTournament": 31,
+      "club": {
+        "name": "Manchester City",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Jurriën Timber",
+      "position": "DF",
+      "born": "2001-06-17",
+      "ageAtTournament": 24,
+      "club": {
+        "name": "Arsenal",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Micky van de Ven",
+      "position": "DF",
+      "born": "2001-04-19",
+      "ageAtTournament": 25,
+      "club": {
+        "name": "Tottenham Hotspur",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Mats Wieffer",
+      "position": "DF",
+      "born": "1999-11-16",
+      "ageAtTournament": 26,
+      "club": {
+        "name": "Brighton & Hove Albion",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Jan Paul van Hecke",
+      "position": "DF",
+      "born": "2000-06-08",
+      "ageAtTournament": 26,
+      "club": {
+        "name": "Brighton & Hove Albion",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Jorrel Hato",
+      "position": "DF",
+      "born": "2006-03-07",
+      "ageAtTournament": 20,
+      "club": {
+        "name": "Chelsea",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Frenkie de Jong",
+      "position": "MF",
+      "born": "1997-05-12",
+      "ageAtTournament": 29,
+      "club": {
+        "name": "Barcelona",
+        "country": "Spain"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Marten de Roon",
+      "position": "MF",
+      "born": "1991-03-29",
+      "ageAtTournament": 35,
+      "club": {
+        "name": "Atalanta",
+        "country": "Italy"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Tijjani Reijnders",
+      "position": "MF",
+      "born": "1998-07-29",
+      "ageAtTournament": 27,
+      "club": {
+        "name": "Manchester City",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Teun Koopmeiners",
+      "position": "MF",
+      "born": "1998-02-28",
+      "ageAtTournament": 28,
+      "club": {
+        "name": "Juventus",
+        "country": "Italy"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Ryan Gravenberch",
+      "position": "MF",
+      "born": "2002-05-16",
+      "ageAtTournament": 24,
+      "club": {
+        "name": "Liverpool",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Justin Kluivert",
+      "position": "MF",
+      "born": "1999-05-05",
+      "ageAtTournament": 27,
+      "club": {
+        "name": "Bournemouth",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Quinten Timber",
+      "position": "MF",
+      "born": "2001-06-17",
+      "ageAtTournament": 24,
+      "club": {
+        "name": "Marseille",
+        "country": "France"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Guus Til",
+      "position": "MF",
+      "born": "1997-12-22",
+      "ageAtTournament": 28,
+      "club": {
+        "name": "PSV Eindhoven",
+        "country": "Netherlands"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Memphis Depay",
+      "position": "FW",
+      "born": "1994-02-13",
+      "ageAtTournament": 32,
+      "club": {
+        "name": "Corinthians",
+        "country": "Brazil"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Wout Weghorst",
+      "position": "FW",
+      "born": "1992-08-07",
+      "ageAtTournament": 33,
+      "club": {
+        "name": "Ajax",
+        "country": "Netherlands"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Donyell Malen",
+      "position": "FW",
+      "born": "1999-01-19",
+      "ageAtTournament": 27,
+      "club": {
+        "name": "Roma",
+        "country": "Italy"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Cody Gakpo",
+      "position": "FW",
+      "born": "1999-05-07",
+      "ageAtTournament": 27,
+      "club": {
+        "name": "Liverpool",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Noa Lang",
+      "position": "FW",
+      "born": "1999-06-17",
+      "ageAtTournament": 26,
+      "club": {
+        "name": "Galatasaray",
+        "country": "Turkey"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Brian Brobbey",
+      "position": "FW",
+      "born": "2002-02-01",
+      "ageAtTournament": 24,
+      "club": {
+        "name": "Sunderland",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Crysencio Summerville",
+      "position": "FW",
+      "born": "2001-10-30",
+      "ageAtTournament": 24,
+      "club": {
+        "name": "West Ham United",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    }
+  ]
+}

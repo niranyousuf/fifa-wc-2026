@@ -1,0 +1,343 @@
+{
+  "savedAt": 1780056317815,
+  "data": [
+    {
+      "jersey": null,
+      "name": "Ronwen Williams (captain)",
+      "position": "GK",
+      "born": "1992-01-21",
+      "ageAtTournament": 34,
+      "club": {
+        "name": "Mamelodi Sundowns",
+        "country": "South Africa"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Ricardo Goss",
+      "position": "GK",
+      "born": "1994-04-02",
+      "ageAtTournament": 32,
+      "club": {
+        "name": "Siwelele",
+        "country": "South Africa"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Sipho Chaine",
+      "position": "GK",
+      "born": "1996-12-14",
+      "ageAtTournament": 29,
+      "club": {
+        "name": "Orlando Pirates",
+        "country": "South Africa"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Aubrey Modiba",
+      "position": "DF",
+      "born": "1995-07-22",
+      "ageAtTournament": 30,
+      "club": {
+        "name": "Mamelodi Sundowns",
+        "country": "South Africa"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Khuliso Mudau",
+      "position": "DF",
+      "born": "1995-04-26",
+      "ageAtTournament": 31,
+      "club": {
+        "name": "Mamelodi Sundowns",
+        "country": "South Africa"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Nkosinathi Sibisi",
+      "position": "DF",
+      "born": "1995-09-22",
+      "ageAtTournament": 30,
+      "club": {
+        "name": "Orlando Pirates",
+        "country": "South Africa"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Mbekezeli Mbokazi",
+      "position": "DF",
+      "born": "2005-09-19",
+      "ageAtTournament": 20,
+      "club": {
+        "name": "Chicago Fire",
+        "country": "United States"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Ime Okon",
+      "position": "DF",
+      "born": "2004-02-20",
+      "ageAtTournament": 22,
+      "club": {
+        "name": "Hannover 96",
+        "country": "Germany"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Samukele Kabini",
+      "position": "DF",
+      "born": "2004-03-15",
+      "ageAtTournament": 22,
+      "club": {
+        "name": "Molde",
+        "country": "Norway"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Khulumani Ndamane",
+      "position": "DF",
+      "born": "2004-02-05",
+      "ageAtTournament": 22,
+      "club": {
+        "name": "Mamelodi Sundowns",
+        "country": "South Africa"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Thabang Matuludi",
+      "position": "DF",
+      "born": "1999-01-14",
+      "ageAtTournament": 27,
+      "club": {
+        "name": "Polokwane City",
+        "country": "South Africa"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Kamogelo Sebelebele",
+      "position": "DF",
+      "born": "2002-07-21",
+      "ageAtTournament": 23,
+      "club": {
+        "name": "Orlando Pirates",
+        "country": "South Africa"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Bradley Cross",
+      "position": "DF",
+      "born": "2001-01-30",
+      "ageAtTournament": 25,
+      "club": {
+        "name": "Kaizer Chiefs",
+        "country": "South Africa"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Olwethu Makhanya",
+      "position": "DF",
+      "born": "2004-04-30",
+      "ageAtTournament": 22,
+      "club": {
+        "name": "Philadelphia Union",
+        "country": "United States"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Teboho Mokoena",
+      "position": "MF",
+      "born": "1997-01-24",
+      "ageAtTournament": 29,
+      "club": {
+        "name": "Mamelodi Sundowns",
+        "country": "South Africa"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Sphephelo Sithole",
+      "position": "MF",
+      "born": "1999-03-03",
+      "ageAtTournament": 27,
+      "club": {
+        "name": "Tondela",
+        "country": ""
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Thalente Mbatha",
+      "position": "MF",
+      "born": "2000-03-06",
+      "ageAtTournament": 26,
+      "club": {
+        "name": "Orlando Pirates",
+        "country": "South Africa"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Jayden Adams",
+      "position": "MF",
+      "born": "2001-05-05",
+      "ageAtTournament": 25,
+      "club": {
+        "name": "Mamelodi Sundowns",
+        "country": "South Africa"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Themba Zwane",
+      "position": "FW",
+      "born": "1989-08-03",
+      "ageAtTournament": 36,
+      "club": {
+        "name": "Mamelodi Sundowns",
+        "country": "South Africa"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Lyle Foster",
+      "position": "FW",
+      "born": "2000-05-09",
+      "ageAtTournament": 26,
+      "club": {
+        "name": "Burnley",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Evidence Makgopa",
+      "position": "FW",
+      "born": "2000-06-05",
+      "ageAtTournament": 26,
+      "club": {
+        "name": "Orlando Pirates",
+        "country": "South Africa"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Oswin Appollis",
+      "position": "FW",
+      "born": "2001-08-25",
+      "ageAtTournament": 24,
+      "club": {
+        "name": "Orlando Pirates",
+        "country": "South Africa"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Iqraam Rayners",
+      "position": "FW",
+      "born": "1995-12-19",
+      "ageAtTournament": 30,
+      "club": {
+        "name": "Mamelodi Sundowns",
+        "country": "South Africa"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Relebohile Mofokeng",
+      "position": "FW",
+      "born": "2004-10-23",
+      "ageAtTournament": 21,
+      "club": {
+        "name": "Orlando Pirates",
+        "country": "South Africa"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Thapelo Maseko",
+      "position": "FW",
+      "born": "2003-11-11",
+      "ageAtTournament": 22,
+      "club": {
+        "name": "AEL Limassol",
+        "country": "Cyprus"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Tshepang Moremi",
+      "position": "FW",
+      "born": "2000-10-02",
+      "ageAtTournament": 25,
+      "club": {
+        "name": "Orlando Pirates",
+        "country": "South Africa"
+      },
+      "goals": 0,
+      "captain": false
+    }
+  ]
+}

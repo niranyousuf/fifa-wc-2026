@@ -1,0 +1,720 @@
+{
+  "savedAt": 1780056317811,
+  "data": [
+    {
+      "jersey": null,
+      "name": "Guillermo Ochoa",
+      "position": "GK",
+      "born": "1985-07-13",
+      "ageAtTournament": 40,
+      "club": {
+        "name": "AEL Limassol",
+        "country": "Cyprus"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Raúl Rangel",
+      "position": "GK",
+      "born": "2000-02-25",
+      "ageAtTournament": 26,
+      "club": {
+        "name": "Guadalajara",
+        "country": "Mexico"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Carlos Acevedo",
+      "position": "GK",
+      "born": "1996-04-19",
+      "ageAtTournament": 30,
+      "club": {
+        "name": "Santos Laguna",
+        "country": "Mexico"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "José Antonio Rodríguez",
+      "position": "GK",
+      "born": "1992-07-04",
+      "ageAtTournament": 33,
+      "club": {
+        "name": "Tijuana",
+        "country": "Mexico"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Carlos Moreno",
+      "position": "GK",
+      "born": "1998-01-29",
+      "ageAtTournament": 28,
+      "club": {
+        "name": "Pachuca",
+        "country": "Mexico"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Alex Padilla",
+      "position": "GK",
+      "born": "2003-09-01",
+      "ageAtTournament": 22,
+      "club": {
+        "name": "Athletic Bilbao",
+        "country": "Spain"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Jesús Gallardo",
+      "position": "DF",
+      "born": "1994-08-15",
+      "ageAtTournament": 31,
+      "club": {
+        "name": "Toluca",
+        "country": "Mexico"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "César Montes",
+      "position": "DF",
+      "born": "1997-02-24",
+      "ageAtTournament": 29,
+      "club": {
+        "name": "Lokomotiv Moscow",
+        "country": "Russia"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Jorge Sánchez",
+      "position": "DF",
+      "born": "1997-12-10",
+      "ageAtTournament": 28,
+      "club": {
+        "name": "PAOK",
+        "country": "Greece"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Johan Vásquez",
+      "position": "DF",
+      "born": "1998-10-22",
+      "ageAtTournament": 27,
+      "club": {
+        "name": "Genoa",
+        "country": "Italy"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Israel Reyes",
+      "position": "DF",
+      "born": "2000-05-23",
+      "ageAtTournament": 26,
+      "club": {
+        "name": "América",
+        "country": "Mexico"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Jesús Alberto Angulo",
+      "position": "DF",
+      "born": "1998-01-30",
+      "ageAtTournament": 28,
+      "club": {
+        "name": "UANL",
+        "country": "Mexico"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Julián Araujo",
+      "position": "DF",
+      "born": "2001-08-13",
+      "ageAtTournament": 24,
+      "club": {
+        "name": "Celtic",
+        "country": "Scotland"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Mateo Chávez",
+      "position": "DF",
+      "born": "2004-05-11",
+      "ageAtTournament": 22,
+      "club": {
+        "name": "AZ",
+        "country": "Netherlands"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Víctor Guzmán",
+      "position": "DF",
+      "born": "2002-03-07",
+      "ageAtTournament": 24,
+      "club": {
+        "name": "Monterrey",
+        "country": "Mexico"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Richard Ledezma",
+      "position": "DF",
+      "born": "2000-09-06",
+      "ageAtTournament": 25,
+      "club": {
+        "name": "Guadalajara",
+        "country": "Mexico"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Everardo López",
+      "position": "DF",
+      "born": "2005-03-23",
+      "ageAtTournament": 21,
+      "club": {
+        "name": "Toluca",
+        "country": "Mexico"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Denzell García",
+      "position": "DF",
+      "born": "2003-08-15",
+      "ageAtTournament": 22,
+      "club": {
+        "name": "Juárez",
+        "country": "Mexico"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Bryan González",
+      "position": "DF",
+      "born": "2003-04-10",
+      "ageAtTournament": 23,
+      "club": {
+        "name": "Guadalajara",
+        "country": "Mexico"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Ramón Juárez",
+      "position": "DF",
+      "born": "2001-05-03",
+      "ageAtTournament": 25,
+      "club": {
+        "name": "América",
+        "country": "Mexico"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Eduardo Águila",
+      "position": "DF",
+      "born": "2002-05-17",
+      "ageAtTournament": 24,
+      "club": {
+        "name": "Atlético San Luis",
+        "country": "Mexico"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Alejandro Gómez",
+      "position": "DF",
+      "born": "2002-01-31",
+      "ageAtTournament": 24,
+      "club": {
+        "name": "Tijuana",
+        "country": "Mexico"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Luis Rey",
+      "position": "DF",
+      "born": "2002-09-14",
+      "ageAtTournament": 23,
+      "club": {
+        "name": "Puebla",
+        "country": "Mexico"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Edson Álvarez (captain)",
+      "position": "MF",
+      "born": "1997-10-24",
+      "ageAtTournament": 28,
+      "club": {
+        "name": "Fenerbahçe",
+        "country": "Turkey"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Orbelín Pineda",
+      "position": "MF",
+      "born": "1996-03-24",
+      "ageAtTournament": 30,
+      "club": {
+        "name": "AEK Athens",
+        "country": "Greece"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Carlos Rodríguez",
+      "position": "MF",
+      "born": "1997-01-03",
+      "ageAtTournament": 29,
+      "club": {
+        "name": "Cruz Azul",
+        "country": "Mexico"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Roberto Alvarado",
+      "position": "MF",
+      "born": "1998-09-07",
+      "ageAtTournament": 27,
+      "club": {
+        "name": "Guadalajara",
+        "country": "Mexico"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Luis Romo",
+      "position": "MF",
+      "born": "1995-06-05",
+      "ageAtTournament": 31,
+      "club": {
+        "name": "Guadalajara",
+        "country": "Mexico"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Luis Chávez",
+      "position": "MF",
+      "born": "1996-01-15",
+      "ageAtTournament": 30,
+      "club": {
+        "name": "Dynamo Moscow",
+        "country": "Russia"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Érick Sánchez",
+      "position": "MF",
+      "born": "1999-09-27",
+      "ageAtTournament": 26,
+      "club": {
+        "name": "América",
+        "country": "Mexico"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Diego Lainez",
+      "position": "MF",
+      "born": "2000-06-09",
+      "ageAtTournament": 26,
+      "club": {
+        "name": "UANL",
+        "country": "Mexico"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Érik Lira",
+      "position": "MF",
+      "born": "2000-05-08",
+      "ageAtTournament": 26,
+      "club": {
+        "name": "Cruz Azul",
+        "country": "Mexico"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Marcel Ruiz",
+      "position": "MF",
+      "born": "2000-10-26",
+      "ageAtTournament": 25,
+      "club": {
+        "name": "Toluca",
+        "country": "Mexico"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Efraín Álvarez",
+      "position": "MF",
+      "born": "2002-06-19",
+      "ageAtTournament": 23,
+      "club": {
+        "name": "Guadalajara",
+        "country": "Mexico"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Brian Gutiérrez",
+      "position": "MF",
+      "born": "2003-06-17",
+      "ageAtTournament": 22,
+      "club": {
+        "name": "Guadalajara",
+        "country": "Mexico"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Alexis Gutiérrez",
+      "position": "MF",
+      "born": "2001-02-26",
+      "ageAtTournament": 25,
+      "club": {
+        "name": "América",
+        "country": "Mexico"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Gilberto Mora",
+      "position": "MF",
+      "born": "2008-10-14",
+      "ageAtTournament": 17,
+      "club": {
+        "name": "Tijuana",
+        "country": "Mexico"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Obed Vargas",
+      "position": "MF",
+      "born": "2005-08-05",
+      "ageAtTournament": 20,
+      "club": {
+        "name": "Atlético Madrid",
+        "country": "Spain"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Jesús Ricardo Angulo",
+      "position": "MF",
+      "born": "1997-02-20",
+      "ageAtTournament": 29,
+      "club": {
+        "name": "Toluca",
+        "country": "Mexico"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Jordán Carrillo",
+      "position": "MF",
+      "born": "2001-11-30",
+      "ageAtTournament": 24,
+      "club": {
+        "name": "UNAM",
+        "country": "Mexico"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Kevin Castañeda",
+      "position": "MF",
+      "born": "1999-10-28",
+      "ageAtTournament": 26,
+      "club": {
+        "name": "Tijuana",
+        "country": "Mexico"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Álvaro Fidalgo",
+      "position": "MF",
+      "born": "1997-04-09",
+      "ageAtTournament": 29,
+      "club": {
+        "name": "Real Betis",
+        "country": "Spain"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Jorge Ruvalcaba",
+      "position": "MF",
+      "born": "2001-07-23",
+      "ageAtTournament": 24,
+      "club": {
+        "name": "New York Red Bulls",
+        "country": "United States"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Alexéi Domínguez",
+      "position": "MF",
+      "born": "2005-01-03",
+      "ageAtTournament": 21,
+      "club": {
+        "name": "Pachuca",
+        "country": "Mexico"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Jeremy Márquez",
+      "position": "MF",
+      "born": "2000-06-21",
+      "ageAtTournament": 25,
+      "club": {
+        "name": "Cruz Azul",
+        "country": "Mexico"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Elías Montiel",
+      "position": "MF",
+      "born": "2005-10-07",
+      "ageAtTournament": 20,
+      "club": {
+        "name": "Pachuca",
+        "country": "Mexico"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Isaías Violante",
+      "position": "MF",
+      "born": "2003-10-20",
+      "ageAtTournament": 22,
+      "club": {
+        "name": "América",
+        "country": "Mexico"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Raúl Jiménez",
+      "position": "FW",
+      "born": "1991-05-05",
+      "ageAtTournament": 35,
+      "club": {
+        "name": "Fulham",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Alexis Vega",
+      "position": "FW",
+      "born": "1997-11-25",
+      "ageAtTournament": 28,
+      "club": {
+        "name": "Toluca",
+        "country": "Mexico"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Santiago Giménez",
+      "position": "FW",
+      "born": "2001-04-18",
+      "ageAtTournament": 25,
+      "club": {
+        "name": "Milan",
+        "country": "Italy"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "César Huerta",
+      "position": "FW",
+      "born": "2000-12-03",
+      "ageAtTournament": 25,
+      "club": {
+        "name": "Anderlecht",
+        "country": ""
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Julián Quiñones",
+      "position": "FW",
+      "born": "1997-03-24",
+      "ageAtTournament": 29,
+      "club": {
+        "name": "Al-Qadsiah",
+        "country": "Saudi Arabia"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Germán Berterame",
+      "position": "FW",
+      "born": "1998-11-13",
+      "ageAtTournament": 27,
+      "club": {
+        "name": "Inter Miami CF",
+        "country": "United States"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Guillermo Martínez",
+      "position": "FW",
+      "born": "1995-03-15",
+      "ageAtTournament": 31,
+      "club": {
+        "name": "UNAM",
+        "country": "Mexico"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Armando González",
+      "position": "FW",
+      "born": "2003-04-20",
+      "ageAtTournament": 23,
+      "club": {
+        "name": "Guadalajara",
+        "country": "Mexico"
+      },
+      "goals": 0,
+      "captain": false
+    }
+  ]
+}

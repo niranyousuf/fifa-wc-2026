@@ -1,0 +1,343 @@
+{
+  "savedAt": 1780074882256,
+  "data": [
+    {
+      "jersey": null,
+      "name": "Unai Simón",
+      "position": "GK",
+      "born": "1997-06-11",
+      "ageAtTournament": 29,
+      "club": {
+        "name": "Athletic Bilbao",
+        "country": "Spain"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "David Raya",
+      "position": "GK",
+      "born": "1995-09-15",
+      "ageAtTournament": 30,
+      "club": {
+        "name": "Arsenal",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Joan Garcia",
+      "position": "GK",
+      "born": "2001-05-04",
+      "ageAtTournament": 25,
+      "club": {
+        "name": "Barcelona",
+        "country": "Spain"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Aymeric Laporte",
+      "position": "DF",
+      "born": "1994-05-27",
+      "ageAtTournament": 32,
+      "club": {
+        "name": "Athletic Bilbao",
+        "country": "Spain"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Marc Cucurella",
+      "position": "DF",
+      "born": "1998-07-22",
+      "ageAtTournament": 27,
+      "club": {
+        "name": "Chelsea",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Marcos Llorente",
+      "position": "DF",
+      "born": "1995-01-30",
+      "ageAtTournament": 31,
+      "club": {
+        "name": "Atlético Madrid",
+        "country": "Spain"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Eric García",
+      "position": "DF",
+      "born": "2001-01-09",
+      "ageAtTournament": 25,
+      "club": {
+        "name": "Barcelona",
+        "country": "Spain"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Pedro Porro",
+      "position": "DF",
+      "born": "1999-09-13",
+      "ageAtTournament": 26,
+      "club": {
+        "name": "Tottenham Hotspur",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Álex Grimaldo",
+      "position": "DF",
+      "born": "1995-09-20",
+      "ageAtTournament": 30,
+      "club": {
+        "name": "Bayer Leverkusen",
+        "country": "Germany"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Pau Cubarsí",
+      "position": "DF",
+      "born": "2007-01-22",
+      "ageAtTournament": 19,
+      "club": {
+        "name": "Barcelona",
+        "country": "Spain"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Marc Pubill",
+      "position": "DF",
+      "born": "2003-06-20",
+      "ageAtTournament": 22,
+      "club": {
+        "name": "Atlético Madrid",
+        "country": "Spain"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Rodri (captain)",
+      "position": "MF",
+      "born": "1996-06-22",
+      "ageAtTournament": 29,
+      "club": {
+        "name": "Manchester City",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Mikel Merino",
+      "position": "MF",
+      "born": "1996-06-22",
+      "ageAtTournament": 29,
+      "club": {
+        "name": "Arsenal",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Fabián Ruiz",
+      "position": "MF",
+      "born": "1996-04-03",
+      "ageAtTournament": 30,
+      "club": {
+        "name": "Paris Saint-Germain",
+        "country": "France"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Pedri",
+      "position": "MF",
+      "born": "2002-11-25",
+      "ageAtTournament": 23,
+      "club": {
+        "name": "Barcelona",
+        "country": "Spain"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Gavi",
+      "position": "MF",
+      "born": "2004-08-05",
+      "ageAtTournament": 21,
+      "club": {
+        "name": "Barcelona",
+        "country": "Spain"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Martín Zubimendi",
+      "position": "MF",
+      "born": "1999-02-02",
+      "ageAtTournament": 27,
+      "club": {
+        "name": "Arsenal",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Álex Baena",
+      "position": "MF",
+      "born": "2001-07-20",
+      "ageAtTournament": 24,
+      "club": {
+        "name": "Atlético Madrid",
+        "country": "Spain"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Ferran Torres",
+      "position": "FW",
+      "born": "2000-02-29",
+      "ageAtTournament": 26,
+      "club": {
+        "name": "Barcelona",
+        "country": "Spain"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Mikel Oyarzabal",
+      "position": "FW",
+      "born": "1997-04-21",
+      "ageAtTournament": 29,
+      "club": {
+        "name": "Real Sociedad",
+        "country": "Spain"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Dani Olmo",
+      "position": "FW",
+      "born": "1998-05-07",
+      "ageAtTournament": 28,
+      "club": {
+        "name": "Barcelona",
+        "country": "Spain"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Nico Williams",
+      "position": "FW",
+      "born": "2002-07-12",
+      "ageAtTournament": 23,
+      "club": {
+        "name": "Athletic Bilbao",
+        "country": "Spain"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Lamine Yamal",
+      "position": "FW",
+      "born": "2007-07-13",
+      "ageAtTournament": 18,
+      "club": {
+        "name": "Barcelona",
+        "country": "Spain"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Yéremy Pino",
+      "position": "FW",
+      "born": "2002-10-20",
+      "ageAtTournament": 23,
+      "club": {
+        "name": "Crystal Palace",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Borja Iglesias",
+      "position": "FW",
+      "born": "1993-01-17",
+      "ageAtTournament": 33,
+      "club": {
+        "name": "Celta Vigo",
+        "country": "Spain"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Víctor Muñoz",
+      "position": "FW",
+      "born": "2003-07-13",
+      "ageAtTournament": 22,
+      "club": {
+        "name": "Osasuna",
+        "country": "Spain"
+      },
+      "goals": 0,
+      "captain": false
+    }
+  ]
+}

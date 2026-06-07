@@ -5,7 +5,7 @@ import { getTeam } from "@/lib/api";
 import { TeamPageHero } from "@/components/TeamPageHero";
 import { TeamSquad } from "@/components/TeamSquad";
 
-export const revalidate = 3600;
+export const revalidate = 86400;
 
 export default async function TeamPage({ params }) {
   const { id } = await params;

@@ -2,7 +2,7 @@ import { TeamSearchBar } from "@/components/TeamSearchBar";
 import { TeamsRankedList } from "@/components/TeamsRankedList";
 import { getRankingsMeta, getTeamsRanked } from "@/lib/teamsRanked";
 
-export const revalidate = 3600;
+export const revalidate = 86400;
 
 export const metadata = {
   title: "Teams | FIFA World Cup 2026",

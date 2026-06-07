@@ -3,7 +3,7 @@ import promoImages from "@/data/hero-promo-images.json";
 import { getHubDataSafe } from "@/lib/api";
 import { pickRandomPromoImage } from "@/lib/heroSlides";
 
-export const revalidate = 300;
+export const revalidate = 86400;
 
 export const metadata = {
   title: "Home | FIFA World Cup 2026",

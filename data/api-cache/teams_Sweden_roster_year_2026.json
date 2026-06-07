@@ -1,0 +1,343 @@
+{
+  "savedAt": 1780041849123,
+  "data": [
+    {
+      "jersey": 1,
+      "name": "Jacob Widell Zetterström",
+      "position": "GK",
+      "born": "1998-07-11",
+      "ageAtTournament": 27,
+      "club": {
+        "name": "Derby County",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": 2,
+      "name": "Gustaf Lagerbielke",
+      "position": "DF",
+      "born": "2000-04-10",
+      "ageAtTournament": 26,
+      "club": {
+        "name": "Braga",
+        "country": ""
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": 3,
+      "name": "Victor Lindelöf (captain)",
+      "position": "DF",
+      "born": "1994-07-17",
+      "ageAtTournament": 31,
+      "club": {
+        "name": "Aston Villa",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": 4,
+      "name": "Isak Hien",
+      "position": "DF",
+      "born": "1999-01-13",
+      "ageAtTournament": 27,
+      "club": {
+        "name": "Atalanta",
+        "country": "Italy"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": 5,
+      "name": "Gabriel Gudmundsson",
+      "position": "DF",
+      "born": "1999-04-29",
+      "ageAtTournament": 27,
+      "club": {
+        "name": "Leeds United",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": 6,
+      "name": "Emil Holm",
+      "position": "DF",
+      "born": "2000-05-13",
+      "ageAtTournament": 26,
+      "club": {
+        "name": "Juventus",
+        "country": "Italy"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": 7,
+      "name": "Lucas Bergvall",
+      "position": "MF",
+      "born": "2006-02-02",
+      "ageAtTournament": 20,
+      "club": {
+        "name": "Tottenham Hotspur",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": 8,
+      "name": "Daniel Svensson",
+      "position": "DF",
+      "born": "2002-02-12",
+      "ageAtTournament": 24,
+      "club": {
+        "name": "Borussia Dortmund",
+        "country": "Germany"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": 9,
+      "name": "Alexander Isak",
+      "position": "FW",
+      "born": "1999-09-21",
+      "ageAtTournament": 26,
+      "club": {
+        "name": "Liverpool",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": 10,
+      "name": "Benjamin Nygren",
+      "position": "FW",
+      "born": "2001-07-08",
+      "ageAtTournament": 24,
+      "club": {
+        "name": "Celtic",
+        "country": "Scotland"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": 11,
+      "name": "Anthony Elanga",
+      "position": "FW",
+      "born": "2002-04-27",
+      "ageAtTournament": 24,
+      "club": {
+        "name": "Newcastle United",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": 12,
+      "name": "Viktor Johansson",
+      "position": "GK",
+      "born": "1998-09-14",
+      "ageAtTournament": 27,
+      "club": {
+        "name": "Stoke City",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": 13,
+      "name": "Ken Sema",
+      "position": "MF",
+      "born": "1993-09-30",
+      "ageAtTournament": 32,
+      "club": {
+        "name": "Pafos",
+        "country": "Cyprus"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": 14,
+      "name": "Hjalmar Ekdal",
+      "position": "DF",
+      "born": "1998-10-21",
+      "ageAtTournament": 27,
+      "club": {
+        "name": "Burnley",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": 15,
+      "name": "Carl Starfelt",
+      "position": "DF",
+      "born": "1995-06-01",
+      "ageAtTournament": 31,
+      "club": {
+        "name": "Celta Vigo",
+        "country": "Spain"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": 16,
+      "name": "Jesper Karlström",
+      "position": "MF",
+      "born": "1995-06-21",
+      "ageAtTournament": 30,
+      "club": {
+        "name": "Udinese",
+        "country": "Italy"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": 17,
+      "name": "Viktor Gyökeres",
+      "position": "FW",
+      "born": "1998-06-04",
+      "ageAtTournament": 28,
+      "club": {
+        "name": "Arsenal",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": 18,
+      "name": "Yasin Ayari",
+      "position": "MF",
+      "born": "2003-10-06",
+      "ageAtTournament": 22,
+      "club": {
+        "name": "Brighton & Hove Albion",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": 19,
+      "name": "Mattias Svanberg",
+      "position": "MF",
+      "born": "1999-01-05",
+      "ageAtTournament": 27,
+      "club": {
+        "name": "VfL Wolfsburg",
+        "country": "Germany"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": 20,
+      "name": "Eric Smith",
+      "position": "DF",
+      "born": "1997-01-08",
+      "ageAtTournament": 29,
+      "club": {
+        "name": "FC St. Pauli",
+        "country": "Germany"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": 21,
+      "name": "Alexander Bernhardsson",
+      "position": "FW",
+      "born": "1998-09-08",
+      "ageAtTournament": 27,
+      "club": {
+        "name": "Holstein Kiel",
+        "country": "Germany"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": 22,
+      "name": "Besfort Zeneli",
+      "position": "MF",
+      "born": "2002-11-21",
+      "ageAtTournament": 23,
+      "club": {
+        "name": "Union Saint-Gilloise",
+        "country": ""
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": 23,
+      "name": "Kristoffer Nordfeldt",
+      "position": "GK",
+      "born": "1989-06-23",
+      "ageAtTournament": 36,
+      "club": {
+        "name": "AIK",
+        "country": "Sweden"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": 24,
+      "name": "Elliot Stroud",
+      "position": "DF",
+      "born": "2002-06-22",
+      "ageAtTournament": 23,
+      "club": {
+        "name": "Mjällby AIF",
+        "country": "Sweden"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": 25,
+      "name": "Gustaf Nilsson",
+      "position": "FW",
+      "born": "1997-05-23",
+      "ageAtTournament": 29,
+      "club": {
+        "name": "Club Brugge",
+        "country": ""
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": 26,
+      "name": "Taha Ali",
+      "position": "FW",
+      "born": "1998-07-01",
+      "ageAtTournament": 27,
+      "club": {
+        "name": "Malmö FF",
+        "country": "Sweden"
+      },
+      "goals": 0,
+      "captain": false
+    }
+  ]
+}

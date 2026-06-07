@@ -1,0 +1,343 @@
+{
+  "savedAt": 1780038368153,
+  "data": [
+    {
+      "jersey": null,
+      "name": "Kim Seung-gyu",
+      "position": "GK",
+      "born": "1990-09-30",
+      "ageAtTournament": 35,
+      "club": {
+        "name": "FC Tokyo",
+        "country": "Japan"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Jo Hyeon-woo",
+      "position": "GK",
+      "born": "1991-09-25",
+      "ageAtTournament": 34,
+      "club": {
+        "name": "Ulsan HD",
+        "country": "South Korea"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Song Bum-keun",
+      "position": "GK",
+      "born": "1997-10-15",
+      "ageAtTournament": 28,
+      "club": {
+        "name": "Jeonbuk Hyundai Motors",
+        "country": "South Korea"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Kim Min-jae",
+      "position": "DF",
+      "born": "1996-11-15",
+      "ageAtTournament": 29,
+      "club": {
+        "name": "Bayern Munich",
+        "country": "Germany"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Kim Moon-hwan",
+      "position": "DF",
+      "born": "1995-08-01",
+      "ageAtTournament": 30,
+      "club": {
+        "name": "Daejeon Hana Citizen",
+        "country": "South Korea"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Seol Young-woo",
+      "position": "DF",
+      "born": "1998-12-05",
+      "ageAtTournament": 27,
+      "club": {
+        "name": "Red Star Belgrade",
+        "country": "Serbia"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Cho Yu-min",
+      "position": "DF",
+      "born": "1996-11-17",
+      "ageAtTournament": 29,
+      "club": {
+        "name": "Sharjah",
+        "country": "United Arab Emirates"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Lee Tae-seok",
+      "position": "DF",
+      "born": "2002-07-28",
+      "ageAtTournament": 23,
+      "club": {
+        "name": "Austria Wien",
+        "country": "Austria"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Park Jin-seob",
+      "position": "DF",
+      "born": "1995-10-23",
+      "ageAtTournament": 30,
+      "club": {
+        "name": "Zhejiang FC",
+        "country": ""
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Kim Tae-hyeon",
+      "position": "DF",
+      "born": "2000-09-17",
+      "ageAtTournament": 25,
+      "club": {
+        "name": "Kashima Antlers",
+        "country": "Japan"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Lee Han-beom",
+      "position": "DF",
+      "born": "2002-06-17",
+      "ageAtTournament": 23,
+      "club": {
+        "name": "Midtjylland",
+        "country": "Denmark"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Jens Castrop",
+      "position": "DF",
+      "born": "2003-07-29",
+      "ageAtTournament": 22,
+      "club": {
+        "name": "Borussia Mönchengladbach",
+        "country": "Germany"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Lee Ki-hyuk",
+      "position": "DF",
+      "born": "2000-07-07",
+      "ageAtTournament": 25,
+      "club": {
+        "name": "Gangwon FC",
+        "country": "South Korea"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Lee Jae-sung",
+      "position": "MF",
+      "born": "1992-08-10",
+      "ageAtTournament": 33,
+      "club": {
+        "name": "Mainz 05",
+        "country": "Germany"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Hwang Hee-chan",
+      "position": "MF",
+      "born": "1996-01-26",
+      "ageAtTournament": 30,
+      "club": {
+        "name": "Wolverhampton Wanderers",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Hwang In-beom",
+      "position": "MF",
+      "born": "1996-09-20",
+      "ageAtTournament": 29,
+      "club": {
+        "name": "Feyenoord",
+        "country": "Netherlands"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Lee Kang-in",
+      "position": "MF",
+      "born": "2001-02-19",
+      "ageAtTournament": 25,
+      "club": {
+        "name": "Paris Saint-Germain",
+        "country": "France"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Paik Seung-ho",
+      "position": "MF",
+      "born": "1997-03-17",
+      "ageAtTournament": 29,
+      "club": {
+        "name": "Birmingham City",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Kim Jin-gyu",
+      "position": "MF",
+      "born": "1997-02-24",
+      "ageAtTournament": 29,
+      "club": {
+        "name": "Jeonbuk Hyundai Motors",
+        "country": "South Korea"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Lee Dong-gyeong",
+      "position": "MF",
+      "born": "1997-09-20",
+      "ageAtTournament": 28,
+      "club": {
+        "name": "Ulsan HD",
+        "country": "South Korea"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Bae Jun-ho",
+      "position": "MF",
+      "born": "2003-08-21",
+      "ageAtTournament": 22,
+      "club": {
+        "name": "Stoke City",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Eom Ji-sung",
+      "position": "MF",
+      "born": "2002-05-09",
+      "ageAtTournament": 24,
+      "club": {
+        "name": "Swansea City",
+        "country": "Wales"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Yang Hyun-jun",
+      "position": "MF",
+      "born": "2002-05-25",
+      "ageAtTournament": 24,
+      "club": {
+        "name": "Celtic",
+        "country": "Scotland"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Son Heung-min (captain)",
+      "position": "FW",
+      "born": "1992-07-08",
+      "ageAtTournament": 33,
+      "club": {
+        "name": "Los Angeles FC",
+        "country": "United States"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Cho Gue-sung",
+      "position": "FW",
+      "born": "1998-01-25",
+      "ageAtTournament": 28,
+      "club": {
+        "name": "Midtjylland",
+        "country": "Denmark"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Oh Hyeon-gyu",
+      "position": "FW",
+      "born": "2001-04-12",
+      "ageAtTournament": 25,
+      "club": {
+        "name": "Beşiktaş",
+        "country": "Turkey"
+      },
+      "goals": 0,
+      "captain": false
+    }
+  ]
+}

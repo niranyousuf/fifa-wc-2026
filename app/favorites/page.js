@@ -2,7 +2,7 @@ import { FavoritesPageClient } from "@/components/favorites/FavoritesPageClient"
 import { getHubDataSafe } from "@/lib/api";
 import { getTeamsRanked } from "@/lib/teamsRanked";
 
-export const revalidate = 300;
+export const revalidate = 86400;
 
 export const metadata = {
   title: "Favorites | FIFA World Cup 2026",

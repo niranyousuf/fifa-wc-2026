@@ -1,0 +1,395 @@
+{
+  "savedAt": 1780199290141,
+  "data": [
+    {
+      "jersey": null,
+      "name": "Mohammed Al-Owais",
+      "position": "GK",
+      "born": "1991-10-10",
+      "ageAtTournament": 34,
+      "club": {
+        "name": "Al-Ula",
+        "country": "Saudi Arabia"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Nawaf Al-Aqidi",
+      "position": "GK",
+      "born": "2000-05-10",
+      "ageAtTournament": 26,
+      "club": {
+        "name": "Al-Nassr",
+        "country": "Saudi Arabia"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Ahmed Al-Kassar",
+      "position": "GK",
+      "born": "1991-05-08",
+      "ageAtTournament": 35,
+      "club": {
+        "name": "Al-Qadsiah",
+        "country": "Saudi Arabia"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Abdulquddus Atiah",
+      "position": "GK",
+      "born": "1997-03-01",
+      "ageAtTournament": 29,
+      "club": {
+        "name": "Al-Taawoun",
+        "country": "Saudi Arabia"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Saud Abdulhamid",
+      "position": "DF",
+      "born": "1999-07-18",
+      "ageAtTournament": 26,
+      "club": {
+        "name": "Lens",
+        "country": "France"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Hassan Al-Tambakti",
+      "position": "DF",
+      "born": "1999-02-09",
+      "ageAtTournament": 27,
+      "club": {
+        "name": "Al-Hilal",
+        "country": "Saudi Arabia"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Abdulelah Al-Amri",
+      "position": "DF",
+      "born": "1997-01-15",
+      "ageAtTournament": 29,
+      "club": {
+        "name": "Al-Nassr",
+        "country": "Saudi Arabia"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Nawaf Boushal",
+      "position": "DF",
+      "born": "1999-09-16",
+      "ageAtTournament": 26,
+      "club": {
+        "name": "Al-Nassr",
+        "country": "Saudi Arabia"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Ali Majrashi",
+      "position": "DF",
+      "born": "1999-10-02",
+      "ageAtTournament": 26,
+      "club": {
+        "name": "Al-Ahli",
+        "country": "Saudi Arabia"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Ali Lajami",
+      "position": "DF",
+      "born": "1996-04-24",
+      "ageAtTournament": 30,
+      "club": {
+        "name": "Al-Hilal",
+        "country": "Saudi Arabia"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Hassan Kadesh",
+      "position": "DF",
+      "born": "1992-09-27",
+      "ageAtTournament": 33,
+      "club": {
+        "name": "Al-Ittihad",
+        "country": "Saudi Arabia"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Moteb Al-Harbi",
+      "position": "DF",
+      "born": "2000-02-20",
+      "ageAtTournament": 26,
+      "club": {
+        "name": "Al-Hilal",
+        "country": "Saudi Arabia"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Jehad Thakri",
+      "position": "DF",
+      "born": "2001-07-21",
+      "ageAtTournament": 24,
+      "club": {
+        "name": "Al-Qadsiah",
+        "country": "Saudi Arabia"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Mohammed Abu Al-Shamat",
+      "position": "DF",
+      "born": "2002-08-11",
+      "ageAtTournament": 23,
+      "club": {
+        "name": "Al-Qadsiah",
+        "country": "Saudi Arabia"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Zakaria Hawsawi",
+      "position": "DF",
+      "born": "2001-01-12",
+      "ageAtTournament": 25,
+      "club": {
+        "name": "Al-Ahli",
+        "country": "Saudi Arabia"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Salem Al-Dawsari (captain)",
+      "position": "MF",
+      "born": "1991-08-19",
+      "ageAtTournament": 34,
+      "club": {
+        "name": "Al-Hilal",
+        "country": "Saudi Arabia"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Mohamed Kanno",
+      "position": "MF",
+      "born": "1994-09-22",
+      "ageAtTournament": 31,
+      "club": {
+        "name": "Al-Hilal",
+        "country": "Saudi Arabia"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Nasser Al-Dawsari",
+      "position": "MF",
+      "born": "1998-12-19",
+      "ageAtTournament": 27,
+      "club": {
+        "name": "Al-Hilal",
+        "country": "Saudi Arabia"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Abdullah Al-Khaibari",
+      "position": "MF",
+      "born": "1996-08-16",
+      "ageAtTournament": 29,
+      "club": {
+        "name": "Al-Nassr",
+        "country": "Saudi Arabia"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Musab Al-Juwayr",
+      "position": "MF",
+      "born": "2003-06-20",
+      "ageAtTournament": 22,
+      "club": {
+        "name": "Al-Qadsiah",
+        "country": "Saudi Arabia"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Ayman Yahya",
+      "position": "MF",
+      "born": "2001-05-14",
+      "ageAtTournament": 25,
+      "club": {
+        "name": "Al-Nassr",
+        "country": "Saudi Arabia"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Ziyad Al-Johani",
+      "position": "MF",
+      "born": "2001-11-11",
+      "ageAtTournament": 24,
+      "club": {
+        "name": "Al-Ahli",
+        "country": "Saudi Arabia"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Saleh Abu Al-Shamat",
+      "position": "MF",
+      "born": "2002-08-11",
+      "ageAtTournament": 23,
+      "club": {
+        "name": "Al-Ahli",
+        "country": "Saudi Arabia"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Sultan Mandash",
+      "position": "MF",
+      "born": "1994-10-17",
+      "ageAtTournament": 31,
+      "club": {
+        "name": "Al-Hilal",
+        "country": "Saudi Arabia"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Alaa Al-Hejji",
+      "position": "MF",
+      "born": "1995-12-03",
+      "ageAtTournament": 30,
+      "club": {
+        "name": "Neom",
+        "country": "Saudi Arabia"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Firas Al-Buraikan",
+      "position": "FW",
+      "born": "2000-05-14",
+      "ageAtTournament": 26,
+      "club": {
+        "name": "Al-Ahli",
+        "country": "Saudi Arabia"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Saleh Al-Shehri",
+      "position": "FW",
+      "born": "1993-11-01",
+      "ageAtTournament": 32,
+      "club": {
+        "name": "Al-Ittihad",
+        "country": "Saudi Arabia"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Abdullah Al-Hamdan",
+      "position": "FW",
+      "born": "1999-09-13",
+      "ageAtTournament": 26,
+      "club": {
+        "name": "Al-Nassr",
+        "country": "Saudi Arabia"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Khalid Al-Ghannam",
+      "position": "FW",
+      "born": "2000-11-08",
+      "ageAtTournament": 25,
+      "club": {
+        "name": "Al-Ettifaq",
+        "country": "Saudi Arabia"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Abdullah Al-Salem",
+      "position": "FW",
+      "born": "1992-12-19",
+      "ageAtTournament": 33,
+      "club": {
+        "name": "Al-Qadsiah",
+        "country": "Saudi Arabia"
+      },
+      "goals": 0,
+      "captain": false
+    }
+  ]
+}

@@ -1,0 +1,343 @@
+{
+  "savedAt": 1780042022760,
+  "data": [
+    {
+      "jersey": null,
+      "name": "Jordan Pickford",
+      "position": "GK",
+      "born": "1994-03-07",
+      "ageAtTournament": 32,
+      "club": {
+        "name": "Everton",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Dean Henderson",
+      "position": "GK",
+      "born": "1997-03-12",
+      "ageAtTournament": 29,
+      "club": {
+        "name": "Crystal Palace",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "James Trafford",
+      "position": "GK",
+      "born": "2002-10-10",
+      "ageAtTournament": 23,
+      "club": {
+        "name": "Manchester City",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "John Stones",
+      "position": "DF",
+      "born": "1994-05-28",
+      "ageAtTournament": 32,
+      "club": {
+        "name": "Manchester City",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Marc Guéhi",
+      "position": "DF",
+      "born": "2000-07-13",
+      "ageAtTournament": 25,
+      "club": {
+        "name": "Manchester City",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Reece James",
+      "position": "DF",
+      "born": "1999-12-08",
+      "ageAtTournament": 26,
+      "club": {
+        "name": "Chelsea",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Ezri Konsa",
+      "position": "DF",
+      "born": "1997-10-23",
+      "ageAtTournament": 28,
+      "club": {
+        "name": "Aston Villa",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Dan Burn",
+      "position": "DF",
+      "born": "1992-05-09",
+      "ageAtTournament": 34,
+      "club": {
+        "name": "Newcastle United",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Tino Livramento",
+      "position": "DF",
+      "born": "2002-11-12",
+      "ageAtTournament": 23,
+      "club": {
+        "name": "Newcastle United",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Djed Spence",
+      "position": "DF",
+      "born": "2000-08-09",
+      "ageAtTournament": 25,
+      "club": {
+        "name": "Tottenham Hotspur",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Nico O'Reilly",
+      "position": "DF",
+      "born": "2005-03-21",
+      "ageAtTournament": 21,
+      "club": {
+        "name": "Manchester City",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Jarell Quansah",
+      "position": "DF",
+      "born": "2003-01-29",
+      "ageAtTournament": 23,
+      "club": {
+        "name": "Bayer Leverkusen",
+        "country": "Germany"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Jordan Henderson",
+      "position": "MF",
+      "born": "1990-06-17",
+      "ageAtTournament": 35,
+      "club": {
+        "name": "Brentford",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Declan Rice",
+      "position": "MF",
+      "born": "1999-01-14",
+      "ageAtTournament": 27,
+      "club": {
+        "name": "Arsenal",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Jude Bellingham",
+      "position": "MF",
+      "born": "2003-06-29",
+      "ageAtTournament": 22,
+      "club": {
+        "name": "Real Madrid",
+        "country": "Spain"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Morgan Rogers",
+      "position": "MF",
+      "born": "2002-07-26",
+      "ageAtTournament": 23,
+      "club": {
+        "name": "Aston Villa",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Kobbie Mainoo",
+      "position": "MF",
+      "born": "2005-04-19",
+      "ageAtTournament": 21,
+      "club": {
+        "name": "Manchester United",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Elliot Anderson",
+      "position": "MF",
+      "born": "2002-11-06",
+      "ageAtTournament": 23,
+      "club": {
+        "name": "Nottingham Forest",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Harry Kane (captain)",
+      "position": "FW",
+      "born": "1993-07-28",
+      "ageAtTournament": 32,
+      "club": {
+        "name": "Bayern Munich",
+        "country": "Germany"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Marcus Rashford",
+      "position": "FW",
+      "born": "1997-10-31",
+      "ageAtTournament": 28,
+      "club": {
+        "name": "Barcelona",
+        "country": "Spain"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Bukayo Saka",
+      "position": "FW",
+      "born": "2001-09-05",
+      "ageAtTournament": 24,
+      "club": {
+        "name": "Arsenal",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Ollie Watkins",
+      "position": "FW",
+      "born": "1995-12-30",
+      "ageAtTournament": 30,
+      "club": {
+        "name": "Aston Villa",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Anthony Gordon",
+      "position": "FW",
+      "born": "2001-02-24",
+      "ageAtTournament": 25,
+      "club": {
+        "name": "Newcastle United",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Eberechi Eze",
+      "position": "FW",
+      "born": "1998-06-29",
+      "ageAtTournament": 27,
+      "club": {
+        "name": "Arsenal",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Noni Madueke",
+      "position": "FW",
+      "born": "2002-03-10",
+      "ageAtTournament": 24,
+      "club": {
+        "name": "Arsenal",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Ivan Toney",
+      "position": "FW",
+      "born": "1996-03-16",
+      "ageAtTournament": 30,
+      "club": {
+        "name": "Al-Ahli",
+        "country": "Saudi Arabia"
+      },
+      "goals": 0,
+      "captain": false
+    }
+  ]
+}

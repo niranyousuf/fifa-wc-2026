@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Fetches core Zafronix endpoints and writes data/api-cache/*.json
+ * Fetches core Zafronix endpoints and writes data/api-cache/{teams|standings|matches}/.
  * Run when API quota is available: npm run cache:warm
  */
 import fs from "fs";
@@ -9,6 +9,27 @@ import { fileURLToPath } from "url";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const envPath = path.join(root, ".env.local");
+const year = process.env.WC_YEAR || "2026";
+const base = "https://api.zafronix.com/fifa/worldcup/v1";
+const paths = [
+  `/teams?tournament=${year}`,
+  `/standings?year=${year}`,
+  `/matches?year=${year}`,
+];
+const cacheDir = path.join(root, "data", "api-cache");
+
+function cacheFileRelPath(apiPath) {
+  const clean = apiPath.replace(/^\//, "");
+  const [segment, query = ""] = clean.split("?");
+  const params = new URLSearchParams(query);
+  const label =
+    params.get("year") ??
+    params.get("tournament") ??
+    params.get("id") ??
+    "index";
+
+  return path.join(segment, `${label}.json`);
+}
 
 function loadApiKeys() {
   if (!fs.existsSync(envPath)) {
@@ -37,21 +58,6 @@ function loadApiKeys() {
   }
 
   return [...new Set(keys)];
-}
-
-const year = process.env.WC_YEAR || "2026";
-const base = "https://api.zafronix.com/fifa/worldcup/v1";
-const paths = [
-  `/teams?tournament=${year}`,
-  `/standings?year=${year}`,
-  `/matches?year=${year}`,
-];
-
-const cacheDir = path.join(root, "data", "api-cache");
-
-function cacheFileName(apiPath) {
-  const safe = apiPath.replace(/^\//, "").replace(/[^a-zA-Z0-9]+/g, "_");
-  return `${safe}.json`;
 }
 
 async function fetchPath(apiKeys, apiPath) {
@@ -91,15 +97,17 @@ async function main() {
   for (const apiPath of paths) {
     process.stdout.write(`Fetching ${apiPath}… `);
     const data = await fetchPath(apiKeys, apiPath);
-    const filePath = path.join(cacheDir, cacheFileName(apiPath));
+    const relativePath = cacheFileRelPath(apiPath);
+    const filePath = path.join(cacheDir, relativePath);
+    fs.mkdirSync(path.dirname(filePath), { recursive: true });
     fs.writeFileSync(
       filePath,
       JSON.stringify({ savedAt: Date.now(), data }, null, 2),
     );
-    console.log("ok →", path.basename(filePath));
+    console.log("ok →", relativePath);
   }
 
-  console.log("\nCache warmed. Restart dev server and reload /hub");
+  console.log("\nCache warmed (24h TTL). Commit data/api-cache/ and push for production fallback.");
 }
 
 main().catch((error) => {

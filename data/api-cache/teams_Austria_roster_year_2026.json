@@ -1,0 +1,343 @@
+{
+  "savedAt": 1780063918350,
+  "data": [
+    {
+      "jersey": 1,
+      "name": "Alexander Schlager",
+      "position": "GK",
+      "born": "1996-02-01",
+      "ageAtTournament": 30,
+      "club": {
+        "name": "Red Bull Salzburg",
+        "country": "Austria"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": 2,
+      "name": "David Affengruber",
+      "position": "DF",
+      "born": "2001-03-19",
+      "ageAtTournament": 25,
+      "club": {
+        "name": "Elche",
+        "country": "Spain"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": 3,
+      "name": "Kevin Danso",
+      "position": "DF",
+      "born": "1998-09-19",
+      "ageAtTournament": 27,
+      "club": {
+        "name": "Tottenham Hotspur",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": 4,
+      "name": "Xaver Schlager",
+      "position": "MF",
+      "born": "1997-09-28",
+      "ageAtTournament": 28,
+      "club": {
+        "name": "RB Leipzig",
+        "country": "Germany"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": 5,
+      "name": "Stefan Posch",
+      "position": "DF",
+      "born": "1997-05-14",
+      "ageAtTournament": 29,
+      "club": {
+        "name": "Mainz 05",
+        "country": "Germany"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": 6,
+      "name": "Nicolas Seiwald",
+      "position": "MF",
+      "born": "2001-05-04",
+      "ageAtTournament": 25,
+      "club": {
+        "name": "RB Leipzig",
+        "country": "Germany"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": 7,
+      "name": "Marko Arnautović",
+      "position": "FW",
+      "born": "1989-04-19",
+      "ageAtTournament": 37,
+      "club": {
+        "name": "Red Star Belgrade",
+        "country": "Serbia"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": 8,
+      "name": "David Alaba (captain)",
+      "position": "DF",
+      "born": "1992-06-24",
+      "ageAtTournament": 33,
+      "club": {
+        "name": "Real Madrid",
+        "country": "Spain"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": 9,
+      "name": "Marcel Sabitzer",
+      "position": "MF",
+      "born": "1994-03-17",
+      "ageAtTournament": 32,
+      "club": {
+        "name": "Borussia Dortmund",
+        "country": "Germany"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": 10,
+      "name": "Florian Grillitsch",
+      "position": "MF",
+      "born": "1995-08-07",
+      "ageAtTournament": 30,
+      "club": {
+        "name": "Braga",
+        "country": ""
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": 11,
+      "name": "Michael Gregoritsch",
+      "position": "FW",
+      "born": "1994-04-18",
+      "ageAtTournament": 32,
+      "club": {
+        "name": "FC Augsburg",
+        "country": "Germany"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": 12,
+      "name": "Florian Wiegele",
+      "position": "GK",
+      "born": "2001-03-21",
+      "ageAtTournament": 25,
+      "club": {
+        "name": "Viktoria Plzeň",
+        "country": "Czech Republic"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": 13,
+      "name": "Patrick Pentz",
+      "position": "GK",
+      "born": "1997-01-02",
+      "ageAtTournament": 29,
+      "club": {
+        "name": "Brøndby",
+        "country": "Denmark"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": 14,
+      "name": "Saša Kalajdžić",
+      "position": "FW",
+      "born": "1997-07-07",
+      "ageAtTournament": 28,
+      "club": {
+        "name": "LASK",
+        "country": "Austria"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": 15,
+      "name": "Philipp Lienhart",
+      "position": "DF",
+      "born": "1996-07-11",
+      "ageAtTournament": 29,
+      "club": {
+        "name": "SC Freiburg",
+        "country": "Germany"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": 16,
+      "name": "Phillipp Mwene",
+      "position": "DF",
+      "born": "1994-01-29",
+      "ageAtTournament": 32,
+      "club": {
+        "name": "Mainz 05",
+        "country": "Germany"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": 17,
+      "name": "Carney Chukwuemeka",
+      "position": "MF",
+      "born": "2003-10-20",
+      "ageAtTournament": 22,
+      "club": {
+        "name": "Borussia Dortmund",
+        "country": "Germany"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": 18,
+      "name": "Romano Schmid",
+      "position": "MF",
+      "born": "2000-01-27",
+      "ageAtTournament": 26,
+      "club": {
+        "name": "Werder Bremen",
+        "country": "Germany"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": 19,
+      "name": "Christoph Baumgartner",
+      "position": "MF",
+      "born": "1999-08-01",
+      "ageAtTournament": 26,
+      "club": {
+        "name": "RB Leipzig",
+        "country": "Germany"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": 20,
+      "name": "Konrad Laimer",
+      "position": "MF",
+      "born": "1997-05-27",
+      "ageAtTournament": 29,
+      "club": {
+        "name": "Bayern Munich",
+        "country": "Germany"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": 21,
+      "name": "Patrick Wimmer",
+      "position": "MF",
+      "born": "2001-05-30",
+      "ageAtTournament": 25,
+      "club": {
+        "name": "VfL Wolfsburg",
+        "country": "Germany"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": 22,
+      "name": "Alexander Prass",
+      "position": "DF",
+      "born": "2001-05-26",
+      "ageAtTournament": 25,
+      "club": {
+        "name": "TSG Hoffenheim",
+        "country": "Germany"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": 23,
+      "name": "Marco Friedl",
+      "position": "DF",
+      "born": "1998-03-16",
+      "ageAtTournament": 28,
+      "club": {
+        "name": "Werder Bremen",
+        "country": "Germany"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": 24,
+      "name": "Paul Wanner",
+      "position": "MF",
+      "born": "2005-12-23",
+      "ageAtTournament": 20,
+      "club": {
+        "name": "PSV Eindhoven",
+        "country": "Netherlands"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": 25,
+      "name": "Michael Svoboda",
+      "position": "DF",
+      "born": "1998-10-15",
+      "ageAtTournament": 27,
+      "club": {
+        "name": "Venezia",
+        "country": "Italy"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": 26,
+      "name": "Alessandro Schöpf",
+      "position": "MF",
+      "born": "1994-02-07",
+      "ageAtTournament": 32,
+      "club": {
+        "name": "Wolfsberger AC",
+        "country": "Austria"
+      },
+      "goals": 0,
+      "captain": false
+    }
+  ]
+}

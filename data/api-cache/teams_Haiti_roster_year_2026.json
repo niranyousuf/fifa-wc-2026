@@ -1,0 +1,343 @@
+{
+  "savedAt": 1780038273583,
+  "data": [
+    {
+      "jersey": null,
+      "name": "Johny Placide (captain)",
+      "position": "GK",
+      "born": "1988-01-29",
+      "ageAtTournament": 38,
+      "club": {
+        "name": "Bastia",
+        "country": "France"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Alexandre Pierre",
+      "position": "GK",
+      "born": "2001-02-25",
+      "ageAtTournament": 25,
+      "club": {
+        "name": "Sochaux",
+        "country": "France"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Josué Duverger",
+      "position": "GK",
+      "born": "2000-04-27",
+      "ageAtTournament": 26,
+      "club": {
+        "name": "Cosmos Koblenz",
+        "country": "Germany"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Ricardo Adé",
+      "position": "DF",
+      "born": "1990-05-21",
+      "ageAtTournament": 36,
+      "club": {
+        "name": "LDU Quito",
+        "country": "Ecuador"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Carlens Arcus",
+      "position": "DF",
+      "born": "1996-06-28",
+      "ageAtTournament": 29,
+      "club": {
+        "name": "Angers",
+        "country": "France"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Martin Expérience",
+      "position": "DF",
+      "born": "1999-03-09",
+      "ageAtTournament": 27,
+      "club": {
+        "name": "Nancy",
+        "country": "France"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Jean-Kévin Duverne",
+      "position": "DF",
+      "born": "1997-07-12",
+      "ageAtTournament": 28,
+      "club": {
+        "name": "Gent",
+        "country": ""
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Duke Lacroix",
+      "position": "DF",
+      "born": "1993-10-14",
+      "ageAtTournament": 32,
+      "club": {
+        "name": "Colorado Springs Switchbacks FC",
+        "country": "United States"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Wilguens Paugain",
+      "position": "DF",
+      "born": "2001-08-24",
+      "ageAtTournament": 24,
+      "club": {
+        "name": "Zulte Waregem",
+        "country": ""
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Hannes Delcroix",
+      "position": "DF",
+      "born": "1999-02-28",
+      "ageAtTournament": 27,
+      "club": {
+        "name": "Lugano",
+        "country": ""
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Keeto Thermoncy",
+      "position": "DF",
+      "born": "2006-03-29",
+      "ageAtTournament": 20,
+      "club": {
+        "name": "Young Boys",
+        "country": ""
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Leverton Pierre",
+      "position": "MF",
+      "born": "1998-03-09",
+      "ageAtTournament": 28,
+      "club": {
+        "name": "Vizela",
+        "country": ""
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Danley Jean Jacques",
+      "position": "MF",
+      "born": "2000-05-20",
+      "ageAtTournament": 26,
+      "club": {
+        "name": "Philadelphia Union",
+        "country": "United States"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Carl Sainté",
+      "position": "MF",
+      "born": "2002-08-09",
+      "ageAtTournament": 23,
+      "club": {
+        "name": "El Paso Locomotive FC",
+        "country": "United States"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Jean-Ricner Bellegarde",
+      "position": "MF",
+      "born": "1998-06-27",
+      "ageAtTournament": 27,
+      "club": {
+        "name": "Wolverhampton Wanderers",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Woodensky Pierre",
+      "position": "MF",
+      "born": "2004-12-30",
+      "ageAtTournament": 21,
+      "club": {
+        "name": "Violette",
+        "country": "Haiti"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Dominique Simon",
+      "position": "MF",
+      "born": "2000-07-29",
+      "ageAtTournament": 25,
+      "club": {
+        "name": "Tatran Prešov",
+        "country": "Slovakia"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Duckens Nazon",
+      "position": "FW",
+      "born": "1994-04-07",
+      "ageAtTournament": 32,
+      "club": {
+        "name": "Esteghlal",
+        "country": "Iran"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Frantzdy Pierrot",
+      "position": "FW",
+      "born": "1995-03-29",
+      "ageAtTournament": 31,
+      "club": {
+        "name": "Çaykur Rizespor",
+        "country": "Turkey"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Derrick Etienne Jr.",
+      "position": "FW",
+      "born": "1996-11-25",
+      "ageAtTournament": 29,
+      "club": {
+        "name": "Toronto FC",
+        "country": ""
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Louicius Deedson",
+      "position": "FW",
+      "born": "2001-02-11",
+      "ageAtTournament": 25,
+      "club": {
+        "name": "FC Dallas",
+        "country": "United States"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Ruben Providence",
+      "position": "FW",
+      "born": "2001-07-07",
+      "ageAtTournament": 24,
+      "club": {
+        "name": "Almere City",
+        "country": "Netherlands"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Josué Casimir",
+      "position": "FW",
+      "born": "2001-09-24",
+      "ageAtTournament": 24,
+      "club": {
+        "name": "Auxerre",
+        "country": "France"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Yassin Fortuné",
+      "position": "FW",
+      "born": "1999-01-30",
+      "ageAtTournament": 27,
+      "club": {
+        "name": "Vizela",
+        "country": ""
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Wilson Isidor",
+      "position": "FW",
+      "born": "2000-08-27",
+      "ageAtTournament": 25,
+      "club": {
+        "name": "Sunderland",
+        "country": "England"
+      },
+      "goals": 0,
+      "captain": false
+    },
+    {
+      "jersey": null,
+      "name": "Lenny Joseph",
+      "position": "FW",
+      "born": "2000-10-12",
+      "ageAtTournament": 25,
+      "club": {
+        "name": "Ferencváros",
+        "country": "Hungary"
+      },
+      "goals": 0,
+      "captain": false
+    }
+  ]
+}

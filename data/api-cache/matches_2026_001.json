@@ -1,0 +1,30 @@
+{
+  "savedAt": 1780199883330,
+  "data": {
+    "id": "2026-001",
+    "matchNo": 1,
+    "date": "2026-06-11",
+    "kickoff": "13:00",
+    "kickoffUtc": "2026-06-11T19:00:00.000Z",
+    "timezone": "mexico_city",
+    "stage": "group_a",
+    "homeTeam": "Mexico",
+    "awayTeam": "South Africa",
+    "homeRef": "Mexico",
+    "awayRef": "South Africa",
+    "homeScore": null,
+    "awayScore": null,
+    "result": null,
+    "extraTime": false,
+    "penalties": null,
+    "stadium": "Mexico City Stadium",
+    "stadiumId": "estadio-azteca",
+    "city": "Ciudad de México",
+    "country": "Mexico",
+    "attendance": null,
+    "referee": null,
+    "weather": null,
+    "stageNormalized": "group_a",
+    "events": []
+  }
+}

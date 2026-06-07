@@ -1,0 +1,30 @@
+{
+  "savedAt": 1780073844585,
+  "data": {
+    "id": "2026-003",
+    "matchNo": 3,
+    "date": "2026-06-12",
+    "kickoff": "15:00",
+    "kickoffUtc": "2026-06-12T19:00:00.000Z",
+    "timezone": "toronto",
+    "stage": "group_b",
+    "homeTeam": "Canada",
+    "awayTeam": "Bosnia and Herzegovina",
+    "homeRef": "Canada",
+    "awayRef": "Bosnia and Herzegovina",
+    "homeScore": null,
+    "awayScore": null,
+    "result": null,
+    "extraTime": false,
+    "penalties": null,
+    "stadium": "Toronto Stadium",
+    "stadiumId": "bmo-field",
+    "city": "Toronto",
+    "country": "Canada",
+    "attendance": null,
+    "referee": null,
+    "weather": null,
+    "stageNormalized": "group_b",
+    "events": []
+  }
+}

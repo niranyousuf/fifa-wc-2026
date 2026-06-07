@@ -1,0 +1,707 @@
+{
+  "savedAt": 1780073542686,
+  "data": [
+    {
+      "jersey": null,
+      "name": "Emiliano Martinez",
+      "position": "GK",
+      "born": null,
+      "ageAtTournament": null,
+      "club": {
+        "name": "Aston Villa",
+        "country": "England"
+      },
+      "goals": 0,
+      "preliminary": true
+    },
+    {
+      "jersey": null,
+      "name": "Geronimo Rulli",
+      "position": "GK",
+      "born": null,
+      "ageAtTournament": null,
+      "club": {
+        "name": "Marseille",
+        "country": "France"
+      },
+      "goals": 0,
+      "preliminary": true
+    },
+    {
+      "jersey": null,
+      "name": "Juan Musso",
+      "position": "GK",
+      "born": null,
+      "ageAtTournament": null,
+      "club": {
+        "name": "Atletico Madrid",
+        "country": "Spain"
+      },
+      "goals": 0,
+      "preliminary": true
+    },
+    {
+      "jersey": null,
+      "name": "Walter Benitez",
+      "position": "GK",
+      "born": null,
+      "ageAtTournament": null,
+      "club": {
+        "name": "Crystal Palace",
+        "country": "England"
+      },
+      "goals": 0,
+      "preliminary": true
+    },
+    {
+      "jersey": null,
+      "name": "Facundo Cambeses",
+      "position": "GK",
+      "born": null,
+      "ageAtTournament": null,
+      "club": {
+        "name": "Racing Club",
+        "country": "Argentina"
+      },
+      "goals": 0,
+      "preliminary": true
+    },
+    {
+      "jersey": null,
+      "name": "Santiago Beltran",
+      "position": "GK",
+      "born": null,
+      "ageAtTournament": null,
+      "club": {
+        "name": "River Plate",
+        "country": "Argentina"
+      },
+      "goals": 0,
+      "preliminary": true
+    },
+    {
+      "jersey": null,
+      "name": "Agustin Giay",
+      "position": "DF",
+      "born": null,
+      "ageAtTournament": null,
+      "club": {
+        "name": "Palmeiras",
+        "country": "Brazil"
+      },
+      "goals": 0,
+      "preliminary": true
+    },
+    {
+      "jersey": null,
+      "name": "Gonzalo Montiel",
+      "position": "DF",
+      "born": null,
+      "ageAtTournament": null,
+      "club": {
+        "name": "River Plate",
+        "country": "Argentina"
+      },
+      "goals": 0,
+      "preliminary": true
+    },
+    {
+      "jersey": null,
+      "name": "Nahuel Molina",
+      "position": "DF",
+      "born": null,
+      "ageAtTournament": null,
+      "club": {
+        "name": "Atletico Madrid",
+        "country": "Spain"
+      },
+      "goals": 0,
+      "preliminary": true
+    },
+    {
+      "jersey": null,
+      "name": "Kevin Mac Allister",
+      "position": "DF",
+      "born": null,
+      "ageAtTournament": null,
+      "club": {
+        "name": "Union Saint-Gilloise",
+        "country": "Belgium"
+      },
+      "goals": 0,
+      "preliminary": true
+    },
+    {
+      "jersey": null,
+      "name": "Lucas Martinez",
+      "position": "DF",
+      "born": null,
+      "ageAtTournament": null,
+      "club": {
+        "name": "River Plate",
+        "country": "Argentina"
+      },
+      "goals": 0,
+      "preliminary": true
+    },
+    {
+      "jersey": null,
+      "name": "Marcos Senesi",
+      "position": "DF",
+      "born": null,
+      "ageAtTournament": null,
+      "club": {
+        "name": "Bournemouth",
+        "country": "England"
+      },
+      "goals": 0,
+      "preliminary": true
+    },
+    {
+      "jersey": null,
+      "name": "Lisandro Martinez",
+      "position": "DF",
+      "born": null,
+      "ageAtTournament": null,
+      "club": {
+        "name": "Manchester United",
+        "country": "England"
+      },
+      "goals": 0,
+      "preliminary": true
+    },
+    {
+      "jersey": null,
+      "name": "Nicolas Otamendi",
+      "position": "DF",
+      "born": null,
+      "ageAtTournament": null,
+      "club": {
+        "name": "Benfica",
+        "country": "Portugal"
+      },
+      "goals": 0,
+      "preliminary": true
+    },
+    {
+      "jersey": null,
+      "name": "Leonardo Balerdi",
+      "position": "DF",
+      "born": null,
+      "ageAtTournament": null,
+      "club": {
+        "name": "Marseille",
+        "country": "France"
+      },
+      "goals": 0,
+      "preliminary": true
+    },
+    {
+      "jersey": null,
+      "name": "Cristian Romero",
+      "position": "DF",
+      "born": null,
+      "ageAtTournament": null,
+      "club": {
+        "name": "Tottenham Hotspur",
+        "country": "England"
+      },
+      "goals": 0,
+      "preliminary": true
+    },
+    {
+      "jersey": null,
+      "name": "German Pezzella",
+      "position": "DF",
+      "born": null,
+      "ageAtTournament": null,
+      "club": {
+        "name": "River Plate",
+        "country": "Argentina"
+      },
+      "goals": 0,
+      "preliminary": true
+    },
+    {
+      "jersey": null,
+      "name": "Lautaro Di Lollo",
+      "position": "DF",
+      "born": null,
+      "ageAtTournament": null,
+      "club": {
+        "name": "Boca Juniors",
+        "country": "Argentina"
+      },
+      "goals": 0,
+      "preliminary": true
+    },
+    {
+      "jersey": null,
+      "name": "Zaid Romero",
+      "position": "DF",
+      "born": null,
+      "ageAtTournament": null,
+      "club": {
+        "name": "Getafe",
+        "country": "Spain"
+      },
+      "goals": 0,
+      "preliminary": true
+    },
+    {
+      "jersey": null,
+      "name": "Facundo Medina",
+      "position": "DF",
+      "born": null,
+      "ageAtTournament": null,
+      "club": {
+        "name": "Marseille",
+        "country": "France"
+      },
+      "goals": 0,
+      "preliminary": true
+    },
+    {
+      "jersey": null,
+      "name": "Marco Acuna",
+      "position": "DF",
+      "born": null,
+      "ageAtTournament": null,
+      "club": {
+        "name": "River Plate",
+        "country": "Argentina"
+      },
+      "goals": 0,
+      "preliminary": true
+    },
+    {
+      "jersey": null,
+      "name": "Nicolas Tagliafico",
+      "position": "DF",
+      "born": null,
+      "ageAtTournament": null,
+      "club": {
+        "name": "Lyon",
+        "country": "France"
+      },
+      "goals": 0,
+      "preliminary": true
+    },
+    {
+      "jersey": null,
+      "name": "Gabriel Rojas",
+      "position": "DF",
+      "born": null,
+      "ageAtTournament": null,
+      "club": {
+        "name": "Racing Club",
+        "country": "Argentina"
+      },
+      "goals": 0,
+      "preliminary": true
+    },
+    {
+      "jersey": null,
+      "name": "Maximo Perrone",
+      "position": "MF",
+      "born": null,
+      "ageAtTournament": null,
+      "club": {
+        "name": "Como",
+        "country": "Italy"
+      },
+      "goals": 0,
+      "preliminary": true
+    },
+    {
+      "jersey": null,
+      "name": "Leandro Paredes",
+      "position": "MF",
+      "born": null,
+      "ageAtTournament": null,
+      "club": {
+        "name": "Boca Juniors",
+        "country": "Argentina"
+      },
+      "goals": 0,
+      "preliminary": true
+    },
+    {
+      "jersey": null,
+      "name": "Guido Rodriguez",
+      "position": "MF",
+      "born": null,
+      "ageAtTournament": null,
+      "club": {
+        "name": "Valencia",
+        "country": "Spain"
+      },
+      "goals": 0,
+      "preliminary": true
+    },
+    {
+      "jersey": null,
+      "name": "Anibal Moreno",
+      "position": "MF",
+      "born": null,
+      "ageAtTournament": null,
+      "club": {
+        "name": "River Plate",
+        "country": "Argentina"
+      },
+      "goals": 0,
+      "preliminary": true
+    },
+    {
+      "jersey": null,
+      "name": "Milton Delgado",
+      "position": "MF",
+      "born": null,
+      "ageAtTournament": null,
+      "club": {
+        "name": "Boca Juniors",
+        "country": "Argentina"
+      },
+      "goals": 0,
+      "preliminary": true
+    },
+    {
+      "jersey": null,
+      "name": "Alan Varela",
+      "position": "MF",
+      "born": null,
+      "ageAtTournament": null,
+      "club": {
+        "name": "Porto",
+        "country": "Portugal"
+      },
+      "goals": 0,
+      "preliminary": true
+    },
+    {
+      "jersey": null,
+      "name": "Ezequiel Fernandez",
+      "position": "MF",
+      "born": null,
+      "ageAtTournament": null,
+      "club": {
+        "name": "Bayer Leverkusen",
+        "country": "Germany"
+      },
+      "goals": 0,
+      "preliminary": true
+    },
+    {
+      "jersey": null,
+      "name": "Rodrigo De Paul",
+      "position": "MF",
+      "born": null,
+      "ageAtTournament": null,
+      "club": {
+        "name": "Inter Miami",
+        "country": "USA"
+      },
+      "goals": 0,
+      "preliminary": true
+    },
+    {
+      "jersey": null,
+      "name": "Exequiel Palacios",
+      "position": "MF",
+      "born": null,
+      "ageAtTournament": null,
+      "club": {
+        "name": "Bayer Leverkusen",
+        "country": "Germany"
+      },
+      "goals": 0,
+      "preliminary": true
+    },
+    {
+      "jersey": null,
+      "name": "Enzo Fernandez",
+      "position": "MF",
+      "born": null,
+      "ageAtTournament": null,
+      "club": {
+        "name": "Chelsea",
+        "country": "England"
+      },
+      "goals": 0,
+      "preliminary": true
+    },
+    {
+      "jersey": null,
+      "name": "Alex Mac Allister",
+      "position": "MF",
+      "born": null,
+      "ageAtTournament": null,
+      "club": {
+        "name": "Liverpool",
+        "country": "England"
+      },
+      "goals": 0,
+      "preliminary": true
+    },
+    {
+      "jersey": null,
+      "name": "Giovani Lo Celso",
+      "position": "MF",
+      "born": null,
+      "ageAtTournament": null,
+      "club": {
+        "name": "Real Betis",
+        "country": "Spain"
+      },
+      "goals": 0,
+      "preliminary": true
+    },
+    {
+      "jersey": null,
+      "name": "Nicolas Dominguez",
+      "position": "FW",
+      "born": null,
+      "ageAtTournament": null,
+      "club": {
+        "name": "Nottingham Forest",
+        "country": "England"
+      },
+      "goals": 0,
+      "preliminary": true
+    },
+    {
+      "jersey": null,
+      "name": "Emiliano Buendia",
+      "position": "FW",
+      "born": null,
+      "ageAtTournament": null,
+      "club": {
+        "name": "Aston Villa",
+        "country": "England"
+      },
+      "goals": 0,
+      "preliminary": true
+    },
+    {
+      "jersey": null,
+      "name": "Valentin Barco",
+      "position": "FW",
+      "born": null,
+      "ageAtTournament": null,
+      "club": {
+        "name": "Strasbourg",
+        "country": "France"
+      },
+      "goals": 0,
+      "preliminary": true
+    },
+    {
+      "jersey": null,
+      "name": "Lionel Messi",
+      "position": "FW",
+      "born": null,
+      "ageAtTournament": null,
+      "club": {
+        "name": "Inter Miami",
+        "country": "USA"
+      },
+      "goals": 0,
+      "preliminary": true
+    },
+    {
+      "jersey": null,
+      "name": "Nicolas Paz",
+      "position": "FW",
+      "born": null,
+      "ageAtTournament": null,
+      "club": {
+        "name": "Como",
+        "country": "Italy"
+      },
+      "goals": 0,
+      "preliminary": true
+    },
+    {
+      "jersey": null,
+      "name": "Franco Mastantuono",
+      "position": "FW",
+      "born": null,
+      "ageAtTournament": null,
+      "club": {
+        "name": "Real Madrid",
+        "country": "Spain"
+      },
+      "goals": 0,
+      "preliminary": true
+    },
+    {
+      "jersey": null,
+      "name": "Thiago Almada",
+      "position": "FW",
+      "born": null,
+      "ageAtTournament": null,
+      "club": {
+        "name": "Atletico Madrid",
+        "country": "Spain"
+      },
+      "goals": 0,
+      "preliminary": true
+    },
+    {
+      "jersey": null,
+      "name": "Tomas Aranda",
+      "position": "FW",
+      "born": null,
+      "ageAtTournament": null,
+      "club": {
+        "name": "Boca Juniors",
+        "country": "Argentina"
+      },
+      "goals": 0,
+      "preliminary": true
+    },
+    {
+      "jersey": null,
+      "name": "Nicolas Gonzalez",
+      "position": "FW",
+      "born": null,
+      "ageAtTournament": null,
+      "club": {
+        "name": "Atletico Madrid",
+        "country": "Spain"
+      },
+      "goals": 0,
+      "preliminary": true
+    },
+    {
+      "jersey": null,
+      "name": "Alejandro Garnacho",
+      "position": "FW",
+      "born": null,
+      "ageAtTournament": null,
+      "club": {
+        "name": "Chelsea",
+        "country": "England"
+      },
+      "goals": 0,
+      "preliminary": true
+    },
+    {
+      "jersey": null,
+      "name": "Giuliano Simeone",
+      "position": "FW",
+      "born": null,
+      "ageAtTournament": null,
+      "club": {
+        "name": "Atletico Madrid",
+        "country": "Spain"
+      },
+      "goals": 0,
+      "preliminary": true
+    },
+    {
+      "jersey": null,
+      "name": "Matis Soule",
+      "position": "FW",
+      "born": null,
+      "ageAtTournament": null,
+      "club": {
+        "name": "Roma",
+        "country": "Italy"
+      },
+      "goals": 0,
+      "preliminary": true
+    },
+    {
+      "jersey": null,
+      "name": "Claudio Echeverri",
+      "position": "FW",
+      "born": null,
+      "ageAtTournament": null,
+      "club": {
+        "name": "Girona",
+        "country": "Spain"
+      },
+      "goals": 0,
+      "preliminary": true
+    },
+    {
+      "jersey": null,
+      "name": "Gianluca Prestianni",
+      "position": "FW",
+      "born": null,
+      "ageAtTournament": null,
+      "club": {
+        "name": "Benfica",
+        "country": "Portugal"
+      },
+      "goals": 0,
+      "preliminary": true
+    },
+    {
+      "jersey": null,
+      "name": "Santiago Castro",
+      "position": "FW",
+      "born": null,
+      "ageAtTournament": null,
+      "club": {
+        "name": "Bologna",
+        "country": "Italy"
+      },
+      "goals": 0,
+      "preliminary": true
+    },
+    {
+      "jersey": null,
+      "name": "Lautaro Martinez",
+      "position": "FW",
+      "born": null,
+      "ageAtTournament": null,
+      "club": {
+        "name": "Inter",
+        "country": "Italy"
+      },
+      "goals": 0,
+      "preliminary": true
+    },
+    {
+      "jersey": null,
+      "name": "Jose Manuel Lopez",
+      "position": "FW",
+      "born": null,
+      "ageAtTournament": null,
+      "club": {
+        "name": "Palmeiras",
+        "country": "Brazil"
+      },
+      "goals": 0,
+      "preliminary": true
+    },
+    {
+      "jersey": null,
+      "name": "Julian Alvarez",
+      "position": "FW",
+      "born": null,
+      "ageAtTournament": null,
+      "club": {
+        "name": "Atletico Madrid",
+        "country": "Spain"
+      },
+      "goals": 0,
+      "preliminary": true
+    },
+    {
+      "jersey": null,
+      "name": "Mateo Pellegrino",
+      "position": "FW",
+      "born": null,
+      "ageAtTournament": null,
+      "club": {
+        "name": "Parma Calcio",
+        "country": "Italy"
+      },
+      "goals": 0,
+      "preliminary": true
+    }
+  ]
+}
