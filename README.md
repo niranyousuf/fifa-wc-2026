@@ -46,7 +46,7 @@ npm run cache:warm
 
 Writes JSON under `data/api-cache/{teams,standings,matches}/` (committed to git for production fallback when API quota is exhausted). Cache is considered **fresh for 24 hours**.
 
-**Automated (recommended):** GitHub Actions runs every **12 hours**, warms the cache, commits, and pushes — Vercel redeploys with the latest bundled data. Add `ZAFRONIX_API_KEY` (and optional `ZAFRONIX_API_KEYS`) under **GitHub → Settings → Secrets and variables → Actions**.
+**Automated (recommended):** GitHub Actions runs every **6 hours**, warms the cache, commits, and pushes — Vercel redeploys with the latest bundled data. Add `ZAFRONIX_API_KEY` (and optional `ZAFRONIX_API_KEYS`) under **GitHub → Settings → Secrets and variables → Actions**.
 
 ## Environment
 
@@ -108,7 +108,7 @@ scripts/             # cache warm, hero image verify
 
 **Notes:**
 
-- **API cache (primary)** — GitHub Action [`.github/workflows/refresh-api-cache.yml`](.github/workflows/refresh-api-cache.yml) runs every **12 hours**: `cache:warm` → commit → push → **Vercel auto-deploy** with fresh JSON in `data/api-cache/`.
+- **API cache (primary)** — GitHub Action [`.github/workflows/refresh-api-cache.yml`](.github/workflows/refresh-api-cache.yml) runs every **6 hours**: `cache:warm` → commit → push → **Vercel auto-deploy** with fresh JSON in `data/api-cache/`.
 - **GitHub secrets required for the workflow:** `ZAFRONIX_API_KEY` (optional `ZAFRONIX_API_KEYS`).
 - **Optional Vercel Cron** — `/api/cron/refresh-cache` with `CRON_SECRET` (runtime refresh; git bundle remains the reliable fallback).
 - **Web Analytics** — Vercel Web Analytics is enabled in the root layout; view stats in the Vercel dashboard (Analytics tab).
