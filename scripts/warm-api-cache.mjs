@@ -93,9 +93,16 @@ async function fetchPath(apiKeys, apiPath) {
 
   for (let index = 0; index < apiKeys.length; index += 1) {
     const apiKey = apiKeys[index];
-    const response = await fetch(`${base}${apiPath}`, {
-      headers: { "X-API-Key": apiKey },
-    });
+    let response;
+    try {
+      response = await fetch(`${base}${apiPath}`, {
+        headers: { "X-API-Key": apiKey },
+      });
+    } catch (error) {
+      throw new Error(
+        `${apiPath} network error: ${error?.message ?? "fetch failed"}`,
+      );
+    }
 
     if (response.ok) {
       return response.json();

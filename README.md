@@ -46,7 +46,9 @@ npm run cache:warm
 
 Writes JSON under `data/api-cache/{teams,standings,matches}/` (committed to git for production fallback when API quota is exhausted). Cache is considered **fresh for 24 hours**.
 
-**Automated (recommended):** GitHub Actions runs every **6 hours**, warms the cache, commits, and pushes — Vercel redeploys with the latest bundled data. Add `ZAFRONIX_API_KEY` (and optional `ZAFRONIX_API_KEYS`) under **GitHub → Settings → Secrets and variables → Actions**.
+**Automated (recommended):** GitHub Actions runs every **6 hours**, warms the cache, commits, and pushes — Vercel redeploys with the latest bundled data.
+
+**GitHub Actions secrets (required):** repo → **Settings → Secrets and variables → Actions** → add `ZAFRONIX_API_KEY` (optional `ZAFRONIX_API_KEYS`). If the workflow fails with exit code 1, open the run log: **Warm API cache** = quota/429; **Check API secrets** = secret missing; **Commit and push** = branch protection blocking the bot (allow `github-actions[bot]` to push to `main`, or run **Actions → Refresh API cache → Run workflow** after fixing).
 
 ## Environment
 

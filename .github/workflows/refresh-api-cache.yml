@@ -17,13 +17,29 @@ jobs:
   refresh:
     runs-on: ubuntu-latest
     steps:
+      - name: Check API secrets
+        shell: bash
+        env:
+          ZAFRONIX_API_KEY: ${{ secrets.ZAFRONIX_API_KEY }}
+          ZAFRONIX_API_KEYS: ${{ secrets.ZAFRONIX_API_KEYS }}
+        run: |
+          if [[ -z "$ZAFRONIX_API_KEY" && -z "$ZAFRONIX_API_KEYS" ]]; then
+            echo "::error::Missing GitHub Actions secret. Add ZAFRONIX_API_KEY (or ZAFRONIX_API_KEYS) under Settings → Secrets and variables → Actions."
+            exit 1
+          fi
+          echo "API key secret is configured."
+
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+          persist-credentials: true
 
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "22"
           cache: npm
 
       - name: Install dependencies
@@ -46,4 +62,4 @@ jobs:
             exit 0
           fi
           git commit -m "chore: refresh API cache from Zafronix"
-          git push
+          git push origin HEAD:main
