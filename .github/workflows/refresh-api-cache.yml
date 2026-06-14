@@ -33,28 +33,38 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Resolve API keys (repository secrets)
-        id: keys
+      - name: Warm API cache from Zafronix
         shell: bash
         env:
           SECRET_KEY: ${{ secrets.ZAFRONIX_API_KEY }}
           SECRET_KEYS: ${{ secrets.ZAFRONIX_API_KEYS }}
+          VAR_KEY: ${{ vars.ZAFRONIX_API_KEY }}
+          VAR_KEYS: ${{ vars.ZAFRONIX_API_KEYS }}
+          WC_YEAR: "2026"
         run: |
-          if [[ -z "$SECRET_KEY" && -z "$SECRET_KEYS" ]]; then
-            echo "::error::No API key found for GitHub Actions."
-            echo "::error::Go to github.com/niranyousuf/fifa-wc-2026 → Settings → Secrets and variables → Actions → Repository secrets (NOT Variables, NOT Environments-only)."
-            echo "::error::Add secret name exactly: ZAFRONIX_API_KEY (value = your Zafronix key). Optional: ZAFRONIX_API_KEYS for extra keys."
-            echo "::error::Vercel env vars do NOT apply here — you must add the key separately in GitHub."
+          set -euo pipefail
+          export ZAFRONIX_API_KEY="$SECRET_KEY"
+          export ZAFRONIX_API_KEYS="$SECRET_KEYS"
+
+          if [[ -z "$ZAFRONIX_API_KEY" && -n "$VAR_KEY" ]]; then
+            echo "::warning::Using Actions *Variables* for ZAFRONIX_API_KEY. Move it to Repository *secrets* (public repos expose Variables)."
+            export ZAFRONIX_API_KEY="$VAR_KEY"
+          fi
+          if [[ -z "$ZAFRONIX_API_KEYS" && -n "$VAR_KEYS" ]]; then
+            export ZAFRONIX_API_KEYS="$VAR_KEYS"
+          fi
+
+          if [[ -z "$ZAFRONIX_API_KEY" && -z "$ZAFRONIX_API_KEYS" ]]; then
+            echo "::error::No Zafronix key visible to GitHub Actions."
+            echo "::error::Settings → Secrets and variables → Actions → open the *Secrets* tab."
+            echo "::error::Under *Repository secrets* (not Environment secrets), add ZAFRONIX_API_KEY."
+            echo "::error::If you used the *Variables* tab by mistake, either move the key to Secrets or add ZAFRONIX_API_KEY as a Repository variable."
+            echo "::error::Vercel env vars are separate — they do not sync to GitHub."
             exit 1
           fi
-          echo "Zafronix key configured (length ${#SECRET_KEY}, extra keys list length ${#SECRET_KEYS})."
 
-      - name: Warm API cache from Zafronix
-        env:
-          ZAFRONIX_API_KEY: ${{ secrets.ZAFRONIX_API_KEY }}
-          ZAFRONIX_API_KEYS: ${{ secrets.ZAFRONIX_API_KEYS }}
-          WC_YEAR: "2026"
-        run: npm run cache:warm
+          echo "Zafronix key resolved for CI (primary length ${#ZAFRONIX_API_KEY})."
+          npm run cache:warm
 
       - name: Commit and push cache (deploy via Vercel)
         run: |

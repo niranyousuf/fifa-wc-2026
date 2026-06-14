@@ -4,10 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "npm run cache:warm:build && next build",
     "start": "next start",
     "lint": "next lint",
     "cache:warm": "node scripts/warm-api-cache.mjs",
+    "cache:warm:build": "node scripts/warm-api-cache.mjs --soft",
     "cache:captains": "node scripts/warm-captain-photos.mjs",
     "cache:captains:force": "node scripts/warm-captain-photos.mjs --force"
   },

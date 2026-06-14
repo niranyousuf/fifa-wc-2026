@@ -124,6 +124,8 @@ async function fetchPath(apiKeys, apiPath) {
   throw new Error(`${apiPath} failed: ${lastStatus || "unknown"} (all keys tried)`);
 }
 
+const softFail = process.argv.includes("--soft");
+
 async function main() {
   const apiKeys = loadApiKeys();
   console.log(`Using ${apiKeys.length} API key(s)\n`);
@@ -152,5 +154,9 @@ main().catch((error) => {
   console.error(
     "\nIf you see 429, wait for quota reset or use a new API key from https://api.zafronix.com/signup",
   );
+  if (softFail) {
+    console.warn("\n--soft: continuing build with existing data/api-cache/ files.");
+    process.exit(0);
+  }
   process.exit(1);
 });

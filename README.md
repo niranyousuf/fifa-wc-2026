@@ -46,18 +46,20 @@ npm run cache:warm
 
 Writes JSON under `data/api-cache/{teams,standings,matches}/` (committed to git for production fallback when API quota is exhausted). Cache is considered **fresh for 24 hours**.
 
-**Automated (recommended):** GitHub Actions runs every **6 hours**, warms the cache, commits, and pushes — Vercel redeploys with the latest bundled data.
+**Automated refresh (pick one):**
 
-**GitHub Actions secrets (required for auto-refresh):**
+**A — Vercel build (recommended, no GitHub secret):** Every Vercel deploy runs `cache:warm` during `npm run build` using **Vercel env vars** (`ZAFRONIX_API_KEY` already there). For a 6-hour schedule, create a **Deploy Hook** in Vercel → Settings → Git → Deploy Hooks, then call that URL every 6h (e.g. [cron-job.org](https://cron-job.org) free cron).
 
-1. Open **https://github.com/niranyousuf/fifa-wc-2026/settings/secrets/actions**
-2. Click **New repository secret** (tab must be **Repository secrets**, not *Variables* and not only *Environment* unless you wire an environment in the workflow).
-3. **Name:** `ZAFRONIX_API_KEY` (exact spelling, all caps)
-4. **Value:** your Zafronix key (same as `.env.local` / Vercel — but **Vercel keys are separate**; GitHub will not read Vercel env)
-5. Optional second secret: `ZAFRONIX_API_KEYS` = `key2,key3`
-6. **Actions → Refresh API cache → Run workflow** to test
+**B — GitHub Actions:** Runs every **6 hours**, commits cache, pushes → Vercel redeploys.
 
-If the run still fails on **Resolve API keys**, the secret is in the wrong place or wrong name. If it fails on **Warm API cache**, quota is exhausted (429).
+**GitHub secret troubleshooting** (only if using B):
+
+1. https://github.com/niranyousuf/fifa-wc-2026/settings/secrets/actions
+2. Open the **Secrets** tab (not Variables).
+3. Under **Repository secrets**, you must see a row named `ZAFRONIX_API_KEY` after saving.
+4. If you only added an **Environment secret** (Production, etc.), either move it to **Repository secrets** or the workflow will not see it.
+5. If you used **Variables** by mistake, the workflow now falls back to `vars.ZAFRONIX_API_KEY` — but move the key to **Secrets** (Variables are visible on public repos).
+6. **Actions → Refresh API cache → Run workflow** after fixing (old failed runs do not retry).
 
 ## Environment
 
