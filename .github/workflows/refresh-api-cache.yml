@@ -17,18 +17,6 @@ jobs:
   refresh:
     runs-on: ubuntu-latest
     steps:
-      - name: Check API secrets
-        shell: bash
-        env:
-          ZAFRONIX_API_KEY: ${{ secrets.ZAFRONIX_API_KEY }}
-          ZAFRONIX_API_KEYS: ${{ secrets.ZAFRONIX_API_KEYS }}
-        run: |
-          if [[ -z "$ZAFRONIX_API_KEY" && -z "$ZAFRONIX_API_KEYS" ]]; then
-            echo "::error::Missing GitHub Actions secret. Add ZAFRONIX_API_KEY (or ZAFRONIX_API_KEYS) under Settings → Secrets and variables → Actions."
-            exit 1
-          fi
-          echo "API key secret is configured."
-
       - name: Checkout
         uses: actions/checkout@v4
         with:
@@ -44,6 +32,22 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
+
+      - name: Resolve API keys (repository secrets)
+        id: keys
+        shell: bash
+        env:
+          SECRET_KEY: ${{ secrets.ZAFRONIX_API_KEY }}
+          SECRET_KEYS: ${{ secrets.ZAFRONIX_API_KEYS }}
+        run: |
+          if [[ -z "$SECRET_KEY" && -z "$SECRET_KEYS" ]]; then
+            echo "::error::No API key found for GitHub Actions."
+            echo "::error::Go to github.com/niranyousuf/fifa-wc-2026 → Settings → Secrets and variables → Actions → Repository secrets (NOT Variables, NOT Environments-only)."
+            echo "::error::Add secret name exactly: ZAFRONIX_API_KEY (value = your Zafronix key). Optional: ZAFRONIX_API_KEYS for extra keys."
+            echo "::error::Vercel env vars do NOT apply here — you must add the key separately in GitHub."
+            exit 1
+          fi
+          echo "Zafronix key configured (length ${#SECRET_KEY}, extra keys list length ${#SECRET_KEYS})."
 
       - name: Warm API cache from Zafronix
         env:

@@ -48,7 +48,16 @@ Writes JSON under `data/api-cache/{teams,standings,matches}/` (committed to git 
 
 **Automated (recommended):** GitHub Actions runs every **6 hours**, warms the cache, commits, and pushes — Vercel redeploys with the latest bundled data.
 
-**GitHub Actions secrets (required):** repo → **Settings → Secrets and variables → Actions** → add `ZAFRONIX_API_KEY` (optional `ZAFRONIX_API_KEYS`). If the workflow fails with exit code 1, open the run log: **Warm API cache** = quota/429; **Check API secrets** = secret missing; **Commit and push** = branch protection blocking the bot (allow `github-actions[bot]` to push to `main`, or run **Actions → Refresh API cache → Run workflow** after fixing).
+**GitHub Actions secrets (required for auto-refresh):**
+
+1. Open **https://github.com/niranyousuf/fifa-wc-2026/settings/secrets/actions**
+2. Click **New repository secret** (tab must be **Repository secrets**, not *Variables* and not only *Environment* unless you wire an environment in the workflow).
+3. **Name:** `ZAFRONIX_API_KEY` (exact spelling, all caps)
+4. **Value:** your Zafronix key (same as `.env.local` / Vercel — but **Vercel keys are separate**; GitHub will not read Vercel env)
+5. Optional second secret: `ZAFRONIX_API_KEYS` = `key2,key3`
+6. **Actions → Refresh API cache → Run workflow** to test
+
+If the run still fails on **Resolve API keys**, the secret is in the wrong place or wrong name. If it fails on **Warm API cache**, quota is exhausted (429).
 
 ## Environment
 
