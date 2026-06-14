@@ -66,7 +66,7 @@ Writes JSON under `data/api-cache/{teams,standings,matches}/` (committed to git 
 | Variable | Required | Description |
 |----------|----------|-------------|
 | `ZAFRONIX_API_KEY` | Yes* | Primary API key (`X-API-Key` header) |
-| `ZAFRONIX_API_KEYS` | No | Comma-separated fallback keys on 429 rate limit |
+| `ZAFRONIX_API_KEYS` | No | Optional extra keys on Vercel/local when primary hits 429 (not used by GitHub Actions) |
 | `WC_YEAR` | No | Tournament year (default `2026`) |
 | `NEXT_PUBLIC_APP_URL` | No | Canonical app URL (metadata / links) |
 | `CRON_SECRET` | No | Optional backup: protects `/api/cron/refresh-cache` (Vercel Cron) |
@@ -122,7 +122,7 @@ scripts/             # cache warm, hero image verify
 **Notes:**
 
 - **API cache (primary)** — GitHub Action [`.github/workflows/refresh-api-cache.yml`](.github/workflows/refresh-api-cache.yml) runs every **6 hours**: `cache:warm` → commit → push → **Vercel auto-deploy** with fresh JSON in `data/api-cache/`.
-- **GitHub secrets required for the workflow:** `ZAFRONIX_API_KEY` (optional `ZAFRONIX_API_KEYS`).
+- **GitHub Actions (optional):** one repository secret — `ZAFRONIX_API_KEY` only.
 - **Optional Vercel Cron** — `/api/cron/refresh-cache` with `CRON_SECRET` (runtime refresh; git bundle remains the reliable fallback).
 - **Web Analytics** — Vercel Web Analytics is enabled in the root layout; view stats in the Vercel dashboard (Analytics tab).
 - Commit static `data/` files (`data/api-cache/`, `player-photos.json`, `fifa-rankings.json`, etc.).

@@ -37,33 +37,25 @@ jobs:
         shell: bash
         env:
           SECRET_KEY: ${{ secrets.ZAFRONIX_API_KEY }}
-          SECRET_KEYS: ${{ secrets.ZAFRONIX_API_KEYS }}
           VAR_KEY: ${{ vars.ZAFRONIX_API_KEY }}
-          VAR_KEYS: ${{ vars.ZAFRONIX_API_KEYS }}
           WC_YEAR: "2026"
         run: |
           set -euo pipefail
           export ZAFRONIX_API_KEY="$SECRET_KEY"
-          export ZAFRONIX_API_KEYS="$SECRET_KEYS"
 
           if [[ -z "$ZAFRONIX_API_KEY" && -n "$VAR_KEY" ]]; then
             echo "::warning::Using Actions *Variables* for ZAFRONIX_API_KEY. Move it to Repository *secrets* (public repos expose Variables)."
             export ZAFRONIX_API_KEY="$VAR_KEY"
           fi
-          if [[ -z "$ZAFRONIX_API_KEYS" && -n "$VAR_KEYS" ]]; then
-            export ZAFRONIX_API_KEYS="$VAR_KEYS"
-          fi
 
-          if [[ -z "$ZAFRONIX_API_KEY" && -z "$ZAFRONIX_API_KEYS" ]]; then
-            echo "::error::No Zafronix key visible to GitHub Actions."
-            echo "::error::Settings → Secrets and variables → Actions → open the *Secrets* tab."
-            echo "::error::Under *Repository secrets* (not Environment secrets), add ZAFRONIX_API_KEY."
-            echo "::error::If you used the *Variables* tab by mistake, either move the key to Secrets or add ZAFRONIX_API_KEY as a Repository variable."
-            echo "::error::Vercel env vars are separate — they do not sync to GitHub."
+          if [[ -z "$ZAFRONIX_API_KEY" ]]; then
+            echo "::error::Add one repository secret: ZAFRONIX_API_KEY"
+            echo "::error::Settings → Secrets and variables → Actions → Secrets tab → Repository secrets → New repository secret"
+            echo "::error::Vercel env vars do not sync to GitHub automatically."
             exit 1
           fi
 
-          echo "Zafronix key resolved for CI (primary length ${#ZAFRONIX_API_KEY})."
+          echo "Zafronix key resolved for CI (length ${#ZAFRONIX_API_KEY})."
           npm run cache:warm
 
       - name: Commit and push cache (deploy via Vercel)
