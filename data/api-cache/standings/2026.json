@@ -1,5 +1,5 @@
 {
-  "savedAt": 1781446031169,
+  "savedAt": 1781465949678,
   "data": {
     "year": 2026,
     "groups": {
@@ -223,6 +223,19 @@
       ],
       "E": [
         {
+          "team": "Germany",
+          "played": 1,
+          "won": 1,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 7,
+          "goalsAgainst": 1,
+          "goalDifference": 6,
+          "points": 3,
+          "position": 1,
+          "advanced": true
+        },
+        {
           "team": "Côte d'Ivoire",
           "played": 0,
           "won": 0,
@@ -251,31 +264,16 @@
           "advanced": true
         },
         {
-          "team": "Germany",
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "goalsFor": 0,
-          "goalsAgainst": 0,
-          "goalDifference": 0,
-          "points": 0,
-          "position": null,
-          "tiebreakerNotes": "Tied with Ecuador on every available criterion — would be settled by fair-play or drawing of lots.",
-          "advanced": true
-        },
-        {
           "team": "Curaçao",
-          "played": 0,
+          "played": 1,
           "won": 0,
           "drawn": 0,
-          "lost": 0,
-          "goalsFor": 0,
-          "goalsAgainst": 0,
-          "goalDifference": 0,
+          "lost": 1,
+          "goalsFor": 1,
+          "goalsAgainst": 7,
+          "goalDifference": -6,
           "points": 0,
-          "position": null,
-          "tiebreakerNotes": "Tied with Germany on every available criterion — would be settled by fair-play or drawing of lots."
+          "position": 4
         }
       ],
       "F": [

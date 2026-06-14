@@ -1,5 +1,5 @@
 {
-  "savedAt": 1781446031201,
+  "savedAt": 1781465949790,
   "data": {
     "year": 2026,
     "count": 104,
@@ -3082,18 +3082,324 @@
         "awayTeam": "Curaçao",
         "homeRef": "Germany",
         "awayRef": "Curaçao",
-        "homeScore": null,
-        "awayScore": null,
-        "result": null,
+        "homeScore": 7,
+        "awayScore": 1,
+        "result": "7-1",
         "extraTime": false,
         "penalties": null,
         "stadium": "Houston Stadium",
         "stadiumId": "nrg-stadium",
         "city": "Houston",
         "country": "United States",
-        "attendance": null,
-        "referee": null,
-        "weather": null,
+        "attendance": 68021,
+        "referee": {
+          "name": "Jalal Jayed",
+          "country": "Morocco"
+        },
+        "weather": {
+          "tempC": 29.8,
+          "humidityPct": 83,
+          "precipitationMm": 0.4,
+          "windKmh": 17.3,
+          "code": 51
+        },
+        "goals": [
+          {
+            "minute": 6,
+            "team": "home",
+            "scorer": "Nmecha"
+          },
+          {
+            "minute": 21,
+            "team": "away",
+            "scorer": "Comenencia"
+          },
+          {
+            "minute": 38,
+            "team": "home",
+            "scorer": "Schlotterbeck"
+          },
+          {
+            "minute": 45,
+            "addedMinute": 5,
+            "team": "home",
+            "scorer": "Havertz 45+5' pen",
+            "type": "penalty"
+          },
+          {
+            "minute": 47,
+            "team": "home",
+            "scorer": "Musiala"
+          },
+          {
+            "minute": 68,
+            "team": "home",
+            "scorer": "Brown"
+          },
+          {
+            "minute": 78,
+            "team": "home",
+            "scorer": "Undav"
+          },
+          {
+            "minute": 88,
+            "team": "home",
+            "scorer": "Havertz 45+5' pen",
+            "type": "penalty"
+          }
+        ],
+        "lineups": {
+          "home": [
+            {
+              "player": "Manuel Neuer",
+              "number": 1,
+              "position": "GK",
+              "starter": true
+            },
+            {
+              "player": "Joshua Kimmich",
+              "number": 6,
+              "position": "CB",
+              "starter": true,
+              "captain": true
+            },
+            {
+              "player": "Jonathan Tah",
+              "number": 4,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Nico Schlotterbeck",
+              "number": 15,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Felix Nmecha",
+              "number": 23,
+              "position": "RM",
+              "starter": true
+            },
+            {
+              "player": "Jamal Musiala",
+              "number": 10,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Aleksandar Pavlović",
+              "number": 5,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Nathaniel Brown",
+              "number": 18,
+              "position": "LM",
+              "starter": true
+            },
+            {
+              "player": "Leroy Sané",
+              "number": 19,
+              "position": "RF",
+              "starter": true
+            },
+            {
+              "player": "Kai Havertz",
+              "number": 7,
+              "position": "CF",
+              "starter": true
+            },
+            {
+              "player": "Florian Wirtz",
+              "number": 17,
+              "position": "LF",
+              "starter": true
+            },
+            {
+              "player": "Deniz Undav",
+              "number": 26,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "David Raum",
+              "number": 22,
+              "position": "DF",
+              "starter": false
+            },
+            {
+              "player": "Antonio Rüdiger",
+              "number": 2,
+              "position": "DF",
+              "starter": false
+            },
+            {
+              "player": "Leon Goretzka",
+              "number": 8,
+              "position": "MF",
+              "starter": false
+            },
+            {
+              "player": "Waldemar Anton",
+              "number": 3,
+              "position": "DF",
+              "starter": false
+            }
+          ],
+          "away": [
+            {
+              "player": "Eloy Room",
+              "number": 1,
+              "position": "GK",
+              "starter": true
+            },
+            {
+              "player": "Sherel Floranus",
+              "number": 5,
+              "position": "RB",
+              "starter": true
+            },
+            {
+              "player": "Riechedly Bazoer",
+              "number": 23,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Armando Obispo",
+              "number": 18,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Deveron Fonville",
+              "number": 24,
+              "position": "LB",
+              "starter": true
+            },
+            {
+              "player": "Leandro Bacuna",
+              "number": 10,
+              "position": "DM",
+              "starter": true,
+              "captain": true
+            },
+            {
+              "player": "Livano Comenencia",
+              "number": 8,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Tahith Chong",
+              "number": 21,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Sontje Hansen",
+              "number": 12,
+              "position": "RF",
+              "starter": true
+            },
+            {
+              "player": "Jürgen Locadia",
+              "number": 9,
+              "position": "CF",
+              "starter": true
+            },
+            {
+              "player": "Juninho Bacuna",
+              "number": 7,
+              "position": "LF",
+              "starter": true
+            },
+            {
+              "player": "Jeremy Antonisse",
+              "number": 11,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Jearl Margaritha",
+              "number": 16,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Gervane Kastaneer",
+              "number": 19,
+              "position": "FW",
+              "starter": false
+            }
+          ]
+        },
+        "formations": {
+          "home": "3-4-3",
+          "away": "4-3-3"
+        },
+        "managers": {
+          "home": "Julian Nagelsmann",
+          "away": "Dick Advocaat"
+        },
+        "status": "finished",
+        "liveMinute": null,
+        "liveMinuteAt": null,
+        "clockSource": "apifootball",
+        "clockSourceAt": "2026-06-14T19:10:05.816Z",
+        "livePhase": null,
+        "substitutions": [
+          {
+            "minute": 46,
+            "team": "away",
+            "on": "Jeremy Antonisse",
+            "off": "Sontje Hansen"
+          },
+          {
+            "minute": 64,
+            "team": "home",
+            "on": "Deniz Undav",
+            "off": "Jamal Musiala"
+          },
+          {
+            "minute": 65,
+            "team": "away",
+            "on": "Jearl Margaritha",
+            "off": "Jürgen Locadia"
+          },
+          {
+            "minute": 72,
+            "team": "home",
+            "on": "David Raum",
+            "off": "Jonathan Tah"
+          },
+          {
+            "minute": 72,
+            "team": "home",
+            "on": "Antonio Rüdiger",
+            "off": "Felix Nmecha"
+          },
+          {
+            "minute": 72,
+            "team": "home",
+            "on": "Leon Goretzka",
+            "off": "Nathaniel Brown"
+          },
+          {
+            "minute": 82,
+            "team": "away",
+            "on": "Gervane Kastaneer",
+            "off": "Tahith Chong"
+          },
+          {
+            "minute": 83,
+            "team": "home",
+            "on": "Waldemar Anton",
+            "off": "Joshua Kimmich"
+          }
+        ],
         "stageNormalized": "group_e"
       },
       {
