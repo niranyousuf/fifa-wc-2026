@@ -1,5 +1,5 @@
 {
-  "savedAt": 1781497622583,
+  "savedAt": 1781525947496,
   "data": [
     {
       "name": "Mexico",
@@ -67,7 +67,7 @@
         },
         {
           "jersey": 4,
-          "name": "Edson Álvarez (captain)",
+          "name": "Edson Álvarez",
           "position": "DF",
           "born": "1997-10-24",
           "ageAtTournament": 28,
@@ -76,7 +76,7 @@
             "country": "Turkey"
           },
           "goals": 0,
-          "captain": false
+          "captain": true
         },
         {
           "jersey": 5,
@@ -402,7 +402,7 @@
       "squad": [
         {
           "jersey": null,
-          "name": "Ronwen Williams (captain)",
+          "name": "Ronwen Williams",
           "position": "GK",
           "born": "1992-01-21",
           "ageAtTournament": 34,
@@ -411,7 +411,7 @@
             "country": "South Africa"
           },
           "goals": 0,
-          "captain": false
+          "captain": true
         },
         {
           "jersey": null,
@@ -1075,7 +1075,7 @@
         },
         {
           "jersey": null,
-          "name": "Son Heung-min (captain)",
+          "name": "Son Heung-min",
           "position": "FW",
           "born": "1992-07-08",
           "ageAtTournament": 33,
@@ -1084,7 +1084,7 @@
             "country": "United States"
           },
           "goals": 0,
-          "captain": false
+          "captain": true
         },
         {
           "jersey": null,
@@ -1228,7 +1228,7 @@
         },
         {
           "jersey": 7,
-          "name": "Ladislav Krejčí (captain)",
+          "name": "Ladislav Krejčí",
           "position": "DF",
           "born": "1999-04-20",
           "ageAtTournament": 27,
@@ -1237,7 +1237,7 @@
             "country": "England"
           },
           "goals": 0,
-          "captain": false
+          "captain": true
         },
         {
           "jersey": 8,
@@ -1576,7 +1576,7 @@
         },
         {
           "jersey": null,
-          "name": "Alphonso Davies (captain)",
+          "name": "Alphonso Davies",
           "position": "DF",
           "born": "2000-11-02",
           "ageAtTournament": 25,
@@ -1585,7 +1585,7 @@
             "country": "Germany"
           },
           "goals": 0,
-          "captain": false
+          "captain": true
         },
         {
           "jersey": null,
@@ -2249,7 +2249,7 @@
         },
         {
           "jersey": null,
-          "name": "Edin Džeko (captain)",
+          "name": "Edin Džeko",
           "position": "FW",
           "born": "1986-03-17",
           "ageAtTournament": 40,
@@ -2258,7 +2258,7 @@
             "country": "Germany"
           },
           "goals": 0,
-          "captain": false
+          "captain": true
         },
         {
           "jersey": null,
@@ -2467,7 +2467,7 @@
         },
         {
           "jersey": 10,
-          "name": "Hassan Al-Haydos (captain)",
+          "name": "Hassan Al-Haydos",
           "position": "FW",
           "born": "1990-12-11",
           "ageAtTournament": 35,
@@ -2476,7 +2476,7 @@
             "country": "Qatar"
           },
           "goals": 0,
-          "captain": false
+          "captain": true
         },
         {
           "jersey": 11,
@@ -2841,7 +2841,7 @@
         },
         {
           "jersey": 10,
-          "name": "Granit Xhaka (captain)",
+          "name": "Granit Xhaka",
           "position": "MF",
           "born": "1992-09-27",
           "ageAtTournament": 33,
@@ -2850,7 +2850,7 @@
             "country": "England"
           },
           "goals": 0,
-          "captain": false
+          "captain": true
         },
         {
           "jersey": 11,
@@ -3254,7 +3254,7 @@
         },
         {
           "jersey": null,
-          "name": "Casemiro (captain)",
+          "name": "Casemiro",
           "position": "MF",
           "born": "1992-02-23",
           "ageAtTournament": 34,
@@ -3263,7 +3263,7 @@
             "country": "England"
           },
           "goals": 0,
-          "captain": false
+          "captain": true
         },
         {
           "jersey": null,
@@ -3511,7 +3511,7 @@
         },
         {
           "jersey": null,
-          "name": "Achraf Hakimi (captain)",
+          "name": "Achraf Hakimi",
           "position": "DF",
           "born": "1998-11-04",
           "ageAtTournament": 27,
@@ -3520,7 +3520,7 @@
             "country": "France"
           },
           "goals": 0,
-          "captain": false
+          "captain": true
         },
         {
           "jersey": null,
@@ -3846,7 +3846,7 @@
       "squad": [
         {
           "jersey": null,
-          "name": "Johny Placide (captain)",
+          "name": "Johny Placide",
           "position": "GK",
           "born": "1988-01-29",
           "ageAtTournament": 38,
@@ -3855,7 +3855,7 @@
             "country": "France"
           },
           "goals": 0,
-          "captain": false
+          "captain": true
         },
         {
           "jersey": null,
@@ -4259,7 +4259,7 @@
         },
         {
           "jersey": null,
-          "name": "Andy Robertson (captain)",
+          "name": "Andy Robertson",
           "position": "DF",
           "born": "1994-03-11",
           "ageAtTournament": 32,
@@ -4268,7 +4268,7 @@
             "country": "England"
           },
           "goals": 0,
-          "captain": false
+          "captain": true
         },
         {
           "jersey": null,
@@ -4712,7 +4712,7 @@
         },
         {
           "jersey": 10,
-          "name": "Christian Pulisic (captain)",
+          "name": "Christian Pulisic",
           "position": "FW",
           "born": "1998-09-18",
           "ageAtTournament": 27,
@@ -4721,7 +4721,7 @@
             "country": "Italy"
           },
           "goals": 0,
-          "captain": false
+          "captain": true
         },
         {
           "jersey": 11,
@@ -5151,7 +5151,7 @@
         },
         {
           "jersey": 15,
-          "name": "Gustavo Gómez (captain)",
+          "name": "Gustavo Gómez",
           "position": "DF",
           "born": "1993-05-06",
           "ageAtTournament": 33,
@@ -5160,7 +5160,7 @@
             "country": "Brazil"
           },
           "goals": 0,
-          "captain": false
+          "captain": true
         },
         {
           "jersey": 16,
@@ -5343,7 +5343,7 @@
       "squad": [
         {
           "jersey": 1,
-          "name": "Mathew Ryan (captain)",
+          "name": "Mathew Ryan",
           "position": "GK",
           "born": "1992-04-08",
           "ageAtTournament": 34,
@@ -5352,7 +5352,7 @@
             "country": "Spain"
           },
           "goals": 0,
-          "captain": false
+          "captain": true
         },
         {
           "jersey": 2,
@@ -5834,7 +5834,7 @@
         },
         {
           "jersey": 10,
-          "name": "Hakan Çalhanoğlu (captain)",
+          "name": "Hakan Çalhanoğlu",
           "position": "MF",
           "born": "1994-02-08",
           "ageAtTournament": 32,
@@ -5843,7 +5843,7 @@
             "country": "Italy"
           },
           "goals": 0,
-          "captain": false
+          "captain": true
         },
         {
           "jersey": 11,
@@ -6221,7 +6221,7 @@
         },
         {
           "jersey": null,
-          "name": "Joshua Kimmich (captain)",
+          "name": "Joshua Kimmich",
           "position": "MF",
           "born": "1995-02-08",
           "ageAtTournament": 31,
@@ -6230,7 +6230,7 @@
             "country": "Germany"
           },
           "goals": 0,
-          "captain": false
+          "captain": true
         },
         {
           "jersey": null,
@@ -6608,7 +6608,7 @@
         },
         {
           "jersey": null,
-          "name": "Leandro Bacuna (captain)",
+          "name": "Leandro Bacuna",
           "position": "MF",
           "born": "1991-08-21",
           "ageAtTournament": 34,
@@ -6617,7 +6617,7 @@
             "country": "Turkey"
           },
           "goals": 0,
-          "captain": false
+          "captain": true
         },
         {
           "jersey": null,
@@ -6982,7 +6982,7 @@
         },
         {
           "jersey": null,
-          "name": "Franck Kessié (captain)",
+          "name": "Franck Kessié",
           "position": "MF",
           "born": "1996-12-19",
           "ageAtTournament": 29,
@@ -6991,7 +6991,7 @@
             "country": "Saudi Arabia"
           },
           "goals": 0,
-          "captain": false
+          "captain": true
         },
         {
           "jersey": null,
@@ -7369,7 +7369,7 @@
         },
         {
           "jersey": 13,
-          "name": "Enner Valencia (captain)",
+          "name": "Enner Valencia",
           "position": "FW",
           "born": "1989-11-04",
           "ageAtTournament": 36,
@@ -7378,7 +7378,7 @@
             "country": "Mexico"
           },
           "goals": 0,
-          "captain": false
+          "captain": true
         },
         {
           "jersey": 14,
@@ -7626,7 +7626,7 @@
         },
         {
           "jersey": null,
-          "name": "Virgil van Dijk (captain)",
+          "name": "Virgil van Dijk",
           "position": "DF",
           "born": "1991-07-08",
           "ageAtTournament": 34,
@@ -7635,7 +7635,7 @@
             "country": "England"
           },
           "goals": 0,
-          "captain": false
+          "captain": true
         },
         {
           "jersey": null,
@@ -8117,7 +8117,7 @@
         },
         {
           "jersey": null,
-          "name": "Wataru Endo (captain)",
+          "name": "Wataru Endo",
           "position": "MF",
           "born": "1993-02-09",
           "ageAtTournament": 33,
@@ -8126,7 +8126,7 @@
             "country": "England"
           },
           "goals": 0,
-          "captain": false
+          "captain": true
         },
         {
           "jersey": null,
@@ -8361,7 +8361,7 @@
         },
         {
           "jersey": 3,
-          "name": "Victor Lindelöf (captain)",
+          "name": "Victor Lindelöf",
           "position": "DF",
           "born": "1994-07-17",
           "ageAtTournament": 31,
@@ -8370,7 +8370,7 @@
             "country": "England"
           },
           "goals": 0,
-          "captain": false
+          "captain": true
         },
         {
           "jersey": 4,
@@ -8865,7 +8865,7 @@
         },
         {
           "jersey": null,
-          "name": "Ellyes Skhiri (captain)",
+          "name": "Ellyes Skhiri",
           "position": "MF",
           "born": "1995-05-10",
           "ageAtTournament": 31,
@@ -8874,7 +8874,7 @@
             "country": "Germany"
           },
           "goals": 0,
-          "captain": false
+          "captain": true
         },
         {
           "jersey": null,
@@ -9265,7 +9265,7 @@
         },
         {
           "jersey": null,
-          "name": "Youri Tielemans (captain)",
+          "name": "Youri Tielemans",
           "position": "MF",
           "born": "1997-05-07",
           "ageAtTournament": 29,
@@ -9274,7 +9274,7 @@
             "country": "England"
           },
           "goals": 0,
-          "captain": false
+          "captain": true
         },
         {
           "jersey": null,
@@ -9574,7 +9574,7 @@
         },
         {
           "jersey": 10,
-          "name": "Mohamed Salah (captain)",
+          "name": "Mohamed Salah",
           "position": "FW",
           "born": "1992-06-15",
           "ageAtTournament": 33,
@@ -9583,7 +9583,7 @@
             "country": "England"
           },
           "goals": 0,
-          "captain": false
+          "captain": true
         },
         {
           "jersey": 11,
@@ -9857,7 +9857,7 @@
         },
         {
           "jersey": 3,
-          "name": "Ehsan Hajsafi (captain)",
+          "name": "Ehsan Hajsafi",
           "position": "DF",
           "born": "1990-02-25",
           "ageAtTournament": 36,
@@ -9866,7 +9866,7 @@
             "country": "Iran"
           },
           "goals": 0,
-          "captain": false
+          "captain": true
         },
         {
           "jersey": 4,
@@ -10309,7 +10309,7 @@
         },
         {
           "jersey": 9,
-          "name": "Chris Wood (captain)",
+          "name": "Chris Wood",
           "position": "FW",
           "born": "1991-12-07",
           "ageAtTournament": 34,
@@ -10318,7 +10318,7 @@
             "country": "England"
           },
           "goals": 0,
-          "captain": false
+          "captain": true
         },
         {
           "jersey": 10,
@@ -10722,7 +10722,7 @@
         },
         {
           "jersey": null,
-          "name": "Rodri (captain)",
+          "name": "Rodri",
           "position": "MF",
           "born": "1996-06-22",
           "ageAtTournament": 29,
@@ -10731,7 +10731,7 @@
             "country": "England"
           },
           "goals": 0,
-          "captain": false
+          "captain": true
         },
         {
           "jersey": null,
@@ -11187,7 +11187,7 @@
         },
         {
           "jersey": null,
-          "name": "Ryan Mendes (captain)",
+          "name": "Ryan Mendes",
           "position": "FW",
           "born": "1990-01-08",
           "ageAtTournament": 36,
@@ -11196,7 +11196,7 @@
             "country": "Turkey"
           },
           "goals": 0,
-          "captain": false
+          "captain": true
         },
         {
           "jersey": null,
@@ -11444,7 +11444,7 @@
         },
         {
           "jersey": 10,
-          "name": "Salem Al-Dawsari (captain)",
+          "name": "Salem Al-Dawsari",
           "position": "FW",
           "born": "1991-08-19",
           "ageAtTournament": 34,
@@ -11453,7 +11453,7 @@
             "country": "Saudi Arabia"
           },
           "goals": 0,
-          "captain": false
+          "captain": true
         },
         {
           "jersey": 11,
@@ -11714,7 +11714,7 @@
         },
         {
           "jersey": 2,
-          "name": "José María Giménez (captain)",
+          "name": "José María Giménez",
           "position": "DF",
           "born": "1995-01-20",
           "ageAtTournament": 31,
@@ -11723,7 +11723,7 @@
             "country": "Spain"
           },
           "goals": 0,
-          "captain": false
+          "captain": true
         },
         {
           "jersey": 3,
@@ -12192,7 +12192,7 @@
         },
         {
           "jersey": 10,
-          "name": "Kylian Mbappé (captain)",
+          "name": "Kylian Mbappé",
           "position": "FW",
           "born": "1998-12-20",
           "ageAtTournament": 27,
@@ -12201,7 +12201,7 @@
             "country": "Spain"
           },
           "goals": 0,
-          "captain": false
+          "captain": true
         },
         {
           "jersey": 11,
@@ -12475,7 +12475,7 @@
         },
         {
           "jersey": 3,
-          "name": "Kalidou Koulibaly (captain)",
+          "name": "Kalidou Koulibaly",
           "position": "DF",
           "born": "1991-06-20",
           "ageAtTournament": 34,
@@ -12484,7 +12484,7 @@
             "country": "Saudi Arabia"
           },
           "goals": 0,
-          "captain": false
+          "captain": true
         },
         {
           "jersey": 4,
@@ -12966,7 +12966,7 @@
         },
         {
           "jersey": 12,
-          "name": "Jalal Hassan (captain)",
+          "name": "Jalal Hassan",
           "position": "GK",
           "born": "1991-05-18",
           "ageAtTournament": 35,
@@ -12975,7 +12975,7 @@
             "country": "Iraq"
           },
           "goals": 0,
-          "captain": false
+          "captain": true
         },
         {
           "jersey": 13,
@@ -13314,7 +13314,7 @@
         },
         {
           "jersey": 10,
-          "name": "Martin Ødegaard (captain)",
+          "name": "Martin Ødegaard",
           "position": "MF",
           "born": "1998-12-17",
           "ageAtTournament": 27,
@@ -13323,7 +13323,7 @@
             "country": "England"
           },
           "goals": 0,
-          "captain": false
+          "captain": true
         },
         {
           "jersey": 11,
@@ -13688,7 +13688,7 @@
         },
         {
           "jersey": 10,
-          "name": "Lionel Messi (captain)",
+          "name": "Lionel Messi",
           "position": "FW",
           "born": "1987-06-24",
           "ageAtTournament": 38,
@@ -13697,7 +13697,7 @@
             "country": "United States"
           },
           "goals": 0,
-          "captain": false
+          "captain": true
         },
         {
           "jersey": 11,
@@ -14024,7 +14024,7 @@
         },
         {
           "jersey": 7,
-          "name": "Riyad Mahrez (captain)",
+          "name": "Riyad Mahrez",
           "position": "FW",
           "born": "1991-02-21",
           "ageAtTournament": 35,
@@ -14033,7 +14033,7 @@
             "country": "Saudi Arabia"
           },
           "goals": 0,
-          "captain": false
+          "captain": true
         },
         {
           "jersey": 8,
@@ -14411,7 +14411,7 @@
         },
         {
           "jersey": 8,
-          "name": "David Alaba (captain)",
+          "name": "David Alaba",
           "position": "DF",
           "born": "1992-06-24",
           "ageAtTournament": 33,
@@ -14420,7 +14420,7 @@
             "country": "Spain"
           },
           "goals": 0,
-          "captain": false
+          "captain": true
         },
         {
           "jersey": 9,
@@ -14980,7 +14980,7 @@
         },
         {
           "jersey": 23,
-          "name": "Ihsan Haddad (captain)",
+          "name": "Ihsan Haddad",
           "position": "DF",
           "born": "1994-02-05",
           "ageAtTournament": 32,
@@ -14989,7 +14989,7 @@
             "country": "Jordan"
           },
           "goals": 0,
-          "captain": false
+          "captain": true
         },
         {
           "jersey": 24,
@@ -15302,7 +15302,7 @@
         },
         {
           "jersey": null,
-          "name": "Cristiano Ronaldo (captain)",
+          "name": "Cristiano Ronaldo",
           "position": "FW",
           "born": "1985-02-05",
           "ageAtTournament": 41,
@@ -15311,7 +15311,7 @@
             "country": "Saudi Arabia"
           },
           "goals": 0,
-          "captain": false
+          "captain": true
         },
         {
           "jersey": null,
@@ -15481,7 +15481,7 @@
         },
         {
           "jersey": null,
-          "name": "Chancel Mbemba (captain)",
+          "name": "Chancel Mbemba",
           "position": "DF",
           "born": "1994-08-08",
           "ageAtTournament": 31,
@@ -15490,7 +15490,7 @@
             "country": "France"
           },
           "goals": 0,
-          "captain": false
+          "captain": true
         },
         {
           "jersey": null,
@@ -15985,7 +15985,7 @@
         },
         {
           "jersey": 14,
-          "name": "Eldor Shomurodov (captain)",
+          "name": "Eldor Shomurodov",
           "position": "FW",
           "born": "1995-06-29",
           "ageAtTournament": 30,
@@ -15994,7 +15994,7 @@
             "country": "Turkey"
           },
           "goals": 0,
-          "captain": false
+          "captain": true
         },
         {
           "jersey": 15,
@@ -16333,7 +16333,7 @@
         },
         {
           "jersey": null,
-          "name": "James Rodríguez (captain)",
+          "name": "James Rodríguez",
           "position": "MF",
           "born": "1991-07-12",
           "ageAtTournament": 34,
@@ -16342,7 +16342,7 @@
             "country": "United States"
           },
           "goals": 0,
-          "captain": false
+          "captain": true
         },
         {
           "jersey": null,
@@ -16798,7 +16798,7 @@
         },
         {
           "jersey": null,
-          "name": "Harry Kane (captain)",
+          "name": "Harry Kane",
           "position": "FW",
           "born": "1993-07-28",
           "ageAtTournament": 32,
@@ -16807,7 +16807,7 @@
             "country": "Germany"
           },
           "goals": 0,
-          "captain": false
+          "captain": true
         },
         {
           "jersey": null,
@@ -17069,7 +17069,7 @@
         },
         {
           "jersey": null,
-          "name": "Luka Modrić (captain)",
+          "name": "Luka Modrić",
           "position": "MF",
           "born": "1985-09-09",
           "ageAtTournament": 40,
@@ -17078,7 +17078,7 @@
             "country": "Italy"
           },
           "goals": 0,
-          "captain": false
+          "captain": true
         },
         {
           "jersey": null,
@@ -17417,7 +17417,7 @@
         },
         {
           "jersey": 9,
-          "name": "Jordan Ayew (captain)",
+          "name": "Jordan Ayew",
           "position": "FW",
           "born": "1991-09-11",
           "ageAtTournament": 34,
@@ -17426,7 +17426,7 @@
             "country": "England"
           },
           "goals": 0,
-          "captain": false
+          "captain": true
         },
         {
           "jersey": 10,
@@ -17856,7 +17856,7 @@
         },
         {
           "jersey": null,
-          "name": "Aníbal Godoy (captain)",
+          "name": "Aníbal Godoy",
           "position": "MF",
           "born": "1990-02-10",
           "ageAtTournament": 36,
@@ -17865,7 +17865,7 @@
             "country": "United States"
           },
           "goals": 0,
-          "captain": false
+          "captain": true
         },
         {
           "jersey": null,

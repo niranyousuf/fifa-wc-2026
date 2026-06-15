@@ -1,5 +1,5 @@
 {
-  "savedAt": 1781497622670,
+  "savedAt": 1781525947541,
   "data": {
     "year": 2026,
     "count": 104,
@@ -2576,8 +2576,8 @@
         "status": "finished",
         "liveMinute": null,
         "liveMinuteAt": null,
-        "clockSource": "wikipedia",
-        "clockSourceAt": "2026-06-14T00:29:50.747Z",
+        "clockSource": "apifootball",
+        "clockSourceAt": "2026-06-15T07:51:32.335Z",
         "cards": [
           {
             "minute": 37,
@@ -2655,6 +2655,46 @@
           }
         ],
         "livePhase": null,
+        "statistics": {
+          "home": {
+            "possessionPct": 51,
+            "shotsTotal": 12,
+            "shotsOnGoal": 5,
+            "shotsOffGoal": 4,
+            "shotsBlocked": 3,
+            "shotsInsideBox": 9,
+            "shotsOutsideBox": 3,
+            "corners": 6,
+            "offsides": 0,
+            "fouls": 16,
+            "yellowCards": 2,
+            "redCards": null,
+            "goalkeeperSaves": 2,
+            "passesTotal": 514,
+            "passesAccurate": 449,
+            "passesPct": 87,
+            "expectedGoals": 1.26
+          },
+          "away": {
+            "possessionPct": 49,
+            "shotsTotal": 14,
+            "shotsOnGoal": 3,
+            "shotsOffGoal": 5,
+            "shotsBlocked": 6,
+            "shotsInsideBox": 7,
+            "shotsOutsideBox": 7,
+            "corners": 2,
+            "offsides": 1,
+            "fouls": 14,
+            "yellowCards": 0,
+            "redCards": null,
+            "goalkeeperSaves": 4,
+            "passesTotal": 486,
+            "passesAccurate": 419,
+            "passesPct": 86,
+            "expectedGoals": 1.37
+          }
+        },
         "stageNormalized": "group_c"
       },
       {
@@ -3287,8 +3327,8 @@
         "status": "finished",
         "liveMinute": null,
         "liveMinuteAt": null,
-        "clockSource": "wikipedia",
-        "clockSourceAt": "2026-06-15T01:29:51.062Z",
+        "clockSource": "apifootball",
+        "clockSourceAt": "2026-06-15T07:39:30.972Z",
         "cards": [
           {
             "minute": 28,
@@ -3372,6 +3412,46 @@
           }
         ],
         "livePhase": null,
+        "statistics": {
+          "home": {
+            "possessionPct": 45,
+            "shotsTotal": 6,
+            "shotsOnGoal": 1,
+            "shotsOffGoal": 2,
+            "shotsBlocked": 3,
+            "shotsInsideBox": 3,
+            "shotsOutsideBox": 3,
+            "corners": 2,
+            "offsides": null,
+            "fouls": 8,
+            "yellowCards": 3,
+            "redCards": null,
+            "goalkeeperSaves": 0,
+            "passesTotal": 233,
+            "passesAccurate": 193,
+            "passesPct": 83,
+            "expectedGoals": 0.73
+          },
+          "away": {
+            "possessionPct": 55,
+            "shotsTotal": 6,
+            "shotsOnGoal": 0,
+            "shotsOffGoal": 6,
+            "shotsBlocked": 0,
+            "shotsInsideBox": 1,
+            "shotsOutsideBox": 5,
+            "corners": 0,
+            "offsides": null,
+            "fouls": 3,
+            "yellowCards": 0,
+            "redCards": null,
+            "goalkeeperSaves": 1,
+            "passesTotal": 285,
+            "passesAccurate": 248,
+            "passesPct": 87,
+            "expectedGoals": 0.54
+          }
+        },
         "stageNormalized": "group_e"
       },
       {
@@ -3405,7 +3485,7 @@
           "humidityPct": 83,
           "precipitationMm": 0.4,
           "windKmh": 17.3,
-          "code": 51
+          "code": 95
         },
         "goals": [
           {
@@ -4012,8 +4092,8 @@
         "status": "finished",
         "liveMinute": null,
         "liveMinuteAt": null,
-        "clockSource": "wikipedia",
-        "clockSourceAt": "2026-06-14T22:28:26.254Z",
+        "clockSource": "apifootball",
+        "clockSourceAt": "2026-06-15T07:39:34.442Z",
         "livePhase": null,
         "substitutions": [
           {
@@ -4098,6 +4178,46 @@
             "color": "yellow"
           }
         ],
+        "statistics": {
+          "home": {
+            "possessionPct": 60,
+            "shotsTotal": 10,
+            "shotsOnGoal": 6,
+            "shotsOffGoal": 3,
+            "shotsBlocked": 1,
+            "shotsInsideBox": 10,
+            "shotsOutsideBox": 0,
+            "corners": 5,
+            "offsides": 1,
+            "fouls": 7,
+            "yellowCards": 3,
+            "redCards": null,
+            "goalkeeperSaves": 1,
+            "passesTotal": 525,
+            "passesAccurate": 464,
+            "passesPct": 88,
+            "expectedGoals": 0.79
+          },
+          "away": {
+            "possessionPct": 40,
+            "shotsTotal": 10,
+            "shotsOnGoal": 3,
+            "shotsOffGoal": 6,
+            "shotsBlocked": 1,
+            "shotsInsideBox": 6,
+            "shotsOutsideBox": 4,
+            "corners": 4,
+            "offsides": 0,
+            "fouls": 7,
+            "yellowCards": 0,
+            "redCards": null,
+            "goalkeeperSaves": 4,
+            "passesTotal": 342,
+            "passesAccurate": 287,
+            "passesPct": 84,
+            "expectedGoals": 0.54
+          }
+        },
         "stageNormalized": "group_f"
       },
       {
@@ -4131,7 +4251,7 @@
           "humidityPct": 70,
           "precipitationMm": 0,
           "windKmh": 9.8,
-          "code": 1
+          "code": 95
         },
         "goals": [
           {
@@ -4236,15 +4356,15 @@
               "starter": true
             },
             {
-              "player": "Elliot Stroud",
-              "number": 4,
-              "position": "DF",
-              "starter": false
-            },
-            {
               "player": "Lucas Bergvall",
               "number": 7,
               "position": "MF",
+              "starter": false
+            },
+            {
+              "player": "Elliot Stroud",
+              "number": 24,
+              "position": "DF",
               "starter": false
             },
             {
@@ -4254,15 +4374,15 @@
               "starter": false
             },
             {
-              "player": "Daniel Svensson",
-              "number": 8,
-              "position": "DF",
-              "starter": false
-            },
-            {
               "player": "Anthony Elanga",
               "number": 11,
               "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Daniel Svensson",
+              "number": 8,
+              "position": "DF",
               "starter": false
             }
           ],
@@ -4335,12 +4455,6 @@
               "starter": true
             },
             {
-              "player": "Sebastian Tounekti",
-              "number": 26,
-              "position": "FW",
-              "starter": false
-            },
-            {
               "player": "Elias Achouri",
               "number": 7,
               "position": "FW",
@@ -4353,15 +4467,21 @@
               "starter": false
             },
             {
-              "player": "Ismaël Gharbi",
-              "number": 11,
-              "position": "MF",
+              "player": "Sebastian Tounekti",
+              "number": 26,
+              "position": "FW",
               "starter": false
             },
             {
               "player": "Firas Chaouat",
               "number": 19,
               "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Ismaël Gharbi",
+              "number": 11,
+              "position": "MF",
               "starter": false
             }
           ]
@@ -4378,7 +4498,7 @@
         "liveMinute": null,
         "liveMinuteAt": null,
         "clockSource": "wikipedia",
-        "clockSourceAt": "2026-06-15T04:25:58.912Z",
+        "clockSourceAt": "2026-06-15T04:29:50.853Z",
         "livePhase": null,
         "cards": [
           {
@@ -4438,38 +4558,32 @@
           {
             "minute": 65,
             "team": "home",
-            "on": "Elliot Stroud",
+            "on": "Lucas Bergvall",
             "off": "Gabriel Gudmundsson"
           },
           {
             "minute": 65,
             "team": "home",
-            "on": "Lucas Bergvall",
+            "on": "Elliot Stroud",
             "off": "Benjamin Nygren"
           },
           {
             "minute": 72,
             "team": "away",
-            "on": "Sebastian Tounekti",
+            "on": "Elias Achouri",
             "off": "Yan Valery"
           },
           {
             "minute": 72,
             "team": "away",
-            "on": "Elias Achouri",
+            "on": "Hadj Mahmoud",
             "off": "Ellyes Skhiri"
           },
           {
             "minute": 72,
             "team": "away",
-            "on": "Hadj Mahmoud",
+            "on": "Sebastian Tounekti",
             "off": "Elias Saad"
-          },
-          {
-            "minute": 83,
-            "team": "away",
-            "on": "Ismaël Gharbi",
-            "off": "Rani Khedira"
           },
           {
             "minute": 84,
@@ -4481,18 +4595,24 @@
             "minute": 84,
             "team": "away",
             "on": "Firas Chaouat",
+            "off": "Rani Khedira"
+          },
+          {
+            "minute": 84,
+            "team": "away",
+            "on": "Ismaël Gharbi",
             "off": "Anis Ben Slimane"
           },
           {
             "minute": 90,
             "team": "home",
-            "on": "Daniel Svensson",
+            "on": "Anthony Elanga",
             "off": "Alexander Bernhardsson"
           },
           {
             "minute": 90,
             "team": "home",
-            "on": "Anthony Elanga",
+            "on": "Daniel Svensson",
             "off": "Alexander Isak"
           }
         ],
