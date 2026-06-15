@@ -1,5 +1,5 @@
 {
-  "savedAt": 1781525947518,
+  "savedAt": 1781557053347,
   "data": {
     "year": 2026,
     "groups": {
@@ -331,6 +331,34 @@
       ],
       "H": [
         {
+          "team": "Spain",
+          "played": 1,
+          "won": 0,
+          "drawn": 1,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 1,
+          "position": null,
+          "tiebreakerNotes": "Tied with Cabo Verde on every available criterion — would be settled by fair-play or drawing of lots.",
+          "advanced": true
+        },
+        {
+          "team": "Cabo Verde",
+          "played": 1,
+          "won": 0,
+          "drawn": 1,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 1,
+          "position": null,
+          "tiebreakerNotes": "Tied with Spain on every available criterion — would be settled by fair-play or drawing of lots.",
+          "advanced": true
+        },
+        {
           "team": "Saudi Arabia",
           "played": 0,
           "won": 0,
@@ -355,38 +383,38 @@
           "goalDifference": 0,
           "points": 0,
           "position": null,
-          "tiebreakerNotes": "Tied with Saudi Arabia on every available criterion — would be settled by fair-play or drawing of lots.",
-          "advanced": true
-        },
-        {
-          "team": "Spain",
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "goalsFor": 0,
-          "goalsAgainst": 0,
-          "goalDifference": 0,
-          "points": 0,
-          "position": null,
-          "tiebreakerNotes": "Tied with Uruguay on every available criterion — would be settled by fair-play or drawing of lots.",
-          "advanced": true
-        },
-        {
-          "team": "Cabo Verde",
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "goalsFor": 0,
-          "goalsAgainst": 0,
-          "goalDifference": 0,
-          "points": 0,
-          "position": null,
-          "tiebreakerNotes": "Tied with Spain on every available criterion — would be settled by fair-play or drawing of lots."
+          "tiebreakerNotes": "Tied with Saudi Arabia on every available criterion — would be settled by fair-play or drawing of lots."
         }
       ],
       "G": [
+        {
+          "team": "Belgium",
+          "played": 1,
+          "won": 0,
+          "drawn": 1,
+          "lost": 0,
+          "goalsFor": 1,
+          "goalsAgainst": 1,
+          "goalDifference": 0,
+          "points": 1,
+          "position": null,
+          "tiebreakerNotes": "Tied with Egypt on every available criterion — would be settled by fair-play or drawing of lots.",
+          "advanced": true
+        },
+        {
+          "team": "Egypt",
+          "played": 1,
+          "won": 0,
+          "drawn": 1,
+          "lost": 0,
+          "goalsFor": 1,
+          "goalsAgainst": 1,
+          "goalDifference": 0,
+          "points": 1,
+          "position": null,
+          "tiebreakerNotes": "Tied with Belgium on every available criterion — would be settled by fair-play or drawing of lots.",
+          "advanced": true
+        },
         {
           "team": "IR Iran",
           "played": 0,
@@ -412,35 +440,7 @@
           "goalDifference": 0,
           "points": 0,
           "position": null,
-          "tiebreakerNotes": "Tied with IR Iran on every available criterion — would be settled by fair-play or drawing of lots.",
-          "advanced": true
-        },
-        {
-          "team": "Belgium",
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "goalsFor": 0,
-          "goalsAgainst": 0,
-          "goalDifference": 0,
-          "points": 0,
-          "position": null,
-          "tiebreakerNotes": "Tied with New Zealand on every available criterion — would be settled by fair-play or drawing of lots.",
-          "advanced": true
-        },
-        {
-          "team": "Egypt",
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "goalsFor": 0,
-          "goalsAgainst": 0,
-          "goalDifference": 0,
-          "points": 0,
-          "position": null,
-          "tiebreakerNotes": "Tied with Belgium on every available criterion — would be settled by fair-play or drawing of lots."
+          "tiebreakerNotes": "Tied with IR Iran on every available criterion — would be settled by fair-play or drawing of lots."
         }
       ],
       "I": [
