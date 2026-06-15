@@ -1,5 +1,5 @@
 {
-  "savedAt": 1781465949678,
+  "savedAt": 1781497622627,
   "data": {
     "year": 2026,
     "groups": {
@@ -237,31 +237,29 @@
         },
         {
           "team": "Côte d'Ivoire",
-          "played": 0,
-          "won": 0,
+          "played": 1,
+          "won": 1,
           "drawn": 0,
           "lost": 0,
-          "goalsFor": 0,
+          "goalsFor": 1,
           "goalsAgainst": 0,
-          "goalDifference": 0,
-          "points": 0,
-          "position": null,
-          "tiebreakerNotes": "Tied with Ecuador on every available criterion — would be settled by fair-play or drawing of lots.",
+          "goalDifference": 1,
+          "points": 3,
+          "position": 2,
           "advanced": true
         },
         {
           "team": "Ecuador",
-          "played": 0,
+          "played": 1,
           "won": 0,
           "drawn": 0,
-          "lost": 0,
+          "lost": 1,
           "goalsFor": 0,
-          "goalsAgainst": 0,
-          "goalDifference": 0,
+          "goalsAgainst": 1,
+          "goalDifference": -1,
           "points": 0,
-          "position": null,
-          "tiebreakerNotes": "Tied with Côte d'Ivoire on every available criterion — would be settled by fair-play or drawing of lots.",
-          "advanced": true
+          "position": 3,
+          "advanced": false
         },
         {
           "team": "Curaçao",
@@ -278,59 +276,57 @@
       ],
       "F": [
         {
-          "team": "Netherlands",
-          "played": 0,
-          "won": 0,
+          "team": "Sweden",
+          "played": 1,
+          "won": 1,
           "drawn": 0,
           "lost": 0,
-          "goalsFor": 0,
-          "goalsAgainst": 0,
+          "goalsFor": 5,
+          "goalsAgainst": 1,
+          "goalDifference": 4,
+          "points": 3,
+          "position": 1,
+          "advanced": true
+        },
+        {
+          "team": "Netherlands",
+          "played": 1,
+          "won": 0,
+          "drawn": 1,
+          "lost": 0,
+          "goalsFor": 2,
+          "goalsAgainst": 2,
           "goalDifference": 0,
-          "points": 0,
+          "points": 1,
           "position": null,
           "tiebreakerNotes": "Tied with Japan on every available criterion — would be settled by fair-play or drawing of lots.",
           "advanced": true
         },
         {
           "team": "Japan",
-          "played": 0,
+          "played": 1,
           "won": 0,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 0,
-          "goalsFor": 0,
-          "goalsAgainst": 0,
+          "goalsFor": 2,
+          "goalsAgainst": 2,
           "goalDifference": 0,
-          "points": 0,
+          "points": 1,
           "position": null,
           "tiebreakerNotes": "Tied with Netherlands on every available criterion — would be settled by fair-play or drawing of lots.",
           "advanced": true
         },
         {
-          "team": "Sweden",
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "goalsFor": 0,
-          "goalsAgainst": 0,
-          "goalDifference": 0,
-          "points": 0,
-          "position": null,
-          "tiebreakerNotes": "Tied with Japan on every available criterion — would be settled by fair-play or drawing of lots.",
-          "advanced": true
-        },
-        {
           "team": "Tunisia",
-          "played": 0,
+          "played": 1,
           "won": 0,
           "drawn": 0,
-          "lost": 0,
-          "goalsFor": 0,
-          "goalsAgainst": 0,
-          "goalDifference": 0,
+          "lost": 1,
+          "goalsFor": 1,
+          "goalsAgainst": 5,
+          "goalDifference": -4,
           "points": 0,
-          "position": null,
-          "tiebreakerNotes": "Tied with Sweden on every available criterion — would be settled by fair-play or drawing of lots."
+          "position": 4
         }
       ],
       "H": [
@@ -602,7 +598,7 @@
           "points": 0,
           "position": null,
           "tiebreakerNotes": "Tied with Panama on every available criterion — would be settled by fair-play or drawing of lots.",
-          "advanced": false
+          "advanced": true
         },
         {
           "team": "Croatia",
