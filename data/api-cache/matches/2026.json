@@ -1,5 +1,5 @@
 {
-  "savedAt": 1781608438549,
+  "savedAt": 1781629020200,
   "data": {
     "year": 2026,
     "count": 104,
@@ -392,7 +392,11 @@
           }
         },
         "livePhase": null,
-        "stageNormalized": "group_a"
+        "stageNormalized": "group_a",
+        "fairPlay": {
+          "home": -5,
+          "away": -10
+        }
       },
       {
         "id": "2026-002",
@@ -757,7 +761,11 @@
           }
         },
         "livePhase": null,
-        "stageNormalized": "group_a"
+        "stageNormalized": "group_a",
+        "fairPlay": {
+          "home": -1,
+          "away": 0
+        }
       },
       {
         "id": "2026-003",
@@ -1154,7 +1162,11 @@
           }
         },
         "livePhase": null,
-        "stageNormalized": "group_b"
+        "stageNormalized": "group_b",
+        "fairPlay": {
+          "home": -2,
+          "away": -3
+        }
       },
       {
         "id": "2026-004",
@@ -1562,7 +1574,11 @@
           }
         ],
         "livePhase": null,
-        "stageNormalized": "group_d"
+        "stageNormalized": "group_d",
+        "fairPlay": {
+          "home": -2,
+          "away": -10
+        }
       },
       {
         "id": "2026-005",
@@ -1948,7 +1964,11 @@
             "off": "Ruben Providence"
           }
         ],
-        "stageNormalized": "group_c"
+        "stageNormalized": "group_c",
+        "fairPlay": {
+          "home": -2,
+          "away": -6
+        }
       },
       {
         "id": "2026-006",
@@ -2319,7 +2339,11 @@
             "expectedGoals": 1.3
           }
         },
-        "stageNormalized": "group_d"
+        "stageNormalized": "group_d",
+        "fairPlay": {
+          "home": 0,
+          "away": -1
+        }
       },
       {
         "id": "2026-007",
@@ -2696,7 +2720,11 @@
             "expectedGoals": 1.37
           }
         },
-        "stageNormalized": "group_c"
+        "stageNormalized": "group_c",
+        "fairPlay": {
+          "home": -2,
+          "away": 0
+        }
       },
       {
         "id": "2026-008",
@@ -3082,7 +3110,11 @@
             "expectedGoals": 3.15
           }
         },
-        "stageNormalized": "group_b"
+        "stageNormalized": "group_b",
+        "fairPlay": {
+          "home": -2,
+          "away": -1
+        }
       },
       {
         "id": "2026-009",
@@ -3121,7 +3153,7 @@
           {
             "minute": 90,
             "team": "home",
-            "scorer": "A. Diallo"
+            "scorer": "Diallo"
           }
         ],
         "lineups": {
@@ -3454,7 +3486,11 @@
             "expectedGoals": 0.54
           }
         },
-        "stageNormalized": "group_e"
+        "stageNormalized": "group_e",
+        "fairPlay": {
+          "home": -3,
+          "away": -1
+        }
       },
       {
         "id": "2026-010",
@@ -4220,7 +4256,11 @@
             "expectedGoals": 0.54
           }
         },
-        "stageNormalized": "group_f"
+        "stageNormalized": "group_f",
+        "fairPlay": {
+          "home": -3,
+          "away": 0
+        }
       },
       {
         "id": "2026-012",
@@ -4618,7 +4658,11 @@
             "off": "Alexander Isak"
           }
         ],
-        "stageNormalized": "group_f"
+        "stageNormalized": "group_f",
+        "fairPlay": {
+          "home": 0,
+          "away": -2
+        }
       },
       {
         "id": "2026-013",
@@ -4658,13 +4702,6 @@
             "minute": 41,
             "team": "home",
             "scorer": "Al-Amri"
-          },
-          {
-            "minute": 41,
-            "team": "home",
-            "scorer": "A. Al Amri",
-            "type": "normal",
-            "provisional": true
           },
           {
             "minute": 80,
@@ -4884,7 +4921,7 @@
         "liveMinute": null,
         "liveMinuteAt": null,
         "clockSource": "wikipedia",
-        "clockSourceAt": "2026-06-16T00:29:46.886Z",
+        "clockSourceAt": "2026-06-16T16:02:01.591Z",
         "livePhase": null,
         "cards": [
           {
@@ -4996,7 +5033,11 @@
             "off": "Federico Viñas"
           }
         ],
-        "stageNormalized": "group_h"
+        "stageNormalized": "group_h",
+        "fairPlay": {
+          "home": -1,
+          "away": 0
+        }
       },
       {
         "id": "2026-014",
@@ -5237,8 +5278,8 @@
         "status": "finished",
         "liveMinute": null,
         "liveMinuteAt": null,
-        "clockSource": "wikipedia",
-        "clockSourceAt": "2026-06-15T18:29:08.191Z",
+        "clockSource": "apifootball",
+        "clockSourceAt": "2026-06-16T14:48:08.783Z",
         "cards": [
           {
             "minute": 16,
@@ -5311,7 +5352,51 @@
           }
         ],
         "livePhase": null,
-        "stageNormalized": "group_h"
+        "statistics": {
+          "home": {
+            "possessionPct": 74,
+            "shotsTotal": 27,
+            "shotsOnGoal": 7,
+            "shotsOffGoal": 12,
+            "shotsBlocked": 8,
+            "shotsInsideBox": 16,
+            "shotsOutsideBox": 11,
+            "corners": 11,
+            "offsides": 2,
+            "fouls": 10,
+            "yellowCards": 1,
+            "redCards": null,
+            "goalkeeperSaves": 1,
+            "passesTotal": 801,
+            "passesAccurate": 734,
+            "passesPct": 92,
+            "expectedGoals": 2.29
+          },
+          "away": {
+            "possessionPct": 26,
+            "shotsTotal": 6,
+            "shotsOnGoal": 1,
+            "shotsOffGoal": 3,
+            "shotsBlocked": 2,
+            "shotsInsideBox": 2,
+            "shotsOutsideBox": 4,
+            "corners": 1,
+            "offsides": 3,
+            "fouls": 1,
+            "yellowCards": 1,
+            "redCards": null,
+            "goalkeeperSaves": 7,
+            "passesTotal": 279,
+            "passesAccurate": 205,
+            "passesPct": 73,
+            "expectedGoals": 0.3
+          }
+        },
+        "stageNormalized": "group_h",
+        "fairPlay": {
+          "home": -1,
+          "away": -1
+        }
       },
       {
         "id": "2026-015",
@@ -5674,7 +5759,11 @@
             "off": "Marko Stamenić"
           }
         ],
-        "stageNormalized": "group_g"
+        "stageNormalized": "group_g",
+        "fairPlay": {
+          "home": -2,
+          "away": 0
+        }
       },
       {
         "id": "2026-016",
@@ -5714,11 +5803,6 @@
             "minute": 19,
             "team": "away",
             "scorer": "Ashour"
-          },
-          {
-            "minute": 66,
-            "team": "home",
-            "scorer": "Hany"
           },
           {
             "minute": 66,
@@ -6094,7 +6178,11 @@
             "off": "Ahmed Fatouh"
           }
         ],
-        "stageNormalized": "group_g"
+        "stageNormalized": "group_g",
+        "fairPlay": {
+          "home": -4,
+          "away": -4
+        }
       },
       {
         "id": "2026-017",
