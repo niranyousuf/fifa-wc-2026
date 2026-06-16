@@ -1,5 +1,5 @@
 {
-  "savedAt": 1781583784575,
+  "savedAt": 1781608438549,
   "data": {
     "year": 2026,
     "count": 104,
@@ -1762,13 +1762,13 @@
             },
             {
               "player": "Nathan Patterson",
-              "number": 22,
+              "number": 11,
               "position": "DF",
               "starter": false
             },
             {
               "player": "Ryan Christie",
-              "number": 11,
+              "number": 22,
               "position": "MF",
               "starter": false
             },
@@ -4743,7 +4743,7 @@
             },
             {
               "player": "Nasser Al-Dawsari",
-              "number": 7,
+              "number": 6,
               "position": "MF",
               "starter": false
             },
@@ -5563,7 +5563,7 @@
           ]
         },
         "formations": {
-          "home": "4-2-4",
+          "home": "4-3-3",
           "away": "4-4-2"
         },
         "managers": {
