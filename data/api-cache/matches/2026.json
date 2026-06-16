@@ -1,5 +1,5 @@
 {
-  "savedAt": 1781629020200,
+  "savedAt": 1781643242449,
   "data": {
     "year": 2026,
     "count": 104,
@@ -293,8 +293,8 @@
           }
         ],
         "liveMinuteAt": null,
-        "clockSource": "apifootball",
-        "clockSourceAt": "2026-06-12T19:31:18.491Z",
+        "clockSource": "wikipedia",
+        "clockSourceAt": "2026-06-16T19:32:27.031Z",
         "substitutions": [
           {
             "minute": 56,
@@ -434,8 +434,8 @@
         "status": "finished",
         "liveMinute": null,
         "liveMinuteAt": null,
-        "clockSource": "apifootball",
-        "clockSourceAt": "2026-06-12T19:31:19.494Z",
+        "clockSource": "wikipedia",
+        "clockSourceAt": "2026-06-16T19:32:28.751Z",
         "goals": [
           {
             "minute": 59,
@@ -1023,8 +1023,8 @@
         "status": "finished",
         "liveMinute": null,
         "liveMinuteAt": null,
-        "clockSource": "apifootball",
-        "clockSourceAt": "2026-06-13T00:00:54.033Z",
+        "clockSource": "wikipedia",
+        "clockSourceAt": "2026-06-16T19:32:30.032Z",
         "cards": [
           {
             "minute": 11,
@@ -1425,24 +1425,12 @@
         "liveMinute": null,
         "liveMinuteAt": null,
         "clockSource": "wikipedia",
-        "clockSourceAt": "2026-06-13T03:29:50.839Z",
+        "clockSourceAt": "2026-06-16T19:32:31.375Z",
         "cards": [
           {
             "minute": 9,
             "team": "away",
             "player": "Juan José Cáceres",
-            "color": "yellow"
-          },
-          {
-            "minute": 10,
-            "team": "away",
-            "player": "J. Caceres",
-            "color": "yellow"
-          },
-          {
-            "minute": 53,
-            "team": "away",
-            "player": "M. Almiron",
             "color": "yellow"
           },
           {
@@ -1454,19 +1442,7 @@
           {
             "minute": 59,
             "team": "home",
-            "player": "T. Adams",
-            "color": "yellow"
-          },
-          {
-            "minute": 59,
-            "team": "home",
             "player": "Tyler Adams",
-            "color": "yellow"
-          },
-          {
-            "minute": 79,
-            "team": "away",
-            "player": "D. Gomez",
             "color": "yellow"
           },
           {
@@ -1478,19 +1454,7 @@
           {
             "minute": 88,
             "team": "away",
-            "player": "A. Arce",
-            "color": "yellow"
-          },
-          {
-            "minute": 88,
-            "team": "away",
             "player": "Álex Arce",
-            "color": "yellow"
-          },
-          {
-            "minute": 90,
-            "team": "away",
-            "player": "J. Alonso",
             "color": "yellow"
           },
           {
@@ -1576,8 +1540,8 @@
         "livePhase": null,
         "stageNormalized": "group_d",
         "fairPlay": {
-          "home": -2,
-          "away": -10
+          "home": -1,
+          "away": -5
         }
       },
       {
@@ -1820,25 +1784,13 @@
         "liveMinute": null,
         "liveMinuteAt": null,
         "clockSource": "wikipedia",
-        "clockSourceAt": "2026-06-14T03:29:29.322Z",
+        "clockSourceAt": "2026-06-16T19:32:32.771Z",
         "livePhase": null,
         "cards": [
           {
             "minute": 39,
             "team": "home",
-            "player": "J. Bellegarde",
-            "color": "yellow"
-          },
-          {
-            "minute": 39,
-            "team": "home",
             "player": "Jean-Ricner Bellegarde",
-            "color": "yellow"
-          },
-          {
-            "minute": 46,
-            "team": "away",
-            "player": "A. Hickey",
             "color": "yellow"
           },
           {
@@ -1849,14 +1801,9 @@
           },
           {
             "minute": 90,
+            "addedMinute": 1,
             "team": "away",
-            "player": "F. Curtis",
-            "color": "yellow"
-          },
-          {
-            "minute": 90,
-            "team": "away",
-            "player": "K. McLean",
+            "player": "Findlay Curtis",
             "color": "yellow"
           },
           {
@@ -1864,13 +1811,6 @@
             "addedMinute": 5,
             "team": "away",
             "player": "Kenny McLean",
-            "color": "yellow"
-          },
-          {
-            "minute": 90,
-            "addedMinute": 1,
-            "team": "away",
-            "player": "Findlay Curtis",
             "color": "yellow"
           }
         ],
@@ -1966,8 +1906,8 @@
         ],
         "stageNormalized": "group_c",
         "fairPlay": {
-          "home": -2,
-          "away": -6
+          "home": -1,
+          "away": -3
         }
       },
       {
@@ -2227,7 +2167,7 @@
         "liveMinute": null,
         "liveMinuteAt": null,
         "clockSource": "wikipedia",
-        "clockSourceAt": "2026-06-14T06:29:08.536Z",
+        "clockSourceAt": "2026-06-16T19:32:34.059Z",
         "livePhase": null,
         "cards": [
           {
@@ -2601,8 +2541,8 @@
         "status": "finished",
         "liveMinute": null,
         "liveMinuteAt": null,
-        "clockSource": "apifootball",
-        "clockSourceAt": "2026-06-15T07:51:32.335Z",
+        "clockSource": "wikipedia",
+        "clockSourceAt": "2026-06-16T19:32:35.375Z",
         "cards": [
           {
             "minute": 37,
@@ -2986,7 +2926,7 @@
         "liveMinute": null,
         "liveMinuteAt": null,
         "clockSource": "wikipedia",
-        "clockSourceAt": "2026-06-13T21:29:30.707Z",
+        "clockSourceAt": "2026-06-16T19:32:36.731Z",
         "livePhase": null,
         "cards": [
           {
@@ -3361,8 +3301,8 @@
         "status": "finished",
         "liveMinute": null,
         "liveMinuteAt": null,
-        "clockSource": "apifootball",
-        "clockSourceAt": "2026-06-15T07:39:30.972Z",
+        "clockSource": "wikipedia",
+        "clockSourceAt": "2026-06-16T19:32:38.010Z",
         "cards": [
           {
             "minute": 28,
@@ -3769,8 +3709,8 @@
         "status": "finished",
         "liveMinute": null,
         "liveMinuteAt": null,
-        "clockSource": "apifootball",
-        "clockSourceAt": "2026-06-15T00:00:33.235Z",
+        "clockSource": "wikipedia",
+        "clockSourceAt": "2026-06-16T19:32:39.235Z",
         "livePhase": null,
         "substitutions": [
           {
@@ -4130,8 +4070,8 @@
         "status": "finished",
         "liveMinute": null,
         "liveMinuteAt": null,
-        "clockSource": "apifootball",
-        "clockSourceAt": "2026-06-15T07:39:34.442Z",
+        "clockSource": "wikipedia",
+        "clockSourceAt": "2026-06-16T19:32:40.529Z",
         "livePhase": null,
         "substitutions": [
           {
@@ -4540,15 +4480,9 @@
         "liveMinute": null,
         "liveMinuteAt": null,
         "clockSource": "wikipedia",
-        "clockSourceAt": "2026-06-15T04:29:50.853Z",
+        "clockSourceAt": "2026-06-16T19:32:41.853Z",
         "livePhase": null,
         "cards": [
-          {
-            "minute": 54,
-            "team": "away",
-            "player": "R. Khedira",
-            "color": "yellow"
-          },
           {
             "minute": 54,
             "team": "away",
@@ -4661,7 +4595,7 @@
         "stageNormalized": "group_f",
         "fairPlay": {
           "home": 0,
-          "away": -2
+          "away": -1
         }
       },
       {
@@ -4921,7 +4855,7 @@
         "liveMinute": null,
         "liveMinuteAt": null,
         "clockSource": "wikipedia",
-        "clockSourceAt": "2026-06-16T16:02:01.591Z",
+        "clockSourceAt": "2026-06-16T19:32:43.178Z",
         "livePhase": null,
         "cards": [
           {
@@ -5278,8 +5212,8 @@
         "status": "finished",
         "liveMinute": null,
         "liveMinuteAt": null,
-        "clockSource": "apifootball",
-        "clockSourceAt": "2026-06-16T14:48:08.783Z",
+        "clockSource": "wikipedia",
+        "clockSourceAt": "2026-06-16T19:32:44.457Z",
         "cards": [
           {
             "minute": 16,
@@ -5658,16 +5592,10 @@
         "status": "finished",
         "liveMinute": null,
         "liveMinuteAt": null,
-        "clockSource": "apifootball",
-        "clockSourceAt": "2026-06-16T03:08:17.728Z",
+        "clockSource": "wikipedia",
+        "clockSourceAt": "2026-06-16T19:32:45.893Z",
         "livePhase": null,
         "cards": [
-          {
-            "minute": 89,
-            "team": "home",
-            "player": "E. Hajsafi",
-            "color": "yellow"
-          },
           {
             "minute": 89,
             "team": "home",
@@ -5761,7 +5689,7 @@
         ],
         "stageNormalized": "group_g",
         "fairPlay": {
-          "home": -2,
+          "home": -1,
           "away": 0
         }
       },
@@ -6024,25 +5952,13 @@
         "liveMinute": null,
         "liveMinuteAt": null,
         "clockSource": "wikipedia",
-        "clockSourceAt": "2026-06-15T21:28:24.385Z",
+        "clockSourceAt": "2026-06-16T19:32:47.068Z",
         "livePhase": null,
         "cards": [
           {
             "minute": 13,
             "team": "away",
-            "player": "M. Attia",
-            "color": "yellow"
-          },
-          {
-            "minute": 13,
-            "team": "away",
             "player": "Marwan Attia",
-            "color": "yellow"
-          },
-          {
-            "minute": 14,
-            "team": "home",
-            "player": "T. Castagne",
             "color": "yellow"
           },
           {
@@ -6054,19 +5970,7 @@
           {
             "minute": 34,
             "team": "away",
-            "player": "A. Fatouh",
-            "color": "yellow"
-          },
-          {
-            "minute": 34,
-            "team": "away",
             "player": "Ahmed Fatouh",
-            "color": "yellow"
-          },
-          {
-            "minute": 75,
-            "team": "home",
-            "player": "M. De Cuyper",
             "color": "yellow"
           },
           {
@@ -6180,8 +6084,8 @@
         ],
         "stageNormalized": "group_g",
         "fairPlay": {
-          "home": -4,
-          "away": -4
+          "home": -2,
+          "away": -2
         }
       },
       {
@@ -6208,7 +6112,165 @@
         "attendance": null,
         "referee": null,
         "weather": null,
-        "stageNormalized": "group_i"
+        "lineups": {
+          "home": [
+            {
+              "player": "Mike Maignan",
+              "number": 16,
+              "position": "GK",
+              "starter": true
+            },
+            {
+              "player": "Jules Koundé",
+              "number": 5,
+              "position": "RB",
+              "starter": true
+            },
+            {
+              "player": "Dayot Upamecano",
+              "number": 4,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "William Saliba",
+              "number": 17,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Théo Hernandez",
+              "number": 19,
+              "position": "LB",
+              "starter": true
+            },
+            {
+              "player": "Aurélien Tchouaméni",
+              "number": 8,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Adrien Rabiot",
+              "number": 14,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Michael Olise",
+              "number": 11,
+              "position": "RW",
+              "starter": true
+            },
+            {
+              "player": "Ousmane Dembélé",
+              "number": 7,
+              "position": "AM",
+              "starter": true
+            },
+            {
+              "player": "Désiré Doué",
+              "number": 20,
+              "position": "LW",
+              "starter": true
+            },
+            {
+              "player": "Kylian Mbappé",
+              "number": 10,
+              "position": "CF",
+              "starter": true,
+              "captain": true
+            }
+          ],
+          "away": [
+            {
+              "player": "Édouard Mendy",
+              "number": 16,
+              "position": "GK",
+              "starter": true
+            },
+            {
+              "player": "Krépin Diatta",
+              "number": 15,
+              "position": "RB",
+              "starter": true
+            },
+            {
+              "player": "Kalidou Koulibaly",
+              "number": 3,
+              "position": "CB",
+              "starter": true,
+              "captain": true
+            },
+            {
+              "player": "Moussa Niakhaté",
+              "number": 19,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "El Hadji Malick Diouf",
+              "number": 25,
+              "position": "LB",
+              "starter": true
+            },
+            {
+              "player": "Lamine Camara",
+              "number": 8,
+              "position": "RM",
+              "starter": true
+            },
+            {
+              "player": "Idrissa Gueye",
+              "number": 5,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Pape Gueye",
+              "number": 26,
+              "position": "LM",
+              "starter": true
+            },
+            {
+              "player": "Ismaïla Sarr",
+              "number": 18,
+              "position": "RF",
+              "starter": true
+            },
+            {
+              "player": "Nicolas Jackson",
+              "number": 11,
+              "position": "CF",
+              "starter": true
+            },
+            {
+              "player": "Sadio Mané",
+              "number": 10,
+              "position": "LF",
+              "starter": true
+            }
+          ]
+        },
+        "formations": {
+          "home": "4-5-1",
+          "away": "4-3-3"
+        },
+        "managers": {
+          "home": "Didier Deschamps",
+          "away": "Pape Thiaw"
+        },
+        "status": "live",
+        "liveMinute": null,
+        "liveMinuteAt": "2026-06-16T20:51:59.000Z",
+        "clockSource": "apifootball",
+        "clockSourceAt": "2026-06-16T20:52:00.940Z",
+        "livePhase": "2H",
+        "stageNormalized": "group_i",
+        "liveDataLocked": {
+          "reason": "live_data_is_pro",
+          "message": "Live in-match data (score, goals, cards, substitutions) is a Pro-tier feature. This match is in progress — upgrade at https://api.zafronix.com/pricing to read live tournament data."
+        }
       },
       {
         "id": "2026-018",
