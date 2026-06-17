@@ -1,5 +1,5 @@
 {
-  "savedAt": 1781669874206,
+  "savedAt": 1781694031269,
   "data": {
     "year": 2026,
     "groups": {
@@ -44,7 +44,7 @@
           "points": 0,
           "fairPlay": 0,
           "position": 3,
-          "advanced": false
+          "advanced": true
         },
         {
           "team": "South Africa",
@@ -550,32 +550,30 @@
         {
           "team": "Austria",
           "played": 1,
-          "won": 0,
-          "drawn": 1,
+          "won": 1,
+          "drawn": 0,
           "lost": 0,
-          "goalsFor": 0,
-          "goalsAgainst": 0,
-          "goalDifference": 0,
-          "points": 1,
-          "fairPlay": 0,
-          "position": null,
-          "tiebreakerNotes": "Tied with Jordan on every available criterion — would be settled by drawing of lots.",
+          "goalsFor": 3,
+          "goalsAgainst": 1,
+          "goalDifference": 2,
+          "points": 3,
+          "fairPlay": -1,
+          "position": 2,
           "advanced": true
         },
         {
           "team": "Jordan",
           "played": 1,
           "won": 0,
-          "drawn": 1,
-          "lost": 0,
-          "goalsFor": 0,
-          "goalsAgainst": 0,
-          "goalDifference": 0,
-          "points": 1,
+          "drawn": 0,
+          "lost": 1,
+          "goalsFor": 1,
+          "goalsAgainst": 3,
+          "goalDifference": -2,
+          "points": 0,
           "fairPlay": 0,
-          "position": null,
-          "tiebreakerNotes": "Tied with Austria on every available criterion — would be settled by drawing of lots.",
-          "advanced": true
+          "position": 3,
+          "advanced": false
         },
         {
           "team": "Algeria",

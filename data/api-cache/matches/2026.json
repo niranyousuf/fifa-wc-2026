@@ -1,5 +1,5 @@
 {
-  "savedAt": 1781669874275,
+  "savedAt": 1781694031314,
   "data": {
     "year": 2026,
     "count": 104,
@@ -5115,7 +5115,7 @@
               "starter": true
             },
             {
-              "player": "Roberto Lopes",
+              "player": "Pico",
               "number": 4,
               "position": "CB",
               "starter": true
@@ -5731,6 +5731,12 @@
             "minute": 19,
             "team": "away",
             "scorer": "Ashour"
+          },
+          {
+            "minute": 66,
+            "team": "home",
+            "scorer": "Hany 66' o.g",
+            "type": "own_goal"
           },
           {
             "minute": 66,
@@ -6493,7 +6499,8 @@
             "minute": 90,
             "addedMinute": 6,
             "team": "away",
-            "scorer": "Hussein"
+            "scorer": "Hussein 90+6' o.g",
+            "type": "own_goal"
           }
         ],
         "lineups": {
@@ -7206,18 +7213,59 @@
         "awayTeam": "Jordan",
         "homeRef": "Austria",
         "awayRef": "Jordan",
-        "homeScore": null,
-        "awayScore": null,
-        "result": null,
+        "homeScore": 3,
+        "awayScore": 1,
+        "result": "3-1",
         "extraTime": false,
         "penalties": null,
         "stadium": "San Francisco Bay Area Stadium",
         "stadiumId": "levis-stadium",
         "city": "Santa Clara",
         "country": "United States",
-        "attendance": null,
-        "referee": null,
-        "weather": null,
+        "attendance": 68527,
+        "referee": {
+          "name": "Dahane Beida",
+          "country": "Mauritania"
+        },
+        "weather": {
+          "tempC": 16.7,
+          "humidityPct": 85,
+          "precipitationMm": 0,
+          "windKmh": 15.1,
+          "code": 1
+        },
+        "goals": [
+          {
+            "minute": 20,
+            "team": "home",
+            "scorer": "Schmid"
+          },
+          {
+            "minute": 50,
+            "team": "away",
+            "scorer": "Olwan"
+          },
+          {
+            "minute": 76,
+            "team": "home",
+            "scorer": "Al-Arab 76' o.g",
+            "type": "own_goal"
+          },
+          {
+            "minute": 76,
+            "team": "away",
+            "scorer": "Y. Al Arab",
+            "type": "own_goal",
+            "provisional": true
+          },
+          {
+            "minute": 90,
+            "addedMinute": 12,
+            "team": "home",
+            "scorer": "Arnautović 90+12 pen",
+            "type": "penalty"
+          }
+        ],
         "lineups": {
           "home": [
             {
@@ -7286,6 +7334,36 @@
               "number": 14,
               "position": "CF",
               "starter": true
+            },
+            {
+              "player": "Marko Arnautović",
+              "number": 7,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Carney Chukwuemeka",
+              "number": 17,
+              "position": "MF",
+              "starter": false
+            },
+            {
+              "player": "Kevin Danso",
+              "number": 3,
+              "position": "DF",
+              "starter": false
+            },
+            {
+              "player": "Paul Wanner",
+              "number": 24,
+              "position": "MF",
+              "starter": false
+            },
+            {
+              "player": "Patrick Wimmer",
+              "number": 21,
+              "position": "FW",
+              "starter": false
             }
           ],
           "away": [
@@ -7355,6 +7433,36 @@
               "number": 11,
               "position": "LF",
               "starter": true
+            },
+            {
+              "player": "Salim Obaid",
+              "number": 17,
+              "position": "DF",
+              "starter": false
+            },
+            {
+              "player": "Saed Al-Rosan",
+              "number": 19,
+              "position": "DF",
+              "starter": false
+            },
+            {
+              "player": "Mahmoud Al-Mardi",
+              "number": 13,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Mohammad Al-Dawoud",
+              "number": 25,
+              "position": "MF",
+              "starter": false
+            },
+            {
+              "player": "Ali Azaizeh",
+              "number": 24,
+              "position": "FW",
+              "starter": false
             }
           ]
         },
@@ -7366,16 +7474,126 @@
           "home": "Ralf Rangnick",
           "away": "Jamal Sellami"
         },
-        "status": "live",
+        "status": "finished",
         "liveMinute": null,
-        "liveMinuteAt": "2026-06-17T04:04:31.000Z",
+        "liveMinuteAt": null,
         "clockSource": "apifootball",
-        "clockSourceAt": "2026-06-17T04:04:32.062Z",
-        "livePhase": "1H",
+        "clockSourceAt": "2026-06-17T06:16:43.956Z",
+        "livePhase": null,
+        "cards": [
+          {
+            "minute": 77,
+            "team": "home",
+            "player": "Marcel Sabitzer",
+            "color": "yellow"
+          }
+        ],
+        "substitutions": [
+          {
+            "minute": 46,
+            "team": "home",
+            "on": "Marko Arnautović",
+            "off": "Saša Kalajdžić"
+          },
+          {
+            "minute": 59,
+            "team": "home",
+            "on": "Carney Chukwuemeka",
+            "off": "David Alaba"
+          },
+          {
+            "minute": 59,
+            "team": "home",
+            "on": "Kevin Danso",
+            "off": "Phillipp Mwene"
+          },
+          {
+            "minute": 59,
+            "team": "home",
+            "on": "Paul Wanner",
+            "off": "Xaver Schlager"
+          },
+          {
+            "minute": 72,
+            "team": "away",
+            "on": "Salim Obaid",
+            "off": "Mo Abualnadi"
+          },
+          {
+            "minute": 81,
+            "team": "away",
+            "on": "Saed Al-Rosan",
+            "off": "Abdallah Nasib"
+          },
+          {
+            "minute": 82,
+            "team": "away",
+            "on": "Mahmoud Al-Mardi",
+            "off": "Ihsan Haddad"
+          },
+          {
+            "minute": 83,
+            "team": "home",
+            "on": "Patrick Wimmer",
+            "off": "Romano Schmid"
+          },
+          {
+            "minute": 88,
+            "team": "away",
+            "on": "Mohammad Al-Dawoud",
+            "off": "Musa Al-Taamari"
+          },
+          {
+            "minute": 89,
+            "team": "away",
+            "on": "Ali Azaizeh",
+            "off": "Odeh Al-Fakhouri"
+          }
+        ],
+        "statistics": {
+          "home": {
+            "possessionPct": 63,
+            "shotsTotal": 11,
+            "shotsOnGoal": 4,
+            "shotsOffGoal": 6,
+            "shotsBlocked": 1,
+            "shotsInsideBox": 6,
+            "shotsOutsideBox": 5,
+            "corners": 4,
+            "offsides": 3,
+            "fouls": 12,
+            "yellowCards": 1,
+            "redCards": null,
+            "goalkeeperSaves": 3,
+            "passesTotal": 580,
+            "passesAccurate": 488,
+            "passesPct": 84,
+            "expectedGoals": 0.83
+          },
+          "away": {
+            "possessionPct": 37,
+            "shotsTotal": 11,
+            "shotsOnGoal": 4,
+            "shotsOffGoal": 5,
+            "shotsBlocked": 2,
+            "shotsInsideBox": 7,
+            "shotsOutsideBox": 4,
+            "corners": 3,
+            "offsides": 1,
+            "fouls": 7,
+            "yellowCards": 0,
+            "redCards": null,
+            "goalkeeperSaves": 1,
+            "passesTotal": 328,
+            "passesAccurate": 240,
+            "passesPct": 73,
+            "expectedGoals": 0.53
+          }
+        },
         "stageNormalized": "group_j",
-        "liveDataLocked": {
-          "reason": "live_data_is_pro",
-          "message": "Live in-match data (score, goals, cards, substitutions) is a Pro-tier feature. This match is in progress — upgrade at https://api.zafronix.com/pricing to read live tournament data."
+        "fairPlay": {
+          "home": -1,
+          "away": 0
         }
       },
       {
