@@ -1,5 +1,5 @@
 {
-  "savedAt": 1781710609725,
+  "savedAt": 1781727268320,
   "data": {
     "year": 2026,
     "groups": {
@@ -591,6 +591,36 @@
       ],
       "L": [
         {
+          "team": "England",
+          "played": 1,
+          "won": 0,
+          "drawn": 1,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 1,
+          "fairPlay": 0,
+          "position": null,
+          "tiebreakerNotes": "Tied with Croatia on every available criterion — would be settled by drawing of lots.",
+          "advanced": true
+        },
+        {
+          "team": "Croatia",
+          "played": 1,
+          "won": 0,
+          "drawn": 1,
+          "lost": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 1,
+          "fairPlay": 0,
+          "position": null,
+          "tiebreakerNotes": "Tied with England on every available criterion — would be settled by drawing of lots.",
+          "advanced": true
+        },
+        {
           "team": "Ghana",
           "played": 0,
           "won": 0,
@@ -617,68 +647,38 @@
           "points": 0,
           "fairPlay": 0,
           "position": null,
-          "tiebreakerNotes": "Tied with Ghana on every available criterion — would be settled by drawing of lots.",
-          "advanced": true
-        },
-        {
-          "team": "England",
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "goalsFor": 0,
-          "goalsAgainst": 0,
-          "goalDifference": 0,
-          "points": 0,
-          "fairPlay": 0,
-          "position": null,
-          "tiebreakerNotes": "Tied with Panama on every available criterion — would be settled by drawing of lots.",
-          "advanced": true
-        },
-        {
-          "team": "Croatia",
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "goalsFor": 0,
-          "goalsAgainst": 0,
-          "goalDifference": 0,
-          "points": 0,
-          "fairPlay": 0,
-          "position": null,
-          "tiebreakerNotes": "Tied with England on every available criterion — would be settled by drawing of lots."
+          "tiebreakerNotes": "Tied with Ghana on every available criterion — would be settled by drawing of lots."
         }
       ],
       "K": [
         {
-          "team": "Portugal",
-          "played": 0,
+          "team": "Congo DR",
+          "played": 1,
           "won": 0,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 0,
-          "goalsFor": 0,
-          "goalsAgainst": 0,
+          "goalsFor": 1,
+          "goalsAgainst": 1,
           "goalDifference": 0,
-          "points": 0,
-          "fairPlay": 0,
-          "position": null,
-          "tiebreakerNotes": "Tied with Congo DR on every available criterion — would be settled by drawing of lots.",
+          "points": 1,
+          "fairPlay": -1,
+          "position": 1,
+          "tiebreakerNotes": "Decided over Portugal on head-to-head / fair-play",
           "advanced": true
         },
         {
-          "team": "Congo DR",
-          "played": 0,
+          "team": "Portugal",
+          "played": 1,
           "won": 0,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 0,
-          "goalsFor": 0,
-          "goalsAgainst": 0,
+          "goalsFor": 1,
+          "goalsAgainst": 1,
           "goalDifference": 0,
-          "points": 0,
-          "fairPlay": 0,
-          "position": null,
-          "tiebreakerNotes": "Tied with Portugal on every available criterion — would be settled by drawing of lots.",
+          "points": 1,
+          "fairPlay": -3,
+          "position": 2,
+          "tiebreakerNotes": "Decided over Congo DR on head-to-head / fair-play",
           "advanced": true
         },
         {
@@ -693,7 +693,7 @@
           "points": 0,
           "fairPlay": 0,
           "position": null,
-          "tiebreakerNotes": "Tied with Congo DR on every available criterion — would be settled by drawing of lots.",
+          "tiebreakerNotes": "Tied with Colombia on every available criterion — would be settled by drawing of lots.",
           "advanced": true
         },
         {

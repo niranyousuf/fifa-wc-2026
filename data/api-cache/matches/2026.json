@@ -1,5 +1,5 @@
 {
-  "savedAt": 1781710609799,
+  "savedAt": 1781727268372,
   "data": {
     "year": 2026,
     "count": 104,
@@ -7646,7 +7646,164 @@
         "attendance": null,
         "referee": null,
         "weather": null,
-        "stageNormalized": "group_l"
+        "lineups": {
+          "home": [
+            {
+              "player": "Jordan Pickford",
+              "number": 1,
+              "position": "GK",
+              "starter": true
+            },
+            {
+              "player": "Reece James",
+              "number": 24,
+              "position": "RB",
+              "starter": true
+            },
+            {
+              "player": "John Stones",
+              "number": 5,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Ezri Konsa",
+              "number": 2,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Nico O'Reilly",
+              "number": 3,
+              "position": "LB",
+              "starter": true
+            },
+            {
+              "player": "Elliot Anderson",
+              "number": 8,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Declan Rice",
+              "number": 4,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Noni Madueke",
+              "number": 20,
+              "position": "RW",
+              "starter": true
+            },
+            {
+              "player": "Jude Bellingham",
+              "number": 10,
+              "position": "AM",
+              "starter": true
+            },
+            {
+              "player": "Anthony Gordon",
+              "number": 18,
+              "position": "LW",
+              "starter": true
+            },
+            {
+              "player": "Harry Kane",
+              "number": 9,
+              "position": "CF",
+              "starter": true,
+              "captain": true
+            }
+          ],
+          "away": [
+            {
+              "player": "Dominik Livaković",
+              "number": 1,
+              "position": "GK",
+              "starter": true
+            },
+            {
+              "player": "Josip Šutalo",
+              "number": 6,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Luka Vušković",
+              "number": 22,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Joško Gvardiol",
+              "number": 4,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Josip Stanišić",
+              "number": 2,
+              "position": "RM",
+              "starter": true
+            },
+            {
+              "player": "Luka Modrić",
+              "number": 10,
+              "position": "CM",
+              "starter": true,
+              "captain": true
+            },
+            {
+              "player": "Petar Sučić",
+              "number": 17,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Ivan Perišić",
+              "number": 14,
+              "position": "LM",
+              "starter": true
+            },
+            {
+              "player": "Martin Baturina",
+              "number": 16,
+              "position": "RF",
+              "starter": true
+            },
+            {
+              "player": "Petar Musa",
+              "number": 26,
+              "position": "CF",
+              "starter": true
+            },
+            {
+              "player": "Mario Pašalić",
+              "number": 15,
+              "position": "LF",
+              "starter": true
+            }
+          ]
+        },
+        "formations": {
+          "home": "4-5-1",
+          "away": "3-4-3"
+        },
+        "managers": {
+          "home": "Thomas Tuchel",
+          "away": "Zlatko Dalić"
+        },
+        "status": "live",
+        "liveMinute": null,
+        "liveMinuteAt": null,
+        "clockSource": "wikipedia",
+        "clockSourceAt": "2026-06-17T20:12:26.382Z",
+        "stageNormalized": "group_l",
+        "liveDataLocked": {
+          "reason": "live_data_is_pro",
+          "message": "Live in-match data (score, goals, cards, substitutions) is a Pro-tier feature. This match is in progress — upgrade at https://api.zafronix.com/pricing to read live tournament data."
+        }
       },
       {
         "id": "2026-023",
@@ -7660,19 +7817,336 @@
         "awayTeam": "Congo DR",
         "homeRef": "Portugal",
         "awayRef": "Congo DR",
-        "homeScore": null,
-        "awayScore": null,
-        "result": null,
+        "homeScore": 1,
+        "awayScore": 1,
+        "result": "1-1",
         "extraTime": false,
         "penalties": null,
         "stadium": "Houston Stadium",
         "stadiumId": "nrg-stadium",
         "city": "Houston",
         "country": "United States",
-        "attendance": null,
-        "referee": null,
-        "weather": null,
-        "stageNormalized": "group_k"
+        "attendance": 68777,
+        "referee": {
+          "name": "Abdulrahman Al-Jassim",
+          "country": "Qatar"
+        },
+        "weather": {
+          "tempC": 26.4,
+          "humidityPct": 86,
+          "precipitationMm": 0,
+          "windKmh": 28.6,
+          "code": 3
+        },
+        "goals": [
+          {
+            "minute": 6,
+            "team": "home",
+            "scorer": "J. Neves"
+          },
+          {
+            "minute": 45,
+            "addedMinute": 5,
+            "team": "away",
+            "scorer": "Wissa"
+          }
+        ],
+        "lineups": {
+          "home": [
+            {
+              "player": "Diogo Costa",
+              "number": 1,
+              "position": "GK",
+              "starter": true
+            },
+            {
+              "player": "João Cancelo",
+              "number": 20,
+              "position": "RB",
+              "starter": true
+            },
+            {
+              "player": "Tomás Araújo",
+              "number": 4,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Renato Veiga",
+              "number": 13,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Nuno Mendes",
+              "number": 25,
+              "position": "LB",
+              "starter": true
+            },
+            {
+              "player": "João Neves",
+              "number": 15,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Vitinha",
+              "number": 23,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Bernardo Silva",
+              "number": 10,
+              "position": "RW",
+              "starter": true
+            },
+            {
+              "player": "Bruno Fernandes",
+              "number": 8,
+              "position": "AM",
+              "starter": true
+            },
+            {
+              "player": "Pedro Neto",
+              "number": 18,
+              "position": "LW",
+              "starter": true
+            },
+            {
+              "player": "Cristiano Ronaldo",
+              "number": 7,
+              "position": "CF",
+              "starter": true,
+              "captain": true
+            },
+            {
+              "player": "Francisco Conceição",
+              "number": 26,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Rafael Leão",
+              "number": 17,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Nélson Semedo",
+              "number": 2,
+              "position": "DF",
+              "starter": false
+            },
+            {
+              "player": "Gonçalo Ramos",
+              "number": 9,
+              "position": "FW",
+              "starter": false
+            }
+          ],
+          "away": [
+            {
+              "player": "Lionel Mpasi",
+              "number": 1,
+              "position": "GK",
+              "starter": true
+            },
+            {
+              "player": "Chancel Mbemba",
+              "number": 22,
+              "position": "CB",
+              "starter": true,
+              "captain": true
+            },
+            {
+              "player": "Axel Tuanzebe",
+              "number": 4,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Steve Kapuadi",
+              "number": 3,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Aaron Wan-Bissaka",
+              "number": 2,
+              "position": "RWB",
+              "starter": true
+            },
+            {
+              "player": "Arthur Masuaku",
+              "number": 26,
+              "position": "LWB",
+              "starter": true
+            },
+            {
+              "player": "Ngal'ayel Mukau",
+              "number": 6,
+              "position": "RM",
+              "starter": true
+            },
+            {
+              "player": "Samuel Moutoussamy",
+              "number": 8,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Edo Kayembe",
+              "number": 25,
+              "position": "LM",
+              "starter": true
+            },
+            {
+              "player": "Cédric Bakambu",
+              "number": 17,
+              "position": "CF",
+              "starter": true
+            },
+            {
+              "player": "Yoane Wissa",
+              "number": 20,
+              "position": "CF",
+              "starter": true
+            },
+            {
+              "player": "Noah Sadiki",
+              "number": 14,
+              "position": "MF",
+              "starter": false
+            },
+            {
+              "player": "Charles Pickel",
+              "number": 18,
+              "position": "MF",
+              "starter": false
+            },
+            {
+              "player": "Joris Kayembe",
+              "number": 12,
+              "position": "DF",
+              "starter": false
+            },
+            {
+              "player": "Gédéon Kalulu",
+              "number": 24,
+              "position": "DF",
+              "starter": false
+            },
+            {
+              "player": "Simon Banza",
+              "number": 23,
+              "position": "FW",
+              "starter": false
+            }
+          ]
+        },
+        "formations": {
+          "home": "4-5-1",
+          "away": "5-3-2"
+        },
+        "managers": {
+          "home": "Roberto Martínez",
+          "away": "Sébastien Desabre"
+        },
+        "status": "finished",
+        "liveMinute": null,
+        "liveMinuteAt": null,
+        "clockSource": "apifootball",
+        "clockSourceAt": "2026-06-17T19:10:27.589Z",
+        "livePhase": null,
+        "cards": [
+          {
+            "minute": 13,
+            "team": "home",
+            "player": "Bernardo Silva",
+            "color": "yellow"
+          },
+          {
+            "minute": 32,
+            "team": "away",
+            "player": "Chancel Mbemba",
+            "color": "yellow"
+          },
+          {
+            "minute": 88,
+            "team": "home",
+            "player": "Nélson Semedo",
+            "color": "yellow"
+          },
+          {
+            "minute": 90,
+            "addedMinute": 2,
+            "team": "home",
+            "player": "Tomás Araújo",
+            "color": "yellow"
+          }
+        ],
+        "substitutions": [
+          {
+            "minute": 46,
+            "team": "home",
+            "on": "Francisco Conceição",
+            "off": "Bernardo Silva"
+          },
+          {
+            "minute": 57,
+            "team": "away",
+            "on": "Noah Sadiki",
+            "off": "Ngal'ayel Mukau"
+          },
+          {
+            "minute": 72,
+            "team": "home",
+            "on": "Rafael Leão",
+            "off": "Nuno Mendes"
+          },
+          {
+            "minute": 72,
+            "team": "home",
+            "on": "Nélson Semedo",
+            "off": "Pedro Neto"
+          },
+          {
+            "minute": 74,
+            "team": "away",
+            "on": "Charles Pickel",
+            "off": "Arthur Masuaku"
+          },
+          {
+            "minute": 74,
+            "team": "away",
+            "on": "Joris Kayembe",
+            "off": "Edo Kayembe"
+          },
+          {
+            "minute": 83,
+            "team": "home",
+            "on": "Gonçalo Ramos",
+            "off": "Vitinha"
+          },
+          {
+            "minute": 85,
+            "team": "away",
+            "on": "Gédéon Kalulu",
+            "off": "Aaron Wan-Bissaka"
+          },
+          {
+            "minute": 85,
+            "team": "away",
+            "on": "Simon Banza",
+            "off": "Cédric Bakambu"
+          }
+        ],
+        "stageNormalized": "group_k",
+        "fairPlay": {
+          "home": -3,
+          "away": -1
+        }
       },
       {
         "id": "2026-024",
