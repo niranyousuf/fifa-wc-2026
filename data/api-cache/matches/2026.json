@@ -1,5 +1,5 @@
 {
-  "savedAt": 1781755780640,
+  "savedAt": 1781778197567,
   "data": {
     "year": 2026,
     "count": 104,
@@ -8709,9 +8709,9 @@
         "awayTeam": "Colombia",
         "homeRef": "Uzbekistan",
         "awayRef": "Colombia",
-        "homeScore": null,
-        "awayScore": null,
-        "result": null,
+        "homeScore": 1,
+        "awayScore": 3,
+        "result": "1-3",
         "extraTime": false,
         "penalties": null,
         "stadium": "Mexico City Stadium",
@@ -8719,8 +8719,40 @@
         "city": "Ciudad de México",
         "country": "Mexico",
         "attendance": 80824,
-        "referee": null,
-        "weather": null,
+        "referee": {
+          "name": "Anthony Taylor",
+          "country": "England"
+        },
+        "weather": {
+          "tempC": 17,
+          "humidityPct": 86,
+          "precipitationMm": 0,
+          "windKmh": 2.2,
+          "code": 2
+        },
+        "goals": [
+          {
+            "minute": 40,
+            "team": "away",
+            "scorer": "Muñoz"
+          },
+          {
+            "minute": 60,
+            "team": "home",
+            "scorer": "Fayzullaev"
+          },
+          {
+            "minute": 65,
+            "team": "away",
+            "scorer": "Díaz"
+          },
+          {
+            "minute": 90,
+            "addedMinute": 9,
+            "team": "away",
+            "scorer": "Campaz"
+          }
+        ],
         "lineups": {
           "home": [
             {
@@ -8929,20 +8961,132 @@
           "home": "Fabio Cannavaro",
           "away": "Néstor Lorenzo"
         },
-        "status": "live",
+        "status": "finished",
         "liveMinute": null,
-        "liveMinuteAt": "2026-06-18T04:00:09.000Z",
-        "clockSource": "apifootball",
-        "clockSourceAt": "2026-06-18T04:00:14.970Z",
-        "livePhase": "2H",
+        "liveMinuteAt": null,
+        "clockSource": "wikipedia",
+        "clockSourceAt": "2026-06-18T05:29:50.924Z",
+        "livePhase": null,
+        "cards": [
+          {
+            "minute": 7,
+            "team": "away",
+            "player": "Johan Mojica",
+            "color": "yellow"
+          },
+          {
+            "minute": 34,
+            "team": "home",
+            "player": "Abdukodir Khusanov",
+            "color": "yellow"
+          }
+        ],
+        "substitutions": [
+          {
+            "minute": 46,
+            "team": "home",
+            "on": "Farrukh Sayfiev",
+            "off": "Sherzod Nasrullaev"
+          },
+          {
+            "minute": 46,
+            "team": "home",
+            "on": "Dostonbek Khamdamov",
+            "off": "Oston Urunov"
+          },
+          {
+            "minute": 72,
+            "team": "away",
+            "on": "Jaminton Campaz",
+            "off": "James Rodríguez"
+          },
+          {
+            "minute": 77,
+            "team": "home",
+            "on": "Jakhongir Urozov",
+            "off": "Rustam Ashurmatov"
+          },
+          {
+            "minute": 77,
+            "team": "home",
+            "on": "Azizbek Amonov",
+            "off": "Abbosbek Fayzullaev"
+          },
+          {
+            "minute": 80,
+            "team": "away",
+            "on": "Cucho Hernández",
+            "off": "Gustavo Puerta"
+          },
+          {
+            "minute": 80,
+            "team": "away",
+            "on": "Richard Ríos",
+            "off": "Luis Suárez"
+          },
+          {
+            "minute": 90,
+            "team": "home",
+            "on": "Igor Sergeev",
+            "off": "Eldor Shomurodov"
+          },
+          {
+            "minute": 90,
+            "team": "away",
+            "on": "Andrés Gómez",
+            "off": "Jhon Arias"
+          },
+          {
+            "minute": 90,
+            "team": "away",
+            "on": "Kevin Castaño",
+            "off": "Luis Díaz"
+          }
+        ],
+        "statistics": {
+          "home": {
+            "possessionPct": 39,
+            "shotsTotal": 8,
+            "shotsOnGoal": 2,
+            "shotsOffGoal": 4,
+            "shotsBlocked": 2,
+            "shotsInsideBox": 4,
+            "shotsOutsideBox": 4,
+            "corners": 3,
+            "offsides": 0,
+            "fouls": 14,
+            "yellowCards": 1,
+            "redCards": null,
+            "goalkeeperSaves": 1,
+            "passesTotal": 318,
+            "passesAccurate": 242,
+            "passesPct": 76,
+            "expectedGoals": 1.14
+          },
+          "away": {
+            "possessionPct": 61,
+            "shotsTotal": 15,
+            "shotsOnGoal": 4,
+            "shotsOffGoal": 7,
+            "shotsBlocked": 4,
+            "shotsInsideBox": 10,
+            "shotsOutsideBox": 5,
+            "corners": 4,
+            "offsides": 3,
+            "fouls": 11,
+            "yellowCards": 1,
+            "redCards": null,
+            "goalkeeperSaves": 1,
+            "passesTotal": 520,
+            "passesAccurate": 445,
+            "passesPct": 86,
+            "expectedGoals": 1.61
+          }
+        },
         "stageNormalized": "group_k",
         "fairPlay": {
           "home": -1,
           "away": -1
-        },
-        "liveDataLocked": {
-          "reason": "live_data_is_pro",
-          "message": "Live in-match data (score, goals, cards, substitutions) is a Pro-tier feature. This match is in progress — upgrade at https://api.zafronix.com/pricing to read live tournament data."
         }
       },
       {
