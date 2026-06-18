@@ -1,5 +1,5 @@
 {
-  "savedAt": 1781796554421,
+  "savedAt": 1781814502464,
   "data": {
     "year": 2026,
     "groups": {
@@ -34,46 +34,61 @@
         },
         {
           "team": "Czechia",
-          "played": 1,
+          "played": 2,
           "won": 0,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 1,
-          "goalsFor": 1,
-          "goalsAgainst": 2,
+          "goalsFor": 2,
+          "goalsAgainst": 3,
           "goalDifference": -1,
-          "points": 0,
-          "fairPlay": 0,
+          "points": 1,
+          "fairPlay": -1,
           "position": 3,
           "advanced": true
         },
         {
           "team": "South Africa",
-          "played": 1,
+          "played": 2,
           "won": 0,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 1,
-          "goalsFor": 0,
-          "goalsAgainst": 2,
+          "goalsFor": 1,
+          "goalsAgainst": 3,
           "goalDifference": -2,
-          "points": 0,
-          "fairPlay": -10,
+          "points": 1,
+          "fairPlay": -12,
           "position": 4
         }
       ],
       "B": [
         {
           "team": "Switzerland",
-          "played": 1,
+          "played": 2,
           "won": 0,
-          "drawn": 1,
+          "drawn": 2,
           "lost": 0,
           "goalsFor": 1,
           "goalsAgainst": 1,
           "goalDifference": 0,
-          "points": 1,
+          "points": 2,
           "fairPlay": -1,
           "position": 1,
-          "tiebreakerNotes": "Decided over Canada on head-to-head / fair-play",
+          "tiebreakerNotes": "Decided over Bosnia and Herzegovina on head-to-head / fair-play",
+          "advanced": true
+        },
+        {
+          "team": "Bosnia and Herzegovina",
+          "played": 2,
+          "won": 0,
+          "drawn": 2,
+          "lost": 0,
+          "goalsFor": 1,
+          "goalsAgainst": 1,
+          "goalDifference": 0,
+          "points": 2,
+          "fairPlay": -3,
+          "position": 2,
+          "tiebreakerNotes": "Decided over Switzerland on head-to-head / fair-play",
           "advanced": true
         },
         {
@@ -103,22 +118,7 @@
           "points": 1,
           "fairPlay": -2,
           "position": null,
-          "tiebreakerNotes": "Tied with Canada on every available criterion — would be settled by drawing of lots.",
-          "advanced": true
-        },
-        {
-          "team": "Bosnia and Herzegovina",
-          "played": 1,
-          "won": 0,
-          "drawn": 1,
-          "lost": 0,
-          "goalsFor": 1,
-          "goalsAgainst": 1,
-          "goalDifference": 0,
-          "points": 1,
-          "fairPlay": -3,
-          "position": 4,
-          "tiebreakerNotes": "Decided over Qatar on head-to-head / fair-play"
+          "tiebreakerNotes": "Tied with Canada on every available criterion — would be settled by drawing of lots."
         }
       ],
       "D": [

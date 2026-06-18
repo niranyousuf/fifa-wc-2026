@@ -1,5 +1,5 @@
 {
-  "savedAt": 1781796554467,
+  "savedAt": 1781814502492,
   "data": {
     "year": 2026,
     "count": 104,
@@ -9141,19 +9141,351 @@
         "awayTeam": "South Africa",
         "homeRef": "Czechia",
         "awayRef": "South Africa",
-        "homeScore": null,
-        "awayScore": null,
-        "result": null,
+        "homeScore": 1,
+        "awayScore": 1,
+        "result": "1-1",
         "extraTime": false,
         "penalties": null,
         "stadium": "Atlanta Stadium",
         "stadiumId": "mercedes-benz-stadium",
         "city": "Atlanta",
         "country": "United States",
-        "attendance": null,
-        "referee": null,
+        "attendance": 67442,
+        "referee": {
+          "name": "Tori Penso",
+          "country": "United States"
+        },
         "weather": null,
-        "stageNormalized": "group_a"
+        "goals": [
+          {
+            "minute": 6,
+            "team": "home",
+            "scorer": "Sadílek"
+          },
+          {
+            "minute": 83,
+            "team": "away",
+            "scorer": "Mokoena",
+            "type": "penalty"
+          }
+        ],
+        "lineups": {
+          "home": [
+            {
+              "player": "Matěj Kovář",
+              "number": 1,
+              "position": "GK",
+              "starter": true
+            },
+            {
+              "player": "Tomáš Holeš",
+              "number": 3,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Robin Hranáč",
+              "number": 4,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Ladislav Krejčí",
+              "number": 7,
+              "position": "CB",
+              "starter": true,
+              "captain": true
+            },
+            {
+              "player": "Vladimír Coufal",
+              "number": 5,
+              "position": "RM",
+              "starter": true
+            },
+            {
+              "player": "Michal Sadílek",
+              "number": 18,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Lukáš Červ",
+              "number": 12,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Vladimír Darida",
+              "number": 8,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Alexandr Sojka",
+              "number": 24,
+              "position": "LM",
+              "starter": true
+            },
+            {
+              "player": "Patrik Schick",
+              "number": 10,
+              "position": "CF",
+              "starter": true
+            },
+            {
+              "player": "Adam Hložek",
+              "number": 9,
+              "position": "CF",
+              "starter": true
+            },
+            {
+              "player": "Pavel Šulc",
+              "number": 15,
+              "position": "MF",
+              "starter": false
+            },
+            {
+              "player": "Jaroslav Zelený",
+              "number": 20,
+              "position": "DF",
+              "starter": false
+            },
+            {
+              "player": "Lukáš Provod",
+              "number": 17,
+              "position": "MF",
+              "starter": false
+            },
+            {
+              "player": "Tomáš Souček",
+              "number": 22,
+              "position": "MF",
+              "starter": false
+            },
+            {
+              "player": "David Zima",
+              "number": 2,
+              "position": "DF",
+              "starter": false
+            }
+          ],
+          "away": [
+            {
+              "player": "Ronwen Williams",
+              "number": 1,
+              "position": "GK",
+              "starter": true,
+              "captain": true
+            },
+            {
+              "player": "Khuliso Mudau",
+              "number": 20,
+              "position": "RB",
+              "starter": true
+            },
+            {
+              "player": "Ime Okon",
+              "number": 21,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Mbekezeli Mbokazi",
+              "number": 14,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Aubrey Modiba",
+              "number": 6,
+              "position": "LB",
+              "starter": true
+            },
+            {
+              "player": "Jayden Adams",
+              "number": 23,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Teboho Mokoena",
+              "number": 4,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Thalente Mbatha",
+              "number": 5,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Thapelo Maseko",
+              "number": 12,
+              "position": "RF",
+              "starter": true
+            },
+            {
+              "player": "Iqraam Rayners",
+              "number": 15,
+              "position": "CF",
+              "starter": true
+            },
+            {
+              "player": "Oswin Appollis",
+              "number": 7,
+              "position": "LF",
+              "starter": true
+            },
+            {
+              "player": "Relebohile Mofokeng",
+              "number": 10,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Evidence Makgopa",
+              "number": 17,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Kamogelo Sebelebele",
+              "number": 25,
+              "position": "DF",
+              "starter": false
+            }
+          ]
+        },
+        "formations": {
+          "home": "3-5-2",
+          "away": "4-3-3"
+        },
+        "managers": {
+          "home": "Miroslav Koubek",
+          "away": "Hugo Broos"
+        },
+        "status": "finished",
+        "liveMinute": null,
+        "liveMinuteAt": null,
+        "clockSource": "wikipedia",
+        "clockSourceAt": "2026-06-18T18:29:32.941Z",
+        "livePhase": null,
+        "cards": [
+          {
+            "minute": 33,
+            "team": "away",
+            "player": "Teboho Mokoena",
+            "color": "yellow"
+          },
+          {
+            "minute": 40,
+            "team": "away",
+            "player": "Thalente Mbatha",
+            "color": "yellow"
+          },
+          {
+            "minute": 75,
+            "team": "home",
+            "player": "Ladislav Krejčí",
+            "color": "yellow"
+          }
+        ],
+        "substitutions": [
+          {
+            "minute": 46,
+            "team": "away",
+            "on": "Relebohile Mofokeng",
+            "off": "Jayden Adams"
+          },
+          {
+            "minute": 55,
+            "team": "home",
+            "on": "Jaroslav Zelený",
+            "off": "Vladimír Darida"
+          },
+          {
+            "minute": 55,
+            "team": "home",
+            "on": "Pavel Šulc",
+            "off": "Alexandr Sojka"
+          },
+          {
+            "minute": 66,
+            "team": "away",
+            "on": "Evidence Makgopa",
+            "off": "Iqraam Rayners"
+          },
+          {
+            "minute": 67,
+            "team": "home",
+            "on": "Tomáš Souček",
+            "off": "Michal Sadílek"
+          },
+          {
+            "minute": 67,
+            "team": "home",
+            "on": "Lukáš Provod",
+            "off": "Adam Hložek"
+          },
+          {
+            "minute": 78,
+            "team": "home",
+            "on": "David Zima",
+            "off": "Lukáš Červ"
+          },
+          {
+            "minute": 84,
+            "team": "away",
+            "on": "Kamogelo Sebelebele",
+            "off": "Thapelo Maseko"
+          }
+        ],
+        "statistics": {
+          "home": {
+            "possessionPct": 39,
+            "shotsTotal": 14,
+            "shotsOnGoal": 3,
+            "shotsOffGoal": 8,
+            "shotsBlocked": 3,
+            "shotsInsideBox": 11,
+            "shotsOutsideBox": 3,
+            "corners": 5,
+            "offsides": 2,
+            "fouls": 12,
+            "yellowCards": 1,
+            "redCards": null,
+            "goalkeeperSaves": 3,
+            "passesTotal": 336,
+            "passesAccurate": 268,
+            "passesPct": 80,
+            "expectedGoals": 0.94
+          },
+          "away": {
+            "possessionPct": 61,
+            "shotsTotal": 15,
+            "shotsOnGoal": 4,
+            "shotsOffGoal": 5,
+            "shotsBlocked": 6,
+            "shotsInsideBox": 5,
+            "shotsOutsideBox": 10,
+            "corners": 4,
+            "offsides": 3,
+            "fouls": 10,
+            "yellowCards": 2,
+            "redCards": null,
+            "goalkeeperSaves": 2,
+            "passesTotal": 548,
+            "passesAccurate": 495,
+            "passesPct": 90,
+            "expectedGoals": 1.18
+          }
+        },
+        "stageNormalized": "group_a",
+        "fairPlay": {
+          "home": -1,
+          "away": -2
+        }
       },
       {
         "id": "2026-026",
@@ -9179,7 +9511,165 @@
         "attendance": null,
         "referee": null,
         "weather": null,
-        "stageNormalized": "group_b"
+        "lineups": {
+          "home": [
+            {
+              "player": "Gregor Kobel",
+              "number": 1,
+              "position": "GK",
+              "starter": true
+            },
+            {
+              "player": "Silvan Widmer",
+              "number": 3,
+              "position": "RB",
+              "starter": true
+            },
+            {
+              "player": "Nico Elvedi",
+              "number": 4,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Manuel Akanji",
+              "number": 5,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Ricardo Rodriguez",
+              "number": 13,
+              "position": "LB",
+              "starter": true
+            },
+            {
+              "player": "Michel Aebischer",
+              "number": 20,
+              "position": "RM",
+              "starter": true
+            },
+            {
+              "player": "Granit Xhaka",
+              "number": 10,
+              "position": "CM",
+              "starter": true,
+              "captain": true
+            },
+            {
+              "player": "Remo Freuler",
+              "number": 8,
+              "position": "LM",
+              "starter": true
+            },
+            {
+              "player": "Dan Ndoye",
+              "number": 11,
+              "position": "RF",
+              "starter": true
+            },
+            {
+              "player": "Breel Embolo",
+              "number": 7,
+              "position": "CF",
+              "starter": true
+            },
+            {
+              "player": "Fabian Rieder",
+              "number": 22,
+              "position": "LF",
+              "starter": true
+            }
+          ],
+          "away": [
+            {
+              "player": "Nikola Vasilj",
+              "number": 1,
+              "position": "GK",
+              "starter": true
+            },
+            {
+              "player": "Amar Dedić",
+              "number": 7,
+              "position": "RB",
+              "starter": true
+            },
+            {
+              "player": "Nikola Katić",
+              "number": 18,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Tarik Muharemović",
+              "number": 4,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Sead Kolašinac",
+              "number": 5,
+              "position": "LB",
+              "starter": true
+            },
+            {
+              "player": "Ivan Šunjić",
+              "number": 14,
+              "position": "RM",
+              "starter": true
+            },
+            {
+              "player": "Benjamin Tahirović",
+              "number": 6,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Kerim Alajbegović",
+              "number": 19,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Amar Memić",
+              "number": 15,
+              "position": "LM",
+              "starter": true
+            },
+            {
+              "player": "Ermedin Demirović",
+              "number": 10,
+              "position": "CF",
+              "starter": true
+            },
+            {
+              "player": "Edin Džeko",
+              "number": 11,
+              "position": "CF",
+              "starter": true,
+              "captain": true
+            }
+          ]
+        },
+        "formations": {
+          "home": "4-3-3",
+          "away": "4-4-2"
+        },
+        "managers": {
+          "home": "Murat Yakin",
+          "away": "Sergej Barbarez"
+        },
+        "status": "live",
+        "liveMinute": null,
+        "liveMinuteAt": "2026-06-18T20:13:05.000Z",
+        "clockSource": "apifootball",
+        "clockSourceAt": "2026-06-18T20:13:05.842Z",
+        "livePhase": "2H",
+        "stageNormalized": "group_b",
+        "liveDataLocked": {
+          "reason": "live_data_is_pro",
+          "message": "Live in-match data (score, goals, cards, substitutions) is a Pro-tier feature. This match is in progress — upgrade at https://api.zafronix.com/pricing to read live tournament data."
+        }
       },
       {
         "id": "2026-027",
