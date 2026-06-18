@@ -1,5 +1,5 @@
 {
-  "savedAt": 1781727268320,
+  "savedAt": 1781755780592,
   "data": {
     "year": 2026,
     "groups": {
@@ -278,7 +278,7 @@
           "points": 0,
           "fairPlay": -1,
           "position": 3,
-          "advanced": false
+          "advanced": true
         },
         {
           "team": "Curaçao",
@@ -593,64 +593,74 @@
         {
           "team": "England",
           "played": 1,
-          "won": 0,
-          "drawn": 1,
+          "won": 1,
+          "drawn": 0,
           "lost": 0,
-          "goalsFor": 0,
-          "goalsAgainst": 0,
-          "goalDifference": 0,
-          "points": 1,
+          "goalsFor": 4,
+          "goalsAgainst": 2,
+          "goalDifference": 2,
+          "points": 3,
           "fairPlay": 0,
-          "position": null,
-          "tiebreakerNotes": "Tied with Croatia on every available criterion — would be settled by drawing of lots.",
+          "position": 1,
           "advanced": true
+        },
+        {
+          "team": "Ghana",
+          "played": 1,
+          "won": 1,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 1,
+          "goalsAgainst": 0,
+          "goalDifference": 1,
+          "points": 3,
+          "fairPlay": -1,
+          "position": 2,
+          "advanced": true
+        },
+        {
+          "team": "Panama",
+          "played": 1,
+          "won": 0,
+          "drawn": 0,
+          "lost": 1,
+          "goalsFor": 0,
+          "goalsAgainst": 1,
+          "goalDifference": -1,
+          "points": 0,
+          "fairPlay": -2,
+          "position": 3,
+          "advanced": false
         },
         {
           "team": "Croatia",
           "played": 1,
           "won": 0,
-          "drawn": 1,
-          "lost": 0,
-          "goalsFor": 0,
-          "goalsAgainst": 0,
-          "goalDifference": 0,
-          "points": 1,
-          "fairPlay": 0,
-          "position": null,
-          "tiebreakerNotes": "Tied with England on every available criterion — would be settled by drawing of lots.",
-          "advanced": true
-        },
-        {
-          "team": "Ghana",
-          "played": 0,
-          "won": 0,
           "drawn": 0,
-          "lost": 0,
-          "goalsFor": 0,
-          "goalsAgainst": 0,
-          "goalDifference": 0,
+          "lost": 1,
+          "goalsFor": 2,
+          "goalsAgainst": 4,
+          "goalDifference": -2,
           "points": 0,
           "fairPlay": 0,
-          "position": null,
-          "tiebreakerNotes": "Tied with Panama on every available criterion — would be settled by drawing of lots.",
-          "advanced": true
-        },
-        {
-          "team": "Panama",
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "goalsFor": 0,
-          "goalsAgainst": 0,
-          "goalDifference": 0,
-          "points": 0,
-          "fairPlay": 0,
-          "position": null,
-          "tiebreakerNotes": "Tied with Ghana on every available criterion — would be settled by drawing of lots."
+          "position": 4
         }
       ],
       "K": [
+        {
+          "team": "Colombia",
+          "played": 1,
+          "won": 1,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 3,
+          "goalsAgainst": 1,
+          "goalDifference": 2,
+          "points": 3,
+          "fairPlay": -1,
+          "position": 1,
+          "advanced": true
+        },
         {
           "team": "Congo DR",
           "played": 1,
@@ -662,7 +672,7 @@
           "goalDifference": 0,
           "points": 1,
           "fairPlay": -1,
-          "position": 1,
+          "position": 2,
           "tiebreakerNotes": "Decided over Portugal on head-to-head / fair-play",
           "advanced": true
         },
@@ -677,38 +687,22 @@
           "goalDifference": 0,
           "points": 1,
           "fairPlay": -3,
-          "position": 2,
+          "position": 3,
           "tiebreakerNotes": "Decided over Congo DR on head-to-head / fair-play",
           "advanced": true
         },
         {
           "team": "Uzbekistan",
-          "played": 0,
+          "played": 1,
           "won": 0,
           "drawn": 0,
-          "lost": 0,
-          "goalsFor": 0,
-          "goalsAgainst": 0,
-          "goalDifference": 0,
+          "lost": 1,
+          "goalsFor": 1,
+          "goalsAgainst": 3,
+          "goalDifference": -2,
           "points": 0,
-          "fairPlay": 0,
-          "position": null,
-          "tiebreakerNotes": "Tied with Colombia on every available criterion — would be settled by drawing of lots.",
-          "advanced": true
-        },
-        {
-          "team": "Colombia",
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "goalsFor": 0,
-          "goalsAgainst": 0,
-          "goalDifference": 0,
-          "points": 0,
-          "fairPlay": 0,
-          "position": null,
-          "tiebreakerNotes": "Tied with Uzbekistan on every available criterion — would be settled by drawing of lots."
+          "fairPlay": -1,
+          "position": 4
         }
       ]
     }
