@@ -1,5 +1,5 @@
 {
-  "savedAt": 1781843272516,
+  "savedAt": 1781865628857,
   "data": {
     "year": 2026,
     "count": 104,
@@ -2327,7 +2327,7 @@
           {
             "minute": 32,
             "team": "home",
-            "scorer": "Vinícius Júnior"
+            "scorer": "Vinícius"
           }
         ],
         "lineups": {
@@ -10307,10 +10307,10 @@
           "country": "Uruguay"
         },
         "weather": {
-          "tempC": 19,
-          "humidityPct": 86,
-          "precipitationMm": 0.4,
-          "windKmh": 11.4,
+          "tempC": 20.9,
+          "humidityPct": 80,
+          "precipitationMm": 0.2,
+          "windKmh": 10.2,
           "code": 51
         },
         "goals": [
