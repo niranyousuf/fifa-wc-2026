@@ -1,5 +1,5 @@
 {
-  "savedAt": 1781882552406,
+  "savedAt": 1781898703153,
   "data": {
     "year": 2026,
     "count": 104,
@@ -10798,7 +10798,165 @@
         "attendance": null,
         "referee": null,
         "weather": null,
-        "stageNormalized": "group_d"
+        "lineups": {
+          "home": [
+            {
+              "player": "Matt Freese",
+              "number": 24,
+              "position": "GK",
+              "starter": true
+            },
+            {
+              "player": "Alex Freeman",
+              "number": 16,
+              "position": "RB",
+              "starter": true
+            },
+            {
+              "player": "Chris Richards",
+              "number": 3,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Tim Ream",
+              "number": 13,
+              "position": "CB",
+              "starter": true,
+              "captain": true
+            },
+            {
+              "player": "Antonee Robinson",
+              "number": 5,
+              "position": "LB",
+              "starter": true
+            },
+            {
+              "player": "Tyler Adams",
+              "number": 4,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Malik Tillman",
+              "number": 17,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Sergiño Dest",
+              "number": 2,
+              "position": "RW",
+              "starter": true
+            },
+            {
+              "player": "Weston McKennie",
+              "number": 8,
+              "position": "AM",
+              "starter": true
+            },
+            {
+              "player": "Ricardo Pepi",
+              "number": 9,
+              "position": "LW",
+              "starter": true
+            },
+            {
+              "player": "Folarin Balogun",
+              "number": 20,
+              "position": "CF",
+              "starter": true
+            }
+          ],
+          "away": [
+            {
+              "player": "Patrick Beach",
+              "number": 18,
+              "position": "GK",
+              "starter": true
+            },
+            {
+              "player": "Jacob Italiano",
+              "number": 4,
+              "position": "RWB",
+              "starter": true
+            },
+            {
+              "player": "Alessandro Circati",
+              "number": 3,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Harry Souttar",
+              "number": 19,
+              "position": "CB",
+              "starter": true,
+              "captain": true
+            },
+            {
+              "player": "Cameron Burgess",
+              "number": 21,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Jordan Bos",
+              "number": 5,
+              "position": "LWB",
+              "starter": true
+            },
+            {
+              "player": "Mathew Leckie",
+              "number": 7,
+              "position": "RM",
+              "starter": true
+            },
+            {
+              "player": "Aiden O'Neill",
+              "number": 13,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Paul Okon-Engstler",
+              "number": 24,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Nishan Velupillay",
+              "number": 23,
+              "position": "LM",
+              "starter": true
+            },
+            {
+              "player": "Mohamed Touré",
+              "number": 9,
+              "position": "CF",
+              "starter": true
+            }
+          ]
+        },
+        "formations": {
+          "home": "4-5-1",
+          "away": "5-4-1"
+        },
+        "managers": {
+          "home": "Mauricio Pochettino",
+          "away": "Tony Popovic"
+        },
+        "status": "live",
+        "liveMinute": null,
+        "liveMinuteAt": "2026-06-19T19:50:50.000Z",
+        "clockSource": "apifootball",
+        "clockSourceAt": "2026-06-19T19:50:51.698Z",
+        "livePhase": "1H",
+        "stageNormalized": "group_d",
+        "liveDataLocked": {
+          "reason": "live_data_is_pro",
+          "message": "Live in-match data (score, goals, cards, substitutions) is a Pro-tier feature. This match is in progress — upgrade at https://api.zafronix.com/pricing to read live tournament data."
+        }
       },
       {
         "id": "2026-033",

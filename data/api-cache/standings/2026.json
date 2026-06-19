@@ -1,5 +1,5 @@
 {
-  "savedAt": 1781882552331,
+  "savedAt": 1781898703075,
   "data": {
     "year": 2026,
     "groups": {
@@ -120,27 +120,27 @@
       "D": [
         {
           "team": "USA",
-          "played": 1,
-          "won": 1,
+          "played": 2,
+          "won": 2,
           "drawn": 0,
           "lost": 0,
-          "goalsFor": 4,
+          "goalsFor": 6,
           "goalsAgainst": 1,
-          "goalDifference": 3,
-          "points": 3,
+          "goalDifference": 5,
+          "points": 6,
           "fairPlay": -1,
           "position": 1,
           "advanced": true
         },
         {
           "team": "Australia",
-          "played": 1,
+          "played": 2,
           "won": 1,
           "drawn": 0,
-          "lost": 0,
+          "lost": 1,
           "goalsFor": 2,
-          "goalsAgainst": 0,
-          "goalDifference": 2,
+          "goalsAgainst": 2,
+          "goalDifference": 0,
           "points": 3,
           "fairPlay": 0,
           "position": 2,
