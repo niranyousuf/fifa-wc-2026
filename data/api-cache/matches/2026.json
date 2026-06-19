@@ -1,5 +1,5 @@
 {
-  "savedAt": 1781865628857,
+  "savedAt": 1781882552406,
   "data": {
     "year": 2026,
     "count": 104,
@@ -10183,8 +10183,8 @@
         "status": "finished",
         "liveMinute": null,
         "liveMinuteAt": null,
-        "clockSource": "wikipedia",
-        "clockSourceAt": "2026-06-19T00:28:00.414Z",
+        "clockSource": "apifootball",
+        "clockSourceAt": "2026-06-19T12:00:12.328Z",
         "cards": [
           {
             "minute": 9,
@@ -10274,6 +10274,46 @@
           }
         ],
         "livePhase": null,
+        "statistics": {
+          "home": {
+            "possessionPct": 79,
+            "shotsTotal": 30,
+            "shotsOnGoal": 10,
+            "shotsOffGoal": 6,
+            "shotsBlocked": 14,
+            "shotsInsideBox": 19,
+            "shotsOutsideBox": 11,
+            "corners": 18,
+            "offsides": 1,
+            "fouls": 8,
+            "yellowCards": 1,
+            "redCards": 0,
+            "goalkeeperSaves": 0,
+            "passesTotal": 552,
+            "passesAccurate": 500,
+            "passesPct": 91,
+            "expectedGoals": 4.11
+          },
+          "away": {
+            "possessionPct": 21,
+            "shotsTotal": 2,
+            "shotsOnGoal": 0,
+            "shotsOffGoal": 1,
+            "shotsBlocked": 1,
+            "shotsInsideBox": 1,
+            "shotsOutsideBox": 1,
+            "corners": 1,
+            "offsides": 1,
+            "fouls": 10,
+            "yellowCards": 1,
+            "redCards": 2,
+            "goalkeeperSaves": 4,
+            "passesTotal": 162,
+            "passesAccurate": 103,
+            "passesPct": 64,
+            "expectedGoals": 0.18
+          }
+        },
         "stageNormalized": "group_b",
         "fairPlay": {
           "home": -1,
