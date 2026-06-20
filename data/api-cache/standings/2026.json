@@ -1,5 +1,5 @@
 {
-  "savedAt": 1781927536669,
+  "savedAt": 1781947108125,
   "data": {
     "year": 2026,
     "groups": {
@@ -156,7 +156,7 @@
           "goalsAgainst": 4,
           "goalDifference": -2,
           "points": 3,
-          "fairPlay": -5,
+          "fairPlay": -10,
           "position": 3,
           "advanced": true
         },
@@ -170,7 +170,7 @@
           "goalsAgainst": 3,
           "goalDifference": -3,
           "points": 0,
-          "fairPlay": -1,
+          "fairPlay": -2,
           "position": 4
         }
       ],

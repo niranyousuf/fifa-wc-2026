@@ -1,5 +1,5 @@
 {
-  "savedAt": 1781927536725,
+  "savedAt": 1781947108152,
   "data": {
     "year": 2026,
     "count": 104,
@@ -11479,18 +11479,34 @@
         "awayTeam": "Paraguay",
         "homeRef": "Türkiye",
         "awayRef": "Paraguay",
-        "homeScore": null,
-        "awayScore": null,
-        "result": null,
+        "homeScore": 0,
+        "awayScore": 1,
+        "result": "0-1",
         "extraTime": false,
         "penalties": null,
         "stadium": "San Francisco Bay Area Stadium",
         "stadiumId": "levis-stadium",
         "city": "Santa Clara",
         "country": "United States",
-        "attendance": null,
-        "referee": null,
-        "weather": null,
+        "attendance": 68827,
+        "referee": {
+          "name": "Iván Barton",
+          "country": "El Salvador"
+        },
+        "weather": {
+          "tempC": 20.8,
+          "humidityPct": 60,
+          "precipitationMm": 0,
+          "windKmh": 3,
+          "code": 1
+        },
+        "goals": [
+          {
+            "minute": 2,
+            "team": "away",
+            "scorer": "Galarza"
+          }
+        ],
         "lineups": {
           "home": [
             {
@@ -11559,6 +11575,36 @@
               "number": 7,
               "position": "CF",
               "starter": true
+            },
+            {
+              "player": "Barış Yılmaz",
+              "number": 21,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Can Uzun",
+              "number": 26,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Deniz Gül",
+              "number": 9,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Eren Elmalı",
+              "number": 13,
+              "position": "DF",
+              "starter": false
+            },
+            {
+              "player": "Orkun Kökçü",
+              "number": 6,
+              "position": "MF",
+              "starter": false
             }
           ],
           "away": [
@@ -11628,6 +11674,36 @@
               "number": 25,
               "position": "CF",
               "starter": true
+            },
+            {
+              "player": "Damián Bobadilla",
+              "number": 16,
+              "position": "MF",
+              "starter": false
+            },
+            {
+              "player": "Gustavo Velázquez",
+              "number": 2,
+              "position": "DF",
+              "starter": false
+            },
+            {
+              "player": "Alexandro Maidana",
+              "number": 26,
+              "position": "DF",
+              "starter": false
+            },
+            {
+              "player": "Gabriel Ávalos",
+              "number": 21,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "José Canale",
+              "number": 13,
+              "position": "DF",
+              "starter": false
             }
           ]
         },
@@ -11639,16 +11715,139 @@
           "home": "Vincenzo Montella",
           "away": "Gustavo Alfaro"
         },
-        "status": "live",
+        "status": "finished",
         "liveMinute": null,
-        "liveMinuteAt": "2026-06-20T03:49:33.000Z",
+        "liveMinuteAt": null,
         "clockSource": "apifootball",
-        "clockSourceAt": "2026-06-20T03:49:33.954Z",
-        "livePhase": "1H",
+        "clockSourceAt": "2026-06-20T05:12:07.623Z",
+        "livePhase": null,
+        "cards": [
+          {
+            "minute": 4,
+            "team": "away",
+            "player": "Matías Galarza",
+            "color": "yellow"
+          },
+          {
+            "minute": 45,
+            "addedMinute": 3,
+            "team": "away",
+            "player": "Miguel Almirón",
+            "color": "red"
+          },
+          {
+            "minute": 71,
+            "team": "home",
+            "player": "Eren Elmalı",
+            "color": "yellow"
+          }
+        ],
+        "substitutions": [
+          {
+            "minute": 46,
+            "team": "home",
+            "on": "Barış Yılmaz",
+            "off": "Kerem Aktürkoğlu"
+          },
+          {
+            "minute": 46,
+            "team": "away",
+            "on": "Damián Bobadilla",
+            "off": "Isidro Pitta"
+          },
+          {
+            "minute": 60,
+            "team": "home",
+            "on": "Can Uzun",
+            "off": "İsmail Yüksek"
+          },
+          {
+            "minute": 60,
+            "team": "home",
+            "on": "Deniz Gül",
+            "off": "Yunus Akgün"
+          },
+          {
+            "minute": 67,
+            "team": "away",
+            "on": "Gustavo Velázquez",
+            "off": "Diego Gómez"
+          },
+          {
+            "minute": 70,
+            "team": "home",
+            "on": "Eren Elmalı",
+            "off": "Ferdi Kadıoğlu"
+          },
+          {
+            "minute": 81,
+            "team": "away",
+            "on": "Alexandro Maidana",
+            "off": "Juan José Cáceres"
+          },
+          {
+            "minute": 86,
+            "team": "home",
+            "on": "Orkun Kökçü",
+            "off": "Abdülkerim Bardakcı"
+          },
+          {
+            "minute": 90,
+            "team": "away",
+            "on": "Gabriel Ávalos",
+            "off": "Matías Galarza"
+          },
+          {
+            "minute": 90,
+            "team": "away",
+            "on": "José Canale",
+            "off": "Julio Enciso"
+          }
+        ],
+        "statistics": {
+          "home": {
+            "possessionPct": 79,
+            "shotsTotal": 31,
+            "shotsOnGoal": 5,
+            "shotsOffGoal": 14,
+            "shotsBlocked": 12,
+            "shotsInsideBox": 16,
+            "shotsOutsideBox": 15,
+            "corners": 11,
+            "offsides": 2,
+            "fouls": 14,
+            "yellowCards": 1,
+            "redCards": 0,
+            "goalkeeperSaves": 1,
+            "passesTotal": 623,
+            "passesAccurate": 555,
+            "passesPct": 89,
+            "expectedGoals": 1.87
+          },
+          "away": {
+            "possessionPct": 21,
+            "shotsTotal": 7,
+            "shotsOnGoal": 2,
+            "shotsOffGoal": 3,
+            "shotsBlocked": 2,
+            "shotsInsideBox": 3,
+            "shotsOutsideBox": 4,
+            "corners": 0,
+            "offsides": 3,
+            "fouls": 14,
+            "yellowCards": 1,
+            "redCards": 1,
+            "goalkeeperSaves": 5,
+            "passesTotal": 175,
+            "passesAccurate": 93,
+            "passesPct": 53,
+            "expectedGoals": 0.29
+          }
+        },
         "stageNormalized": "group_d",
-        "liveDataLocked": {
-          "reason": "live_data_is_pro",
-          "message": "Live in-match data (score, goals, cards, substitutions) is a Pro-tier feature. This match is in progress — upgrade at https://api.zafronix.com/pricing to read live tournament data."
+        "fairPlay": {
+          "home": -1,
+          "away": -5
         }
       },
       {
@@ -11905,7 +12104,7 @@
           ]
         },
         "formations": {
-          "home": "4-5-1",
+          "home": "3-5-2",
           "away": "5-4-1"
         },
         "managers": {
@@ -12004,13 +12203,13 @@
             "minute": 80,
             "team": "home",
             "on": "Auston Trusty",
-            "off": "Antonee Robinson"
+            "off": "Sergiño Dest"
           },
           {
             "minute": 80,
             "team": "home",
             "on": "Joe Scally",
-            "off": "Sergiño Dest"
+            "off": "Antonee Robinson"
           },
           {
             "minute": 90,
