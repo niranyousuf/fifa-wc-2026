@@ -1,5 +1,5 @@
 {
-  "savedAt": 1781964480195,
+  "savedAt": 1781984404923,
   "data": {
     "year": 2026,
     "count": 104,
@@ -3839,7 +3839,7 @@
         },
         "goals": [
           {
-            "minute": 50,
+            "minute": 51,
             "team": "home",
             "scorer": "Van Dijk"
           },
@@ -11331,7 +11331,7 @@
           ]
         },
         "formations": {
-          "home": "3-5-2",
+          "home": "4-4-2",
           "away": "4-5-1"
         },
         "managers": {
@@ -11795,13 +11795,13 @@
             "minute": 90,
             "team": "away",
             "on": "Gabriel Ávalos",
-            "off": "Matías Galarza"
+            "off": "Julio Enciso"
           },
           {
             "minute": 90,
             "team": "away",
             "on": "José Canale",
-            "off": "Julio Enciso"
+            "off": "Matías Galarza"
           }
         ],
         "statistics": {
@@ -12334,19 +12334,394 @@
         "awayTeam": "Sweden",
         "homeRef": "Netherlands",
         "awayRef": "Sweden",
-        "homeScore": null,
-        "awayScore": null,
-        "result": null,
+        "homeScore": 5,
+        "awayScore": 1,
+        "result": "5-1",
         "extraTime": false,
         "penalties": null,
         "stadium": "Houston Stadium",
         "stadiumId": "nrg-stadium",
         "city": "Houston",
         "country": "United States",
-        "attendance": null,
-        "referee": null,
+        "attendance": 68777,
+        "referee": {
+          "name": "Michael Oliver",
+          "country": "England"
+        },
         "weather": null,
-        "stageNormalized": "group_f"
+        "goals": [
+          {
+            "minute": 5,
+            "team": "home",
+            "scorer": "Brobbey"
+          },
+          {
+            "minute": 17,
+            "team": "home",
+            "scorer": "Brobbey"
+          },
+          {
+            "minute": 47,
+            "team": "home",
+            "scorer": "Gakpo"
+          },
+          {
+            "minute": 54,
+            "team": "home",
+            "scorer": "Gakpo"
+          },
+          {
+            "minute": 59,
+            "team": "away",
+            "scorer": "Elanga"
+          },
+          {
+            "minute": 89,
+            "team": "home",
+            "scorer": "Summerville"
+          }
+        ],
+        "lineups": {
+          "home": [
+            {
+              "player": "Bart Verbruggen",
+              "number": 1,
+              "position": "GK",
+              "starter": true
+            },
+            {
+              "player": "Denzel Dumfries",
+              "number": 22,
+              "position": "RB",
+              "starter": true
+            },
+            {
+              "player": "Jan Paul van Hecke",
+              "number": 6,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Virgil van Dijk",
+              "number": 4,
+              "position": "CB",
+              "starter": true,
+              "captain": true
+            },
+            {
+              "player": "Micky van de Ven",
+              "number": 15,
+              "position": "LB",
+              "starter": true
+            },
+            {
+              "player": "Ryan Gravenberch",
+              "number": 8,
+              "position": "RM",
+              "starter": true
+            },
+            {
+              "player": "Frenkie de Jong",
+              "number": 21,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Tijjani Reijnders",
+              "number": 14,
+              "position": "LM",
+              "starter": true
+            },
+            {
+              "player": "Donyell Malen",
+              "number": 18,
+              "position": "RF",
+              "starter": true
+            },
+            {
+              "player": "Brian Brobbey",
+              "number": 19,
+              "position": "CF",
+              "starter": true
+            },
+            {
+              "player": "Cody Gakpo",
+              "number": 11,
+              "position": "LF",
+              "starter": true
+            },
+            {
+              "player": "Crysencio Summerville",
+              "number": 24,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Teun Koopmeiners",
+              "number": 20,
+              "position": "MF",
+              "starter": false
+            },
+            {
+              "player": "Guus Til",
+              "number": 16,
+              "position": "MF",
+              "starter": false
+            },
+            {
+              "player": "Memphis Depay",
+              "number": 10,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Noa Lang",
+              "number": 17,
+              "position": "FW",
+              "starter": false
+            }
+          ],
+          "away": [
+            {
+              "player": "Kristoffer Nordfeldt",
+              "number": 23,
+              "position": "GK",
+              "starter": true
+            },
+            {
+              "player": "Gustaf Lagerbielke",
+              "number": 2,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Isak Hien",
+              "number": 4,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Victor Lindelöf",
+              "number": 3,
+              "position": "CB",
+              "starter": true,
+              "captain": true
+            },
+            {
+              "player": "Alexander Bernhardsson",
+              "number": 21,
+              "position": "RW",
+              "starter": true
+            },
+            {
+              "player": "Benjamin Nygren",
+              "number": 10,
+              "position": "RM",
+              "starter": true
+            },
+            {
+              "player": "Jesper Karlström",
+              "number": 16,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Yasin Ayari",
+              "number": 18,
+              "position": "LM",
+              "starter": true
+            },
+            {
+              "player": "Gabriel Gudmundsson",
+              "number": 5,
+              "position": "LW",
+              "starter": true
+            },
+            {
+              "player": "Viktor Gyökeres",
+              "number": 17,
+              "position": "CF",
+              "starter": true
+            },
+            {
+              "player": "Alexander Isak",
+              "number": 9,
+              "position": "CF",
+              "starter": true
+            },
+            {
+              "player": "Anthony Elanga",
+              "number": 11,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Besfort Zeneli",
+              "number": 22,
+              "position": "MF",
+              "starter": false
+            },
+            {
+              "player": "Lucas Bergvall",
+              "number": 7,
+              "position": "MF",
+              "starter": false
+            },
+            {
+              "player": "Taha Ali",
+              "number": 26,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Elliot Stroud",
+              "number": 24,
+              "position": "DF",
+              "starter": false
+            }
+          ]
+        },
+        "formations": {
+          "home": "4-3-3",
+          "away": "3-5-2"
+        },
+        "managers": {
+          "home": "Ronald Koeman",
+          "away": "Graham Potter"
+        },
+        "status": "finished",
+        "liveMinute": null,
+        "liveMinuteAt": null,
+        "clockSource": "wikipedia",
+        "clockSourceAt": "2026-06-20T19:27:13.796Z",
+        "livePhase": null,
+        "cards": [
+          {
+            "minute": 53,
+            "team": "away",
+            "player": "Gabriel Gudmundsson",
+            "color": "yellow"
+          },
+          {
+            "minute": 75,
+            "team": "away",
+            "player": "Yasin Ayari",
+            "color": "yellow"
+          },
+          {
+            "minute": 80,
+            "team": "away",
+            "player": "Lucas Bergvall",
+            "color": "yellow"
+          }
+        ],
+        "substitutions": [
+          {
+            "minute": 46,
+            "team": "home",
+            "on": "Crysencio Summerville",
+            "off": "Donyell Malen"
+          },
+          {
+            "minute": 55,
+            "team": "away",
+            "on": "Anthony Elanga",
+            "off": "Alexander Bernhardsson"
+          },
+          {
+            "minute": 55,
+            "team": "away",
+            "on": "Besfort Zeneli",
+            "off": "Benjamin Nygren"
+          },
+          {
+            "minute": 55,
+            "team": "away",
+            "on": "Lucas Bergvall",
+            "off": "Jesper Karlström"
+          },
+          {
+            "minute": 59,
+            "team": "home",
+            "on": "Teun Koopmeiners",
+            "off": "Frenkie de Jong"
+          },
+          {
+            "minute": 59,
+            "team": "home",
+            "on": "Guus Til",
+            "off": "Tijjani Reijnders"
+          },
+          {
+            "minute": 72,
+            "team": "home",
+            "on": "Memphis Depay",
+            "off": "Brian Brobbey"
+          },
+          {
+            "minute": 79,
+            "team": "away",
+            "on": "Taha Ali",
+            "off": "Yasin Ayari"
+          },
+          {
+            "minute": 90,
+            "team": "home",
+            "on": "Noa Lang",
+            "off": "Cody Gakpo"
+          },
+          {
+            "minute": 90,
+            "team": "away",
+            "on": "Elliot Stroud",
+            "off": "Gabriel Gudmundsson"
+          }
+        ],
+        "statistics": {
+          "home": {
+            "possessionPct": 52,
+            "shotsTotal": 10,
+            "shotsOnGoal": 7,
+            "shotsOffGoal": 2,
+            "shotsBlocked": 1,
+            "shotsInsideBox": 6,
+            "shotsOutsideBox": 4,
+            "corners": 2,
+            "offsides": 3,
+            "fouls": 9,
+            "yellowCards": 0,
+            "redCards": null,
+            "goalkeeperSaves": 6,
+            "passesTotal": 450,
+            "passesAccurate": 397,
+            "passesPct": 88,
+            "expectedGoals": 2.47
+          },
+          "away": {
+            "possessionPct": 48,
+            "shotsTotal": 15,
+            "shotsOnGoal": 7,
+            "shotsOffGoal": 5,
+            "shotsBlocked": 3,
+            "shotsInsideBox": 6,
+            "shotsOutsideBox": 9,
+            "corners": 4,
+            "offsides": 3,
+            "fouls": 12,
+            "yellowCards": 3,
+            "redCards": null,
+            "goalkeeperSaves": 2,
+            "passesTotal": 409,
+            "passesAccurate": 350,
+            "passesPct": 86,
+            "expectedGoals": 0.94
+          }
+        },
+        "stageNormalized": "group_f",
+        "fairPlay": {
+          "home": 0,
+          "away": -3
+        }
       },
       {
         "id": "2026-036",

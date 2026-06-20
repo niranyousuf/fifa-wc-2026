@@ -1,5 +1,5 @@
 {
-  "savedAt": 1781964480165,
+  "savedAt": 1781984404873,
   "data": {
     "year": 2026,
     "groups": {
@@ -290,17 +290,31 @@
       ],
       "F": [
         {
+          "team": "Netherlands",
+          "played": 2,
+          "won": 1,
+          "drawn": 1,
+          "lost": 0,
+          "goalsFor": 7,
+          "goalsAgainst": 3,
+          "goalDifference": 4,
+          "points": 4,
+          "fairPlay": -3,
+          "position": 1,
+          "advanced": true
+        },
+        {
           "team": "Sweden",
-          "played": 1,
+          "played": 2,
           "won": 1,
           "drawn": 0,
-          "lost": 0,
-          "goalsFor": 5,
-          "goalsAgainst": 1,
-          "goalDifference": 4,
+          "lost": 1,
+          "goalsFor": 6,
+          "goalsAgainst": 6,
+          "goalDifference": 0,
           "points": 3,
-          "fairPlay": 0,
-          "position": 1,
+          "fairPlay": -3,
+          "position": 2,
           "advanced": true
         },
         {
@@ -314,23 +328,7 @@
           "goalDifference": 0,
           "points": 1,
           "fairPlay": 0,
-          "position": 2,
-          "tiebreakerNotes": "Decided over Netherlands on head-to-head / fair-play",
-          "advanced": true
-        },
-        {
-          "team": "Netherlands",
-          "played": 1,
-          "won": 0,
-          "drawn": 1,
-          "lost": 0,
-          "goalsFor": 2,
-          "goalsAgainst": 2,
-          "goalDifference": 0,
-          "points": 1,
-          "fairPlay": -3,
           "position": 3,
-          "tiebreakerNotes": "Decided over Japan on head-to-head / fair-play",
           "advanced": true
         },
         {
