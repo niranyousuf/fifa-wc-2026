@@ -1,5 +1,5 @@
 {
-  "savedAt": 1781984404873,
+  "savedAt": 1782015787898,
   "data": {
     "year": 2026,
     "groups": {
@@ -101,7 +101,7 @@
           "points": 1,
           "fairPlay": -9,
           "position": 3,
-          "advanced": true
+          "advanced": false
         },
         {
           "team": "Qatar",
@@ -234,27 +234,27 @@
       "E": [
         {
           "team": "Germany",
-          "played": 1,
-          "won": 1,
+          "played": 2,
+          "won": 2,
           "drawn": 0,
           "lost": 0,
-          "goalsFor": 7,
-          "goalsAgainst": 1,
-          "goalDifference": 6,
-          "points": 3,
+          "goalsFor": 9,
+          "goalsAgainst": 2,
+          "goalDifference": 7,
+          "points": 6,
           "fairPlay": 0,
           "position": 1,
           "advanced": true
         },
         {
           "team": "Côte d'Ivoire",
-          "played": 1,
+          "played": 2,
           "won": 1,
           "drawn": 0,
-          "lost": 0,
-          "goalsFor": 1,
-          "goalsAgainst": 0,
-          "goalDifference": 1,
+          "lost": 1,
+          "goalsFor": 2,
+          "goalsAgainst": 2,
+          "goalDifference": 0,
           "points": 3,
           "fairPlay": -3,
           "position": 2,
@@ -262,29 +262,29 @@
         },
         {
           "team": "Ecuador",
-          "played": 1,
+          "played": 2,
           "won": 0,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 1,
           "goalsFor": 0,
           "goalsAgainst": 1,
           "goalDifference": -1,
-          "points": 0,
-          "fairPlay": -1,
+          "points": 1,
+          "fairPlay": -2,
           "position": 3,
-          "advanced": false
+          "advanced": true
         },
         {
           "team": "Curaçao",
-          "played": 1,
+          "played": 2,
           "won": 0,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 1,
           "goalsFor": 1,
           "goalsAgainst": 7,
           "goalDifference": -6,
-          "points": 0,
-          "fairPlay": 0,
+          "points": 1,
+          "fairPlay": -5,
           "position": 4
         }
       ],
@@ -304,6 +304,20 @@
           "advanced": true
         },
         {
+          "team": "Japan",
+          "played": 2,
+          "won": 1,
+          "drawn": 1,
+          "lost": 0,
+          "goalsFor": 3,
+          "goalsAgainst": 2,
+          "goalDifference": 1,
+          "points": 4,
+          "fairPlay": 0,
+          "position": 2,
+          "advanced": true
+        },
+        {
           "team": "Sweden",
           "played": 2,
           "won": 1,
@@ -314,32 +328,18 @@
           "goalDifference": 0,
           "points": 3,
           "fairPlay": -3,
-          "position": 2,
-          "advanced": true
-        },
-        {
-          "team": "Japan",
-          "played": 1,
-          "won": 0,
-          "drawn": 1,
-          "lost": 0,
-          "goalsFor": 2,
-          "goalsAgainst": 2,
-          "goalDifference": 0,
-          "points": 1,
-          "fairPlay": 0,
           "position": 3,
           "advanced": true
         },
         {
           "team": "Tunisia",
-          "played": 1,
+          "played": 2,
           "won": 0,
           "drawn": 0,
-          "lost": 1,
+          "lost": 2,
           "goalsFor": 1,
-          "goalsAgainst": 5,
-          "goalDifference": -4,
+          "goalsAgainst": 6,
+          "goalDifference": -5,
           "points": 0,
           "fairPlay": -1,
           "position": 4
