@@ -1,5 +1,5 @@
 {
-  "savedAt": 1782051293748,
+  "savedAt": 1782071108264,
   "data": {
     "year": 2026,
     "count": 104,
@@ -5434,7 +5434,7 @@
             {
               "player": "Mehdi Taremi",
               "number": 9,
-              "position": "CF",
+              "position": "CM",
               "starter": true,
               "captain": true
             },
@@ -5451,7 +5451,7 @@
               "starter": true
             },
             {
-              "player": "Aria Yousefi",
+              "player": "Arya Yousefi",
               "number": 17,
               "position": "LF",
               "starter": true
@@ -5636,7 +5636,7 @@
             "minute": 45,
             "team": "home",
             "on": "Mehdi Ghayedi",
-            "off": "Aria Yousefi"
+            "off": "Arya Yousefi"
           },
           {
             "minute": 53,
@@ -13840,19 +13840,386 @@
         "awayTeam": "Saudi Arabia",
         "homeRef": "Spain",
         "awayRef": "Saudi Arabia",
-        "homeScore": null,
-        "awayScore": null,
-        "result": null,
+        "homeScore": 4,
+        "awayScore": 0,
+        "result": "4-0",
         "extraTime": false,
         "penalties": null,
         "stadium": "Atlanta Stadium",
         "stadiumId": "mercedes-benz-stadium",
         "city": "Atlanta",
         "country": "United States",
-        "attendance": null,
-        "referee": null,
+        "attendance": 68239,
+        "referee": {
+          "name": "Raphael Claus",
+          "country": "Brazil"
+        },
         "weather": null,
-        "stageNormalized": "group_h"
+        "goals": [
+          {
+            "minute": 10,
+            "team": "home",
+            "scorer": "Yamal"
+          },
+          {
+            "minute": 21,
+            "team": "home",
+            "scorer": "Oyarzabal"
+          },
+          {
+            "minute": 24,
+            "team": "home",
+            "scorer": "Oyarzabal"
+          },
+          {
+            "minute": 49,
+            "team": "home",
+            "scorer": "Al-Tambakti",
+            "type": "own_goal"
+          },
+          {
+            "minute": 49,
+            "team": "away",
+            "scorer": "H. Tambakti",
+            "type": "own_goal",
+            "provisional": true
+          }
+        ],
+        "lineups": {
+          "home": [
+            {
+              "player": "Unai Simón",
+              "number": 23,
+              "position": "GK",
+              "starter": true
+            },
+            {
+              "player": "Pedro Porro",
+              "number": 12,
+              "position": "RB",
+              "starter": true
+            },
+            {
+              "player": "Pau Cubarsí",
+              "number": 22,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Aymeric Laporte",
+              "number": 14,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Marc Cucurella",
+              "number": 24,
+              "position": "LB",
+              "starter": true
+            },
+            {
+              "player": "Rodri",
+              "number": 16,
+              "position": "DM",
+              "starter": true,
+              "captain": true
+            },
+            {
+              "player": "Pedri",
+              "number": 20,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Dani Olmo",
+              "number": 10,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Lamine Yamal",
+              "number": 19,
+              "position": "RF",
+              "starter": true
+            },
+            {
+              "player": "Mikel Oyarzabal",
+              "number": 21,
+              "position": "CF",
+              "starter": true
+            },
+            {
+              "player": "Álex Baena",
+              "number": 15,
+              "position": "LF",
+              "starter": true
+            },
+            {
+              "player": "Yéremy Pino",
+              "number": 11,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Ferran Torres",
+              "number": 7,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Mikel Merino",
+              "number": 6,
+              "position": "MF",
+              "starter": false
+            },
+            {
+              "player": "Nico Williams",
+              "number": 17,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Fabián Ruiz",
+              "number": 8,
+              "position": "MF",
+              "starter": false
+            }
+          ],
+          "away": [
+            {
+              "player": "Mohammed Al-Owais",
+              "number": 21,
+              "position": "GK",
+              "starter": true
+            },
+            {
+              "player": "Abdulelah Al-Amri",
+              "number": 4,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Ali Lajami",
+              "number": 3,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Hassan Al-Tambakti",
+              "number": 5,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Saud Abdulhamid",
+              "number": 12,
+              "position": "RWB",
+              "starter": true
+            },
+            {
+              "player": "Moteb Al-Harbi",
+              "number": 24,
+              "position": "LWB",
+              "starter": true
+            },
+            {
+              "player": "Musab Al-Juwayr",
+              "number": 7,
+              "position": "RM",
+              "starter": true
+            },
+            {
+              "player": "Abdullah Al-Khaibari",
+              "number": 15,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Nasser Al-Dawsari",
+              "number": 6,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Salem Al-Dawsari",
+              "number": 10,
+              "position": "LM",
+              "starter": true,
+              "captain": true
+            },
+            {
+              "player": "Firas Al-Buraikan",
+              "number": 9,
+              "position": "CF",
+              "starter": true
+            },
+            {
+              "player": "Abdullah Al-Hamdan",
+              "number": 19,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Mohamed Kanno",
+              "number": 23,
+              "position": "MF",
+              "starter": false
+            },
+            {
+              "player": "Mohammed Abu Al-Shamat",
+              "number": 26,
+              "position": "DF",
+              "starter": false
+            },
+            {
+              "player": "Alaa Al-Hejji",
+              "number": 18,
+              "position": "MF",
+              "starter": false
+            },
+            {
+              "player": "Khalid Al-Ghannam",
+              "number": 17,
+              "position": "FW",
+              "starter": false
+            }
+          ]
+        },
+        "formations": {
+          "home": "4-3-3",
+          "away": "5-4-1"
+        },
+        "managers": {
+          "home": "Luis de la Fuente",
+          "away": "Georgios Donis"
+        },
+        "status": "finished",
+        "liveMinute": null,
+        "liveMinuteAt": null,
+        "clockSource": "wikipedia",
+        "clockSourceAt": "2026-06-21T18:29:19.867Z",
+        "livePhase": null,
+        "cards": [
+          {
+            "minute": 30,
+            "team": "away",
+            "player": "Salem Al-Dawsari",
+            "color": "yellow"
+          },
+          {
+            "minute": 60,
+            "team": "away",
+            "player": "Mohamed Kanno",
+            "color": "yellow"
+          }
+        ],
+        "statistics": {
+          "home": {
+            "possessionPct": 66,
+            "shotsTotal": 21,
+            "shotsOnGoal": 8,
+            "shotsOffGoal": 12,
+            "shotsBlocked": 1,
+            "shotsInsideBox": 12,
+            "shotsOutsideBox": 9,
+            "corners": 6,
+            "offsides": 2,
+            "fouls": 10,
+            "yellowCards": 0,
+            "redCards": null,
+            "goalkeeperSaves": 1,
+            "passesTotal": 693,
+            "passesAccurate": 636,
+            "passesPct": 92,
+            "expectedGoals": 2.78
+          },
+          "away": {
+            "possessionPct": 34,
+            "shotsTotal": 3,
+            "shotsOnGoal": 1,
+            "shotsOffGoal": 1,
+            "shotsBlocked": 1,
+            "shotsInsideBox": 0,
+            "shotsOutsideBox": 3,
+            "corners": 1,
+            "offsides": 3,
+            "fouls": 2,
+            "yellowCards": 2,
+            "redCards": null,
+            "goalkeeperSaves": 5,
+            "passesTotal": 365,
+            "passesAccurate": 293,
+            "passesPct": 80,
+            "expectedGoals": 0.14
+          }
+        },
+        "substitutions": [
+          {
+            "minute": 46,
+            "team": "home",
+            "on": "Yéremy Pino",
+            "off": "Lamine Yamal"
+          },
+          {
+            "minute": 46,
+            "team": "home",
+            "on": "Ferran Torres",
+            "off": "Mikel Oyarzabal"
+          },
+          {
+            "minute": 46,
+            "team": "away",
+            "on": "Abdullah Al-Hamdan",
+            "off": "Musab Al-Juwayr"
+          },
+          {
+            "minute": 46,
+            "team": "away",
+            "on": "Mohamed Kanno",
+            "off": "Abdullah Al-Khaibari"
+          },
+          {
+            "minute": 60,
+            "team": "away",
+            "on": "Mohammed Abu Al-Shamat",
+            "off": "Abdulelah Al-Amri"
+          },
+          {
+            "minute": 60,
+            "team": "away",
+            "on": "Alaa Al-Hejji",
+            "off": "Firas Al-Buraikan"
+          },
+          {
+            "minute": 61,
+            "team": "home",
+            "on": "Mikel Merino",
+            "off": "Dani Olmo"
+          },
+          {
+            "minute": 61,
+            "team": "home",
+            "on": "Nico Williams",
+            "off": "Álex Baena"
+          },
+          {
+            "minute": 70,
+            "team": "home",
+            "on": "Fabián Ruiz",
+            "off": "Pedri"
+          },
+          {
+            "minute": 90,
+            "team": "away",
+            "on": "Khalid Al-Ghannam",
+            "off": "Nasser Al-Dawsari"
+          }
+        ],
+        "stageNormalized": "group_h",
+        "fairPlay": {
+          "home": 0,
+          "away": -2
+        }
       },
       {
         "id": "2026-039",
@@ -13878,7 +14245,169 @@
         "attendance": null,
         "referee": null,
         "weather": null,
-        "stageNormalized": "group_g"
+        "lineups": {
+          "home": [
+            {
+              "player": "Thibaut Courtois",
+              "number": 1,
+              "position": "GK",
+              "starter": true
+            },
+            {
+              "player": "Thomas Meunier",
+              "number": 15,
+              "position": "RB",
+              "starter": true
+            },
+            {
+              "player": "Nathan Ngoy",
+              "number": 25,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Brandon Mechele",
+              "number": 4,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Maxim De Cuyper",
+              "number": 5,
+              "position": "LB",
+              "starter": true
+            },
+            {
+              "player": "Nicolas Raskin",
+              "number": 23,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Youri Tielemans",
+              "number": 8,
+              "position": "CM",
+              "starter": true,
+              "captain": true
+            },
+            {
+              "player": "Alexis Saelemaekers",
+              "number": 22,
+              "position": "RW",
+              "starter": true
+            },
+            {
+              "player": "Kevin De Bruyne",
+              "number": 7,
+              "position": "AM",
+              "starter": true
+            },
+            {
+              "player": "Leandro Trossard",
+              "number": 10,
+              "position": "LW",
+              "starter": true
+            },
+            {
+              "player": "Romelu Lukaku",
+              "number": 9,
+              "position": "CF",
+              "starter": true
+            }
+          ],
+          "away": [
+            {
+              "player": "Alireza Beiranvand",
+              "number": 1,
+              "position": "GK",
+              "starter": true
+            },
+            {
+              "player": "Saleh Hardani",
+              "number": 2,
+              "position": "RB",
+              "starter": true
+            },
+            {
+              "player": "Shojae Khalilzadeh",
+              "number": 4,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Hossein Kanaanizadegan",
+              "number": 13,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Ali Nemati",
+              "number": 19,
+              "position": "LB",
+              "starter": true
+            },
+            {
+              "player": "Saman Ghoddos",
+              "number": 14,
+              "position": "RM",
+              "starter": true
+            },
+            {
+              "player": "Saeid Ezatolahi",
+              "number": 6,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Mohammad Mohebi",
+              "number": 8,
+              "position": "LM",
+              "starter": true
+            },
+            {
+              "player": "Ramin Rezaeian",
+              "number": 23,
+              "position": "RF",
+              "starter": true
+            },
+            {
+              "player": "Mehdi Taremi",
+              "number": 9,
+              "position": "CF",
+              "starter": true
+            },
+            {
+              "player": "Ehsan Hajsafi",
+              "number": 3,
+              "position": "LF",
+              "starter": true,
+              "captain": true
+            }
+          ]
+        },
+        "formations": {
+          "home": "4-5-1",
+          "away": "4-3-3"
+        },
+        "managers": {
+          "home": "Rudi Garcia",
+          "away": "Amir Ghalenoei"
+        },
+        "status": "live",
+        "liveMinute": null,
+        "liveMinuteAt": "2026-06-21T19:45:03.000Z",
+        "clockSource": "apifootball",
+        "clockSourceAt": "2026-06-21T19:45:04.621Z",
+        "livePhase": "1H",
+        "stageNormalized": "group_g",
+        "fairPlay": {
+          "home": -1,
+          "away": 0
+        },
+        "liveDataLocked": {
+          "reason": "live_data_is_pro",
+          "message": "Live in-match data (score, goals, cards, substitutions) is a Pro-tier feature. This match is in progress — upgrade at https://api.zafronix.com/pricing to read live tournament data."
+        }
       },
       {
         "id": "2026-040",
