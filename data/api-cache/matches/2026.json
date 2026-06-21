@@ -1,5 +1,5 @@
 {
-  "savedAt": 1782015787975,
+  "savedAt": 1782035589206,
   "data": {
     "year": 2026,
     "count": 104,
@@ -13441,18 +13441,49 @@
         "awayTeam": "Japan",
         "homeRef": "Tunisia",
         "awayRef": "Japan",
-        "homeScore": null,
-        "awayScore": null,
-        "result": null,
+        "homeScore": 0,
+        "awayScore": 4,
+        "result": "0-3",
         "extraTime": false,
         "penalties": null,
         "stadium": "Monterrey Stadium",
         "stadiumId": "estadio-bbva",
         "city": "Guadalupe",
         "country": "Mexico",
-        "attendance": null,
-        "referee": null,
-        "weather": null,
+        "attendance": 51243,
+        "referee": {
+          "name": "István Kovács",
+          "country": "Romania"
+        },
+        "weather": {
+          "tempC": 24.8,
+          "humidityPct": 84,
+          "precipitationMm": 0,
+          "windKmh": 15.3,
+          "code": 1
+        },
+        "goals": [
+          {
+            "minute": 4,
+            "team": "away",
+            "scorer": "Kamada"
+          },
+          {
+            "minute": 31,
+            "team": "away",
+            "scorer": "Ueda"
+          },
+          {
+            "minute": 69,
+            "team": "away",
+            "scorer": "J. Itō"
+          },
+          {
+            "minute": 83,
+            "team": "away",
+            "scorer": "Ueda"
+          }
+        ],
         "lineups": {
           "home": [
             {
@@ -13462,8 +13493,8 @@
               "starter": true
             },
             {
-              "player": "Omar Rekik",
-              "number": 4,
+              "player": "Dylan Bronn",
+              "number": 6,
               "position": "CB",
               "starter": true
             },
@@ -13474,8 +13505,8 @@
               "starter": true
             },
             {
-              "player": "Dylan Bronn",
-              "number": 6,
+              "player": "Omar Rekik",
+              "number": 4,
               "position": "CB",
               "starter": true
             },
@@ -13494,7 +13525,13 @@
             {
               "player": "Hannibal Mejbri",
               "number": 10,
-              "position": "RM",
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Anis Ben Slimane",
+              "number": 25,
+              "position": "CM",
               "starter": true
             },
             {
@@ -13505,9 +13542,9 @@
               "captain": true
             },
             {
-              "player": "Anis Ben Slimane",
-              "number": 25,
-              "position": "LM",
+              "player": "Sebastian Tounekti",
+              "number": 26,
+              "position": "CF",
               "starter": true
             },
             {
@@ -13517,10 +13554,34 @@
               "starter": true
             },
             {
-              "player": "Sebastian Tounekti",
-              "number": 26,
-              "position": "CF",
-              "starter": true
+              "player": "Ismael Gharbi",
+              "number": 11,
+              "position": "MF",
+              "starter": false
+            },
+            {
+              "player": "Mohamed Amine Ben Hamida",
+              "number": 21,
+              "position": "DF",
+              "starter": false
+            },
+            {
+              "player": "Firas Chaouat",
+              "number": 19,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Elias Achouri",
+              "number": 7,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Rani Khedira",
+              "number": 13,
+              "position": "MF",
+              "starter": false
             }
           ],
           "away": [
@@ -13556,14 +13617,14 @@
               "starter": true
             },
             {
-              "player": "Ao Tanaka",
-              "number": 7,
+              "player": "Kaishū Sano",
+              "number": 24,
               "position": "CM",
               "starter": true
             },
             {
-              "player": "Daichi Kamada",
-              "number": 15,
+              "player": "Ao Tanaka",
+              "number": 7,
               "position": "CM",
               "starter": true
             },
@@ -13586,10 +13647,40 @@
               "starter": true
             },
             {
-              "player": "Kaishū Sano",
-              "number": 24,
+              "player": "Daichi Kamada",
+              "number": 15,
               "position": "LF",
               "starter": true
+            },
+            {
+              "player": "Yukinari Sugawara",
+              "number": 2,
+              "position": "DF",
+              "starter": false
+            },
+            {
+              "player": "Junnosuke Suzuki",
+              "number": 25,
+              "position": "DF",
+              "starter": false
+            },
+            {
+              "player": "Yuito Suzuki",
+              "number": 17,
+              "position": "MF",
+              "starter": false
+            },
+            {
+              "player": "Ayumu Seko",
+              "number": 20,
+              "position": "DF",
+              "starter": false
+            },
+            {
+              "player": "Keisuke Gotō",
+              "number": 20,
+              "position": "FW",
+              "starter": false
             }
           ]
         },
@@ -13601,17 +13692,115 @@
           "home": "Hervé Renard",
           "away": "Hajime Moriyasu"
         },
-        "status": "live",
+        "status": "finished",
         "liveMinute": null,
-        "liveMinuteAt": "2026-06-21T04:19:45.000Z",
-        "clockSource": "apifootball",
-        "clockSourceAt": "2026-06-21T04:19:46.529Z",
-        "livePhase": "1H",
-        "stageNormalized": "group_f",
-        "liveDataLocked": {
-          "reason": "live_data_is_pro",
-          "message": "Live in-match data (score, goals, cards, substitutions) is a Pro-tier feature. This match is in progress — upgrade at https://api.zafronix.com/pricing to read live tournament data."
-        }
+        "liveMinuteAt": null,
+        "clockSource": "wikipedia",
+        "clockSourceAt": "2026-06-21T06:27:58.564Z",
+        "livePhase": null,
+        "statistics": {
+          "home": {
+            "possessionPct": 38,
+            "shotsTotal": 2,
+            "shotsOnGoal": 0,
+            "shotsOffGoal": 1,
+            "shotsBlocked": 1,
+            "shotsInsideBox": 1,
+            "shotsOutsideBox": 1,
+            "corners": 3,
+            "offsides": 1,
+            "fouls": 8,
+            "yellowCards": null,
+            "redCards": null,
+            "goalkeeperSaves": 1,
+            "passesTotal": 351,
+            "passesAccurate": 282,
+            "passesPct": 80,
+            "expectedGoals": 0.05
+          },
+          "away": {
+            "possessionPct": 62,
+            "shotsTotal": 11,
+            "shotsOnGoal": 5,
+            "shotsOffGoal": 3,
+            "shotsBlocked": 3,
+            "shotsInsideBox": 8,
+            "shotsOutsideBox": 3,
+            "corners": 5,
+            "offsides": 1,
+            "fouls": 15,
+            "yellowCards": null,
+            "redCards": null,
+            "goalkeeperSaves": 0,
+            "passesTotal": 565,
+            "passesAccurate": 505,
+            "passesPct": 89,
+            "expectedGoals": 2.07
+          }
+        },
+        "substitutions": [
+          {
+            "minute": 46,
+            "team": "home",
+            "on": "Ismael Gharbi",
+            "off": "Dylan Bronn"
+          },
+          {
+            "minute": 46,
+            "team": "home",
+            "on": "Mohamed Amine Ben Hamida",
+            "off": "Elias Saad"
+          },
+          {
+            "minute": 64,
+            "team": "home",
+            "on": "Firas Chaouat",
+            "off": "Sebastian Tounekti"
+          },
+          {
+            "minute": 74,
+            "team": "away",
+            "on": "Yukinari Sugawara",
+            "off": "Ritsu Dōan"
+          },
+          {
+            "minute": 74,
+            "team": "away",
+            "on": "Junnosuke Suzuki",
+            "off": "Daichi Kamada"
+          },
+          {
+            "minute": 78,
+            "team": "away",
+            "on": "Yuito Suzuki",
+            "off": "Takehiro Tomiyasu"
+          },
+          {
+            "minute": 78,
+            "team": "away",
+            "on": "Ayumu Seko",
+            "off": "Keito Nakamura"
+          },
+          {
+            "minute": 84,
+            "team": "away",
+            "on": "Keisuke Gotō",
+            "off": "Ayase Ueda"
+          },
+          {
+            "minute": 90,
+            "team": "home",
+            "on": "Elias Achouri",
+            "off": "Ali Abdi"
+          },
+          {
+            "minute": 90,
+            "team": "home",
+            "on": "Rani Khedira",
+            "off": "Ellyes Skhiri"
+          }
+        ],
+        "stageNormalized": "group_f"
       },
       {
         "id": "2026-037",
