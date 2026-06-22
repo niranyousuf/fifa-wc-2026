@@ -1,5 +1,5 @@
 {
-  "savedAt": 1782129504276,
+  "savedAt": 1782148192282,
   "data": {
     "year": 2026,
     "count": 104,
@@ -5737,13 +5737,6 @@
             "team": "home",
             "scorer": "Hany 66' o.g",
             "type": "own_goal"
-          },
-          {
-            "minute": 66,
-            "team": "away",
-            "scorer": "M. Hany",
-            "type": "own_goal",
-            "provisional": true
           }
         ],
         "lineups": {
@@ -6486,14 +6479,6 @@
             "minute": 76,
             "team": "away",
             "scorer": "Østigård"
-          },
-          {
-            "minute": 76,
-            "team": "away",
-            "scorer": "L. Ostigard",
-            "assist": "M. Odegaard",
-            "type": "normal",
-            "provisional": true
           },
           {
             "minute": 90,
@@ -7250,13 +7235,6 @@
             "team": "home",
             "scorer": "Al-Arab 76' o.g",
             "type": "own_goal"
-          },
-          {
-            "minute": 76,
-            "team": "away",
-            "scorer": "Y. Al Arab",
-            "type": "own_goal",
-            "provisional": true
           },
           {
             "minute": 90,
@@ -11891,13 +11869,6 @@
             "type": "own_goal"
           },
           {
-            "minute": 11,
-            "team": "away",
-            "scorer": "C. Burgess",
-            "type": "own_goal",
-            "provisional": true
-          },
-          {
             "minute": 43,
             "team": "home",
             "scorer": "Freeman"
@@ -13855,7 +13826,7 @@
           {
             "minute": 61,
             "team": "away",
-            "scorer": "H. Varela"
+            "scorer": "Varela"
           }
         ],
         "lineups": {
@@ -14057,8 +14028,8 @@
         "status": "finished",
         "liveMinute": null,
         "liveMinuteAt": null,
-        "clockSource": "wikipedia",
-        "clockSourceAt": "2026-06-22T00:28:27.612Z",
+        "clockSource": "apifootball",
+        "clockSourceAt": "2026-06-22T12:00:12.020Z",
         "livePhase": null,
         "cards": [
           {
@@ -14137,6 +14108,46 @@
             "off": "Maximiliano Araújo"
           }
         ],
+        "statistics": {
+          "home": {
+            "possessionPct": 66,
+            "shotsTotal": 16,
+            "shotsOnGoal": 2,
+            "shotsOffGoal": 7,
+            "shotsBlocked": 7,
+            "shotsInsideBox": 8,
+            "shotsOutsideBox": 8,
+            "corners": 11,
+            "offsides": 3,
+            "fouls": 8,
+            "yellowCards": 2,
+            "redCards": null,
+            "goalkeeperSaves": null,
+            "passesTotal": 494,
+            "passesAccurate": 411,
+            "passesPct": 83,
+            "expectedGoals": 2.28
+          },
+          "away": {
+            "possessionPct": 34,
+            "shotsTotal": 7,
+            "shotsOnGoal": 2,
+            "shotsOffGoal": 4,
+            "shotsBlocked": 1,
+            "shotsInsideBox": 1,
+            "shotsOutsideBox": 6,
+            "corners": 3,
+            "offsides": 0,
+            "fouls": 4,
+            "yellowCards": 1,
+            "redCards": null,
+            "goalkeeperSaves": null,
+            "passesTotal": 256,
+            "passesAccurate": 190,
+            "passesPct": 74,
+            "expectedGoals": 0.77
+          }
+        },
         "stageNormalized": "group_h",
         "fairPlay": {
           "home": -2,
@@ -14197,13 +14208,6 @@
             "team": "home",
             "scorer": "Al-Tambakti",
             "type": "own_goal"
-          },
-          {
-            "minute": 49,
-            "team": "away",
-            "scorer": "H. Tambakti",
-            "type": "own_goal",
-            "provisional": true
           }
         ],
         "lineups": {
@@ -15403,7 +15407,165 @@
         "attendance": null,
         "referee": null,
         "weather": null,
-        "stageNormalized": "group_j"
+        "lineups": {
+          "home": [
+            {
+              "player": "Emiliano Martínez",
+              "number": 23,
+              "position": "GK",
+              "starter": true
+            },
+            {
+              "player": "Nahuel Molina",
+              "number": 26,
+              "position": "RB",
+              "starter": true
+            },
+            {
+              "player": "Cristian Romero",
+              "number": 13,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Lisandro Martínez",
+              "number": 6,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Facundo Medina",
+              "number": 25,
+              "position": "LB",
+              "starter": true
+            },
+            {
+              "player": "Rodrigo De Paul",
+              "number": 7,
+              "position": "RM",
+              "starter": true
+            },
+            {
+              "player": "Alexis Mac Allister",
+              "number": 20,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Enzo Fernández",
+              "number": 24,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Thiago Almada",
+              "number": 16,
+              "position": "LM",
+              "starter": true
+            },
+            {
+              "player": "Lionel Messi",
+              "number": 10,
+              "position": "CF",
+              "starter": true,
+              "captain": true
+            },
+            {
+              "player": "Lautaro Martínez",
+              "number": 22,
+              "position": "CF",
+              "starter": true
+            }
+          ],
+          "away": [
+            {
+              "player": "Alexander Schlager",
+              "number": 1,
+              "position": "GK",
+              "starter": true
+            },
+            {
+              "player": "Stefan Posch",
+              "number": 5,
+              "position": "RB",
+              "starter": true
+            },
+            {
+              "player": "Kevin Danso",
+              "number": 3,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "David Alaba",
+              "number": 8,
+              "position": "CB",
+              "starter": true,
+              "captain": true
+            },
+            {
+              "player": "Konrad Laimer",
+              "number": 20,
+              "position": "LB",
+              "starter": true
+            },
+            {
+              "player": "Nicolas Seiwald",
+              "number": 6,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Xaver Schlager",
+              "number": 4,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Romano Schmid",
+              "number": 18,
+              "position": "RW",
+              "starter": true
+            },
+            {
+              "player": "Paul Wanner",
+              "number": 24,
+              "position": "AM",
+              "starter": true
+            },
+            {
+              "player": "Marcel Sabitzer",
+              "number": 9,
+              "position": "LW",
+              "starter": true
+            },
+            {
+              "player": "Michael Gregoritsch",
+              "number": 11,
+              "position": "CF",
+              "starter": true
+            }
+          ]
+        },
+        "formations": {
+          "home": "4-4-2",
+          "away": "4-5-1"
+        },
+        "managers": {
+          "home": "Lionel Scaloni",
+          "away": null
+        },
+        "status": "live",
+        "liveMinute": null,
+        "liveMinuteAt": "2026-06-22T17:06:10.000Z",
+        "clockSource": "apifootball",
+        "clockSourceAt": "2026-06-22T17:06:11.288Z",
+        "livePhase": "1H",
+        "stageNormalized": "group_j",
+        "liveDataLocked": {
+          "reason": "live_data_is_pro",
+          "message": "Live in-match data (score, goals, cards, substitutions) is a Pro-tier feature. This match is in progress — upgrade at https://api.zafronix.com/pricing to read live tournament data."
+        }
       },
       {
         "id": "2026-044",

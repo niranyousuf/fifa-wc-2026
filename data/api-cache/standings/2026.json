@@ -1,5 +1,5 @@
 {
-  "savedAt": 1782129504217,
+  "savedAt": 1782148192236,
   "data": {
     "year": 2026,
     "groups": {
@@ -519,28 +519,28 @@
       "J": [
         {
           "team": "Argentina",
-          "played": 1,
+          "played": 2,
           "won": 1,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 0,
           "goalsFor": 3,
           "goalsAgainst": 0,
           "goalDifference": 3,
-          "points": 3,
+          "points": 4,
           "fairPlay": 0,
           "position": 1,
           "advanced": true
         },
         {
           "team": "Austria",
-          "played": 1,
+          "played": 2,
           "won": 1,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 0,
           "goalsFor": 3,
           "goalsAgainst": 1,
           "goalDifference": 2,
-          "points": 3,
+          "points": 4,
           "fairPlay": -1,
           "position": 2,
           "advanced": true
