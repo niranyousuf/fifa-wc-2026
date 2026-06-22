@@ -1,5 +1,5 @@
 {
-  "savedAt": 1782148192282,
+  "savedAt": 1782161458295,
   "data": {
     "year": 2026,
     "count": 104,
@@ -15369,8 +15369,8 @@
         "awayTeam": "Iraq",
         "homeRef": "France",
         "awayRef": "Iraq",
-        "homeScore": null,
-        "awayScore": null,
+        "homeScore": 0,
+        "awayScore": 0,
         "result": null,
         "extraTime": false,
         "penalties": null,
@@ -15381,6 +15381,160 @@
         "attendance": null,
         "referee": null,
         "weather": null,
+        "goals": [],
+        "lineups": {
+          "home": [
+            {
+              "player": "Mike Maignan",
+              "number": 16,
+              "position": "GK",
+              "starter": true
+            },
+            {
+              "player": "Jules Koundé",
+              "number": 5,
+              "position": "RB",
+              "starter": true
+            },
+            {
+              "player": "Dayot Upamecano",
+              "number": 4,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "William Saliba",
+              "number": 17,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Lucas Digne",
+              "number": 3,
+              "position": "LB",
+              "starter": true
+            },
+            {
+              "player": "Manu Koné",
+              "number": 6,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Adrien Rabiot",
+              "number": 14,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Michael Olise",
+              "number": 11,
+              "position": "RW",
+              "starter": true
+            },
+            {
+              "player": "Ousmane Dembélé",
+              "number": 7,
+              "position": "AM",
+              "starter": true
+            },
+            {
+              "player": "Bradley Barcola",
+              "number": 12,
+              "position": "LW",
+              "starter": true
+            },
+            {
+              "player": "Kylian Mbappé",
+              "number": 10,
+              "position": "CF",
+              "starter": true,
+              "captain": true
+            }
+          ],
+          "away": [
+            {
+              "player": "Ahmed Basil",
+              "number": 22,
+              "position": "GK",
+              "starter": true
+            },
+            {
+              "player": "Hussein Ali",
+              "number": 3,
+              "position": "RB",
+              "starter": true
+            },
+            {
+              "player": "Zaid Tahseen",
+              "number": 4,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Akam Hashim",
+              "number": 5,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Merchas Doski",
+              "number": 23,
+              "position": "LB",
+              "starter": true
+            },
+            {
+              "player": "Amir Al-Ammari",
+              "number": 16,
+              "position": "DM",
+              "starter": true
+            },
+            {
+              "player": "Zaid Ismail",
+              "number": 24,
+              "position": "RM",
+              "starter": true
+            },
+            {
+              "player": "Zidane Iqbal",
+              "number": 14,
+              "position": "LM",
+              "starter": true
+            },
+            {
+              "player": "Ibrahim Bayesh",
+              "number": 8,
+              "position": "RW",
+              "starter": true
+            },
+            {
+              "player": "Ahmed Qasem",
+              "number": 11,
+              "position": "LW",
+              "starter": true
+            },
+            {
+              "player": "Aymen Hussein",
+              "number": 18,
+              "position": "CF",
+              "starter": true,
+              "captain": true
+            }
+          ]
+        },
+        "formations": {
+          "home": "4-5-1",
+          "away": "4-5-1"
+        },
+        "managers": {
+          "home": "Didier Deschamps",
+          "away": "Graham Arnold"
+        },
+        "status": "scheduled",
+        "liveMinute": null,
+        "liveMinuteAt": null,
+        "clockSource": "wikipedia",
+        "clockSourceAt": "2026-06-22T20:49:44.232Z",
         "stageNormalized": "group_i"
       },
       {
@@ -15395,18 +15549,34 @@
         "awayTeam": "Austria",
         "homeRef": "Argentina",
         "awayRef": "Austria",
-        "homeScore": null,
-        "awayScore": null,
-        "result": null,
+        "homeScore": 2,
+        "awayScore": 0,
+        "result": "2-0",
         "extraTime": false,
         "penalties": null,
         "stadium": "Dallas Stadium",
         "stadiumId": "att-stadium",
         "city": "Arlington",
         "country": "United States",
-        "attendance": null,
-        "referee": null,
+        "attendance": 70649,
+        "referee": {
+          "name": "Amin Omar",
+          "country": "Egypt"
+        },
         "weather": null,
+        "goals": [
+          {
+            "minute": 38,
+            "team": "home",
+            "scorer": "Messi"
+          },
+          {
+            "minute": 90,
+            "addedMinute": 5,
+            "team": "home",
+            "scorer": "Messi"
+          }
+        ],
         "lineups": {
           "home": [
             {
@@ -15440,14 +15610,14 @@
               "starter": true
             },
             {
-              "player": "Rodrigo De Paul",
-              "number": 7,
-              "position": "RM",
+              "player": "Alexis Mac Allister",
+              "number": 20,
+              "position": "DM",
               "starter": true
             },
             {
-              "player": "Alexis Mac Allister",
-              "number": 20,
+              "player": "Rodrigo De Paul",
+              "number": 7,
               "position": "CM",
               "starter": true
             },
@@ -15460,7 +15630,7 @@
             {
               "player": "Thiago Almada",
               "number": 16,
-              "position": "LM",
+              "position": "CM",
               "starter": true
             },
             {
@@ -15475,6 +15645,36 @@
               "number": 22,
               "position": "CF",
               "starter": true
+            },
+            {
+              "player": "Nicolás Otamendi",
+              "number": 19,
+              "position": "DF",
+              "starter": false
+            },
+            {
+              "player": "Julián Álvarez",
+              "number": 9,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Nicolás González",
+              "number": 15,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Nicolás Tagliafico",
+              "number": 3,
+              "position": "DF",
+              "starter": false
+            },
+            {
+              "player": "Leandro Paredes",
+              "number": 5,
+              "position": "MF",
+              "starter": false
             }
           ],
           "away": [
@@ -15544,6 +15744,36 @@
               "number": 11,
               "position": "CF",
               "starter": true
+            },
+            {
+              "player": "Marko Arnautović",
+              "number": 7,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Alexander Prass",
+              "number": 22,
+              "position": "DF",
+              "starter": false
+            },
+            {
+              "player": "Marco Friedl",
+              "number": 23,
+              "position": "DF",
+              "starter": false
+            },
+            {
+              "player": "Patrick Wimmer",
+              "number": 21,
+              "position": "MF",
+              "starter": false
+            },
+            {
+              "player": "Carney Chukwuemeka",
+              "number": 17,
+              "position": "MF",
+              "starter": false
             }
           ]
         },
@@ -15553,18 +15783,147 @@
         },
         "managers": {
           "home": "Lionel Scaloni",
-          "away": null
+          "away": "Ralf Rangnick"
         },
-        "status": "live",
+        "status": "finished",
         "liveMinute": null,
-        "liveMinuteAt": "2026-06-22T17:06:10.000Z",
-        "clockSource": "apifootball",
-        "clockSourceAt": "2026-06-22T17:06:11.288Z",
-        "livePhase": "1H",
+        "liveMinuteAt": null,
+        "clockSource": "wikipedia",
+        "clockSourceAt": "2026-06-22T19:28:56.954Z",
+        "livePhase": null,
+        "cards": [
+          {
+            "minute": 41,
+            "team": "away",
+            "player": "Stefan Posch",
+            "color": "yellow"
+          },
+          {
+            "minute": 76,
+            "team": "home",
+            "player": "Facundo Medina",
+            "color": "yellow"
+          },
+          {
+            "minute": 76,
+            "team": "away",
+            "player": "Konrad Laimer",
+            "color": "yellow"
+          },
+          {
+            "minute": 90,
+            "addedMinute": 2,
+            "team": "home",
+            "player": "Leandro Paredes",
+            "color": "yellow"
+          }
+        ],
+        "statistics": {
+          "home": {
+            "possessionPct": 54,
+            "shotsTotal": 11,
+            "shotsOnGoal": 5,
+            "shotsOffGoal": 3,
+            "shotsBlocked": 3,
+            "shotsInsideBox": 10,
+            "shotsOutsideBox": 1,
+            "corners": 1,
+            "offsides": 2,
+            "fouls": 13,
+            "yellowCards": 2,
+            "redCards": null,
+            "goalkeeperSaves": 1,
+            "passesTotal": 552,
+            "passesAccurate": 492,
+            "passesPct": 89,
+            "expectedGoals": 2.62
+          },
+          "away": {
+            "possessionPct": 46,
+            "shotsTotal": 6,
+            "shotsOnGoal": 1,
+            "shotsOffGoal": 5,
+            "shotsBlocked": 0,
+            "shotsInsideBox": 4,
+            "shotsOutsideBox": 2,
+            "corners": 3,
+            "offsides": 0,
+            "fouls": 12,
+            "yellowCards": 2,
+            "redCards": null,
+            "goalkeeperSaves": 2,
+            "passesTotal": 463,
+            "passesAccurate": 398,
+            "passesPct": 86,
+            "expectedGoals": 0.5
+          }
+        },
+        "substitutions": [
+          {
+            "minute": 57,
+            "team": "home",
+            "on": "Nicolás Otamendi",
+            "off": "Cristian Romero"
+          },
+          {
+            "minute": 64,
+            "team": "home",
+            "on": "Julián Álvarez",
+            "off": "Thiago Almada"
+          },
+          {
+            "minute": 64,
+            "team": "home",
+            "on": "Nicolás González",
+            "off": "Lautaro Martínez"
+          },
+          {
+            "minute": 67,
+            "team": "away",
+            "on": "Marco Friedl",
+            "off": "Stefan Posch"
+          },
+          {
+            "minute": 67,
+            "team": "away",
+            "on": "Marko Arnautović",
+            "off": "David Alaba"
+          },
+          {
+            "minute": 67,
+            "team": "away",
+            "on": "Alexander Prass",
+            "off": "Paul Wanner"
+          },
+          {
+            "minute": 78,
+            "team": "away",
+            "on": "Patrick Wimmer",
+            "off": "Romano Schmid"
+          },
+          {
+            "minute": 82,
+            "team": "home",
+            "on": "Leandro Paredes",
+            "off": "Facundo Medina"
+          },
+          {
+            "minute": 82,
+            "team": "home",
+            "on": "Nicolás Tagliafico",
+            "off": "Rodrigo De Paul"
+          },
+          {
+            "minute": 85,
+            "team": "away",
+            "on": "Carney Chukwuemeka",
+            "off": "Michael Gregoritsch"
+          }
+        ],
         "stageNormalized": "group_j",
-        "liveDataLocked": {
-          "reason": "live_data_is_pro",
-          "message": "Live in-match data (score, goals, cards, substitutions) is a Pro-tier feature. This match is in progress — upgrade at https://api.zafronix.com/pricing to read live tournament data."
+        "fairPlay": {
+          "home": -2,
+          "away": -2
         }
       },
       {

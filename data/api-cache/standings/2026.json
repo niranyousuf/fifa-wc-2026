@@ -1,5 +1,5 @@
 {
-  "savedAt": 1782148192236,
+  "savedAt": 1782161458252,
   "data": {
     "year": 2026,
     "groups": {
@@ -461,6 +461,20 @@
       ],
       "I": [
         {
+          "team": "France",
+          "played": 2,
+          "won": 1,
+          "drawn": 1,
+          "lost": 0,
+          "goalsFor": 3,
+          "goalsAgainst": 1,
+          "goalDifference": 2,
+          "points": 4,
+          "fairPlay": 0,
+          "position": 1,
+          "advanced": true
+        },
+        {
           "team": "Norway",
           "played": 1,
           "won": 1,
@@ -471,22 +485,22 @@
           "goalDifference": 3,
           "points": 3,
           "fairPlay": 0,
-          "position": 1,
+          "position": 2,
           "advanced": true
         },
         {
-          "team": "France",
-          "played": 1,
-          "won": 1,
-          "drawn": 0,
-          "lost": 0,
-          "goalsFor": 3,
-          "goalsAgainst": 1,
-          "goalDifference": 2,
-          "points": 3,
-          "fairPlay": 0,
-          "position": 2,
-          "advanced": true
+          "team": "Iraq",
+          "played": 2,
+          "won": 0,
+          "drawn": 1,
+          "lost": 1,
+          "goalsFor": 1,
+          "goalsAgainst": 4,
+          "goalDifference": -3,
+          "points": 1,
+          "fairPlay": -1,
+          "position": 3,
+          "advanced": false
         },
         {
           "team": "Senegal",
@@ -499,20 +513,6 @@
           "goalDifference": -2,
           "points": 0,
           "fairPlay": 0,
-          "position": 3,
-          "advanced": false
-        },
-        {
-          "team": "Iraq",
-          "played": 1,
-          "won": 0,
-          "drawn": 0,
-          "lost": 1,
-          "goalsFor": 1,
-          "goalsAgainst": 4,
-          "goalDifference": -3,
-          "points": 0,
-          "fairPlay": -1,
           "position": 4
         }
       ],
@@ -520,14 +520,14 @@
         {
           "team": "Argentina",
           "played": 2,
-          "won": 1,
-          "drawn": 1,
+          "won": 2,
+          "drawn": 0,
           "lost": 0,
-          "goalsFor": 3,
+          "goalsFor": 5,
           "goalsAgainst": 0,
-          "goalDifference": 3,
-          "points": 4,
-          "fairPlay": 0,
+          "goalDifference": 5,
+          "points": 6,
+          "fairPlay": -2,
           "position": 1,
           "advanced": true
         },
@@ -535,13 +535,13 @@
           "team": "Austria",
           "played": 2,
           "won": 1,
-          "drawn": 1,
-          "lost": 0,
+          "drawn": 0,
+          "lost": 1,
           "goalsFor": 3,
-          "goalsAgainst": 1,
-          "goalDifference": 2,
-          "points": 4,
-          "fairPlay": -1,
+          "goalsAgainst": 3,
+          "goalDifference": 0,
+          "points": 3,
+          "fairPlay": -3,
           "position": 2,
           "advanced": true
         },
