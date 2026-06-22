@@ -1,5 +1,5 @@
 {
-  "savedAt": 1782102337999,
+  "savedAt": 1782129504276,
   "data": {
     "year": 2026,
     "count": 104,
@@ -13855,7 +13855,7 @@
           {
             "minute": 61,
             "team": "away",
-            "scorer": "Varela"
+            "scorer": "H. Varela"
           }
         ],
         "lineups": {
@@ -15229,13 +15229,13 @@
           {
             "minute": 76,
             "team": "home",
-            "on": "Jesse Randall",
+            "on": "Ryan Thomas",
             "off": "Liberato Cacace"
           },
           {
             "minute": 76,
             "team": "home",
-            "on": "Ryan Thomas",
+            "on": "Jesse Randall",
             "off": "Sarpreet Singh"
           },
           {
@@ -15265,13 +15265,13 @@
           {
             "minute": 85,
             "team": "home",
-            "on": "Francis de Vries",
+            "on": "Tyler Bindon",
             "off": "Tim Payne"
           },
           {
             "minute": 85,
             "team": "home",
-            "on": "Tyler Bindon",
+            "on": "Francis de Vries",
             "off": "Elijah Just"
           },
           {
