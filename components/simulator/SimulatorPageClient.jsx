@@ -5,8 +5,12 @@ import { useEffect, useMemo, useState } from "react";
 import { SimulatorGroupTable } from "@/components/simulator/SimulatorGroupTable";
 import { SimulatorThirdPlaceTable } from "@/components/simulator/SimulatorThirdPlaceTable";
 import { SimulatorKnockoutRound } from "@/components/simulator/SimulatorKnockoutRound";
-import { MatchScorePicker } from "@/components/simulator/ScoreInputs";
+import { MatchScorePicker, FinishedMatchResult } from "@/components/simulator/ScoreInputs";
 import { groupFixturesByLetter } from "@/lib/tournamentSimulator/groupFixtures";
+import {
+  isFixtureFinished,
+  mergeGroupPredictions,
+} from "@/lib/tournamentSimulator/fixtureScores";
 import {
   advanceKnockoutBracket,
   buildInitialKnockoutBracket,
@@ -77,24 +81,34 @@ export function SimulatorPageClient({ fixtures: fixturesProp = [] }) {
     [groups, letters],
   );
 
+  const effectiveGroupPredictions = useMemo(
+    () => mergeGroupPredictions(allGroupFixtures, predictions.group),
+    [allGroupFixtures, predictions.group],
+  );
+
+  const finishedGroupCount = useMemo(
+    () => allGroupFixtures.filter(isFixtureFinished).length,
+    [allGroupFixtures],
+  );
+
   const groupProgress = useMemo(() => {
     const total = allGroupFixtures.length;
     const done = allGroupFixtures.filter((fixture) =>
-      hasCompleteScore(predictions.group[fixture.fixture.id]),
+      hasCompleteScore(effectiveGroupPredictions[fixture.fixture.id]),
     ).length;
     return { total, done };
-  }, [allGroupFixtures, predictions.group]);
+  }, [allGroupFixtures, effectiveGroupPredictions]);
 
   const standingsByGroup = useMemo(() => {
     const result = {};
     for (const letter of letters) {
       result[letter] = buildGroupStandings(
         groups[letter] ?? [],
-        predictions.group,
+        effectiveGroupPredictions,
       );
     }
     return result;
-  }, [groups, letters, predictions.group]);
+  }, [groups, letters, effectiveGroupPredictions]);
 
   const thirdPlaceStandings = useMemo(
     () => buildThirdPlaceStandings(standingsByGroup),
@@ -163,6 +177,9 @@ export function SimulatorPageClient({ fixtures: fixturesProp = [] }) {
   }, [knockoutBracket, predictions.knockout]);
 
   function setGroupPick(fixtureId, patch) {
+    const fixture = allGroupFixtures.find((entry) => entry.fixture.id === fixtureId);
+    if (fixture && isFixtureFinished(fixture)) return;
+
     setPredictions((current) => {
       const previous = current.group[fixtureId] ?? {};
       const nextPick = { ...previous, ...patch };
@@ -223,8 +240,10 @@ export function SimulatorPageClient({ fixtures: fixturesProp = [] }) {
 
   function handleResetGroup(letter) {
     const fixtures = groups[letter] ?? [];
-    const hasScores = fixtures.some((fixture) =>
-      hasCompleteScore(predictions.group[fixture.fixture.id]),
+    const hasScores = fixtures.some(
+      (fixture) =>
+        !isFixtureFinished(fixture) &&
+        hasCompleteScore(predictions.group[fixture.fixture.id]),
     );
 
     if (!hasScores) return;
@@ -239,6 +258,7 @@ export function SimulatorPageClient({ fixtures: fixturesProp = [] }) {
     setPredictions((current) => {
       const group = { ...current.group };
       for (const fixture of fixtures) {
+        if (isFixtureFinished(fixture)) continue;
         delete group[fixture.fixture.id];
       }
       return { ...current, group };
@@ -299,9 +319,11 @@ export function SimulatorPageClient({ fixtures: fixturesProp = [] }) {
               Tournament prediction simulator
             </h1>
             <p className="mt-2 max-w-2xl text-[hsl(var(--muted-foreground))]">
-              Enter scores for every match. Knockout ties level after 90 minutes
-              can go to penalties. Not linked to real World Cup results. Your
-              predictions are saved in this browser for 60 days.
+              Enter scores for upcoming matches. Finished games show real results
+              from the API and cannot be changed. Knockout ties level after 90
+              minutes can go to penalties. Not linked to real World Cup results
+              beyond played group games. Your predictions are saved in this
+              browser for 60 days.
             </p>
           </div>
           <button
@@ -315,6 +337,9 @@ export function SimulatorPageClient({ fixtures: fixturesProp = [] }) {
 
         <p className="text-sm text-[hsl(var(--muted-foreground))]">
           Group stage: {groupProgress.done}/{groupProgress.total} matches scored
+          {finishedGroupCount > 0
+            ? ` (${finishedGroupCount} final from real results)`
+            : ""}
           {groupStageComplete ? " · Knockout unlocked" : ""}
         </p>
       </header>
@@ -362,38 +387,57 @@ export function SimulatorPageClient({ fixtures: fixturesProp = [] }) {
                   label={`Reset Group ${activeGroup}`}
                   onClick={() => handleResetGroup(activeGroup)}
                   disabled={
-                    !activeFixtures.some((fixture) =>
-                      predictions.group[fixture.fixture.id],
+                    !activeFixtures.some(
+                      (fixture) =>
+                        !isFixtureFinished(fixture) &&
+                        predictions.group[fixture.fixture.id],
                     )
                   }
                 />
               </div>
               <ul className="divide-y divide-[hsl(var(--border))] rounded-xl border border-[hsl(var(--border))] bg-[hsl(var(--card))]">
                 {activeFixtures.map((fixture) => {
-                  const pick = predictions.group[fixture.fixture.id] ?? {};
+                  const finished = isFixtureFinished(fixture);
+                  const pick =
+                    effectiveGroupPredictions[fixture.fixture.id] ?? {};
+
                   return (
                     <li
                       key={fixture.fixture.id}
                       className="space-y-3 px-4 py-4"
                     >
-                      <p className="text-center text-xs text-[hsl(var(--muted-foreground))]">
+                      <div className="flex flex-wrap items-center justify-center gap-2 text-xs text-[hsl(var(--muted-foreground))]">
                         <LocalKickoffDateTime
                           date={fixture.fixture.date}
                           dateVariant="short"
                         />
-                      </p>
-                      <MatchScorePicker
-                        homeSide={fixture.teams.home}
-                        awaySide={fixture.teams.away}
-                        home={pick.home}
-                        away={pick.away}
-                        onHomeChange={(value) =>
-                          setGroupPick(fixture.fixture.id, { home: value })
-                        }
-                        onAwayChange={(value) =>
-                          setGroupPick(fixture.fixture.id, { away: value })
-                        }
-                      />
+                        {finished ? (
+                          <span className="rounded-full bg-[hsl(var(--muted))]/50 px-2 py-0.5 font-medium uppercase tracking-wide text-[hsl(var(--foreground))]">
+                            Final
+                          </span>
+                        ) : null}
+                      </div>
+                      {finished ? (
+                        <FinishedMatchResult
+                          homeSide={fixture.teams.home}
+                          awaySide={fixture.teams.away}
+                          home={pick.home}
+                          away={pick.away}
+                        />
+                      ) : (
+                        <MatchScorePicker
+                          homeSide={fixture.teams.home}
+                          awaySide={fixture.teams.away}
+                          home={pick.home}
+                          away={pick.away}
+                          onHomeChange={(value) =>
+                            setGroupPick(fixture.fixture.id, { home: value })
+                          }
+                          onAwayChange={(value) =>
+                            setGroupPick(fixture.fixture.id, { away: value })
+                          }
+                        />
+                      )}
                     </li>
                   );
                 })}

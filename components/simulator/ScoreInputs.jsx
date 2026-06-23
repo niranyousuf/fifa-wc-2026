@@ -168,3 +168,38 @@ function ScoreBox({ label, value, onChange, disabled }) {
     </label>
   );
 }
+
+/** Read-only scoreline for matches already played (API result). */
+export function FinishedMatchResult({ homeSide, awaySide, home, away }) {
+  const homeTeam = toTeamDisplay(homeSide);
+  const awayTeam = toTeamDisplay(awaySide);
+
+  return (
+    <>
+      <div className="flex flex-col gap-2.5 sm:hidden">
+        <FinishedTeamScoreRow team={homeTeam} score={home} />
+        <FinishedTeamScoreRow team={awayTeam} score={away} />
+      </div>
+      <div className="hidden items-center justify-center gap-6 sm:flex">
+        <TeamLine team={homeTeam} />
+        <div className="flex items-center gap-2 tabular-nums">
+          <span className="min-w-[2ch] text-center text-lg font-bold">{home}</span>
+          <span className="text-sm text-[hsl(var(--muted-foreground))]">–</span>
+          <span className="min-w-[2ch] text-center text-lg font-bold">{away}</span>
+        </div>
+        <TeamLine team={awayTeam} align="right" />
+      </div>
+    </>
+  );
+}
+
+function FinishedTeamScoreRow({ team, score }) {
+  return (
+    <div className="flex items-center justify-between gap-3">
+      <TeamLine team={team} className="min-w-0 flex-1" />
+      <span className="flex h-10 w-12 items-center justify-center rounded-md border border-[hsl(var(--border))] bg-[hsl(var(--muted))]/30 text-sm font-bold tabular-nums">
+        {score}
+      </span>
+    </div>
+  );
+}
