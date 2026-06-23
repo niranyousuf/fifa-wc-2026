@@ -1,5 +1,5 @@
 {
-  "savedAt": 1782186149811,
+  "savedAt": 1782207759467,
   "data": {
     "year": 2026,
     "count": 104,
@@ -16497,18 +16497,44 @@
         "awayTeam": "Algeria",
         "homeRef": "Jordan",
         "awayRef": "Algeria",
-        "homeScore": null,
-        "awayScore": null,
-        "result": null,
+        "homeScore": 1,
+        "awayScore": 2,
+        "result": "1-2",
         "extraTime": false,
         "penalties": null,
         "stadium": "San Francisco Bay Area Stadium",
         "stadiumId": "levis-stadium",
         "city": "Santa Clara",
         "country": "United States",
-        "attendance": null,
-        "referee": null,
-        "weather": null,
+        "attendance": 68371,
+        "referee": {
+          "name": "Slavko Vinčić",
+          "country": "Slovenia"
+        },
+        "weather": {
+          "tempC": 16.7,
+          "humidityPct": 85,
+          "precipitationMm": 0,
+          "windKmh": 18.4,
+          "code": 0
+        },
+        "goals": [
+          {
+            "minute": 36,
+            "team": "home",
+            "scorer": "Al-Rashdan"
+          },
+          {
+            "minute": 69,
+            "team": "away",
+            "scorer": "Benbouali"
+          },
+          {
+            "minute": 82,
+            "team": "away",
+            "scorer": "Gouiri"
+          }
+        ],
         "lineups": {
           "home": [
             {
@@ -16524,14 +16550,14 @@
               "starter": true
             },
             {
-              "player": "Husam Abu Dahab",
-              "number": 4,
+              "player": "Yazan Al-Arab",
+              "number": 5,
               "position": "CB",
               "starter": true
             },
             {
-              "player": "Yazan Al-Arab",
-              "number": 5,
+              "player": "Husam Abu Dahab",
+              "number": 4,
               "position": "CB",
               "starter": true
             },
@@ -16543,14 +16569,14 @@
               "captain": true
             },
             {
-              "player": "Noor Al-Rawabdeh",
-              "number": 8,
+              "player": "Nizar Al-Rashdan",
+              "number": 21,
               "position": "CM",
               "starter": true
             },
             {
-              "player": "Nizar Al-Rashdan",
-              "number": 21,
+              "player": "Noor Al-Rawabdeh",
+              "number": 8,
               "position": "CM",
               "starter": true
             },
@@ -16561,14 +16587,14 @@
               "starter": true
             },
             {
-              "player": "Musa Al-Taamari",
-              "number": 10,
+              "player": "Ali Olwan",
+              "number": 9,
               "position": "RF",
               "starter": true
             },
             {
-              "player": "Ali Olwan",
-              "number": 9,
+              "player": "Musa Al-Taamari",
+              "number": 10,
               "position": "CF",
               "starter": true
             },
@@ -16577,6 +16603,36 @@
               "number": 13,
               "position": "LF",
               "starter": true
+            },
+            {
+              "player": "Odeh Al-Fakhouri",
+              "number": 11,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Ali Azaizeh",
+              "number": 24,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Mohammad Abu Hashish",
+              "number": 2,
+              "position": "MF",
+              "starter": false
+            },
+            {
+              "player": "Salim Obaid",
+              "number": 17,
+              "position": "DF",
+              "starter": false
+            },
+            {
+              "player": "Mohammad Abu Zrayq",
+              "number": 7,
+              "position": "FW",
+              "starter": false
             }
           ],
           "away": [
@@ -16625,7 +16681,7 @@
             {
               "player": "Ibrahim Maza",
               "number": 22,
-              "position": "CM",
+              "position": "AM",
               "starter": true
             },
             {
@@ -16646,6 +16702,36 @@
               "number": 10,
               "position": "LF",
               "starter": true
+            },
+            {
+              "player": "Nadhir Benbouali",
+              "number": 12,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Nabil Bentaleb",
+              "number": 19,
+              "position": "MF",
+              "starter": false
+            },
+            {
+              "player": "Anis Hadj Moussa",
+              "number": 11,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Jaouen Hadjam",
+              "number": 13,
+              "position": "DF",
+              "starter": false
+            },
+            {
+              "player": "Zineddine Belaïd",
+              "number": 3,
+              "position": "DF",
+              "starter": false
             }
           ]
         },
@@ -16657,16 +16743,132 @@
           "home": "Jamal Sellami",
           "away": "Vladimir Petković"
         },
-        "status": "live",
+        "status": "finished",
         "liveMinute": null,
-        "liveMinuteAt": "2026-06-23T03:40:39.000Z",
-        "clockSource": "apifootball",
-        "clockSourceAt": "2026-06-23T03:40:40.331Z",
-        "livePhase": "1H",
+        "liveMinuteAt": null,
+        "clockSource": "wikipedia",
+        "clockSourceAt": "2026-06-23T05:29:00.434Z",
+        "livePhase": null,
+        "cards": [
+          {
+            "minute": 44,
+            "team": "away",
+            "player": "Ramiz Zerrouki",
+            "color": "yellow"
+          },
+          {
+            "minute": 64,
+            "team": "home",
+            "player": "Husam Abu Dahab",
+            "color": "yellow"
+          }
+        ],
+        "statistics": {
+          "home": {
+            "possessionPct": 28,
+            "shotsTotal": 8,
+            "shotsOnGoal": 4,
+            "shotsOffGoal": 4,
+            "shotsBlocked": 0,
+            "shotsInsideBox": 4,
+            "shotsOutsideBox": 4,
+            "corners": 1,
+            "offsides": 1,
+            "fouls": 10,
+            "yellowCards": 1,
+            "redCards": null,
+            "goalkeeperSaves": 6,
+            "passesTotal": 246,
+            "passesAccurate": 178,
+            "passesPct": 72,
+            "expectedGoals": 0.65
+          },
+          "away": {
+            "possessionPct": 72,
+            "shotsTotal": 17,
+            "shotsOnGoal": 8,
+            "shotsOffGoal": 4,
+            "shotsBlocked": 5,
+            "shotsInsideBox": 11,
+            "shotsOutsideBox": 6,
+            "corners": 9,
+            "offsides": 0,
+            "fouls": 6,
+            "yellowCards": 1,
+            "redCards": null,
+            "goalkeeperSaves": 3,
+            "passesTotal": 629,
+            "passesAccurate": 552,
+            "passesPct": 88,
+            "expectedGoals": 1.81
+          }
+        },
+        "substitutions": [
+          {
+            "minute": 45,
+            "team": "away",
+            "on": "Nadhir Benbouali",
+            "off": "Hicham Boudaoui"
+          },
+          {
+            "minute": 45,
+            "team": "away",
+            "on": "Nabil Bentaleb",
+            "off": "Ramiz Zerrouki"
+          },
+          {
+            "minute": 76,
+            "team": "home",
+            "on": "Odeh Al-Fakhouri",
+            "off": "Mahmoud Al-Mardi"
+          },
+          {
+            "minute": 76,
+            "team": "away",
+            "on": "Anis Hadj Moussa",
+            "off": "Riyad Mahrez"
+          },
+          {
+            "minute": 84,
+            "team": "home",
+            "on": "Ali Azaizeh",
+            "off": "Musa Al-Taamari"
+          },
+          {
+            "minute": 85,
+            "team": "home",
+            "on": "Mohammad Abu Hashish",
+            "off": "Mohannad Abu Taha"
+          },
+          {
+            "minute": 85,
+            "team": "away",
+            "on": "Jaouen Hadjam",
+            "off": "Rayan Aït-Nouri"
+          },
+          {
+            "minute": 86,
+            "team": "away",
+            "on": "Zineddine Belaïd",
+            "off": "Amine Gouiri"
+          },
+          {
+            "minute": 90,
+            "team": "home",
+            "on": "Salim Obaid",
+            "off": "Husam Abu Dahab"
+          },
+          {
+            "minute": 90,
+            "team": "home",
+            "on": "Mohammad Abu Zrayq",
+            "off": "Ali Olwan"
+          }
+        ],
         "stageNormalized": "group_j",
-        "liveDataLocked": {
-          "reason": "live_data_is_pro",
-          "message": "Live in-match data (score, goals, cards, substitutions) is a Pro-tier feature. This match is in progress — upgrade at https://api.zafronix.com/pricing to read live tournament data."
+        "fairPlay": {
+          "home": -1,
+          "away": -1
         }
       },
       {

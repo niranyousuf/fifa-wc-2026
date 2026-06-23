@@ -1,5 +1,5 @@
 {
-  "savedAt": 1782186149593,
+  "savedAt": 1782207759291,
   "data": [
     {
       "name": "Mexico",
@@ -12771,7 +12771,7 @@
             "name": "Crystal Palace",
             "country": "England"
           },
-          "goals": 0,
+          "goals": 2,
           "captain": false
         },
         {
@@ -13404,7 +13404,7 @@
             "name": "Manchester City",
             "country": "England"
           },
-          "goals": 2,
+          "goals": 4,
           "captain": false
         },
         {
@@ -13495,7 +13495,7 @@
             "name": "Torino",
             "country": "Italy"
           },
-          "goals": 0,
+          "goals": 1,
           "captain": false
         },
         {
@@ -14117,7 +14117,8 @@
             "country": "Netherlands"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": 7,
@@ -14155,7 +14156,7 @@
             "name": "Marseille",
             "country": "France"
           },
-          "goals": 0,
+          "goals": 1,
           "captain": false
         },
         {
@@ -14194,7 +14195,7 @@
             "name": "Győri ETO",
             "country": "Hungary"
           },
-          "goals": 0,
+          "goals": 1,
           "captain": false
         },
         {
@@ -14842,7 +14843,8 @@
             "country": "Jordan"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": 5,
@@ -15062,7 +15064,7 @@
             "name": "Qatar SC",
             "country": "Qatar"
           },
-          "goals": 0,
+          "goals": 1,
           "captain": false
         },
         {

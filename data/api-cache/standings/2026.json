@@ -1,5 +1,5 @@
 {
-  "savedAt": 1782186149698,
+  "savedAt": 1782207759377,
   "data": {
     "year": 2026,
     "groups": {
@@ -546,30 +546,30 @@
           "advanced": true
         },
         {
-          "team": "Jordan",
+          "team": "Algeria",
           "played": 2,
           "won": 1,
           "drawn": 0,
           "lost": 1,
           "goalsFor": 2,
-          "goalsAgainst": 3,
-          "goalDifference": -1,
+          "goalsAgainst": 4,
+          "goalDifference": -2,
           "points": 3,
-          "fairPlay": 0,
+          "fairPlay": -1,
           "position": 3,
           "advanced": true
         },
         {
-          "team": "Algeria",
+          "team": "Jordan",
           "played": 2,
           "won": 0,
           "drawn": 0,
           "lost": 2,
-          "goalsFor": 0,
-          "goalsAgainst": 4,
-          "goalDifference": -4,
+          "goalsFor": 2,
+          "goalsAgainst": 5,
+          "goalDifference": -3,
           "points": 0,
-          "fairPlay": 0,
+          "fairPlay": -1,
           "position": 4
         }
       ],
