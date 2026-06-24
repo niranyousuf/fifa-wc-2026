@@ -1,5 +1,5 @@
 {
-  "savedAt": 1782245297419,
+  "savedAt": 1782272621282,
   "data": [
     {
       "name": "Mexico",
@@ -15257,7 +15257,7 @@
             "name": "Paris Saint-Germain",
             "country": "France"
           },
-          "goals": 0,
+          "goals": 1,
           "captain": false
         },
         {
@@ -15310,7 +15310,8 @@
             "country": "Spain"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": null,
@@ -15415,7 +15416,7 @@
             "name": "Al-Nassr",
             "country": "Saudi Arabia"
           },
-          "goals": 0,
+          "goals": 2,
           "captain": true
         },
         {
@@ -15441,7 +15442,7 @@
             "name": "Milan",
             "country": "Italy"
           },
-          "goals": 0,
+          "goals": 1,
           "captain": false
         },
         {
@@ -16036,7 +16037,8 @@
             "country": "Iran"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": 10,
@@ -16850,7 +16852,8 @@
             "country": "England"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": null,
@@ -17665,7 +17668,8 @@
             "country": "Spain"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": 20,
