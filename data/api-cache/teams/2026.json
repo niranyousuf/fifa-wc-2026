@@ -1,5 +1,5 @@
 {
-  "savedAt": 1782272621282,
+  "savedAt": 1782293623220,
   "data": [
     {
       "name": "Mexico",
@@ -15753,7 +15753,8 @@
             "country": "Spain"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": null,
@@ -16385,7 +16386,7 @@
             "name": "Crystal Palace",
             "country": "England"
           },
-          "goals": 1,
+          "goals": 2,
           "captain": false
         },
         {
@@ -16413,7 +16414,8 @@
             "country": "Italy"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": null,
@@ -16465,7 +16467,8 @@
             "country": "England"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": null,
@@ -17280,7 +17283,8 @@
             "country": "Italy"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": null,
@@ -17344,7 +17348,7 @@
             "name": "Osasuna",
             "country": "Spain"
           },
-          "goals": 0,
+          "goals": 1,
           "captain": false
         },
         {
@@ -18005,7 +18009,8 @@
             "country": "Mexico"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": null,

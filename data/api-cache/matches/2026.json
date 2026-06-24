@@ -1,5 +1,5 @@
 {
-  "savedAt": 1782272621434,
+  "savedAt": 1782293623303,
   "data": {
     "year": 2026,
     "count": 104,
@@ -17929,18 +17929,34 @@
         "awayTeam": "Congo DR",
         "homeRef": "Colombia",
         "awayRef": "Congo DR",
-        "homeScore": null,
-        "awayScore": null,
-        "result": null,
+        "homeScore": 1,
+        "awayScore": 0,
+        "result": "1-0",
         "extraTime": false,
         "penalties": null,
         "stadium": "Guadalajara Stadium",
         "stadiumId": "estadio-akron",
         "city": "Zapopan",
         "country": "Mexico",
-        "attendance": null,
-        "referee": null,
-        "weather": null,
+        "attendance": 45358,
+        "referee": {
+          "name": "Maurizio Mariani",
+          "country": "Italy"
+        },
+        "weather": {
+          "tempC": 18.4,
+          "humidityPct": 88,
+          "precipitationMm": 0,
+          "windKmh": 7.4,
+          "code": 0
+        },
+        "goals": [
+          {
+            "minute": 76,
+            "team": "home",
+            "scorer": "Muñoz"
+          }
+        ],
         "lineups": {
           "home": [
             {
@@ -17976,7 +17992,7 @@
             {
               "player": "Jefferson Lerma",
               "number": 16,
-              "position": "CM",
+              "position": "DM",
               "starter": true
             },
             {
@@ -17988,27 +18004,45 @@
             {
               "player": "Jhon Arias",
               "number": 11,
-              "position": "RW",
+              "position": "CM",
               "starter": true
             },
             {
               "player": "James Rodríguez",
               "number": 10,
-              "position": "AM",
+              "position": "RF",
               "starter": true,
               "captain": true
-            },
-            {
-              "player": "Luis Díaz",
-              "number": 7,
-              "position": "LW",
-              "starter": true
             },
             {
               "player": "Luis Suárez",
               "number": 25,
               "position": "CF",
               "starter": true
+            },
+            {
+              "player": "Luis Díaz",
+              "number": 7,
+              "position": "LF",
+              "starter": true
+            },
+            {
+              "player": "Juan Fernando Quintero",
+              "number": 20,
+              "position": "MF",
+              "starter": false
+            },
+            {
+              "player": "Jhon Córdoba",
+              "number": 9,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Richard Ríos",
+              "number": 6,
+              "position": "MF",
+              "starter": false
             }
           ],
           "away": [
@@ -18052,7 +18086,7 @@
             {
               "player": "Ngal'ayel Mukau",
               "number": 6,
-              "position": "RM",
+              "position": "CM",
               "starter": true
             },
             {
@@ -18064,7 +18098,7 @@
             {
               "player": "Edo Kayembe",
               "number": 25,
-              "position": "LM",
+              "position": "CM",
               "starter": true
             },
             {
@@ -18078,6 +18112,36 @@
               "number": 20,
               "position": "CF",
               "starter": true
+            },
+            {
+              "player": "Noah Sadiki",
+              "number": 14,
+              "position": "MF",
+              "starter": false
+            },
+            {
+              "player": "Simon Banza",
+              "number": 23,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Joris Kayembe",
+              "number": 12,
+              "position": "DF",
+              "starter": false
+            },
+            {
+              "player": "Charles Pickel",
+              "number": 18,
+              "position": "MF",
+              "starter": false
+            },
+            {
+              "player": "Nathanaël Mbuku",
+              "number": 7,
+              "position": "MF",
+              "starter": false
             }
           ]
         },
@@ -18089,16 +18153,128 @@
           "home": "Néstor Lorenzo",
           "away": "Sébastien Desabre"
         },
-        "status": "live",
+        "status": "finished",
         "liveMinute": null,
-        "liveMinuteAt": "2026-06-24T03:32:57.000Z",
-        "clockSource": "apifootball",
-        "clockSourceAt": "2026-06-24T03:32:58.214Z",
-        "livePhase": "2H",
+        "liveMinuteAt": null,
+        "clockSource": "wikipedia",
+        "clockSourceAt": "2026-06-24T04:28:32.691Z",
+        "livePhase": null,
+        "cards": [
+          {
+            "minute": 56,
+            "team": "home",
+            "player": "Jhon Lucumí",
+            "color": "yellow"
+          },
+          {
+            "minute": 90,
+            "addedMinute": 4,
+            "team": "home",
+            "player": "Jefferson Lerma",
+            "color": "yellow"
+          },
+          {
+            "minute": 90,
+            "addedMinute": 3,
+            "team": "away",
+            "player": "Charles Pickel",
+            "color": "yellow"
+          }
+        ],
+        "substitutions": [
+          {
+            "minute": 46,
+            "team": "away",
+            "on": "Noah Sadiki",
+            "off": "Ngal'ayel Mukau"
+          },
+          {
+            "minute": 57,
+            "team": "away",
+            "on": "Simon Banza",
+            "off": "Cédric Bakambu"
+          },
+          {
+            "minute": 58,
+            "team": "home",
+            "on": "Juan Fernando Quintero",
+            "off": "James Rodríguez"
+          },
+          {
+            "minute": 58,
+            "team": "home",
+            "on": "Jhon Córdoba",
+            "off": "Luis Suárez"
+          },
+          {
+            "minute": 71,
+            "team": "away",
+            "on": "Joris Kayembe",
+            "off": "Arthur Masuaku"
+          },
+          {
+            "minute": 71,
+            "team": "away",
+            "on": "Charles Pickel",
+            "off": "Edo Kayembe"
+          },
+          {
+            "minute": 77,
+            "team": "home",
+            "on": "Richard Ríos",
+            "off": "Jhon Arias"
+          },
+          {
+            "minute": 82,
+            "team": "away",
+            "on": "Nathanaël Mbuku",
+            "off": "Samuel Moutoussamy"
+          }
+        ],
+        "statistics": {
+          "home": {
+            "possessionPct": 64,
+            "shotsTotal": 19,
+            "shotsOnGoal": 9,
+            "shotsOffGoal": 4,
+            "shotsBlocked": 6,
+            "shotsInsideBox": 11,
+            "shotsOutsideBox": 8,
+            "corners": 5,
+            "offsides": 7,
+            "fouls": 12,
+            "yellowCards": 2,
+            "redCards": null,
+            "goalkeeperSaves": 1,
+            "passesTotal": 538,
+            "passesAccurate": 473,
+            "passesPct": 88,
+            "expectedGoals": 0.99
+          },
+          "away": {
+            "possessionPct": 36,
+            "shotsTotal": 8,
+            "shotsOnGoal": 1,
+            "shotsOffGoal": 5,
+            "shotsBlocked": 2,
+            "shotsInsideBox": 4,
+            "shotsOutsideBox": 4,
+            "corners": 4,
+            "offsides": 0,
+            "fouls": 16,
+            "yellowCards": 1,
+            "redCards": null,
+            "goalkeeperSaves": 8,
+            "passesTotal": 293,
+            "passesAccurate": 221,
+            "passesPct": 75,
+            "expectedGoals": 0.39
+          }
+        },
         "stageNormalized": "group_k",
-        "liveDataLocked": {
-          "reason": "live_data_is_pro",
-          "message": "Live in-match data (score, goals, cards, substitutions) is a Pro-tier feature. This match is in progress — upgrade at https://api.zafronix.com/pricing to read live tournament data."
+        "fairPlay": {
+          "home": -2,
+          "away": -1
         }
       },
       {

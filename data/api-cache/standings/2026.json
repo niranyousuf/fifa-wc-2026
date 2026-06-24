@@ -1,5 +1,5 @@
 {
-  "savedAt": 1782272621355,
+  "savedAt": 1782293623258,
   "data": {
     "year": 2026,
     "groups": {
@@ -44,7 +44,7 @@
           "points": 1,
           "fairPlay": -1,
           "position": 3,
-          "advanced": false
+          "advanced": true
         },
         {
           "team": "South Africa",
@@ -632,6 +632,20 @@
       ],
       "K": [
         {
+          "team": "Colombia",
+          "played": 2,
+          "won": 2,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 4,
+          "goalsAgainst": 1,
+          "goalDifference": 3,
+          "points": 6,
+          "fairPlay": -3,
+          "position": 1,
+          "advanced": true
+        },
+        {
           "team": "Portugal",
           "played": 2,
           "won": 1,
@@ -642,20 +656,6 @@
           "goalDifference": 5,
           "points": 4,
           "fairPlay": -4,
-          "position": 1,
-          "advanced": true
-        },
-        {
-          "team": "Colombia",
-          "played": 2,
-          "won": 1,
-          "drawn": 1,
-          "lost": 0,
-          "goalsFor": 3,
-          "goalsAgainst": 1,
-          "goalDifference": 2,
-          "points": 4,
-          "fairPlay": -1,
           "position": 2,
           "advanced": true
         },
@@ -663,15 +663,15 @@
           "team": "Congo DR",
           "played": 2,
           "won": 0,
-          "drawn": 2,
-          "lost": 0,
+          "drawn": 1,
+          "lost": 1,
           "goalsFor": 1,
-          "goalsAgainst": 1,
-          "goalDifference": 0,
-          "points": 2,
-          "fairPlay": -1,
+          "goalsAgainst": 2,
+          "goalDifference": -1,
+          "points": 1,
+          "fairPlay": -2,
           "position": 3,
-          "advanced": true
+          "advanced": false
         },
         {
           "team": "Uzbekistan",
