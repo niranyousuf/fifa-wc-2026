@@ -1,5 +1,5 @@
 {
-  "savedAt": 1782330524912,
+  "savedAt": 1782359011172,
   "data": [
     {
       "name": "Mexico",
@@ -1781,7 +1781,8 @@
             "country": "England"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": null,
@@ -1885,7 +1886,8 @@
             "country": "England"
           },
           "goals": 2,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": null,
@@ -1923,7 +1925,7 @@
             "name": "Union Saint-Gilloise",
             "country": ""
           },
-          "goals": 0,
+          "goals": 1,
           "captain": false
         },
         {
@@ -2248,7 +2250,7 @@
             "name": "Red Bull Salzburg",
             "country": "Austria"
           },
-          "goals": 0,
+          "goals": 1,
           "captain": false
         },
         {
@@ -2261,8 +2263,9 @@
             "name": "Slovan Liberec",
             "country": "Czech Republic"
           },
-          "goals": 1,
-          "captain": false
+          "goals": 2,
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": null,
@@ -2497,7 +2500,7 @@
             "name": "Al-Sadd",
             "country": "Qatar"
           },
-          "goals": 0,
+          "goals": 1,
           "captain": true
         },
         {
@@ -2630,7 +2633,7 @@
           },
           "goals": 0,
           "captain": false,
-          "yellowCards": 1
+          "yellowCards": 2
         },
         {
           "jersey": 21,
@@ -2863,7 +2866,7 @@
             "name": "SC Freiburg",
             "country": "Germany"
           },
-          "goals": 2,
+          "goals": 3,
           "captain": false
         },
         {
@@ -2877,7 +2880,8 @@
             "country": "England"
           },
           "goals": 1,
-          "captain": true
+          "captain": true,
+          "yellowCards": 1
         },
         {
           "jersey": 11,
@@ -2967,7 +2971,7 @@
             "name": "Sevilla",
             "country": "Spain"
           },
-          "goals": 1,
+          "goals": 2,
           "captain": false
         },
         {
@@ -3186,7 +3190,8 @@
             "country": "Brazil"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": null,
@@ -3332,7 +3337,8 @@
             "country": "Saudi Arabia"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": null,
@@ -3370,7 +3376,7 @@
             "name": "Real Madrid",
             "country": "Spain"
           },
-          "goals": 2,
+          "goals": 4,
           "captain": false
         },
         {
@@ -3409,7 +3415,7 @@
             "name": "Manchester United",
             "country": "England"
           },
-          "goals": 2,
+          "goals": 3,
           "captain": false
         },
         {
@@ -3549,7 +3555,7 @@
             "name": "Paris Saint-Germain",
             "country": "France"
           },
-          "goals": 0,
+          "goals": 1,
           "captain": true
         },
         {
@@ -3706,7 +3712,7 @@
             "name": "PSV Eindhoven",
             "country": "Netherlands"
           },
-          "goals": 2,
+          "goals": 3,
           "captain": false
         },
         {
@@ -3784,7 +3790,7 @@
             "name": "Al Ain",
             "country": "United Arab Emirates"
           },
-          "goals": 0,
+          "goals": 1,
           "captain": false
         },
         {
@@ -3823,7 +3829,7 @@
             "name": "Strasbourg",
             "country": "France"
           },
-          "goals": 0,
+          "goals": 1,
           "captain": false
         },
         {
@@ -3886,7 +3892,8 @@
             "country": "France"
           },
           "goals": 0,
-          "captain": true
+          "captain": true,
+          "yellowCards": 1
         },
         {
           "jersey": null,
@@ -4110,7 +4117,8 @@
             "country": "Iran"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": null,
@@ -4176,7 +4184,8 @@
             "country": "France"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": null,
@@ -4201,7 +4210,7 @@
             "name": "Sunderland",
             "country": "England"
           },
-          "goals": 0,
+          "goals": 1,
           "captain": false
         },
         {
@@ -4462,7 +4471,8 @@
             "country": "England"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": null,
