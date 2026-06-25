@@ -1,5 +1,5 @@
 {
-  "savedAt": 1782359011325,
+  "savedAt": 1782379550478,
   "data": {
     "year": 2026,
     "count": 104,
@@ -15368,7 +15368,7 @@
           {
             "minute": 43,
             "team": "home",
-            "scorer": "Holmgren Pedersen"
+            "scorer": "Pedersen"
           },
           {
             "minute": 48,
@@ -19978,11 +19978,11 @@
           "country": "Argentina"
         },
         "weather": {
-          "tempC": 15.5,
-          "humidityPct": 91,
-          "precipitationMm": 4.2,
-          "windKmh": 2.3,
-          "code": 96
+          "tempC": 19,
+          "humidityPct": 61,
+          "precipitationMm": 0.1,
+          "windKmh": 6.5,
+          "code": 51
         },
         "goals": [
           {

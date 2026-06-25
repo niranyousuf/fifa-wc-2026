@@ -1,5 +1,5 @@
 {
-  "savedAt": 1782359011172,
+  "savedAt": 1782379550270,
   "data": [
     {
       "name": "Mexico",
@@ -77,7 +77,8 @@
             "country": "Turkey"
           },
           "goals": 0,
-          "captain": true
+          "captain": true,
+          "yellowCards": 1
         },
         {
           "jersey": 5,
@@ -128,7 +129,7 @@
             "name": "Real Betis",
             "country": "Spain"
           },
-          "goals": 0,
+          "goals": 1,
           "captain": false
         },
         {
@@ -232,7 +233,7 @@
             "name": "Al-Qadsiah",
             "country": "Saudi Arabia"
           },
-          "goals": 1,
+          "goals": 2,
           "captain": false
         },
         {
@@ -284,7 +285,7 @@
             "name": "AZ",
             "country": "Netherlands"
           },
-          "goals": 0,
+          "goals": 1,
           "captain": false
         },
         {
@@ -452,7 +453,8 @@
             "country": "South Africa"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": null,
@@ -729,7 +731,7 @@
             "name": "AEL Limassol",
             "country": "Cyprus"
           },
-          "goals": 0,
+          "goals": 1,
           "captain": false
         },
         {
@@ -1107,7 +1109,8 @@
             "country": "Denmark"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": null,
