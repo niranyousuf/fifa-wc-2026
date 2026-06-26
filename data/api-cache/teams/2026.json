@@ -1,5 +1,5 @@
 {
-  "savedAt": 1782446036437,
+  "savedAt": 1782466240216,
   "data": [
     {
       "name": "Mexico",
@@ -4724,7 +4724,7 @@
             "name": "Celtic",
             "country": "Scotland"
           },
-          "goals": 0,
+          "goals": 1,
           "captain": false
         },
         {
@@ -4828,8 +4828,9 @@
             "name": "Vancouver Whitecaps FC",
             "country": ""
           },
-          "goals": 0,
-          "captain": false
+          "goals": 1,
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": 15,
@@ -5129,7 +5130,7 @@
           },
           "goals": 0,
           "captain": false,
-          "yellowCards": 1
+          "yellowCards": 2
         },
         {
           "jersey": 9,
@@ -5693,7 +5694,8 @@
             "country": "Germany"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": 23,
@@ -5884,7 +5886,7 @@
             "name": "Real Madrid",
             "country": "Spain"
           },
-          "goals": 0,
+          "goals": 1,
           "captain": false
         },
         {
@@ -6055,7 +6057,7 @@
             "name": "Galatasaray",
             "country": "Turkey"
           },
-          "goals": 0,
+          "goals": 1,
           "captain": false
         },
         {
@@ -6068,7 +6070,7 @@
             "name": "Galatasaray",
             "country": "Turkey"
           },
-          "goals": 0,
+          "goals": 1,
           "captain": false
         },
         {
@@ -8136,7 +8138,8 @@
             "country": ""
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": null,
@@ -8330,7 +8333,7 @@
             "name": "Celtic",
             "country": "Scotland"
           },
-          "goals": 0,
+          "goals": 1,
           "captain": false
         },
         {
@@ -8471,7 +8474,8 @@
             "country": "Italy"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": 5,
@@ -8563,7 +8567,7 @@
             "name": "Newcastle United",
             "country": "England"
           },
-          "goals": 1,
+          "goals": 2,
           "captain": false
         },
         {
@@ -8642,7 +8646,8 @@
             "country": "England"
           },
           "goals": 1,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": 18,

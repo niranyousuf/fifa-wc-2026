@@ -1,5 +1,5 @@
 {
-  "savedAt": 1782446036668,
+  "savedAt": 1782466240333,
   "data": {
     "year": 2026,
     "count": 104,
@@ -22192,9 +22192,9 @@
         "awayTeam": "USA",
         "homeRef": "Türkiye",
         "awayRef": "USA",
-        "homeScore": null,
-        "awayScore": null,
-        "result": null,
+        "homeScore": 3,
+        "awayScore": 2,
+        "result": "3-2",
         "extraTime": false,
         "penalties": null,
         "stadium": "Los Angeles Stadium",
@@ -22202,8 +22202,45 @@
         "city": "Inglewood",
         "country": "United States",
         "attendance": 70492,
-        "referee": null,
-        "weather": null,
+        "referee": {
+          "name": "Mustapha Ghorbal",
+          "country": "Algeria"
+        },
+        "weather": {
+          "tempC": 19.1,
+          "humidityPct": 76,
+          "precipitationMm": 0,
+          "windKmh": 13.8,
+          "code": 1
+        },
+        "goals": [
+          {
+            "minute": 3,
+            "team": "away",
+            "scorer": "Trusty"
+          },
+          {
+            "minute": 10,
+            "team": "home",
+            "scorer": "Güler"
+          },
+          {
+            "minute": 31,
+            "team": "home",
+            "scorer": "Yılmaz"
+          },
+          {
+            "minute": 49,
+            "team": "away",
+            "scorer": "Berhalter"
+          },
+          {
+            "minute": 90,
+            "addedMinute": 8,
+            "team": "home",
+            "scorer": "Ayhan"
+          }
+        ],
         "lineups": {
           "home": [
             {
@@ -22272,6 +22309,36 @@
               "number": 21,
               "position": "CF",
               "starter": true
+            },
+            {
+              "player": "Can Uzun",
+              "number": 26,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Çağlar Söyüncü",
+              "number": 4,
+              "position": "DF",
+              "starter": false
+            },
+            {
+              "player": "Kaan Ayhan",
+              "number": 22,
+              "position": "DF",
+              "starter": false
+            },
+            {
+              "player": "Mert Müldür",
+              "number": 18,
+              "position": "DF",
+              "starter": false
+            },
+            {
+              "player": "İrfan Can Kahveci",
+              "number": 17,
+              "position": "MF",
+              "starter": false
             }
           ],
           "away": [
@@ -22341,6 +22408,36 @@
               "number": 11,
               "position": "LF",
               "starter": true
+            },
+            {
+              "player": "Christian Pulisic",
+              "number": 10,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Sergiño Dest",
+              "number": 2,
+              "position": "DF",
+              "starter": false
+            },
+            {
+              "player": "Alejandro Zendejas",
+              "number": 26,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Alex Freeman",
+              "number": 16,
+              "position": "DF",
+              "starter": false
+            },
+            {
+              "player": "Malik Tillman",
+              "number": 17,
+              "position": "MF",
+              "starter": false
             }
           ]
         },
@@ -22352,16 +22449,114 @@
           "home": "Vincenzo Montella",
           "away": "Mauricio Pochettino"
         },
-        "status": "live",
+        "status": "finished",
         "liveMinute": null,
-        "liveMinuteAt": "2026-06-26T03:50:53.000Z",
-        "clockSource": "apifootball",
-        "clockSourceAt": "2026-06-26T03:50:54.092Z",
-        "livePhase": "2H",
+        "liveMinuteAt": null,
+        "clockSource": "wikipedia",
+        "clockSourceAt": "2026-06-26T04:27:33.701Z",
+        "livePhase": null,
+        "cards": [
+          {
+            "minute": 19,
+            "team": "away",
+            "player": "Sebastian Berhalter",
+            "color": "yellow"
+          }
+        ],
+        "substitutions": [
+          {
+            "minute": 58,
+            "team": "away",
+            "on": "Christian Pulisic",
+            "off": "Timothy Weah"
+          },
+          {
+            "minute": 76,
+            "team": "away",
+            "on": "Sergiño Dest",
+            "off": "Joe Scally"
+          },
+          {
+            "minute": 76,
+            "team": "away",
+            "on": "Alejandro Zendejas",
+            "off": "Giovanni Reyna"
+          },
+          {
+            "minute": 76,
+            "team": "away",
+            "on": "Alex Freeman",
+            "off": "Brenden Aaronson"
+          },
+          {
+            "minute": 84,
+            "team": "home",
+            "on": "Can Uzun",
+            "off": "Zeki Çelik"
+          },
+          {
+            "minute": 84,
+            "team": "home",
+            "on": "Çağlar Söyüncü",
+            "off": "Kenan Yıldız"
+          },
+          {
+            "minute": 86,
+            "team": "away",
+            "on": "Malik Tillman",
+            "off": "Weston McKennie"
+          },
+          {
+            "minute": 88,
+            "team": "home",
+            "on": "Kaan Ayhan",
+            "off": "Orkun Kökçü"
+          },
+          {
+            "minute": 90,
+            "team": "home",
+            "on": "Mert Müldür",
+            "off": "Oğuz Aydın"
+          },
+          {
+            "minute": 90,
+            "team": "home",
+            "on": "İrfan Can Kahveci",
+            "off": "Barış Alper Yılmaz"
+          }
+        ],
+        "statistics": {
+          "home": {
+            "possessionPct": 47,
+            "shotsTotal": 9,
+            "shotsOnGoal": 4,
+            "shotsOffGoal": 3,
+            "shotsBlocked": 2,
+            "corners": 2,
+            "offsides": 2,
+            "fouls": 13,
+            "yellowCards": 0,
+            "redCards": 0,
+            "goalkeeperSaves": 5
+          },
+          "away": {
+            "possessionPct": 53,
+            "shotsTotal": 18,
+            "shotsOnGoal": 7,
+            "shotsOffGoal": 6,
+            "shotsBlocked": 5,
+            "corners": 9,
+            "offsides": 5,
+            "fouls": 13,
+            "yellowCards": 1,
+            "redCards": 0,
+            "goalkeeperSaves": 0
+          }
+        },
         "stageNormalized": "group_d",
-        "liveDataLocked": {
-          "reason": "live_data_is_pro",
-          "message": "Live in-match data (score, goals, cards, substitutions) is a Pro-tier feature. This match is in progress — upgrade at https://api.zafronix.com/pricing to read live tournament data."
+        "fairPlay": {
+          "home": 0,
+          "away": -1
         }
       },
       {
@@ -22376,9 +22571,9 @@
         "awayTeam": "Australia",
         "homeRef": "Paraguay",
         "awayRef": "Australia",
-        "homeScore": null,
-        "awayScore": null,
-        "result": null,
+        "homeScore": 0,
+        "awayScore": 0,
+        "result": "0-0",
         "extraTime": false,
         "penalties": null,
         "stadium": "San Francisco Bay Area Stadium",
@@ -22386,8 +22581,18 @@
         "city": "Santa Clara",
         "country": "United States",
         "attendance": 68827,
-        "referee": null,
-        "weather": null,
+        "referee": {
+          "name": "Clément Turpin",
+          "country": "France"
+        },
+        "weather": {
+          "tempC": 17,
+          "humidityPct": 75,
+          "precipitationMm": 0,
+          "windKmh": 27.1,
+          "code": 0
+        },
+        "goals": [],
         "lineups": {
           "home": [
             {
@@ -22456,6 +22661,36 @@
               "number": 21,
               "position": "CF",
               "starter": true
+            },
+            {
+              "player": "Maurício",
+              "number": 11,
+              "position": "MF",
+              "starter": false
+            },
+            {
+              "player": "Álex Arce",
+              "number": 18,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "José Canale",
+              "number": 3,
+              "position": "DF",
+              "starter": false
+            },
+            {
+              "player": "Júnior Alonso",
+              "number": 6,
+              "position": "DF",
+              "starter": false
+            },
+            {
+              "player": "Damián Bobadilla",
+              "number": 16,
+              "position": "MF",
+              "starter": false
             }
           ],
           "away": [
@@ -22525,6 +22760,24 @@
               "number": 20,
               "position": "LF",
               "starter": true
+            },
+            {
+              "player": "Ajdin Hrustic",
+              "number": 10,
+              "position": "MF",
+              "starter": false
+            },
+            {
+              "player": "Paul Okon-Engstler",
+              "number": 24,
+              "position": "MF",
+              "starter": false
+            },
+            {
+              "player": "Tete Yengi",
+              "number": 26,
+              "position": "FW",
+              "starter": false
             }
           ]
         },
@@ -22536,16 +22789,106 @@
           "home": "Gustavo Alfaro",
           "away": "Tony Popovic"
         },
-        "status": "live",
+        "status": "finished",
         "liveMinute": null,
-        "liveMinuteAt": "2026-06-26T03:50:53.000Z",
-        "clockSource": "apifootball",
-        "clockSourceAt": "2026-06-26T03:50:53.939Z",
-        "livePhase": "2H",
+        "liveMinuteAt": null,
+        "clockSource": "wikipedia",
+        "clockSourceAt": "2026-06-26T04:27:34.104Z",
+        "livePhase": null,
+        "cards": [
+          {
+            "minute": 46,
+            "team": "away",
+            "player": "Jackson Irvine",
+            "color": "yellow"
+          },
+          {
+            "minute": 77,
+            "team": "home",
+            "player": "Diego Gómez",
+            "color": "yellow"
+          }
+        ],
+        "substitutions": [
+          {
+            "minute": 46,
+            "team": "home",
+            "on": "Maurício",
+            "off": "Alexandro Maidana"
+          },
+          {
+            "minute": 58,
+            "team": "away",
+            "on": "Ajdin Hrustic",
+            "off": "Cristian Volpato"
+          },
+          {
+            "minute": 67,
+            "team": "home",
+            "on": "Álex Arce",
+            "off": "Gabriel Ávalos"
+          },
+          {
+            "minute": 84,
+            "team": "home",
+            "on": "José Canale",
+            "off": "Omar Alderete"
+          },
+          {
+            "minute": 84,
+            "team": "away",
+            "on": "Paul Okon-Engstler",
+            "off": "Jackson Irvine"
+          },
+          {
+            "minute": 84,
+            "team": "away",
+            "on": "Tete Yengi",
+            "off": "Nestory Irankunda"
+          },
+          {
+            "minute": 90,
+            "team": "home",
+            "on": "Júnior Alonso",
+            "off": "Diego Gómez"
+          },
+          {
+            "minute": 90,
+            "team": "home",
+            "on": "Damián Bobadilla",
+            "off": "Matías Galarza"
+          }
+        ],
+        "statistics": {
+          "home": {
+            "possessionPct": 44,
+            "shotsTotal": 7,
+            "shotsOnGoal": 2,
+            "shotsOffGoal": 4,
+            "shotsBlocked": 1,
+            "corners": 1,
+            "fouls": 9,
+            "yellowCards": 1,
+            "redCards": 0,
+            "goalkeeperSaves": 5
+          },
+          "away": {
+            "possessionPct": 56,
+            "shotsTotal": 12,
+            "shotsOnGoal": 5,
+            "shotsOffGoal": 4,
+            "shotsBlocked": 3,
+            "corners": 3,
+            "fouls": 6,
+            "yellowCards": 1,
+            "redCards": 0,
+            "goalkeeperSaves": 2
+          }
+        },
         "stageNormalized": "group_d",
-        "liveDataLocked": {
-          "reason": "live_data_is_pro",
-          "message": "Live in-match data (score, goals, cards, substitutions) is a Pro-tier feature. This match is in progress — upgrade at https://api.zafronix.com/pricing to read live tournament data."
+        "fairPlay": {
+          "home": -1,
+          "away": -1
         }
       },
       {
