@@ -1,5 +1,5 @@
 {
-  "savedAt": 1782466240333,
+  "savedAt": 1782484090871,
   "data": {
     "year": 2026,
     "count": 104,
@@ -22633,14 +22633,14 @@
               "starter": true
             },
             {
-              "player": "Diego Gómez",
-              "number": 8,
-              "position": "RM",
+              "player": "Andrés Cubas",
+              "number": 14,
+              "position": "CM",
               "starter": true
             },
             {
-              "player": "Andrés Cubas",
-              "number": 14,
+              "player": "Diego Gómez",
+              "number": 8,
               "position": "CM",
               "starter": true
             },
@@ -22651,14 +22651,14 @@
               "starter": true
             },
             {
-              "player": "Julio Enciso",
-              "number": 19,
-              "position": "LM",
+              "player": "Gabriel Ávalos",
+              "number": 21,
+              "position": "CF",
               "starter": true
             },
             {
-              "player": "Gabriel Ávalos",
-              "number": 21,
+              "player": "Julio Enciso",
+              "number": 19,
               "position": "CF",
               "starter": true
             },
@@ -22676,7 +22676,7 @@
             },
             {
               "player": "José Canale",
-              "number": 3,
+              "number": 13,
               "position": "DF",
               "starter": false
             },
@@ -22720,15 +22720,9 @@
               "starter": true
             },
             {
-              "player": "Aziz Behich",
-              "number": 16,
+              "player": "Jordan Bos",
+              "number": 5,
               "position": "RM",
-              "starter": true
-            },
-            {
-              "player": "Aiden O'Neill",
-              "number": 13,
-              "position": "CM",
               "starter": true
             },
             {
@@ -22738,14 +22732,20 @@
               "starter": true
             },
             {
-              "player": "Jordan Bos",
-              "number": 5,
+              "player": "Aiden O'Neill",
+              "number": 13,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Aziz Behich",
+              "number": 16,
               "position": "LM",
               "starter": true
             },
             {
-              "player": "Connor Metcalfe",
-              "number": 8,
+              "player": "Cristian Volpato",
+              "number": 20,
               "position": "RF",
               "starter": true
             },
@@ -22756,8 +22756,8 @@
               "starter": true
             },
             {
-              "player": "Cristian Volpato",
-              "number": 20,
+              "player": "Connor Metcalfe",
+              "number": 8,
               "position": "LF",
               "starter": true
             },
