@@ -1,5 +1,5 @@
 {
-  "savedAt": 1782484090871,
+  "savedAt": 1782503437164,
   "data": {
     "year": 2026,
     "count": 104,
@@ -22915,7 +22915,165 @@
         "attendance": null,
         "referee": null,
         "weather": null,
-        "stageNormalized": "group_i"
+        "lineups": {
+          "home": [
+            {
+              "player": "Egil Selvik",
+              "number": 13,
+              "position": "GK",
+              "starter": true
+            },
+            {
+              "player": "Fredrik Aursnes",
+              "number": 14,
+              "position": "RB",
+              "starter": true
+            },
+            {
+              "player": "Henrik Falchener",
+              "number": 25,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Leo Østigård",
+              "number": 4,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Fredrik André Bjørkan",
+              "number": 15,
+              "position": "LB",
+              "starter": true
+            },
+            {
+              "player": "Kristian Thorstvedt",
+              "number": 18,
+              "position": "RM",
+              "starter": true
+            },
+            {
+              "player": "Patrick Berg",
+              "number": 6,
+              "position": "CM",
+              "starter": true,
+              "captain": true
+            },
+            {
+              "player": "Thelo Aasgaard",
+              "number": 19,
+              "position": "LM",
+              "starter": true
+            },
+            {
+              "player": "Oscar Bobb",
+              "number": 22,
+              "position": "RF",
+              "starter": true
+            },
+            {
+              "player": "Jørgen Strand Larsen",
+              "number": 11,
+              "position": "CF",
+              "starter": true
+            },
+            {
+              "player": "Andreas Schjelderup",
+              "number": 21,
+              "position": "LF",
+              "starter": true
+            }
+          ],
+          "away": [
+            {
+              "player": "Mike Maignan",
+              "number": 16,
+              "position": "GK",
+              "starter": true
+            },
+            {
+              "player": "Jules Koundé",
+              "number": 5,
+              "position": "RB",
+              "starter": true
+            },
+            {
+              "player": "Dayot Upamecano",
+              "number": 4,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Maxence Lacroix",
+              "number": 26,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Théo Hernandez",
+              "number": 19,
+              "position": "LB",
+              "starter": true
+            },
+            {
+              "player": "Aurélien Tchouaméni",
+              "number": 8,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Manu Koné",
+              "number": 6,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Ousmane Dembélé",
+              "number": 7,
+              "position": "RW",
+              "starter": true
+            },
+            {
+              "player": "Michael Olise",
+              "number": 11,
+              "position": "AM",
+              "starter": true
+            },
+            {
+              "player": "Désiré Doué",
+              "number": 20,
+              "position": "LW",
+              "starter": true
+            },
+            {
+              "player": "Kylian Mbappé",
+              "number": 10,
+              "position": "CF",
+              "starter": true,
+              "captain": true
+            }
+          ]
+        },
+        "formations": {
+          "home": "4-3-3",
+          "away": "4-5-1"
+        },
+        "managers": {
+          "home": "Ståle Solbakken",
+          "away": "Guy Stéphan"
+        },
+        "status": "live",
+        "liveMinute": null,
+        "liveMinuteAt": "2026-06-26T19:47:59.000Z",
+        "clockSource": "apifootball",
+        "clockSourceAt": "2026-06-26T19:48:00.017Z",
+        "livePhase": "1H",
+        "stageNormalized": "group_i",
+        "liveDataLocked": {
+          "reason": "live_data_is_pro",
+          "message": "Live in-match data (score, goals, cards, substitutions) is a Pro-tier feature. This match is in progress — upgrade at https://api.zafronix.com/pricing to read live tournament data."
+        }
       },
       {
         "id": "2026-062",
@@ -22941,7 +23099,165 @@
         "attendance": null,
         "referee": null,
         "weather": null,
-        "stageNormalized": "group_i"
+        "lineups": {
+          "home": [
+            {
+              "player": "Mory Diaw",
+              "number": 23,
+              "position": "GK",
+              "starter": true
+            },
+            {
+              "player": "Krépin Diatta",
+              "number": 15,
+              "position": "RB",
+              "starter": true
+            },
+            {
+              "player": "Abdoulaye Seck",
+              "number": 4,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Moussa Niakhaté",
+              "number": 19,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Ismail Jakobs",
+              "number": 14,
+              "position": "LB",
+              "starter": true
+            },
+            {
+              "player": "Idrissa Gueye",
+              "number": 5,
+              "position": "DM",
+              "starter": true,
+              "captain": true
+            },
+            {
+              "player": "Lamine Camara",
+              "number": 8,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Habib Diarra",
+              "number": 21,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Ibrahim Mbaye",
+              "number": 20,
+              "position": "RF",
+              "starter": true
+            },
+            {
+              "player": "Sadio Mané",
+              "number": 10,
+              "position": "CF",
+              "starter": true
+            },
+            {
+              "player": "Ismaïla Sarr",
+              "number": 18,
+              "position": "LF",
+              "starter": true
+            }
+          ],
+          "away": [
+            {
+              "player": "Ahmed Basil",
+              "number": 22,
+              "position": "GK",
+              "starter": true
+            },
+            {
+              "player": "Frans Putros",
+              "number": 26,
+              "position": "RB",
+              "starter": true
+            },
+            {
+              "player": "Rebin Sulaka",
+              "number": 2,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Akam Hashim",
+              "number": 5,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Merchas Doski",
+              "number": 23,
+              "position": "LB",
+              "starter": true
+            },
+            {
+              "player": "Ibrahim Bayesh",
+              "number": 8,
+              "position": "RM",
+              "starter": true,
+              "captain": true
+            },
+            {
+              "player": "Zidane Iqbal",
+              "number": 14,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Amir Al-Ammari",
+              "number": 16,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Ahmed Qasem",
+              "number": 11,
+              "position": "LM",
+              "starter": true
+            },
+            {
+              "player": "Ali Al-Hamadi",
+              "number": 9,
+              "position": "CF",
+              "starter": true
+            },
+            {
+              "player": "Ali Jasim",
+              "number": 17,
+              "position": "CF",
+              "starter": true
+            }
+          ]
+        },
+        "formations": {
+          "home": "4-3-3",
+          "away": "4-4-2"
+        },
+        "managers": {
+          "home": "Pape Thiaw",
+          "away": "Graham Arnold"
+        },
+        "status": "live",
+        "liveMinute": null,
+        "liveMinuteAt": "2026-06-26T19:47:59.000Z",
+        "clockSource": "apifootball",
+        "clockSourceAt": "2026-06-26T19:48:00.152Z",
+        "livePhase": "1H",
+        "stageNormalized": "group_i",
+        "liveDataLocked": {
+          "reason": "live_data_is_pro",
+          "message": "Live in-match data (score, goals, cards, substitutions) is a Pro-tier feature. This match is in progress — upgrade at https://api.zafronix.com/pricing to read live tournament data."
+        }
       },
       {
         "id": "2026-063",

@@ -1,5 +1,5 @@
 {
-  "savedAt": 1782484090811,
+  "savedAt": 1782503437025,
   "data": {
     "year": 2026,
     "groups": {
@@ -215,7 +215,7 @@
           "points": 3,
           "fairPlay": -6,
           "position": 3,
-          "advanced": true
+          "advanced": false
         },
         {
           "team": "Haiti",
@@ -462,27 +462,27 @@
       "I": [
         {
           "team": "France",
-          "played": 2,
-          "won": 2,
+          "played": 3,
+          "won": 3,
           "drawn": 0,
           "lost": 0,
-          "goalsFor": 6,
-          "goalsAgainst": 1,
-          "goalDifference": 5,
-          "points": 6,
+          "goalsFor": 9,
+          "goalsAgainst": 2,
+          "goalDifference": 7,
+          "points": 9,
           "fairPlay": 0,
           "position": 1,
           "advanced": true
         },
         {
           "team": "Norway",
-          "played": 2,
+          "played": 3,
           "won": 2,
           "drawn": 0,
-          "lost": 0,
-          "goalsFor": 7,
-          "goalsAgainst": 3,
-          "goalDifference": 4,
+          "lost": 1,
+          "goalsFor": 8,
+          "goalsAgainst": 6,
+          "goalDifference": 2,
           "points": 6,
           "fairPlay": 0,
           "position": 2,
@@ -490,27 +490,27 @@
         },
         {
           "team": "Senegal",
-          "played": 2,
-          "won": 0,
+          "played": 3,
+          "won": 1,
           "drawn": 0,
           "lost": 2,
-          "goalsFor": 3,
+          "goalsFor": 4,
           "goalsAgainst": 6,
-          "goalDifference": -3,
-          "points": 0,
+          "goalDifference": -2,
+          "points": 3,
           "fairPlay": 0,
           "position": 3,
-          "advanced": false
+          "advanced": true
         },
         {
           "team": "Iraq",
-          "played": 2,
+          "played": 3,
           "won": 0,
           "drawn": 0,
-          "lost": 2,
+          "lost": 3,
           "goalsFor": 1,
-          "goalsAgainst": 7,
-          "goalDifference": -6,
+          "goalsAgainst": 8,
+          "goalDifference": -7,
           "points": 0,
           "fairPlay": -2,
           "position": 4
