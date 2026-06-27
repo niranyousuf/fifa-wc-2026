@@ -1,5 +1,5 @@
 {
-  "savedAt": 1782549505075,
+  "savedAt": 1782567979160,
   "data": {
     "year": 2026,
     "count": 104,
@@ -23951,7 +23951,7 @@
         "livePhase": null,
         "cards": [
           {
-            "minute": 18,
+            "minute": 19,
             "team": "away",
             "player": "Hossein Kanaanizadegan",
             "color": "yellow"
@@ -24051,13 +24051,13 @@
           {
             "minute": 46,
             "team": "home",
-            "on": "Marwan Attia",
+            "on": "Omar Marmoush",
             "off": "Mahmoud Saber"
           },
           {
             "minute": 46,
             "team": "home",
-            "on": "Omar Marmoush",
+            "on": "Marwan Attia",
             "off": "Emam Ashour"
           },
           {
@@ -24231,48 +24231,145 @@
               "position": "CF",
               "starter": true,
               "captain": true
-            }
-          ],
-          "away": [
+            },
             {
               "player": "Ben Old",
               "number": 19,
               "position": "MF",
-              "starter": true
+              "starter": false
             },
             {
               "player": "Jesse Randall",
               "number": 21,
               "position": "FW",
-              "starter": true
+              "starter": false
             },
             {
               "player": "Callum McCowatt",
               "number": 20,
               "position": "FW",
-              "starter": true
+              "starter": false
             },
             {
               "player": "Michael Boxall",
               "number": 5,
               "position": "DF",
-              "starter": true
+              "starter": false
             },
             {
               "player": "Francis de Vries",
               "number": 3,
               "position": "DF",
+              "starter": false
+            }
+          ],
+          "away": [
+            {
+              "player": "Thibaut Courtois",
+              "number": 1,
+              "position": "GK",
               "starter": true
+            },
+            {
+              "player": "Timothy Castagne",
+              "number": 21,
+              "position": "RB",
+              "starter": true
+            },
+            {
+              "player": "Brandon Mechele",
+              "number": 4,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Arthur Theate",
+              "number": 3,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Maxim De Cuyper",
+              "number": 5,
+              "position": "LB",
+              "starter": true
+            },
+            {
+              "player": "Youri Tielemans",
+              "number": 8,
+              "position": "CM",
+              "starter": true,
+              "captain": true
+            },
+            {
+              "player": "Hans Vanaken",
+              "number": 20,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Jérémy Doku",
+              "number": 11,
+              "position": "RW",
+              "starter": true
+            },
+            {
+              "player": "Kevin De Bruyne",
+              "number": 7,
+              "position": "AM",
+              "starter": true
+            },
+            {
+              "player": "Leandro Trossard",
+              "number": 10,
+              "position": "LW",
+              "starter": true
+            },
+            {
+              "player": "Charles De Ketelaere",
+              "number": 17,
+              "position": "CF",
+              "starter": true
+            },
+            {
+              "player": "Matias Fernandez-Pardo",
+              "number": 26,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Alexis Saelemaekers",
+              "number": 22,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Amadou Onana",
+              "number": 24,
+              "position": "MF",
+              "starter": false
+            },
+            {
+              "player": "Nicolas Raskin",
+              "number": 23,
+              "position": "MF",
+              "starter": false
+            },
+            {
+              "player": "Romelu Lukaku",
+              "number": 9,
+              "position": "FW",
+              "starter": false
             }
           ]
         },
         "formations": {
           "home": "4-5-1",
-          "away": null
+          "away": "4-5-1"
         },
         "managers": {
-          "home": "Ben Old",
-          "away": "Darren Bazeley"
+          "home": "Darren Bazeley",
+          "away": "Rudi Garcia"
         },
         "status": "finished",
         "liveMinute": null,
@@ -24334,6 +24431,68 @@
             "expectedGoals": 3.59
           }
         },
+        "substitutions": [
+          {
+            "minute": 46,
+            "team": "home",
+            "on": "Jesse Randall",
+            "off": "Sarpreet Singh"
+          },
+          {
+            "minute": 46,
+            "team": "home",
+            "on": "Ben Old",
+            "off": "Ryan Thomas"
+          },
+          {
+            "minute": 56,
+            "team": "away",
+            "on": "Matias Fernandez-Pardo",
+            "off": "Jérémy Doku"
+          },
+          {
+            "minute": 64,
+            "team": "home",
+            "on": "Michael Boxall",
+            "off": "Tim Payne"
+          },
+          {
+            "minute": 64,
+            "team": "home",
+            "on": "Callum McCowatt",
+            "off": "Joe Bell"
+          },
+          {
+            "minute": 72,
+            "team": "away",
+            "on": "Alexis Saelemaekers",
+            "off": "Kevin De Bruyne"
+          },
+          {
+            "minute": 72,
+            "team": "away",
+            "on": "Amadou Onana",
+            "off": "Leandro Trossard"
+          },
+          {
+            "minute": 79,
+            "team": "home",
+            "on": "Francis de Vries",
+            "off": "Liberato Cacace"
+          },
+          {
+            "minute": 85,
+            "team": "away",
+            "on": "Nicolas Raskin",
+            "off": "Youri Tielemans"
+          },
+          {
+            "minute": 85,
+            "team": "away",
+            "on": "Romelu Lukaku",
+            "off": "Charles De Ketelaere"
+          }
+        ],
         "stageNormalized": "group_g",
         "fairPlay": {
           "home": -2,
