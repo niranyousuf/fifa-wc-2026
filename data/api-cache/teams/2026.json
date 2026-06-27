@@ -1,5 +1,5 @@
 {
-  "savedAt": 1782531417398,
+  "savedAt": 1782549504960,
   "data": [
     {
       "name": "Mexico",
@@ -9360,7 +9360,7 @@
             "name": "Napoli",
             "country": "Italy"
           },
-          "goals": 0,
+          "goals": 1,
           "captain": false
         },
         {
@@ -9425,7 +9425,7 @@
             "name": "Napoli",
             "country": "Italy"
           },
-          "goals": 0,
+          "goals": 1,
           "captain": false,
           "yellowCards": 1
         },
@@ -9439,7 +9439,7 @@
             "name": "Arsenal",
             "country": "England"
           },
-          "goals": 0,
+          "goals": 2,
           "captain": false
         },
         {
@@ -9491,7 +9491,7 @@
             "name": "Milan",
             "country": "Italy"
           },
-          "goals": 0,
+          "goals": 1,
           "captain": false
         },
         {
@@ -9580,7 +9580,8 @@
             "country": "Egypt"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": 3,
@@ -9777,7 +9778,7 @@
           },
           "goals": 0,
           "captain": false,
-          "yellowCards": 1
+          "yellowCards": 2
         },
         {
           "jersey": 18,
@@ -9829,8 +9830,9 @@
             "name": "ZED",
             "country": "Egypt"
           },
-          "goals": 0,
-          "captain": false
+          "goals": 1,
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": 22,
@@ -9984,7 +9986,8 @@
             "country": "Iran"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": 5,
@@ -10011,7 +10014,7 @@
           },
           "goals": 0,
           "captain": false,
-          "yellowCards": 1
+          "yellowCards": 2
         },
         {
           "jersey": 7,
@@ -10102,7 +10105,8 @@
             "country": "Iran"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": 14,
@@ -10180,7 +10184,8 @@
             "country": "Iran"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": 20,
@@ -10231,7 +10236,7 @@
             "name": "Foolad",
             "country": "Iran"
           },
-          "goals": 1,
+          "goals": 2,
           "captain": false
         },
         {
@@ -10411,7 +10416,8 @@
             "country": "Wales"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": 9,
@@ -10450,8 +10456,9 @@
             "name": "Motherwell",
             "country": "Scotland"
           },
-          "goals": 2,
-          "captain": false
+          "goals": 3,
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": 12,
@@ -10917,8 +10924,9 @@
             "name": "Atlético Madrid",
             "country": "Spain"
           },
-          "goals": 0,
-          "captain": false
+          "goals": 1,
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": null,
@@ -11189,7 +11197,8 @@
             "country": "Turkey"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": null,
@@ -11513,7 +11522,8 @@
             "country": "Saudi Arabia"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": 7,
@@ -11552,7 +11562,8 @@
             "country": "Saudi Arabia"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": 10,
@@ -11592,7 +11603,8 @@
             "country": "France"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": 13,
@@ -11903,7 +11915,8 @@
             "country": "Brazil"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": 8,
@@ -11981,7 +11994,8 @@
             "country": "Brazil"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": 14,
@@ -12138,7 +12152,8 @@
             "country": "United States"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": 26,
