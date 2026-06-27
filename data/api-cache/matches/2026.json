@@ -1,5 +1,5 @@
 {
-  "savedAt": 1782503437164,
+  "savedAt": 1782531417518,
   "data": {
     "year": 2026,
     "count": 104,
@@ -22903,18 +22903,55 @@
         "awayTeam": "France",
         "homeRef": "Norway",
         "awayRef": "France",
-        "homeScore": null,
-        "awayScore": null,
-        "result": null,
+        "homeScore": 1,
+        "awayScore": 4,
+        "result": "1-4",
         "extraTime": false,
         "penalties": null,
         "stadium": "Boston Stadium",
         "stadiumId": "gillette-stadium",
         "city": "Foxborough",
         "country": "United States",
-        "attendance": null,
-        "referee": null,
-        "weather": null,
+        "attendance": 64146,
+        "referee": {
+          "name": "Michael Oliver",
+          "country": "England"
+        },
+        "weather": {
+          "tempC": 22.9,
+          "humidityPct": 80,
+          "precipitationMm": 0,
+          "windKmh": 9.1,
+          "code": 1
+        },
+        "goals": [
+          {
+            "minute": 7,
+            "team": "away",
+            "scorer": "Dembélé"
+          },
+          {
+            "minute": 20,
+            "team": "away",
+            "scorer": "Dembélé"
+          },
+          {
+            "minute": 21,
+            "team": "home",
+            "scorer": "Aasgaard"
+          },
+          {
+            "minute": 32,
+            "team": "away",
+            "scorer": "Dembélé"
+          },
+          {
+            "minute": 90,
+            "addedMinute": 4,
+            "team": "away",
+            "scorer": "Doué"
+          }
+        ],
         "lineups": {
           "home": [
             {
@@ -22983,6 +23020,36 @@
               "number": 21,
               "position": "LF",
               "starter": true
+            },
+            {
+              "player": "Morten Thorsby",
+              "number": 2,
+              "position": "MF",
+              "starter": false
+            },
+            {
+              "player": "Marcus Holmgren Pedersen",
+              "number": 16,
+              "position": "DF",
+              "starter": false
+            },
+            {
+              "player": "Sondre Langås",
+              "number": 24,
+              "position": "DF",
+              "starter": false
+            },
+            {
+              "player": "Jens Petter Hauge",
+              "number": 23,
+              "position": "MF",
+              "starter": false
+            },
+            {
+              "player": "Antonio Nusa",
+              "number": 20,
+              "position": "MF",
+              "starter": false
             }
           ],
           "away": [
@@ -23052,6 +23119,36 @@
               "position": "CF",
               "starter": true,
               "captain": true
+            },
+            {
+              "player": "Bradley Barcola",
+              "number": 12,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Rayan Cherki",
+              "number": 24,
+              "position": "MF",
+              "starter": false
+            },
+            {
+              "player": "Ibrahima Konaté",
+              "number": 15,
+              "position": "DF",
+              "starter": false
+            },
+            {
+              "player": "Malo Gusto",
+              "number": 2,
+              "position": "DF",
+              "starter": false
+            },
+            {
+              "player": "Jean-Philippe Mateta",
+              "number": 22,
+              "position": "FW",
+              "starter": false
             }
           ]
         },
@@ -23063,16 +23160,132 @@
           "home": "Ståle Solbakken",
           "away": "Guy Stéphan"
         },
-        "status": "live",
+        "status": "finished",
         "liveMinute": null,
-        "liveMinuteAt": "2026-06-26T19:47:59.000Z",
-        "clockSource": "apifootball",
-        "clockSourceAt": "2026-06-26T19:48:00.017Z",
-        "livePhase": "1H",
+        "liveMinuteAt": null,
+        "clockSource": "wikipedia",
+        "clockSourceAt": "2026-06-26T21:29:23.345Z",
+        "livePhase": null,
+        "cards": [
+          {
+            "minute": 10,
+            "team": "home",
+            "player": "Patrick Berg",
+            "color": "yellow"
+          },
+          {
+            "minute": 74,
+            "team": "away",
+            "player": "Aurélien Tchouaméni",
+            "color": "yellow"
+          }
+        ],
+        "statistics": {
+          "home": {
+            "possessionPct": 43,
+            "shotsTotal": 10,
+            "shotsOnGoal": 4,
+            "shotsOffGoal": 3,
+            "shotsBlocked": 3,
+            "shotsInsideBox": 6,
+            "shotsOutsideBox": 4,
+            "corners": 4,
+            "offsides": 1,
+            "fouls": 9,
+            "yellowCards": 1,
+            "redCards": null,
+            "goalkeeperSaves": 5,
+            "passesTotal": 409,
+            "passesAccurate": 335,
+            "passesPct": 82,
+            "expectedGoals": 1.69
+          },
+          "away": {
+            "possessionPct": 57,
+            "shotsTotal": 17,
+            "shotsOnGoal": 8,
+            "shotsOffGoal": 6,
+            "shotsBlocked": 3,
+            "shotsInsideBox": 9,
+            "shotsOutsideBox": 8,
+            "corners": 5,
+            "offsides": 2,
+            "fouls": 10,
+            "yellowCards": 1,
+            "redCards": null,
+            "goalkeeperSaves": 3,
+            "passesTotal": 545,
+            "passesAccurate": 470,
+            "passesPct": 86,
+            "expectedGoals": 1.18
+          }
+        },
+        "substitutions": [
+          {
+            "minute": 46,
+            "team": "home",
+            "on": "Morten Thorsby",
+            "off": "Fredrik André Bjørkan"
+          },
+          {
+            "minute": 46,
+            "team": "home",
+            "on": "Marcus Holmgren Pedersen",
+            "off": "Kristian Thorstvedt"
+          },
+          {
+            "minute": 65,
+            "team": "away",
+            "on": "Bradley Barcola",
+            "off": "Ousmane Dembélé"
+          },
+          {
+            "minute": 65,
+            "team": "away",
+            "on": "Rayan Cherki",
+            "off": "Michael Olise"
+          },
+          {
+            "minute": 66,
+            "team": "home",
+            "on": "Sondre Langås",
+            "off": "Henrik Falchener"
+          },
+          {
+            "minute": 76,
+            "team": "away",
+            "on": "Ibrahima Konaté",
+            "off": "Dayot Upamecano"
+          },
+          {
+            "minute": 83,
+            "team": "home",
+            "on": "Jens Petter Hauge",
+            "off": "Oscar Bobb"
+          },
+          {
+            "minute": 83,
+            "team": "home",
+            "on": "Antonio Nusa",
+            "off": "Andreas Schjelderup"
+          },
+          {
+            "minute": 86,
+            "team": "away",
+            "on": "Jean-Philippe Mateta",
+            "off": "Jules Koundé"
+          },
+          {
+            "minute": 86,
+            "team": "away",
+            "on": "Malo Gusto",
+            "off": "Kylian Mbappé"
+          }
+        ],
         "stageNormalized": "group_i",
-        "liveDataLocked": {
-          "reason": "live_data_is_pro",
-          "message": "Live in-match data (score, goals, cards, substitutions) is a Pro-tier feature. This match is in progress — upgrade at https://api.zafronix.com/pricing to read live tournament data."
+        "fairPlay": {
+          "home": -1,
+          "away": -1
         }
       },
       {
@@ -23087,18 +23300,54 @@
         "awayTeam": "Iraq",
         "homeRef": "Senegal",
         "awayRef": "Iraq",
-        "homeScore": null,
-        "awayScore": null,
-        "result": null,
+        "homeScore": 5,
+        "awayScore": 0,
+        "result": "5-0",
         "extraTime": false,
         "penalties": null,
         "stadium": "Toronto Stadium",
         "stadiumId": "bmo-field",
         "city": "Toronto",
         "country": "Canada",
-        "attendance": null,
-        "referee": null,
-        "weather": null,
+        "attendance": 43036,
+        "referee": {
+          "name": "Anthony Taylor",
+          "country": "England"
+        },
+        "weather": {
+          "tempC": 20.3,
+          "humidityPct": 88,
+          "precipitationMm": 0,
+          "windKmh": 11.4,
+          "code": 1
+        },
+        "goals": [
+          {
+            "minute": 4,
+            "team": "home",
+            "scorer": "Diarra"
+          },
+          {
+            "minute": 56,
+            "team": "home",
+            "scorer": "I. Sarr"
+          },
+          {
+            "minute": 59,
+            "team": "home",
+            "scorer": "P. Gueye"
+          },
+          {
+            "minute": 71,
+            "team": "home",
+            "scorer": "P. Gueye"
+          },
+          {
+            "minute": 82,
+            "team": "home",
+            "scorer": "I. Ndiaye"
+          }
+        ],
         "lineups": {
           "home": [
             {
@@ -23167,6 +23416,36 @@
               "number": 18,
               "position": "LF",
               "starter": true
+            },
+            {
+              "player": "Nicolas Jackson",
+              "number": 11,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Pape Gueye",
+              "number": 26,
+              "position": "MF",
+              "starter": false
+            },
+            {
+              "player": "Iliman Ndiaye",
+              "number": 13,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Pathé Ciss",
+              "number": 6,
+              "position": "MF",
+              "starter": false
+            },
+            {
+              "player": "Assane Diao",
+              "number": 7,
+              "position": "FW",
+              "starter": false
             }
           ],
           "away": [
@@ -23236,6 +23515,36 @@
               "number": 17,
               "position": "CF",
               "starter": true
+            },
+            {
+              "player": "Manaf Younis",
+              "number": 6,
+              "position": "DF",
+              "starter": false
+            },
+            {
+              "player": "Jalal Hassan",
+              "number": 12,
+              "position": "GK",
+              "starter": false
+            },
+            {
+              "player": "Ahmed Maknzi",
+              "number": 15,
+              "position": "DF",
+              "starter": false
+            },
+            {
+              "player": "Ali Yousif",
+              "number": 13,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Kevin Yakob",
+              "number": 19,
+              "position": "MF",
+              "starter": false
             }
           ]
         },
@@ -23247,16 +23556,150 @@
           "home": "Pape Thiaw",
           "away": "Graham Arnold"
         },
-        "status": "live",
+        "status": "finished",
         "liveMinute": null,
-        "liveMinuteAt": "2026-06-26T19:47:59.000Z",
+        "liveMinuteAt": null,
         "clockSource": "apifootball",
-        "clockSourceAt": "2026-06-26T19:48:00.152Z",
-        "livePhase": "1H",
+        "clockSourceAt": "2026-06-26T21:09:43.531Z",
+        "livePhase": null,
+        "cards": [
+          {
+            "minute": 13,
+            "team": "away",
+            "player": "Rebin Sulaka",
+            "color": "red"
+          },
+          {
+            "minute": 18,
+            "team": "home",
+            "player": "Abdoulaye Seck",
+            "color": "yellow"
+          },
+          {
+            "minute": 75,
+            "team": "away",
+            "player": "Amir Al-Ammari",
+            "color": "yellow"
+          },
+          {
+            "minute": 81,
+            "team": "home",
+            "player": "Pape Gueye",
+            "color": "yellow"
+          },
+          {
+            "minute": 90,
+            "team": "away",
+            "player": "Merchas Doski",
+            "color": "yellow"
+          }
+        ],
+        "substitutions": [
+          {
+            "minute": 16,
+            "team": "away",
+            "on": "Manaf Younis",
+            "off": "Ahmed Qasem"
+          },
+          {
+            "minute": 46,
+            "team": "away",
+            "on": "Jalal Hassan",
+            "off": "Ahmed Basil"
+          },
+          {
+            "minute": 56,
+            "team": "home",
+            "on": "Nicolas Jackson",
+            "off": "Habib Diarra"
+          },
+          {
+            "minute": 56,
+            "team": "home",
+            "on": "Iliman Ndiaye",
+            "off": "Lamine Camara"
+          },
+          {
+            "minute": 56,
+            "team": "home",
+            "on": "Pape Gueye",
+            "off": "Ibrahim Mbaye"
+          },
+          {
+            "minute": 57,
+            "team": "away",
+            "on": "Ahmed Maknzi",
+            "off": "Ali Al-Hamadi"
+          },
+          {
+            "minute": 57,
+            "team": "away",
+            "on": "Ali Yousif",
+            "off": "Ali Jasim"
+          },
+          {
+            "minute": 58,
+            "team": "home",
+            "on": "Pathé Ciss",
+            "off": "Abdoulaye Seck"
+          },
+          {
+            "minute": 67,
+            "team": "away",
+            "on": "Kevin Yakob",
+            "off": "Zidane Iqbal"
+          },
+          {
+            "minute": 81,
+            "team": "home",
+            "on": "Assane Diao",
+            "off": "Ismaïla Sarr"
+          }
+        ],
+        "statistics": {
+          "home": {
+            "possessionPct": 69,
+            "shotsTotal": 27,
+            "shotsOnGoal": 11,
+            "shotsOffGoal": 11,
+            "shotsBlocked": 5,
+            "shotsInsideBox": 16,
+            "shotsOutsideBox": 11,
+            "corners": 12,
+            "offsides": 1,
+            "fouls": 10,
+            "yellowCards": 2,
+            "redCards": 0,
+            "goalkeeperSaves": 1,
+            "passesTotal": 574,
+            "passesAccurate": 505,
+            "passesPct": 88,
+            "expectedGoals": 3.02
+          },
+          "away": {
+            "possessionPct": 31,
+            "shotsTotal": 6,
+            "shotsOnGoal": 1,
+            "shotsOffGoal": 1,
+            "shotsBlocked": 4,
+            "shotsInsideBox": 1,
+            "shotsOutsideBox": 5,
+            "corners": 3,
+            "offsides": 0,
+            "fouls": 11,
+            "yellowCards": 2,
+            "redCards": 1,
+            "goalkeeperSaves": 6,
+            "passesTotal": 262,
+            "passesAccurate": 183,
+            "passesPct": 70,
+            "expectedGoals": 0.18
+          }
+        },
         "stageNormalized": "group_i",
-        "liveDataLocked": {
-          "reason": "live_data_is_pro",
-          "message": "Live in-match data (score, goals, cards, substitutions) is a Pro-tier feature. This match is in progress — upgrade at https://api.zafronix.com/pricing to read live tournament data."
+        "fairPlay": {
+          "home": -2,
+          "away": -6
         }
       },
       {
@@ -23283,7 +23726,165 @@
         "attendance": null,
         "referee": null,
         "weather": null,
-        "stageNormalized": "group_g"
+        "lineups": {
+          "home": [
+            {
+              "player": "Mostafa Shobeir",
+              "number": 23,
+              "position": "GK",
+              "starter": true
+            },
+            {
+              "player": "Mohamed Hany",
+              "number": 3,
+              "position": "RB",
+              "starter": true
+            },
+            {
+              "player": "Ramy Rabia",
+              "number": 5,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Mohamed Abdelmonem",
+              "number": 6,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Ahmed Fatouh",
+              "number": 13,
+              "position": "LB",
+              "starter": true
+            },
+            {
+              "player": "Mahmoud Saber",
+              "number": 21,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Mohanad Lasheen",
+              "number": 17,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Mostafa Ziko",
+              "number": 11,
+              "position": "RW",
+              "starter": true
+            },
+            {
+              "player": "Mohamed Salah",
+              "number": 10,
+              "position": "AM",
+              "starter": true,
+              "captain": true
+            },
+            {
+              "player": "Emam Ashour",
+              "number": 8,
+              "position": "LW",
+              "starter": true
+            },
+            {
+              "player": "Trézéguet",
+              "number": 7,
+              "position": "CF",
+              "starter": true
+            }
+          ],
+          "away": [
+            {
+              "player": "Alireza Beiranvand",
+              "number": 1,
+              "position": "GK",
+              "starter": true
+            },
+            {
+              "player": "Hossein Kanaanizadegan",
+              "number": 13,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Shojae Khalilzadeh",
+              "number": 4,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Ali Nemati",
+              "number": 19,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Ramin Rezaeian",
+              "number": 23,
+              "position": "RWB",
+              "starter": true
+            },
+            {
+              "player": "Milad Mohammadi",
+              "number": 5,
+              "position": "LWB",
+              "starter": true
+            },
+            {
+              "player": "Saman Ghoddos",
+              "number": 14,
+              "position": "RM",
+              "starter": true
+            },
+            {
+              "player": "Mohammad Ghorbani",
+              "number": 21,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Saeid Ezatolahi",
+              "number": 6,
+              "position": "LM",
+              "starter": true
+            },
+            {
+              "player": "Mehdi Taremi",
+              "number": 9,
+              "position": "CF",
+              "starter": true,
+              "captain": true
+            },
+            {
+              "player": "Mohammad Mohebi",
+              "number": 8,
+              "position": "CF",
+              "starter": true
+            }
+          ]
+        },
+        "formations": {
+          "home": "4-5-1",
+          "away": "5-3-2"
+        },
+        "managers": {
+          "home": "Hossam Hassan",
+          "away": "Amir Ghalenoei"
+        },
+        "status": "live",
+        "liveMinute": null,
+        "liveMinuteAt": "2026-06-27T03:24:37.000Z",
+        "clockSource": "apifootball",
+        "clockSourceAt": "2026-06-27T03:24:38.656Z",
+        "livePhase": "1H",
+        "stageNormalized": "group_g",
+        "liveDataLocked": {
+          "reason": "live_data_is_pro",
+          "message": "Live in-match data (score, goals, cards, substitutions) is a Pro-tier feature. This match is in progress — upgrade at https://api.zafronix.com/pricing to read live tournament data."
+        }
       },
       {
         "id": "2026-064",
@@ -23309,7 +23910,165 @@
         "attendance": null,
         "referee": null,
         "weather": null,
-        "stageNormalized": "group_g"
+        "lineups": {
+          "home": [
+            {
+              "player": "Max Crocombe",
+              "number": 1,
+              "position": "GK",
+              "starter": true
+            },
+            {
+              "player": "Tim Payne",
+              "number": 2,
+              "position": "RB",
+              "starter": true
+            },
+            {
+              "player": "Finn Surman",
+              "number": 16,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Tyler Bindon",
+              "number": 4,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Liberato Cacace",
+              "number": 13,
+              "position": "LB",
+              "starter": true
+            },
+            {
+              "player": "Joe Bell",
+              "number": 6,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Marko Stamenić",
+              "number": 8,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Elijah Just",
+              "number": 11,
+              "position": "RW",
+              "starter": true
+            },
+            {
+              "player": "Ryan Thomas",
+              "number": 23,
+              "position": "AM",
+              "starter": true
+            },
+            {
+              "player": "Sarpreet Singh",
+              "number": 10,
+              "position": "LW",
+              "starter": true
+            },
+            {
+              "player": "Chris Wood",
+              "number": 9,
+              "position": "CF",
+              "starter": true,
+              "captain": true
+            }
+          ],
+          "away": [
+            {
+              "player": "Thibaut Courtois",
+              "number": 1,
+              "position": "GK",
+              "starter": true
+            },
+            {
+              "player": "Timothy Castagne",
+              "number": 21,
+              "position": "RB",
+              "starter": true
+            },
+            {
+              "player": "Arthur Theate",
+              "number": 3,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Brandon Mechele",
+              "number": 4,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Maxim De Cuyper",
+              "number": 5,
+              "position": "LB",
+              "starter": true
+            },
+            {
+              "player": "Hans Vanaken",
+              "number": 20,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Youri Tielemans",
+              "number": 8,
+              "position": "CM",
+              "starter": true,
+              "captain": true
+            },
+            {
+              "player": "Leandro Trossard",
+              "number": 10,
+              "position": "RW",
+              "starter": true
+            },
+            {
+              "player": "Kevin De Bruyne",
+              "number": 7,
+              "position": "AM",
+              "starter": true
+            },
+            {
+              "player": "Jérémy Doku",
+              "number": 11,
+              "position": "LW",
+              "starter": true
+            },
+            {
+              "player": "Charles De Ketelaere",
+              "number": 17,
+              "position": "CF",
+              "starter": true
+            }
+          ]
+        },
+        "formations": {
+          "home": "4-5-1",
+          "away": "4-5-1"
+        },
+        "managers": {
+          "home": "Darren Bazeley",
+          "away": "Rudi Garcia"
+        },
+        "status": "live",
+        "liveMinute": null,
+        "liveMinuteAt": "2026-06-27T03:24:37.000Z",
+        "clockSource": "apifootball",
+        "clockSourceAt": "2026-06-27T03:24:38.786Z",
+        "livePhase": "1H",
+        "stageNormalized": "group_g",
+        "liveDataLocked": {
+          "reason": "live_data_is_pro",
+          "message": "Live in-match data (score, goals, cards, substitutions) is a Pro-tier feature. This match is in progress — upgrade at https://api.zafronix.com/pricing to read live tournament data."
+        }
       },
       {
         "id": "2026-065",
@@ -23323,19 +24082,376 @@
         "awayTeam": "Saudi Arabia",
         "homeRef": "Cabo Verde",
         "awayRef": "Saudi Arabia",
-        "homeScore": null,
-        "awayScore": null,
-        "result": null,
+        "homeScore": 0,
+        "awayScore": 0,
+        "result": "0-0",
         "extraTime": false,
         "penalties": null,
         "stadium": "Houston Stadium",
         "stadiumId": "nrg-stadium",
         "city": "Houston",
         "country": "United States",
-        "attendance": null,
-        "referee": null,
-        "weather": null,
-        "stageNormalized": "group_h"
+        "attendance": 68278,
+        "referee": {
+          "name": "François Letexier",
+          "country": "France"
+        },
+        "weather": {
+          "tempC": 32.7,
+          "humidityPct": 48,
+          "precipitationMm": 0,
+          "windKmh": 19.4,
+          "code": 0
+        },
+        "goals": [],
+        "lineups": {
+          "home": [
+            {
+              "player": "Vozinha",
+              "number": 1,
+              "position": "GK",
+              "starter": true
+            },
+            {
+              "player": "Wagner Pina",
+              "number": 24,
+              "position": "RB",
+              "starter": true
+            },
+            {
+              "player": "Pico",
+              "number": 4,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Diney",
+              "number": 3,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "João Paulo",
+              "number": 8,
+              "position": "LB",
+              "starter": true
+            },
+            {
+              "player": "Kevin Pina",
+              "number": 6,
+              "position": "DM",
+              "starter": true
+            },
+            {
+              "player": "Deroy Duarte",
+              "number": 14,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Jamiro Monteiro",
+              "number": 10,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Ryan Mendes",
+              "number": 20,
+              "position": "RF",
+              "starter": true,
+              "captain": true
+            },
+            {
+              "player": "Dailon Livramento",
+              "number": 19,
+              "position": "CF",
+              "starter": true
+            },
+            {
+              "player": "Willy Semedo",
+              "number": 17,
+              "position": "LF",
+              "starter": true
+            },
+            {
+              "player": "Hélio Varela",
+              "number": 26,
+              "position": "MF",
+              "starter": false
+            },
+            {
+              "player": "Nuno da Costa",
+              "number": 21,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Laros Duarte",
+              "number": 15,
+              "position": "MF",
+              "starter": false
+            },
+            {
+              "player": "Garry Rodrigues",
+              "number": 11,
+              "position": "MF",
+              "starter": false
+            },
+            {
+              "player": "Steven Moreira",
+              "number": 22,
+              "position": "DF",
+              "starter": false
+            }
+          ],
+          "away": [
+            {
+              "player": "Mohammed Al-Owais",
+              "number": 21,
+              "position": "GK",
+              "starter": true
+            },
+            {
+              "player": "Saud Abdulhamid",
+              "number": 12,
+              "position": "RB",
+              "starter": true
+            },
+            {
+              "player": "Abdulelah Al-Amri",
+              "number": 4,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Hassan Al-Tambakti",
+              "number": 5,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Nawaf Boushal",
+              "number": 13,
+              "position": "LB",
+              "starter": true
+            },
+            {
+              "player": "Nasser Al-Dawsari",
+              "number": 6,
+              "position": "RM",
+              "starter": true
+            },
+            {
+              "player": "Mohamed Kanno",
+              "number": 23,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Abdullah Al-Khaibari",
+              "number": 15,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Salem Al-Dawsari",
+              "number": 10,
+              "position": "LM",
+              "starter": true,
+              "captain": true
+            },
+            {
+              "player": "Firas Al-Buraikan",
+              "number": 9,
+              "position": "CF",
+              "starter": true
+            },
+            {
+              "player": "Sultan Mandash",
+              "number": 20,
+              "position": "CF",
+              "starter": true
+            },
+            {
+              "player": "Ali Lajami",
+              "number": 3,
+              "position": "DF",
+              "starter": false
+            },
+            {
+              "player": "Musab Al-Juwayr",
+              "number": 7,
+              "position": "MF",
+              "starter": false
+            },
+            {
+              "player": "Abdullah Al-Hamdan",
+              "number": 19,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Mohammed Abu Al-Shamat",
+              "number": 26,
+              "position": "DF",
+              "starter": false
+            },
+            {
+              "player": "Moteb Al-Harbi",
+              "number": 24,
+              "position": "DF",
+              "starter": false
+            }
+          ]
+        },
+        "formations": {
+          "home": "4-3-3",
+          "away": "4-4-2"
+        },
+        "managers": {
+          "home": "Bubista",
+          "away": "Georgios Donis"
+        },
+        "status": "finished",
+        "liveMinute": null,
+        "liveMinuteAt": null,
+        "clockSource": "wikipedia",
+        "clockSourceAt": "2026-06-27T02:28:39.608Z",
+        "livePhase": null,
+        "cards": [
+          {
+            "minute": 4,
+            "team": "away",
+            "player": "Saud Abdulhamid",
+            "color": "yellow"
+          },
+          {
+            "minute": 8,
+            "team": "home",
+            "player": "Wagner Pina",
+            "color": "yellow"
+          },
+          {
+            "minute": 67,
+            "team": "away",
+            "player": "Nasser Al-Dawsari",
+            "color": "yellow"
+          },
+          {
+            "minute": 90,
+            "addedMinute": 3,
+            "team": "away",
+            "player": "Firas Al-Buraikan",
+            "color": "yellow"
+          }
+        ],
+        "substitutions": [
+          {
+            "minute": 33,
+            "team": "away",
+            "on": "Ali Lajami",
+            "off": "Hassan Al-Tambakti"
+          },
+          {
+            "minute": 46,
+            "team": "away",
+            "on": "Musab Al-Juwayr",
+            "off": "Abdullah Al-Khaibari"
+          },
+          {
+            "minute": 61,
+            "team": "home",
+            "on": "Nuno da Costa",
+            "off": "Dailon Livramento"
+          },
+          {
+            "minute": 61,
+            "team": "home",
+            "on": "Hélio Varela",
+            "off": "Willy Semedo"
+          },
+          {
+            "minute": 65,
+            "team": "away",
+            "on": "Mohammed Abu Al-Shamat",
+            "off": "Salem Al-Dawsari"
+          },
+          {
+            "minute": 65,
+            "team": "away",
+            "on": "Abdullah Al-Hamdan",
+            "off": "Sultan Mandash"
+          },
+          {
+            "minute": 71,
+            "team": "home",
+            "on": "Garry Rodrigues",
+            "off": "Jamiro Monteiro"
+          },
+          {
+            "minute": 71,
+            "team": "home",
+            "on": "Laros Duarte",
+            "off": "Ryan Mendes"
+          },
+          {
+            "minute": 82,
+            "team": "away",
+            "on": "Moteb Al-Harbi",
+            "off": "Nawaf Boushal"
+          },
+          {
+            "minute": 90,
+            "team": "home",
+            "on": "Steven Moreira",
+            "off": "Wagner Pina"
+          }
+        ],
+        "statistics": {
+          "home": {
+            "possessionPct": 51,
+            "shotsTotal": 15,
+            "shotsOnGoal": 2,
+            "shotsOffGoal": 8,
+            "shotsBlocked": 5,
+            "shotsInsideBox": 9,
+            "shotsOutsideBox": 6,
+            "corners": 4,
+            "offsides": 1,
+            "fouls": 10,
+            "yellowCards": 1,
+            "redCards": null,
+            "goalkeeperSaves": 3,
+            "passesTotal": 438,
+            "passesAccurate": 373,
+            "passesPct": 85,
+            "expectedGoals": 1.52
+          },
+          "away": {
+            "possessionPct": 49,
+            "shotsTotal": 7,
+            "shotsOnGoal": 3,
+            "shotsOffGoal": 1,
+            "shotsBlocked": 3,
+            "shotsInsideBox": 5,
+            "shotsOutsideBox": 2,
+            "corners": 2,
+            "offsides": 0,
+            "fouls": 16,
+            "yellowCards": 3,
+            "redCards": null,
+            "goalkeeperSaves": 2,
+            "passesTotal": 439,
+            "passesAccurate": 355,
+            "passesPct": 81,
+            "expectedGoals": 0.27
+          }
+        },
+        "stageNormalized": "group_h",
+        "fairPlay": {
+          "home": -1,
+          "away": -3
+        }
       },
       {
         "id": "2026-066",
@@ -23349,19 +24465,370 @@
         "awayTeam": "Spain",
         "homeRef": "Uruguay",
         "awayRef": "Spain",
-        "homeScore": null,
-        "awayScore": null,
-        "result": null,
+        "homeScore": 0,
+        "awayScore": 1,
+        "result": "0-1",
         "extraTime": false,
         "penalties": null,
         "stadium": "Guadalajara Stadium",
         "stadiumId": "estadio-akron",
         "city": "Zapopan",
         "country": "Mexico",
-        "attendance": null,
-        "referee": null,
-        "weather": null,
-        "stageNormalized": "group_h"
+        "attendance": 45065,
+        "referee": {
+          "name": "Ismail Elfath",
+          "country": "United States"
+        },
+        "weather": {
+          "tempC": 19.3,
+          "humidityPct": 84,
+          "precipitationMm": 2.6,
+          "windKmh": 6.5,
+          "code": 81
+        },
+        "goals": [
+          {
+            "minute": 42,
+            "team": "away",
+            "scorer": "Baena"
+          }
+        ],
+        "lineups": {
+          "home": [
+            {
+              "player": "Fernando Muslera",
+              "number": 23,
+              "position": "GK",
+              "starter": true
+            },
+            {
+              "player": "Guillermo Varela",
+              "number": 13,
+              "position": "RB",
+              "starter": true
+            },
+            {
+              "player": "Sebastián Cáceres",
+              "number": 3,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Mathías Olivera",
+              "number": 16,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Juan Manuel Sanabria",
+              "number": 25,
+              "position": "LB",
+              "starter": true
+            },
+            {
+              "player": "Manuel Ugarte",
+              "number": 5,
+              "position": "DM",
+              "starter": true
+            },
+            {
+              "player": "Rodrigo Bentancur",
+              "number": 6,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Federico Valverde",
+              "number": 8,
+              "position": "CM",
+              "starter": true,
+              "captain": true
+            },
+            {
+              "player": "Agustín Canobbio",
+              "number": 14,
+              "position": "RF",
+              "starter": true
+            },
+            {
+              "player": "Darwin Núñez",
+              "number": 9,
+              "position": "CF",
+              "starter": true
+            },
+            {
+              "player": "Maximiliano Araújo",
+              "number": 20,
+              "position": "LF",
+              "starter": true
+            },
+            {
+              "player": "Nicolás de la Cruz",
+              "number": 7,
+              "position": "MF",
+              "starter": false
+            },
+            {
+              "player": "Sergio Rochet",
+              "number": 1,
+              "position": "GK",
+              "starter": false
+            },
+            {
+              "player": "Federico Viñas",
+              "number": 21,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Brian Rodríguez",
+              "number": 18,
+              "position": "MF",
+              "starter": false
+            }
+          ],
+          "away": [
+            {
+              "player": "Unai Simón",
+              "number": 23,
+              "position": "GK",
+              "starter": true
+            },
+            {
+              "player": "Marcos Llorente",
+              "number": 5,
+              "position": "RB",
+              "starter": true
+            },
+            {
+              "player": "Pau Cubarsí",
+              "number": 22,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Aymeric Laporte",
+              "number": 14,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Marc Cucurella",
+              "number": 24,
+              "position": "LB",
+              "starter": true
+            },
+            {
+              "player": "Rodri",
+              "number": 16,
+              "position": "DM",
+              "starter": true,
+              "captain": true
+            },
+            {
+              "player": "Mikel Merino",
+              "number": 6,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Pedri",
+              "number": 20,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Lamine Yamal",
+              "number": 19,
+              "position": "RF",
+              "starter": true
+            },
+            {
+              "player": "Mikel Oyarzabal",
+              "number": 21,
+              "position": "CF",
+              "starter": true
+            },
+            {
+              "player": "Álex Baena",
+              "number": 15,
+              "position": "LF",
+              "starter": true
+            },
+            {
+              "player": "Fabián Ruiz",
+              "number": 8,
+              "position": "MF",
+              "starter": false
+            },
+            {
+              "player": "Dani Olmo",
+              "number": 10,
+              "position": "MF",
+              "starter": false
+            },
+            {
+              "player": "Yéremy Pino",
+              "number": 11,
+              "position": "MF",
+              "starter": false
+            },
+            {
+              "player": "Nico Williams",
+              "number": 17,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Ferran Torres",
+              "number": 7,
+              "position": "FW",
+              "starter": false
+            }
+          ]
+        },
+        "formations": {
+          "home": "4-3-3",
+          "away": "4-3-3"
+        },
+        "managers": {
+          "home": "Marcelo Bielsa",
+          "away": "Luis de la Fuente"
+        },
+        "status": "finished",
+        "liveMinute": null,
+        "liveMinuteAt": null,
+        "clockSource": "wikipedia",
+        "clockSourceAt": "2026-06-27T02:28:39.971Z",
+        "livePhase": null,
+        "cards": [
+          {
+            "minute": 46,
+            "team": "away",
+            "player": "Álex Baena",
+            "color": "yellow"
+          },
+          {
+            "minute": 54,
+            "team": "home",
+            "player": "Juan Manuel Sanabria",
+            "color": "yellow"
+          },
+          {
+            "minute": 58,
+            "team": "home",
+            "player": "Guillermo Varela",
+            "color": "yellow"
+          },
+          {
+            "minute": 90,
+            "addedMinute": 3,
+            "team": "home",
+            "player": "Nicolás de la Cruz",
+            "color": "yellow"
+          }
+        ],
+        "substitutions": [
+          {
+            "minute": 45,
+            "team": "home",
+            "on": "Nicolás de la Cruz",
+            "off": "Manuel Ugarte"
+          },
+          {
+            "minute": 46,
+            "team": "home",
+            "on": "Sergio Rochet",
+            "off": "Fernando Muslera"
+          },
+          {
+            "minute": 56,
+            "team": "home",
+            "on": "Federico Viñas",
+            "off": "Federico Valverde"
+          },
+          {
+            "minute": 60,
+            "team": "away",
+            "on": "Dani Olmo",
+            "off": "Mikel Merino"
+          },
+          {
+            "minute": 60,
+            "team": "away",
+            "on": "Fabián Ruiz",
+            "off": "Pedri"
+          },
+          {
+            "minute": 66,
+            "team": "away",
+            "on": "Yéremy Pino",
+            "off": "Álex Baena"
+          },
+          {
+            "minute": 70,
+            "team": "home",
+            "on": "Brian Rodríguez",
+            "off": "Juan Manuel Sanabria"
+          },
+          {
+            "minute": 76,
+            "team": "away",
+            "on": "Nico Williams",
+            "off": "Lamine Yamal"
+          },
+          {
+            "minute": 76,
+            "team": "away",
+            "on": "Ferran Torres",
+            "off": "Mikel Oyarzabal"
+          }
+        ],
+        "statistics": {
+          "home": {
+            "possessionPct": 33,
+            "shotsTotal": 5,
+            "shotsOnGoal": 1,
+            "shotsOffGoal": 3,
+            "shotsBlocked": 1,
+            "shotsInsideBox": 2,
+            "shotsOutsideBox": 3,
+            "corners": 1,
+            "offsides": 5,
+            "fouls": 14,
+            "yellowCards": 3,
+            "redCards": 1,
+            "goalkeeperSaves": 0,
+            "passesTotal": 298,
+            "passesAccurate": 227,
+            "passesPct": 76,
+            "expectedGoals": 0.2
+          },
+          "away": {
+            "possessionPct": 67,
+            "shotsTotal": 6,
+            "shotsOnGoal": 1,
+            "shotsOffGoal": 4,
+            "shotsBlocked": 1,
+            "shotsInsideBox": 5,
+            "shotsOutsideBox": 1,
+            "corners": 6,
+            "offsides": 2,
+            "fouls": 14,
+            "yellowCards": 1,
+            "redCards": 0,
+            "goalkeeperSaves": 2,
+            "passesTotal": 622,
+            "passesAccurate": 552,
+            "passesPct": 89,
+            "expectedGoals": 0.86
+          }
+        },
+        "stageNormalized": "group_h",
+        "fairPlay": {
+          "home": -3,
+          "away": -1
+        }
       },
       {
         "id": "2026-067",

@@ -1,5 +1,5 @@
 {
-  "savedAt": 1782503436952,
+  "savedAt": 1782531417398,
   "data": [
     {
       "name": "Mexico",
@@ -12277,7 +12277,7 @@
             "name": "Paris Saint-Germain",
             "country": "France"
           },
-          "goals": 1,
+          "goals": 4,
           "captain": false
         },
         {
@@ -12291,7 +12291,8 @@
             "country": "Spain"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": 9,
@@ -12446,7 +12447,7 @@
             "name": "Paris Saint-Germain",
             "country": "France"
           },
-          "goals": 0,
+          "goals": 1,
           "captain": false
         },
         {
@@ -12613,7 +12614,8 @@
             "country": "Israel"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": 5,
@@ -12729,7 +12731,7 @@
             "name": "Everton",
             "country": "England"
           },
-          "goals": 0,
+          "goals": 1,
           "captain": false
         },
         {
@@ -12794,7 +12796,7 @@
             "name": "Crystal Palace",
             "country": "England"
           },
-          "goals": 2,
+          "goals": 3,
           "captain": false
         },
         {
@@ -12833,7 +12835,7 @@
             "name": "Sunderland",
             "country": "England"
           },
-          "goals": 0,
+          "goals": 1,
           "captain": false
         },
         {
@@ -12898,8 +12900,9 @@
             "name": "Villarreal",
             "country": "Spain"
           },
-          "goals": 0,
-          "captain": false
+          "goals": 2,
+          "captain": false,
+          "yellowCards": 1
         }
       ],
       "_squadFinalizedBy": "2026-05-26",
@@ -12961,7 +12964,8 @@
             "country": "Thailand"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "redCards": 1
         },
         {
           "jersey": 3,
@@ -13145,7 +13149,7 @@
           },
           "goals": 0,
           "captain": false,
-          "yellowCards": 1
+          "yellowCards": 2
         },
         {
           "jersey": 17,
@@ -13236,7 +13240,8 @@
             "country": "Czech Republic"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": 24,
@@ -13389,7 +13394,8 @@
             "country": "Norway"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": 7,
@@ -13557,7 +13563,7 @@
             "name": "Rangers",
             "country": "Scotland"
           },
-          "goals": 0,
+          "goals": 1,
           "captain": false
         },
         {
