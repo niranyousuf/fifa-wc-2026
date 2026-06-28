@@ -1,5 +1,5 @@
 {
-  "savedAt": 1782588192336,
+  "savedAt": 1782619200269,
   "data": [
     {
       "name": "Mexico",
@@ -16873,7 +16873,8 @@
             "country": "Germany"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": null,
@@ -16912,7 +16913,7 @@
             "name": "Real Madrid",
             "country": "Spain"
           },
-          "goals": 1,
+          "goals": 2,
           "captain": false
         },
         {
@@ -16964,7 +16965,7 @@
             "name": "Bayern Munich",
             "country": "Germany"
           },
-          "goals": 2,
+          "goals": 3,
           "captain": true
         },
         {
@@ -17274,7 +17275,7 @@
             "name": "Torino",
             "country": "Italy"
           },
-          "goals": 0,
+          "goals": 1,
           "captain": false
         },
         {
@@ -17326,7 +17327,7 @@
             "name": "Inter Milan",
             "country": "Italy"
           },
-          "goals": 0,
+          "goals": 1,
           "captain": false,
           "yellowCards": 1
         },
@@ -17367,7 +17368,8 @@
             "country": "Netherlands"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": null,
@@ -17743,7 +17745,8 @@
             "country": "France"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": 22,
@@ -17768,7 +17771,7 @@
             "name": "Pafos",
             "country": "Cyprus"
           },
-          "goals": 0,
+          "goals": 1,
           "captain": false
         },
         {
@@ -17948,7 +17951,8 @@
             "country": "Austria"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": null,
@@ -18146,7 +18150,8 @@
             "country": "Ecuador"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": null,
