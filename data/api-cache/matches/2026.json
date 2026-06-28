@@ -1,5 +1,5 @@
 {
-  "savedAt": 1782619200489,
+  "savedAt": 1782636880771,
   "data": {
     "year": 2026,
     "count": 104,
@@ -16729,7 +16729,7 @@
             },
             {
               "player": "Zineddine Belaïd",
-              "number": 3,
+              "number": 5,
               "position": "DF",
               "starter": false
             }
@@ -26033,18 +26033,61 @@
         "awayTeam": "Austria",
         "homeRef": "Algeria",
         "awayRef": "Austria",
-        "homeScore": null,
-        "awayScore": null,
-        "result": null,
+        "homeScore": 3,
+        "awayScore": 3,
+        "result": "3-3",
         "extraTime": false,
         "penalties": null,
         "stadium": "Kansas City Stadium",
         "stadiumId": "arrowhead-stadium",
         "city": "Kansas City",
         "country": "United States",
-        "attendance": null,
-        "referee": null,
-        "weather": null,
+        "attendance": 69045,
+        "referee": {
+          "name": "Ilgiz Tantashev",
+          "country": "Uzbekistan"
+        },
+        "weather": {
+          "tempC": 27,
+          "humidityPct": 78,
+          "precipitationMm": 0,
+          "windKmh": 13.1,
+          "code": 95
+        },
+        "goals": [
+          {
+            "minute": 28,
+            "team": "away",
+            "scorer": "Arnautović"
+          },
+          {
+            "minute": 45,
+            "team": "home",
+            "scorer": "Belghali"
+          },
+          {
+            "minute": 55,
+            "team": "away",
+            "scorer": "Sabitzer"
+          },
+          {
+            "minute": 60,
+            "team": "home",
+            "scorer": "Mahrez"
+          },
+          {
+            "minute": 90,
+            "addedMinute": 3,
+            "team": "home",
+            "scorer": "Mahrez"
+          },
+          {
+            "minute": 90,
+            "addedMinute": 6,
+            "team": "away",
+            "scorer": "Kalajdžić"
+          }
+        ],
         "lineups": {
           "home": [
             {
@@ -26078,14 +26121,14 @@
               "starter": true
             },
             {
-              "player": "Houssem Aouar",
-              "number": 8,
+              "player": "Farès Chaïbi",
+              "number": 10,
               "position": "CM",
               "starter": true
             },
             {
-              "player": "Ibrahim Maza",
-              "number": 22,
+              "player": "Nabil Bentaleb",
+              "number": 19,
               "position": "CM",
               "starter": true
             },
@@ -26097,14 +26140,14 @@
               "captain": true
             },
             {
-              "player": "Nabil Bentaleb",
-              "number": 19,
+              "player": "Ibrahim Maza",
+              "number": 22,
               "position": "AM",
               "starter": true
             },
             {
-              "player": "Farès Chaïbi",
-              "number": 10,
+              "player": "Houssem Aouar",
+              "number": 8,
               "position": "LW",
               "starter": true
             },
@@ -26113,6 +26156,30 @@
               "number": 9,
               "position": "CF",
               "starter": true
+            },
+            {
+              "player": "Rayan Aït-Nouri",
+              "number": 15,
+              "position": "DF",
+              "starter": false
+            },
+            {
+              "player": "Zineddine Belaïd",
+              "number": 5,
+              "position": "DF",
+              "starter": false
+            },
+            {
+              "player": "Samir Chergui",
+              "number": 26,
+              "position": "DF",
+              "starter": false
+            },
+            {
+              "player": "Farès Ghedjemis",
+              "number": 25,
+              "position": "FW",
+              "starter": false
             }
           ],
           "away": [
@@ -26160,14 +26227,14 @@
               "starter": true
             },
             {
-              "player": "Romano Schmid",
-              "number": 18,
+              "player": "Konrad Laimer",
+              "number": 20,
               "position": "RW",
               "starter": true
             },
             {
-              "player": "Konrad Laimer",
-              "number": 20,
+              "player": "Romano Schmid",
+              "number": 18,
               "position": "AM",
               "starter": true
             },
@@ -26182,6 +26249,36 @@
               "number": 7,
               "position": "CF",
               "starter": true
+            },
+            {
+              "player": "Michael Gregoritsch",
+              "number": 11,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Paul Wanner",
+              "number": 24,
+              "position": "MF",
+              "starter": false
+            },
+            {
+              "player": "Florian Grillitsch",
+              "number": 10,
+              "position": "MF",
+              "starter": false
+            },
+            {
+              "player": "Kevin Danso",
+              "number": 3,
+              "position": "DF",
+              "starter": false
+            },
+            {
+              "player": "Saša Kalajdžić",
+              "number": 14,
+              "position": "FW",
+              "starter": false
             }
           ]
         },
@@ -26193,16 +26290,120 @@
           "home": "Vladimir Petković",
           "away": "Ralf Rangnick"
         },
-        "status": "live",
+        "status": "finished",
         "liveMinute": null,
-        "liveMinuteAt": "2026-06-28T03:56:39.000Z",
-        "clockSource": "apifootball",
-        "clockSourceAt": "2026-06-28T03:56:39.899Z",
-        "livePhase": "2H",
+        "liveMinuteAt": null,
+        "clockSource": "wikipedia",
+        "clockSourceAt": "2026-06-28T04:27:27.007Z",
+        "livePhase": null,
+        "cards": [
+          {
+            "minute": 11,
+            "team": "away",
+            "player": "Marko Arnautović",
+            "color": "yellow"
+          }
+        ],
+        "statistics": {
+          "home": {
+            "possessionPct": 65,
+            "shotsTotal": 12,
+            "shotsOnGoal": 5,
+            "shotsOffGoal": 5,
+            "shotsBlocked": 2,
+            "shotsInsideBox": 6,
+            "shotsOutsideBox": 6,
+            "corners": 0,
+            "offsides": 1,
+            "fouls": 3,
+            "yellowCards": 0,
+            "redCards": null,
+            "goalkeeperSaves": 0,
+            "passesTotal": 754,
+            "passesAccurate": 705,
+            "passesPct": 94,
+            "expectedGoals": 1.59
+          },
+          "away": {
+            "possessionPct": 35,
+            "shotsTotal": 9,
+            "shotsOnGoal": 2,
+            "shotsOffGoal": 6,
+            "shotsBlocked": 1,
+            "shotsInsideBox": 5,
+            "shotsOutsideBox": 4,
+            "corners": 3,
+            "offsides": 3,
+            "fouls": 7,
+            "yellowCards": 1,
+            "redCards": null,
+            "goalkeeperSaves": 2,
+            "passesTotal": 396,
+            "passesAccurate": 344,
+            "passesPct": 87,
+            "expectedGoals": 1.18
+          }
+        },
+        "substitutions": [
+          {
+            "minute": 46,
+            "team": "away",
+            "on": "Michael Gregoritsch",
+            "off": "Xaver Schlager"
+          },
+          {
+            "minute": 46,
+            "team": "away",
+            "on": "Florian Grillitsch",
+            "off": "Romano Schmid"
+          },
+          {
+            "minute": 46,
+            "team": "away",
+            "on": "Paul Wanner",
+            "off": "Marko Arnautović"
+          },
+          {
+            "minute": 62,
+            "team": "away",
+            "on": "Kevin Danso",
+            "off": "David Alaba"
+          },
+          {
+            "minute": 71,
+            "team": "home",
+            "on": "Zineddine Belaïd",
+            "off": "Rafik Belghali"
+          },
+          {
+            "minute": 71,
+            "team": "home",
+            "on": "Rayan Aït-Nouri",
+            "off": "Jaouen Hadjam"
+          },
+          {
+            "minute": 71,
+            "team": "home",
+            "on": "Samir Chergui",
+            "off": "Amine Gouiri"
+          },
+          {
+            "minute": 90,
+            "team": "home",
+            "on": "Farès Ghedjemis",
+            "off": "Houssem Aouar"
+          },
+          {
+            "minute": 90,
+            "team": "away",
+            "on": "Saša Kalajdžić",
+            "off": "Phillipp Mwene"
+          }
+        ],
         "stageNormalized": "group_j",
-        "liveDataLocked": {
-          "reason": "live_data_is_pro",
-          "message": "Live in-match data (score, goals, cards, substitutions) is a Pro-tier feature. This match is in progress — upgrade at https://api.zafronix.com/pricing to read live tournament data."
+        "fairPlay": {
+          "home": 0,
+          "away": -1
         }
       },
       {
@@ -26217,18 +26418,58 @@
         "awayTeam": "Argentina",
         "homeRef": "Jordan",
         "awayRef": "Argentina",
-        "homeScore": null,
-        "awayScore": null,
-        "result": null,
+        "homeScore": 1,
+        "awayScore": 3,
+        "result": "1-3",
         "extraTime": false,
         "penalties": null,
         "stadium": "Dallas Stadium",
         "stadiumId": "att-stadium",
         "city": "Arlington",
         "country": "United States",
-        "attendance": null,
-        "referee": null,
-        "weather": null,
+        "attendance": 70649,
+        "referee": {
+          "name": "István Kovács",
+          "country": "Romania"
+        },
+        "weather": {
+          "tempC": 32.3,
+          "humidityPct": 51,
+          "precipitationMm": 0,
+          "windKmh": 19.1,
+          "code": 95
+        },
+        "goals": [
+          {
+            "minute": 19,
+            "team": "away",
+            "scorer": "Lo Celso"
+          },
+          {
+            "minute": 31,
+            "team": "away",
+            "scorer": "La. Martínez 31' pen",
+            "type": "penalty"
+          },
+          {
+            "minute": 55,
+            "team": "home",
+            "scorer": "Al-Taamari"
+          },
+          {
+            "minute": 55,
+            "team": "home",
+            "scorer": "M. Tamari",
+            "assist": "E. Haddad",
+            "type": "normal",
+            "provisional": true
+          },
+          {
+            "minute": 80,
+            "team": "away",
+            "scorer": "Messi"
+          }
+        ],
         "lineups": {
           "home": [
             {
@@ -26297,6 +26538,36 @@
               "number": 9,
               "position": "LF",
               "starter": true
+            },
+            {
+              "player": "Mahmoud Al-Mardi",
+              "number": 13,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Musa Al-Taamari",
+              "number": 10,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Amer Jamous",
+              "number": 6,
+              "position": "MF",
+              "starter": false
+            },
+            {
+              "player": "Salim Obaid",
+              "number": 17,
+              "position": "DF",
+              "starter": false
+            },
+            {
+              "player": "Mohammad Abu Zrayq",
+              "number": 7,
+              "position": "FW",
+              "starter": false
             }
           ],
           "away": [
@@ -26307,8 +26578,8 @@
               "starter": true
             },
             {
-              "player": "Giuliano Simeone",
-              "number": 17,
+              "player": "Exequiel Palacios",
+              "number": 14,
               "position": "RB",
               "starter": true
             },
@@ -26332,33 +26603,27 @@
               "starter": true
             },
             {
-              "player": "Nico Paz",
-              "number": 18,
-              "position": "RM",
-              "starter": true
-            },
-            {
               "player": "Leandro Paredes",
               "number": 5,
-              "position": "CM",
+              "position": "DM",
               "starter": true
             },
             {
-              "player": "Exequiel Palacios",
-              "number": 14,
+              "player": "Nico Paz",
+              "number": 18,
               "position": "CM",
               "starter": true
             },
             {
               "player": "Giovani Lo Celso",
               "number": 11,
-              "position": "LM",
+              "position": "CM",
               "starter": true
             },
             {
-              "player": "Julián Alvarez",
-              "number": 9,
-              "position": "CF",
+              "player": "Giuliano Simeone",
+              "number": 17,
+              "position": "RF",
               "starter": true
             },
             {
@@ -26366,6 +26631,42 @@
               "number": 22,
               "position": "CF",
               "starter": true
+            },
+            {
+              "player": "Julián Alvarez",
+              "number": 9,
+              "position": "LF",
+              "starter": true
+            },
+            {
+              "player": "Thiago Almada",
+              "number": 16,
+              "position": "MF",
+              "starter": false
+            },
+            {
+              "player": "Lionel Messi",
+              "number": 10,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Alexis Mac Allister",
+              "number": 20,
+              "position": "MF",
+              "starter": false
+            },
+            {
+              "player": "Valentín Barco",
+              "number": 8,
+              "position": "MF",
+              "starter": false
+            },
+            {
+              "player": "José Manuel López",
+              "number": 21,
+              "position": "FW",
+              "starter": false
             }
           ]
         },
@@ -26377,16 +26678,145 @@
           "home": "Jamal Sellami",
           "away": "Lionel Scaloni"
         },
-        "status": "live",
+        "status": "finished",
         "liveMinute": null,
-        "liveMinuteAt": "2026-06-28T03:56:39.000Z",
-        "clockSource": "apifootball",
-        "clockSourceAt": "2026-06-28T03:56:40.030Z",
-        "livePhase": "2H",
+        "liveMinuteAt": null,
+        "clockSource": "wikipedia",
+        "clockSourceAt": "2026-06-28T04:27:27.459Z",
+        "livePhase": null,
+        "cards": [
+          {
+            "minute": 17,
+            "team": "home",
+            "player": "Mohannad Abu Taha",
+            "color": "yellow"
+          },
+          {
+            "minute": 64,
+            "team": "home",
+            "player": "Yazan Al-Arab",
+            "color": "yellow"
+          },
+          {
+            "minute": 90,
+            "team": "home",
+            "player": "Shararh",
+            "color": "yellow"
+          },
+          {
+            "minute": 90,
+            "addedMinute": 4,
+            "team": "home",
+            "player": "Mohammad Abu Zrayq",
+            "color": "yellow"
+          }
+        ],
+        "statistics": {
+          "home": {
+            "possessionPct": 27,
+            "shotsTotal": 5,
+            "shotsOnGoal": 1,
+            "shotsOffGoal": 2,
+            "shotsBlocked": 2,
+            "shotsInsideBox": 2,
+            "shotsOutsideBox": 3,
+            "corners": 1,
+            "offsides": 1,
+            "fouls": 11,
+            "yellowCards": 2,
+            "redCards": null,
+            "goalkeeperSaves": 1,
+            "passesTotal": 277,
+            "passesAccurate": 221,
+            "passesPct": 80,
+            "expectedGoals": 0.74
+          },
+          "away": {
+            "possessionPct": 73,
+            "shotsTotal": 12,
+            "shotsOnGoal": 4,
+            "shotsOffGoal": 7,
+            "shotsBlocked": 1,
+            "shotsInsideBox": 6,
+            "shotsOutsideBox": 6,
+            "corners": 6,
+            "offsides": 3,
+            "fouls": 7,
+            "yellowCards": 0,
+            "redCards": null,
+            "goalkeeperSaves": 0,
+            "passesTotal": 780,
+            "passesAccurate": 718,
+            "passesPct": 92,
+            "expectedGoals": 2.14
+          }
+        },
+        "substitutions": [
+          {
+            "minute": 46,
+            "team": "home",
+            "on": "Mahmoud Al-Mardi",
+            "off": "Ali Azaizeh"
+          },
+          {
+            "minute": 46,
+            "team": "home",
+            "on": "Musa Al-Taamari",
+            "off": "Odeh Al-Fakhouri"
+          },
+          {
+            "minute": 60,
+            "team": "away",
+            "on": "Thiago Almada",
+            "off": "Nico Paz"
+          },
+          {
+            "minute": 60,
+            "team": "away",
+            "on": "Lionel Messi",
+            "off": "Giovani Lo Celso"
+          },
+          {
+            "minute": 60,
+            "team": "away",
+            "on": "Alexis Mac Allister",
+            "off": "Lautaro Martínez"
+          },
+          {
+            "minute": 71,
+            "team": "away",
+            "on": "Valentín Barco",
+            "off": "Giuliano Simeone"
+          },
+          {
+            "minute": 76,
+            "team": "home",
+            "on": "Amer Jamous",
+            "off": "Nizar Al-Rashdan"
+          },
+          {
+            "minute": 82,
+            "team": "away",
+            "on": "José Manuel López",
+            "off": "Julián Alvarez"
+          },
+          {
+            "minute": 90,
+            "team": "home",
+            "on": "Salim Obaid",
+            "off": "Husam Abu Dahab"
+          },
+          {
+            "minute": 90,
+            "team": "home",
+            "on": "Mohammad Abu Zrayq",
+            "off": "Ali Olwan"
+          }
+        ],
         "stageNormalized": "group_j",
-        "liveDataLocked": {
-          "reason": "live_data_is_pro",
-          "message": "Live in-match data (score, goals, cards, substitutions) is a Pro-tier feature. This match is in progress — upgrade at https://api.zafronix.com/pricing to read live tournament data."
+        "fairPlay": {
+          "home": -4,
+          "away": 0
         }
       },
       {

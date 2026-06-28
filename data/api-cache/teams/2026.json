@@ -1,5 +1,5 @@
 {
-  "savedAt": 1782619200269,
+  "savedAt": 1782636880654,
   "data": [
     {
       "name": "Mexico",
@@ -13836,7 +13836,7 @@
             "name": "Inter Miami CF",
             "country": "United States"
           },
-          "goals": 5,
+          "goals": 6,
           "captain": true
         },
         {
@@ -13849,7 +13849,7 @@
             "name": "Real Betis",
             "country": "Spain"
           },
-          "goals": 0,
+          "goals": 1,
           "captain": false
         },
         {
@@ -14174,7 +14174,7 @@
             "name": "Al-Ahli",
             "country": "Saudi Arabia"
           },
-          "goals": 0,
+          "goals": 2,
           "captain": true
         },
         {
@@ -14188,7 +14188,8 @@
             "country": "Saudi Arabia"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "assists": 0
         },
         {
           "jersey": 9,
@@ -14304,7 +14305,7 @@
             "name": "Hellas Verona",
             "country": "Italy"
           },
-          "goals": 0,
+          "goals": 1,
           "captain": false
         },
         {
@@ -14549,8 +14550,9 @@
             "name": "Red Star Belgrade",
             "country": "Serbia"
           },
-          "goals": 1,
-          "captain": false
+          "goals": 2,
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": 8,
@@ -14563,7 +14565,8 @@
             "country": "Spain"
           },
           "goals": 0,
-          "captain": true
+          "captain": true,
+          "assists": 0
         },
         {
           "jersey": 9,
@@ -14575,7 +14578,7 @@
             "name": "Borussia Dortmund",
             "country": "Germany"
           },
-          "goals": 0,
+          "goals": 1,
           "captain": false,
           "yellowCards": 1
         },
@@ -14641,7 +14644,7 @@
             "name": "LASK",
             "country": "Austria"
           },
-          "goals": 0,
+          "goals": 1,
           "captain": false
         },
         {
@@ -14721,7 +14724,8 @@
           },
           "goals": 0,
           "captain": false,
-          "yellowCards": 1
+          "yellowCards": 1,
+          "assists": 0
         },
         {
           "jersey": 21,
@@ -14901,7 +14905,8 @@
             "country": "South Korea"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": 6,
@@ -14927,7 +14932,8 @@
             "country": "Morocco"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": 8,
@@ -14965,7 +14971,7 @@
             "name": "Rennes",
             "country": "France"
           },
-          "goals": 0,
+          "goals": 1,
           "captain": false
         },
         {
@@ -15096,7 +15102,8 @@
             "country": "Iraq"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": 21,
@@ -15135,7 +15142,8 @@
             "country": "Jordan"
           },
           "goals": 0,
-          "captain": true
+          "captain": true,
+          "assists": 1
         },
         {
           "jersey": 24,
@@ -15771,7 +15779,8 @@
             "country": "Greece"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": null,
@@ -15824,7 +15833,8 @@
             "country": "England"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": null,
@@ -15837,7 +15847,8 @@
             "country": "France"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": null,
@@ -15901,7 +15912,7 @@
             "name": "Pyramids",
             "country": "Egypt"
           },
-          "goals": 0,
+          "goals": 1,
           "captain": false
         },
         {
@@ -15914,7 +15925,7 @@
             "name": "Newcastle United",
             "country": "England"
           },
-          "goals": 1,
+          "goals": 3,
           "captain": false
         },
         {
@@ -15991,7 +16002,7 @@
           },
           "goals": 0,
           "captain": false,
-          "yellowCards": 1
+          "yellowCards": 2
         },
         {
           "jersey": 3,
@@ -16135,7 +16146,8 @@
             "country": "Uzbekistan"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": 14,
@@ -16147,7 +16159,7 @@
             "name": "İstanbul Başakşehir",
             "country": "Turkey"
           },
-          "goals": 0,
+          "goals": 1,
           "captain": true
         },
         {
@@ -16616,7 +16628,8 @@
             "country": "Spain"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": null,

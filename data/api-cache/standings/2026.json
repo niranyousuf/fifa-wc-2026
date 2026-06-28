@@ -1,5 +1,5 @@
 {
-  "savedAt": 1782619200346,
+  "savedAt": 1782636880696,
   "data": {
     "year": 2026,
     "groups": {
@@ -443,7 +443,7 @@
           "points": 3,
           "fairPlay": -7,
           "position": 3,
-          "advanced": true
+          "advanced": false
         },
         {
           "team": "New Zealand",
@@ -532,32 +532,32 @@
           "advanced": true
         },
         {
-          "team": "Algeria",
+          "team": "Austria",
           "played": 3,
-          "won": 2,
-          "drawn": 0,
+          "won": 1,
+          "drawn": 1,
           "lost": 1,
-          "goalsFor": 5,
+          "goalsFor": 6,
           "goalsAgainst": 6,
-          "goalDifference": -1,
-          "points": 6,
-          "fairPlay": -1,
+          "goalDifference": 0,
+          "points": 4,
+          "fairPlay": -4,
           "position": 2,
           "advanced": true
         },
         {
-          "team": "Austria",
+          "team": "Algeria",
           "played": 3,
           "won": 1,
-          "drawn": 0,
-          "lost": 2,
+          "drawn": 1,
+          "lost": 1,
           "goalsFor": 5,
-          "goalsAgainst": 6,
-          "goalDifference": -1,
-          "points": 3,
-          "fairPlay": -3,
+          "goalsAgainst": 7,
+          "goalDifference": -2,
+          "points": 4,
+          "fairPlay": -1,
           "position": 3,
-          "advanced": false
+          "advanced": true
         },
         {
           "team": "Jordan",
@@ -569,7 +569,7 @@
           "goalsAgainst": 8,
           "goalDifference": -5,
           "points": 0,
-          "fairPlay": -1,
+          "fairPlay": -5,
           "position": 4
         }
       ],
