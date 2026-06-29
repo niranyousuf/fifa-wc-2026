@@ -16,13 +16,13 @@ export function HomeClient({
   fromDiskCache = false,
 }) {
   const [activeView, setActiveView] = useState("groups");
-  const knockoutFixtures = filterKnockoutFixtures(fixtures);
   const upcomingFixtures = fixtures.filter(
     (fixture) => !isFinished(fixture.fixture?.status?.short),
   );
   const finishedFixtures = fixtures.filter((fixture) =>
     isFinished(fixture.fixture?.status?.short),
   );
+  const knockoutFixtures = filterKnockoutFixtures(fixtures);
 
   return (
     <div className="space-y-8">
@@ -70,7 +70,13 @@ export function HomeClient({
         <FinishedResultsView fixtures={finishedFixtures} />
       )}
 
-      {activeView === "bracket" && <KnockoutBracket fixtures={knockoutFixtures} />}
+      {activeView === "bracket" && (
+        knockoutFixtures.length ? (
+          <KnockoutBracket fixtures={knockoutFixtures} />
+        ) : (
+          <EmptyState message="Knockout bracket fixtures are not available yet." />
+        )
+      )}
     </div>
   );
 }

@@ -21,7 +21,7 @@ import {
   buildInitialKnockoutBracket,
   countKnockoutRoundMatches,
   findKnockoutMatchById,
-  getDownstreamMatchIds,
+  getDownstreamMatchIdsForMatch,
   getKnockoutPredictionKeysToClear,
   isKnockoutRoundAvailable,
   knockoutWinnerChanged,
@@ -231,11 +231,7 @@ export function SimulatorPageClient({ fixtures: fixturesProp = [] }) {
           parsed.round !== THIRD_PLACE_ROUND &&
           knockoutWinnerChanged(match, previous, nextPick)
         ) {
-          for (const downstreamId of getDownstreamMatchIds(
-            parsed.round,
-            parsed.index,
-            knockoutRounds,
-          )) {
+          for (const downstreamId of getDownstreamMatchIdsForMatch(match)) {
             delete knockout[downstreamId];
           }
         }
@@ -578,7 +574,10 @@ export function SimulatorPageClient({ fixtures: fixturesProp = [] }) {
             </div>
             <SimulatorKnockoutRound
               roundName={activeKnockoutRound}
-              matches={knockoutBracket.matches[activeKnockoutRound] ?? []}
+              matches={knockoutMatchesForRound(
+                knockoutBracket,
+                activeKnockoutRound,
+              )}
               predictions={effectiveKnockoutPredictions}
               onPickChange={setKnockoutPick}
             />
@@ -618,9 +617,10 @@ export function SimulatorPageClient({ fixtures: fixturesProp = [] }) {
                 </div>
                 <SimulatorKnockoutRound
                   roundName={THIRD_PLACE_ROUND}
-                  matches={
-                    knockoutBracket.matches[THIRD_PLACE_ROUND] ?? []
-                  }
+                  matches={knockoutMatchesForRound(
+                    knockoutBracket,
+                    THIRD_PLACE_ROUND,
+                  )}
                   predictions={effectiveKnockoutPredictions}
                   onPickChange={setKnockoutPick}
                 />
@@ -647,6 +647,10 @@ export function SimulatorPageClient({ fixtures: fixturesProp = [] }) {
       <HomeTournamentFormatSection />
     </div>
   );
+}
+
+function knockoutMatchesForRound(bracket, roundName) {
+  return (bracket?.matches?.[roundName] ?? []).filter(Boolean);
 }
 
 function RoundResetButton({ label, onClick, disabled }) {
