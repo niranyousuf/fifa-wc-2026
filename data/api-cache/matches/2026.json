@@ -1,5 +1,5 @@
 {
-  "savedAt": 1782748220218,
+  "savedAt": 1782763216940,
   "data": {
     "year": 2026,
     "count": 104,
@@ -28091,7 +28091,17 @@
         "attendance": null,
         "referee": null,
         "weather": null,
-        "stageNormalized": "round_of_32"
+        "status": "live",
+        "liveMinute": null,
+        "liveMinuteAt": "2026-06-29T17:07:44.000Z",
+        "clockSource": "apifootball",
+        "clockSourceAt": "2026-06-29T17:07:44.983Z",
+        "livePhase": "1H",
+        "stageNormalized": "round_of_32",
+        "liveDataLocked": {
+          "reason": "live_data_is_pro",
+          "message": "Live in-match data (score, goals, cards, substitutions) is a Pro-tier feature. This match is in progress — upgrade at https://api.zafronix.com/pricing to read live tournament data."
+        }
       },
       {
         "id": "2026-077",
