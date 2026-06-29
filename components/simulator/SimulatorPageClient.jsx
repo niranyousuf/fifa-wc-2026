@@ -12,6 +12,11 @@ import {
   mergeGroupPredictions,
 } from "@/lib/tournamentSimulator/fixtureScores";
 import {
+  countFinishedKnockoutFixtures,
+  mergeKnockoutPredictions,
+  overlayApiKnockoutMatches,
+} from "@/lib/tournamentSimulator/knockoutFixtures";
+import {
   advanceKnockoutBracket,
   buildInitialKnockoutBracket,
   countKnockoutRoundMatches,
@@ -86,9 +91,19 @@ export function SimulatorPageClient({ fixtures: fixturesProp = [] }) {
     [allGroupFixtures, predictions.group],
   );
 
+  const effectiveKnockoutPredictions = useMemo(
+    () => mergeKnockoutPredictions(fixtures, predictions.knockout),
+    [fixtures, predictions.knockout],
+  );
+
   const finishedGroupCount = useMemo(
     () => allGroupFixtures.filter(isFixtureFinished).length,
     [allGroupFixtures],
+  );
+
+  const finishedKnockoutCount = useMemo(
+    () => countFinishedKnockoutFixtures(fixtures),
+    [fixtures],
   );
 
   const groupProgress = useMemo(() => {
@@ -130,8 +145,9 @@ export function SimulatorPageClient({ fixtures: fixturesProp = [] }) {
 
   const knockoutBracket = useMemo(() => {
     if (!baseBracket) return null;
-    return advanceKnockoutBracket(baseBracket, predictions.knockout);
-  }, [baseBracket, predictions.knockout]);
+    const withApi = overlayApiKnockoutMatches(baseBracket, fixtures);
+    return advanceKnockoutBracket(withApi, effectiveKnockoutPredictions);
+  }, [baseBracket, effectiveKnockoutPredictions, fixtures]);
 
   const knockoutRounds = knockoutBracket?.rounds ?? KNOCKOUT_ROUNDS;
 
@@ -155,26 +171,26 @@ export function SimulatorPageClient({ fixtures: fixturesProp = [] }) {
     const match = finalMatches[0];
     if (!match) return null;
 
-    const pick = predictions.knockout[match.id];
+    const pick = effectiveKnockoutPredictions[match.id];
     if (!pick) return null;
 
     const side = resolveKnockoutWinner(pick);
     if (!side) return null;
     return side === "home" ? match.home : match.away;
-  }, [knockoutBracket, predictions.knockout]);
+  }, [knockoutBracket, effectiveKnockoutPredictions]);
 
   const thirdPlaceFinisher = useMemo(() => {
     const playoff = knockoutBracket?.matches?.[THIRD_PLACE_ROUND] ?? [];
     const match = playoff[0];
     if (!match) return null;
 
-    const pick = predictions.knockout[match.id];
+    const pick = effectiveKnockoutPredictions[match.id];
     if (!pick) return null;
 
     const side = resolveKnockoutWinner(pick);
     if (!side) return null;
     return side === "home" ? match.home : match.away;
-  }, [knockoutBracket, predictions.knockout]);
+  }, [knockoutBracket, effectiveKnockoutPredictions]);
 
   function setGroupPick(fixtureId, patch) {
     const fixture = allGroupFixtures.find((entry) => entry.fixture.id === fixtureId);
@@ -197,6 +213,9 @@ export function SimulatorPageClient({ fixtures: fixturesProp = [] }) {
   }
 
   function setKnockoutPick(matchId, patch) {
+    const match = findKnockoutMatchById(knockoutBracket, matchId);
+    if (match?.apiFixture && isFixtureFinished(match.apiFixture)) return;
+
     setPredictions((current) => {
       const previous = current.knockout[matchId] ?? {};
       const nextPick = { ...previous, ...patch };
@@ -272,7 +291,10 @@ export function SimulatorPageClient({ fixtures: fixturesProp = [] }) {
       predictions.knockout,
       roundName,
       { thirdPlaceOnly, rounds: knockoutRounds },
-    );
+    ).filter((id) => {
+      const match = findKnockoutMatchById(knockoutBracket, id);
+      return !(match?.apiFixture && isFixtureFinished(match.apiFixture));
+    });
 
     const hasScores = matchIds.some((id) => predictions.knockout[id]);
     if (!hasScores) return;
@@ -320,10 +342,10 @@ export function SimulatorPageClient({ fixtures: fixturesProp = [] }) {
             </h1>
             <p className="mt-2 max-w-2xl text-[hsl(var(--muted-foreground))]">
               Enter scores for upcoming matches. Finished games show real results
-              from the API and cannot be changed. Knockout ties level after 90
-              minutes can go to penalties. Not linked to real World Cup results
-              beyond played group games. Your predictions are saved in this
-              browser for 60 days.
+              from the API and cannot be changed. Knockout pairings follow the
+              official bracket when known; ties level after 90 minutes can go
+              to penalties. Your predictions are saved in this browser for 60
+              days.
             </p>
           </div>
           <button
@@ -341,6 +363,9 @@ export function SimulatorPageClient({ fixtures: fixturesProp = [] }) {
             ? ` (${finishedGroupCount} final from real results)`
             : ""}
           {groupStageComplete ? " · Knockout unlocked" : ""}
+          {finishedKnockoutCount > 0
+            ? ` · ${finishedKnockoutCount} knockout final from API`
+            : ""}
         </p>
       </header>
 
@@ -540,14 +565,21 @@ export function SimulatorPageClient({ fixtures: fixturesProp = [] }) {
                     predictions.knockout,
                     activeKnockoutRound,
                     { rounds: knockoutRounds },
-                  ).some((id) => predictions.knockout[id])
+                  )
+                    .filter((id) => {
+                      const match = findKnockoutMatchById(knockoutBracket, id);
+                      return !(
+                        match?.apiFixture && isFixtureFinished(match.apiFixture)
+                      );
+                    })
+                    .some((id) => predictions.knockout[id])
                 }
               />
             </div>
             <SimulatorKnockoutRound
               roundName={activeKnockoutRound}
               matches={knockoutBracket.matches[activeKnockoutRound] ?? []}
-              predictions={predictions.knockout}
+              predictions={effectiveKnockoutPredictions}
               onPickChange={setKnockoutPick}
             />
 
@@ -569,7 +601,18 @@ export function SimulatorPageClient({ fixtures: fixturesProp = [] }) {
                         predictions.knockout,
                         activeKnockoutRound,
                         { thirdPlaceOnly: true, rounds: knockoutRounds },
-                      ).some((id) => predictions.knockout[id])
+                      )
+                        .filter((id) => {
+                          const match = findKnockoutMatchById(
+                            knockoutBracket,
+                            id,
+                          );
+                          return !(
+                            match?.apiFixture &&
+                            isFixtureFinished(match.apiFixture)
+                          );
+                        })
+                        .some((id) => predictions.knockout[id])
                     }
                   />
                 </div>
@@ -578,7 +621,7 @@ export function SimulatorPageClient({ fixtures: fixturesProp = [] }) {
                   matches={
                     knockoutBracket.matches[THIRD_PLACE_ROUND] ?? []
                   }
-                  predictions={predictions.knockout}
+                  predictions={effectiveKnockoutPredictions}
                   onPickChange={setKnockoutPick}
                 />
               </div>

@@ -1,6 +1,10 @@
 "use client";
 
-import { MatchScorePicker } from "@/components/simulator/ScoreInputs";
+import {
+  FinishedMatchResult,
+  MatchScorePicker,
+} from "@/components/simulator/ScoreInputs";
+import { isFixtureFinished } from "@/lib/tournamentSimulator/fixtureScores";
 import {
   resolveKnockoutWinner,
   THIRD_PLACE_ROUND,
@@ -26,8 +30,11 @@ export function SimulatorKnockoutRound({
     <div className="space-y-3">
       {matches.map((match) => {
         const pick = predictions[match.id] ?? {};
+        const finished = match.apiFixture
+          ? isFixtureFinished(match.apiFixture)
+          : false;
         const isDraw =
-          hasCompleteScore(pick) && pick.home === pick.away;
+          !finished && hasCompleteScore(pick) && pick.home === pick.away;
         const winner = resolveKnockoutWinner(pick);
 
         const homeSide = {
@@ -47,26 +54,42 @@ export function SimulatorKnockoutRound({
               winner && "border-[hsl(var(--accent))]/40",
             )}
           >
-            <p className="mb-3 text-center text-xs font-medium uppercase tracking-wide text-[hsl(var(--muted-foreground))]">
-              {roundName === "Final"
-                ? "Final"
-                : roundName === THIRD_PLACE_ROUND
-                  ? "3rd place play-off"
-                  : `Match ${match.matchNumber} · ${roundName}`}
-            </p>
+            <div className="mb-3 flex flex-wrap items-center justify-center gap-2 text-xs font-medium uppercase tracking-wide text-[hsl(var(--muted-foreground))]">
+              <p>
+                {roundName === "Final"
+                  ? "Final"
+                  : roundName === THIRD_PLACE_ROUND
+                    ? "3rd place play-off"
+                    : `Match ${match.matchNumber} · ${roundName}`}
+              </p>
+              {finished ? (
+                <span className="rounded-full bg-[hsl(var(--muted))]/50 px-2 py-0.5 normal-case tracking-normal text-[hsl(var(--foreground))]">
+                  Final
+                </span>
+              ) : null}
+            </div>
 
-            <MatchScorePicker
-              homeSide={homeSide}
-              awaySide={awaySide}
-              home={pick.home}
-              away={pick.away}
-              onHomeChange={(value) =>
-                onPickChange(match.id, { ...pick, home: value })
-              }
-              onAwayChange={(value) =>
-                onPickChange(match.id, { ...pick, away: value })
-              }
-            />
+            {finished ? (
+              <FinishedMatchResult
+                homeSide={homeSide}
+                awaySide={awaySide}
+                home={pick.home}
+                away={pick.away}
+              />
+            ) : (
+              <MatchScorePicker
+                homeSide={homeSide}
+                awaySide={awaySide}
+                home={pick.home}
+                away={pick.away}
+                onHomeChange={(value) =>
+                  onPickChange(match.id, { ...pick, home: value })
+                }
+                onAwayChange={(value) =>
+                  onPickChange(match.id, { ...pick, away: value })
+                }
+              />
+            )}
 
             {isDraw && (
               <div className="mt-4 rounded-lg border border-[hsl(var(--border))] bg-[hsl(var(--muted))]/20 p-3">
