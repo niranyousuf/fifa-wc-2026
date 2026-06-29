@@ -1,11 +1,16 @@
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
-const eventLabels = {
-  Goal: "⚽",
-  Card: "🟨",
-  subst: "🔄",
-};
+function eventIcon(event) {
+  if (event.type === "Goal") return "⚽";
+  if (event.type === "Card") {
+    const color = event.cardColor ?? event.detail?.toLowerCase() ?? "";
+    if (color.includes("red")) return "🟥";
+    return "🟨";
+  }
+  if (event.type === "subst") return "🔄";
+  return "•";
+}
 
 export function MatchEvents({ events }) {
   if (!events?.length) {
@@ -29,7 +34,7 @@ export function MatchEvents({ events }) {
           >
             <div>
               <p className="font-medium">
-                {eventLabels[event.type] || "•"} {event.player?.name || event.detail}
+                {eventIcon(event)} {event.player?.name || event.detail}
               </p>
               <p className="text-sm text-[hsl(var(--muted-foreground))]">
                 {event.team?.name} · {event.detail}
