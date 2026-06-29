@@ -11,14 +11,21 @@ import {
 import { getScore, isFinished } from "@/lib/utils";
 import { getHighVoltageInfo } from "@/lib/highVoltage";
 import { matchDetailPath } from "@/lib/matchPaths";
+import {
+  feederRefsForMatchNo,
+  resolveBracketTeamDisplay,
+} from "@/lib/wcBracketTree";
 
 export function FixtureCard({ fixture, className }) {
-  const home = fixture.teams.home;
-  const away = fixture.teams.away;
+  const matchNo = fixture._raw?.matchNo;
+  const feeders = feederRefsForMatchNo(matchNo, fixture._raw);
+  const home = resolveBracketTeamDisplay(fixture.teams.home, feeders.home);
+  const away = resolveBracketTeamDisplay(fixture.teams.away, feeders.away);
   const score = getScore(fixture);
   const finished = isFinished(fixture.fixture.status.short);
   const kickoff = fixture.fixture.date;
   const highVoltage = getHighVoltageInfo(fixture);
+  const roundLabel = formatRoundLabel(fixture);
 
   return (
     <Link
@@ -31,7 +38,7 @@ export function FixtureCard({ fixture, className }) {
     >
       <div className="mb-3 flex items-start justify-between gap-2 text-xs text-[hsl(var(--muted-foreground))]">
         <span className="min-w-0 flex-1 truncate pr-2 leading-snug">
-          {fixture.league.round}
+          {roundLabel}
         </span>
         <div className="flex shrink-0 items-center gap-1.5">
           {highVoltage.highVoltage && (
@@ -48,9 +55,9 @@ export function FixtureCard({ fixture, className }) {
       </div>
 
       <div className="grid grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] items-center gap-2 sm:gap-3">
-        <TeamSide team={home} align="left" />
+        <TeamSide team={home} align="left" isRef={home.isRef} />
         <ScoreBlock score={score} kickoff={kickoff} finished={finished} />
-        <TeamSide team={away} align="right" />
+        <TeamSide team={away} align="right" isRef={away.isRef} />
       </div>
 
       {!finished && (
@@ -62,8 +69,26 @@ export function FixtureCard({ fixture, className }) {
   );
 }
 
-function TeamSide({ team, align }) {
-  return <TeamLabel team={team} align={align} size="md" />;
+function formatRoundLabel(fixture) {
+  const round = fixture.league?.round ?? "";
+  const matchNo = fixture._raw?.matchNo;
+
+  if (matchNo) {
+    return `${round} · Match ${matchNo}`;
+  }
+
+  return round;
+}
+
+function TeamSide({ team, align, isRef = false }) {
+  return (
+    <TeamLabel
+      team={team}
+      align={align}
+      size="md"
+      nameClassName={isRef ? "text-[hsl(var(--muted-foreground))]" : undefined}
+    />
+  );
 }
 
 function ScoreBlock({ score, kickoff, finished }) {

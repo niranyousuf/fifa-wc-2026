@@ -15,7 +15,7 @@ export function HomeClient({
   apiRateLimited = false,
   fromDiskCache = false,
 }) {
-  const [activeView, setActiveView] = useState("groups");
+  const [activeView, setActiveView] = useState("calendar");
   const upcomingFixtures = fixtures.filter(
     (fixture) => !isFinished(fixture.fixture?.status?.short),
   );

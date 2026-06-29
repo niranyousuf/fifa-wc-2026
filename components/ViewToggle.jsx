@@ -4,10 +4,10 @@ import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
 const views = [
-  { id: "groups", label: "Groups", labelMd: "Group View" },
-  { id: "calendar", label: "Calendar", labelMd: "Calendar View" },
+  { id: "calendar", label: "Upcoming", labelMd: "Upcoming Match" },
   { id: "results", label: "Results", labelMd: "Finished Results" },
   { id: "bracket", label: "Knockout", labelMd: "Knockout" },
+  { id: "groups", label: "Groups", labelMd: "Group View" },
 ];
 
 export function ViewToggle({ activeView, onChange }) {

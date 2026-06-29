@@ -8,9 +8,10 @@ import { matchDetailPath } from "@/lib/matchPaths";
 import { getScore, cn } from "@/lib/utils";
 import {
   BRACKET_CARD_H,
-  WC_2026_KNOCKOUT_ADVANCEMENT,
   buildBracketLayout,
+  feederRefsForMatchNo,
   matchNumbersInVisualOrder,
+  resolveBracketTeamDisplay,
 } from "@/lib/wcBracketTree";
 import { KNOCKOUT_ROUNDS } from "@/lib/wcConstants";
 
@@ -163,9 +164,9 @@ export function KnockoutBracket({ fixtures }) {
 function BracketMatch({ fixture, matchNo }) {
   const isPlaceholder = !fixture?.fixture;
   const score = getScore(fixture);
-  const feeders = feederRefsForMatch(matchNo, fixture?._raw);
-  const home = resolveBracketTeam(fixture?.teams?.home, feeders.home);
-  const away = resolveBracketTeam(fixture?.teams?.away, feeders.away);
+  const feeders = feederRefsForMatchNo(matchNo, fixture?._raw);
+  const home = resolveBracketTeamDisplay(fixture?.teams?.home, feeders.home);
+  const away = resolveBracketTeamDisplay(fixture?.teams?.away, feeders.away);
 
   const content = (
     <div className="flex h-full flex-col rounded-md border border-[hsl(var(--border))] bg-[hsl(var(--card))] px-3">
@@ -186,44 +187,6 @@ function BracketMatch({ fixture, matchNo }) {
       {content}
     </Link>
   );
-}
-
-function feederRefsForMatch(matchNo, raw) {
-  const home = raw?.homeRef ?? null;
-  const away = raw?.awayRef ?? null;
-
-  if (home && away) {
-    return { home, away };
-  }
-
-  const rule = WC_2026_KNOCKOUT_ADVANCEMENT.find((entry) => entry.matchNo === matchNo);
-  if (!rule) return { home, away };
-
-  return {
-    home: home ?? `W${rule.home}`,
-    away: away ?? `W${rule.away}`,
-  };
-}
-
-function resolveBracketTeam(team, ref) {
-  if (team?.name && team.name !== "TBD") {
-    return team;
-  }
-
-  if (ref) {
-    return { name: formatBracketRef(ref), logo: null, isRef: true };
-  }
-
-  return { name: "TBD", logo: null };
-}
-
-function formatBracketRef(ref) {
-  const winnerOrLoser = ref.match(/^([WL])(\d+)$/i);
-  if (winnerOrLoser) {
-    return `${winnerOrLoser[1].toUpperCase()}${winnerOrLoser[2]}`;
-  }
-
-  return ref;
 }
 
 function BracketTeamRow({ team, score, isRef = false }) {
