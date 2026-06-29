@@ -1,5 +1,5 @@
 {
-  "savedAt": 1782674585959,
+  "savedAt": 1782705988231,
   "data": [
     {
       "name": "Mexico",
@@ -1653,7 +1653,8 @@
             "country": "Croatia"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": null,
@@ -1770,7 +1771,7 @@
             "name": "Los Angeles FC",
             "country": "United States"
           },
-          "goals": 0,
+          "goals": 1,
           "captain": false
         },
         {
@@ -1850,7 +1851,8 @@
             "country": ""
           },
           "goals": 1,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": null,

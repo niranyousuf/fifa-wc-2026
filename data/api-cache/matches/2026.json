@@ -1,5 +1,5 @@
 {
-  "savedAt": 1782674586140,
+  "savedAt": 1782705988449,
   "data": {
     "year": 2026,
     "count": 104,
@@ -27608,9 +27608,9 @@
         "awayTeam": "Canada",
         "homeRef": "2A",
         "awayRef": "2B",
-        "homeScore": null,
-        "awayScore": null,
-        "result": null,
+        "homeScore": 0,
+        "awayScore": 1,
+        "result": "0-1",
         "extraTime": false,
         "penalties": null,
         "stadium": "Los Angeles Stadium",
@@ -27618,18 +27618,401 @@
         "city": "Inglewood",
         "country": "United States",
         "attendance": null,
-        "referee": null,
-        "weather": null,
-        "status": "live",
+        "referee": {
+          "name": "Joao Pedro Pinheiro",
+          "country": null
+        },
+        "weather": {
+          "tempC": 21,
+          "humidityPct": 64,
+          "precipitationMm": 0,
+          "windKmh": 7.4,
+          "code": 3
+        },
+        "status": "finished",
         "liveMinute": null,
-        "liveMinuteAt": "2026-06-28T19:16:56.000Z",
-        "clockSource": "apifootball",
-        "clockSourceAt": "2026-06-28T19:16:59.243Z",
-        "livePhase": "1H",
+        "liveMinuteAt": null,
+        "clockSource": "wikipedia",
+        "clockSourceAt": "2026-06-28T21:27:12.312Z",
+        "goals": [
+          {
+            "minute": 90,
+            "addedMinute": 2,
+            "team": "away",
+            "scorer": "S. Eustaquio",
+            "type": "normal",
+            "provisional": true
+          }
+        ],
+        "livePhase": null,
+        "cards": [
+          {
+            "minute": 54,
+            "team": "away",
+            "player": "N. Saliba",
+            "color": "yellow"
+          },
+          {
+            "minute": 67,
+            "team": "away",
+            "player": "N. Sigur",
+            "color": "yellow"
+          }
+        ],
+        "lineups": {
+          "home": [
+            {
+              "player": "Ronwen Williams",
+              "number": 1,
+              "position": "G",
+              "starter": true
+            },
+            {
+              "player": "Khuliso Mudau",
+              "number": 20,
+              "position": "D",
+              "starter": true
+            },
+            {
+              "player": "Ime Okon",
+              "number": 21,
+              "position": "D",
+              "starter": true
+            },
+            {
+              "player": "Mbekezeli Mbokazi",
+              "number": 14,
+              "position": "D",
+              "starter": true
+            },
+            {
+              "player": "Aubrey Modiba",
+              "number": 6,
+              "position": "D",
+              "starter": true
+            },
+            {
+              "player": "Teboho Mokoena",
+              "number": 4,
+              "position": "M",
+              "starter": true
+            },
+            {
+              "player": "Sphephelo Sithole",
+              "number": 13,
+              "position": "M",
+              "starter": true
+            },
+            {
+              "player": "Thapelo Maseko",
+              "number": 12,
+              "position": "M",
+              "starter": true
+            },
+            {
+              "player": "Relebohile Mofokeng",
+              "number": 10,
+              "position": "M",
+              "starter": true
+            },
+            {
+              "player": "Oswin Appollis",
+              "number": 7,
+              "position": "M",
+              "starter": true
+            },
+            {
+              "player": "Evidence Makgopa",
+              "number": 17,
+              "position": "F",
+              "starter": true
+            },
+            {
+              "player": "Thalente Mbatha",
+              "number": 5,
+              "position": "M",
+              "starter": false
+            },
+            {
+              "player": "Sipho Chaine",
+              "number": 16,
+              "position": "G",
+              "starter": false
+            },
+            {
+              "player": "Ricardo Goss",
+              "number": 22,
+              "position": "G",
+              "starter": false
+            },
+            {
+              "player": "Tholo Thabang Matuludi",
+              "number": 2,
+              "position": "D",
+              "starter": false
+            },
+            {
+              "player": "Khulumani Ndamane",
+              "number": 3,
+              "position": "D",
+              "starter": false
+            },
+            {
+              "player": "Samukelo Kabini",
+              "number": 18,
+              "position": "D",
+              "starter": false
+            },
+            {
+              "player": "Nkosinathi Sibisi",
+              "number": 19,
+              "position": "D",
+              "starter": false
+            },
+            {
+              "player": "Olwethu Makhanya",
+              "number": 24,
+              "position": "D",
+              "starter": false
+            },
+            {
+              "player": "Bradley Cross",
+              "number": 26,
+              "position": "D",
+              "starter": false
+            },
+            {
+              "player": "Jayden Adams",
+              "number": 23,
+              "position": "M",
+              "starter": false
+            },
+            {
+              "player": "Tshepang Moremi",
+              "number": 8,
+              "position": "F",
+              "starter": false
+            },
+            {
+              "player": "Kamogelo Sebelebele",
+              "number": 25,
+              "position": "M",
+              "starter": false
+            },
+            {
+              "player": "Lyle Foster",
+              "number": 9,
+              "position": "F",
+              "starter": false
+            },
+            {
+              "player": "Iqraam Rayners",
+              "number": 15,
+              "position": "F",
+              "starter": false
+            }
+          ],
+          "away": [
+            {
+              "player": "Maxime Crépeau",
+              "number": 16,
+              "position": "G",
+              "starter": true
+            },
+            {
+              "player": "Alistair Johnston",
+              "number": 2,
+              "position": "D",
+              "starter": true
+            },
+            {
+              "player": "Moise Bombito",
+              "number": 15,
+              "position": "D",
+              "starter": true
+            },
+            {
+              "player": "Derek Cornelius",
+              "number": 13,
+              "position": "D",
+              "starter": true
+            },
+            {
+              "player": "Richie Laryea",
+              "number": 22,
+              "position": "D",
+              "starter": true
+            },
+            {
+              "player": "Tajon Buchanan",
+              "number": 17,
+              "position": "M",
+              "starter": true
+            },
+            {
+              "player": "Nathan-Dylan Saliba",
+              "number": 25,
+              "position": "M",
+              "starter": true
+            },
+            {
+              "player": "Stephen Eustaquio",
+              "number": 7,
+              "position": "M",
+              "starter": true
+            },
+            {
+              "player": "Liam Millar",
+              "number": 11,
+              "position": "M",
+              "starter": true
+            },
+            {
+              "player": "Jonathan David",
+              "number": 10,
+              "position": "F",
+              "starter": true
+            },
+            {
+              "player": "Tani Oluwaseyi",
+              "number": 12,
+              "position": "F",
+              "starter": true
+            },
+            {
+              "player": "Luc De Fougerolles",
+              "number": 4,
+              "position": "D",
+              "starter": false
+            },
+            {
+              "player": "Niko Sigur",
+              "number": 23,
+              "position": "M",
+              "starter": false
+            },
+            {
+              "player": "Jacob Shaffelburg",
+              "number": 14,
+              "position": "F",
+              "starter": false
+            },
+            {
+              "player": "Promise David",
+              "number": 24,
+              "position": "F",
+              "starter": false
+            },
+            {
+              "player": "Dayne St. Clair",
+              "number": 1,
+              "position": "G",
+              "starter": false
+            },
+            {
+              "player": "Owen Goodman",
+              "number": 18,
+              "position": "G",
+              "starter": false
+            },
+            {
+              "player": "Alfie Jones",
+              "number": 3,
+              "position": "D",
+              "starter": false
+            },
+            {
+              "player": "Joel Waterman",
+              "number": 5,
+              "position": "D",
+              "starter": false
+            },
+            {
+              "player": "Alphonso Davies",
+              "number": 19,
+              "position": "D",
+              "starter": false
+            },
+            {
+              "player": "Mathieu Choinière",
+              "number": 6,
+              "position": "M",
+              "starter": false
+            },
+            {
+              "player": "Ali Ahmed",
+              "number": 20,
+              "position": "M",
+              "starter": false
+            },
+            {
+              "player": "Jonathan Osorio",
+              "number": 21,
+              "position": "M",
+              "starter": false
+            },
+            {
+              "player": "Cyle Larin",
+              "number": 9,
+              "position": "F",
+              "starter": false
+            },
+            {
+              "player": "Jayden Nelson",
+              "number": 26,
+              "position": "F",
+              "starter": false
+            }
+          ]
+        },
+        "formations": {
+          "home": "4-2-3-1",
+          "away": "4-4-2"
+        },
+        "statistics": {
+          "home": {
+            "possessionPct": 58,
+            "shotsTotal": 6,
+            "shotsOnGoal": 1,
+            "shotsOffGoal": 4,
+            "shotsBlocked": 1,
+            "shotsInsideBox": 1,
+            "shotsOutsideBox": 5,
+            "corners": 1,
+            "offsides": null,
+            "fouls": 9,
+            "yellowCards": 0,
+            "redCards": null,
+            "goalkeeperSaves": 5,
+            "passesTotal": 537,
+            "passesAccurate": 456,
+            "passesPct": 85,
+            "expectedGoals": 0.13
+          },
+          "away": {
+            "possessionPct": 42,
+            "shotsTotal": 12,
+            "shotsOnGoal": 7,
+            "shotsOffGoal": 5,
+            "shotsBlocked": 0,
+            "shotsInsideBox": 9,
+            "shotsOutsideBox": 3,
+            "corners": 4,
+            "offsides": null,
+            "fouls": 16,
+            "yellowCards": 2,
+            "redCards": null,
+            "goalkeeperSaves": 1,
+            "passesTotal": 377,
+            "passesAccurate": 297,
+            "passesPct": 79,
+            "expectedGoals": 1.32
+          }
+        },
         "stageNormalized": "round_of_32",
-        "liveDataLocked": {
-          "reason": "live_data_is_pro",
-          "message": "Live in-match data (score, goals, cards, substitutions) is a Pro-tier feature. This match is in progress — upgrade at https://api.zafronix.com/pricing to read live tournament data."
+        "fairPlay": {
+          "home": 0,
+          "away": -2
         }
       },
       {
