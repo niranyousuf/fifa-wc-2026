@@ -1,5 +1,5 @@
 {
-  "savedAt": 1782791428060,
+  "savedAt": 1782812369661,
   "data": {
     "year": 2026,
     "count": 104,
@@ -28480,8 +28480,11 @@
         "homeScore": 1,
         "awayScore": 1,
         "result": "1-1",
-        "extraTime": false,
-        "penalties": null,
+        "extraTime": true,
+        "penalties": {
+          "home": 2,
+          "away": 3
+        },
         "stadium": "Monterrey Stadium",
         "stadiumId": "estadio-bbva",
         "city": "Guadalupe",
@@ -28502,7 +28505,7 @@
         "liveMinute": null,
         "liveMinuteAt": null,
         "clockSource": "apifootball",
-        "clockSourceAt": "2026-06-30T03:15:03.506Z",
+        "clockSourceAt": "2026-06-30T06:37:05.079Z",
         "goals": [
           {
             "minute": 72,
