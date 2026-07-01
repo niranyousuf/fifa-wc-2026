@@ -1,5 +1,5 @@
 {
-  "savedAt": 1782916804776,
+  "savedAt": 1782935927164,
   "data": {
     "year": 2026,
     "count": 104,
@@ -30613,9 +30613,9 @@
         "awayTeam": "DR Congo",
         "homeRef": "1L",
         "awayRef": "3EHIJK",
-        "homeScore": null,
-        "awayScore": null,
-        "result": null,
+        "homeScore": 2,
+        "awayScore": 1,
+        "result": "home_win",
         "extraTime": false,
         "penalties": null,
         "stadium": "Atlanta Stadium",
@@ -30625,6 +30625,360 @@
         "attendance": null,
         "referee": null,
         "weather": null,
+        "lineups": {
+          "home": [
+            {
+              "player": "Jordan Pickford",
+              "number": 1,
+              "position": "G",
+              "starter": true
+            },
+            {
+              "player": "Djed Spence",
+              "number": 25,
+              "position": "D",
+              "starter": true
+            },
+            {
+              "player": "Ezri Konsa",
+              "number": 2,
+              "position": "D",
+              "starter": true
+            },
+            {
+              "player": "Marc Guéhi",
+              "number": 6,
+              "position": "D",
+              "starter": true
+            },
+            {
+              "player": "Nico O'Reilly",
+              "number": 3,
+              "position": "D",
+              "starter": true
+            },
+            {
+              "player": "Elliot Anderson",
+              "number": 8,
+              "position": "M",
+              "starter": true
+            },
+            {
+              "player": "Declan Rice",
+              "number": 4,
+              "position": "M",
+              "starter": true
+            },
+            {
+              "player": "Noni Madueke",
+              "number": 20,
+              "position": "M",
+              "starter": true
+            },
+            {
+              "player": "Jude Bellingham",
+              "number": 10,
+              "position": "M",
+              "starter": true
+            },
+            {
+              "player": "Marcus Rashford",
+              "number": 11,
+              "position": "M",
+              "starter": true
+            },
+            {
+              "player": "Harry Kane",
+              "number": 9,
+              "position": "F",
+              "starter": true
+            },
+            {
+              "player": "James Trafford",
+              "number": 23,
+              "position": "G",
+              "starter": false
+            },
+            {
+              "player": "Dean Henderson",
+              "number": 13,
+              "position": "G",
+              "starter": false
+            },
+            {
+              "player": "Trevoh Chalobah",
+              "number": 12,
+              "position": "D",
+              "starter": false
+            },
+            {
+              "player": "John Stones",
+              "number": 5,
+              "position": "D",
+              "starter": false
+            },
+            {
+              "player": "Dan Burn",
+              "number": 15,
+              "position": "D",
+              "starter": false
+            },
+            {
+              "player": "Reece James",
+              "number": 24,
+              "position": "D",
+              "starter": false
+            },
+            {
+              "player": "Jarell Quansah",
+              "number": 26,
+              "position": "D",
+              "starter": false
+            },
+            {
+              "player": "Eberechi Eze",
+              "number": 21,
+              "position": "M",
+              "starter": false
+            },
+            {
+              "player": "Jordan Henderson",
+              "number": 14,
+              "position": "M",
+              "starter": false
+            },
+            {
+              "player": "Morgan Rogers",
+              "number": 17,
+              "position": "M",
+              "starter": false
+            },
+            {
+              "player": "Kobbie Mainoo",
+              "number": 16,
+              "position": "M",
+              "starter": false
+            },
+            {
+              "player": "Ollie Watkins",
+              "number": 19,
+              "position": "F",
+              "starter": false
+            },
+            {
+              "player": "Anthony Gordon",
+              "number": 18,
+              "position": "F",
+              "starter": false
+            },
+            {
+              "player": "Bukayo Saka",
+              "number": 7,
+              "position": "F",
+              "starter": false
+            },
+            {
+              "player": "Ivan Toney",
+              "number": 22,
+              "position": "F",
+              "starter": false
+            }
+          ],
+          "away": [
+            {
+              "player": "Lionel Mpasi Nzau",
+              "number": 1,
+              "position": "G",
+              "starter": true
+            },
+            {
+              "player": "Aaron Wan-Bissaka",
+              "number": 2,
+              "position": "D",
+              "starter": true
+            },
+            {
+              "player": "Chancel Mbemba",
+              "number": 22,
+              "position": "D",
+              "starter": true
+            },
+            {
+              "player": "Axel Tuanzebe",
+              "number": 4,
+              "position": "D",
+              "starter": true
+            },
+            {
+              "player": "Arthur Masuaku",
+              "number": 26,
+              "position": "D",
+              "starter": true
+            },
+            {
+              "player": "Ngal'ayel Mukau",
+              "number": 6,
+              "position": "M",
+              "starter": true
+            },
+            {
+              "player": "Samuel Moutoussamy",
+              "number": 8,
+              "position": "M",
+              "starter": true
+            },
+            {
+              "player": "Noah Sadiki",
+              "number": 14,
+              "position": "M",
+              "starter": true
+            },
+            {
+              "player": "Nathanaël Mbuku",
+              "number": 7,
+              "position": "F",
+              "starter": true
+            },
+            {
+              "player": "Yoane Wissa",
+              "number": 20,
+              "position": "F",
+              "starter": true
+            },
+            {
+              "player": "Brian Cipenga",
+              "number": 9,
+              "position": "F",
+              "starter": true
+            },
+            {
+              "player": "Matthieu Epolo",
+              "number": 21,
+              "position": "G",
+              "starter": false
+            },
+            {
+              "player": "Timothy Fayulu",
+              "number": 16,
+              "position": "G",
+              "starter": false
+            },
+            {
+              "player": "Dylan Batubinsika",
+              "number": 5,
+              "position": "D",
+              "starter": false
+            },
+            {
+              "player": "Gedeon Kalulu",
+              "number": 24,
+              "position": "D",
+              "starter": false
+            },
+            {
+              "player": "Joris Kayembe",
+              "number": 12,
+              "position": "D",
+              "starter": false
+            },
+            {
+              "player": "Steve Kapuadi",
+              "number": 3,
+              "position": "D",
+              "starter": false
+            },
+            {
+              "player": "Gaël Kakuta",
+              "number": 11,
+              "position": "M",
+              "starter": false
+            },
+            {
+              "player": "Charles Pickel",
+              "number": 18,
+              "position": "M",
+              "starter": false
+            },
+            {
+              "player": "Théo Bongonda",
+              "number": 10,
+              "position": "M",
+              "starter": false
+            },
+            {
+              "player": "Aaron Tshibola",
+              "number": 15,
+              "position": "M",
+              "starter": false
+            },
+            {
+              "player": "Edo Kayembe",
+              "number": 25,
+              "position": "M",
+              "starter": false
+            },
+            {
+              "player": "Fiston Mayele",
+              "number": 19,
+              "position": "F",
+              "starter": false
+            },
+            {
+              "player": "Cédric Bakambu",
+              "number": 17,
+              "position": "F",
+              "starter": false
+            },
+            {
+              "player": "Simon Banza",
+              "number": 23,
+              "position": "F",
+              "starter": false
+            },
+            {
+              "player": "Meschak Elia",
+              "number": 13,
+              "position": "F",
+              "starter": false
+            }
+          ]
+        },
+        "formations": {
+          "home": "4-2-3-1",
+          "away": "4-3-3"
+        },
+        "status": "finished",
+        "liveMinute": null,
+        "liveMinuteAt": null,
+        "clockSource": "wikipedia",
+        "clockSourceAt": "2026-07-01T18:29:31.806Z",
+        "goals": [
+          {
+            "minute": 7,
+            "team": "away",
+            "scorer": "B. Cipenga",
+            "assist": "C. Mbemba",
+            "type": "normal",
+            "provisional": false
+          },
+          {
+            "minute": 75,
+            "team": "home",
+            "scorer": "H. Kane",
+            "assist": "A. Gordon",
+            "type": "normal",
+            "provisional": false
+          },
+          {
+            "minute": null,
+            "team": "home",
+            "scorer": "H. Kane",
+            "assist": null,
+            "type": "normal",
+            "provisional": false
+          }
+        ],
+        "livePhase": null,
         "stageNormalized": "round_of_32"
       },
       {
@@ -30677,6 +31031,11 @@
         "attendance": null,
         "referee": null,
         "weather": null,
+        "status": "scheduled",
+        "liveMinute": null,
+        "liveMinuteAt": null,
+        "clockSource": "wikipedia",
+        "clockSourceAt": "2026-07-01T19:56:28.813Z",
         "stageNormalized": "round_of_32"
       },
       {
