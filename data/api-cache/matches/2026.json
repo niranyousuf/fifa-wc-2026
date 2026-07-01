@@ -1,5 +1,5 @@
 {
-  "savedAt": 1782899459710,
+  "savedAt": 1782916804776,
   "data": {
     "year": 2026,
     "count": 104,
@@ -3463,7 +3463,7 @@
           "humidityPct": 83,
           "precipitationMm": 0.4,
           "windKmh": 17.3,
-          "code": 95
+          "code": 51
         },
         "goals": [
           {
@@ -4233,7 +4233,7 @@
           "humidityPct": 70,
           "precipitationMm": 0,
           "windKmh": 9.8,
-          "code": 95
+          "code": 1
         },
         "goals": [
           {
@@ -7977,7 +7977,7 @@
           "humidityPct": 58,
           "precipitationMm": 0,
           "windKmh": 25.1,
-          "code": 95
+          "code": 0
         },
         "goals": [
           {
@@ -13804,7 +13804,7 @@
           "humidityPct": 55,
           "precipitationMm": 0,
           "windKmh": 10.9,
-          "code": 95
+          "code": 3
         },
         "goals": [
           {
@@ -16121,7 +16121,7 @@
           "humidityPct": 67,
           "precipitationMm": 0,
           "windKmh": 18.3,
-          "code": 95
+          "code": 1
         },
         "goals": [
           {
@@ -17625,7 +17625,7 @@
           "humidityPct": 54,
           "precipitationMm": 0,
           "windKmh": 5.7,
-          "code": 95
+          "code": 1
         },
         "goals": [
           {
@@ -21474,7 +21474,7 @@
           "humidityPct": 51,
           "precipitationMm": 0,
           "windKmh": 23.4,
-          "code": 95
+          "code": 0
         },
         "goals": [
           {
@@ -26437,7 +26437,7 @@
           "humidityPct": 51,
           "precipitationMm": 0,
           "windKmh": 19.1,
-          "code": 95
+          "code": 0
         },
         "goals": [
           {
@@ -26850,7 +26850,7 @@
           "humidityPct": 71,
           "precipitationMm": 0,
           "windKmh": 15.8,
-          "code": 95
+          "code": 0
         },
         "goals": [],
         "lineups": {
@@ -27214,7 +27214,7 @@
           "humidityPct": 54,
           "precipitationMm": 0,
           "windKmh": 14.2,
-          "code": 95
+          "code": 1
         },
         "goals": [
           {
@@ -28921,7 +28921,7 @@
           "humidityPct": 65,
           "precipitationMm": 0,
           "windKmh": 15.3,
-          "code": 95
+          "code": 1
         },
         "status": "finished",
         "liveMinute": null,
@@ -30195,10 +30195,10 @@
           "country": null
         },
         "weather": {
-          "tempC": 17.2,
-          "humidityPct": 76,
-          "precipitationMm": 0.1,
-          "windKmh": 1.1,
+          "tempC": 15.8,
+          "humidityPct": 84,
+          "precipitationMm": 0.2,
+          "windKmh": 2.9,
           "code": 51
         },
         "status": "finished",
