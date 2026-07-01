@@ -168,10 +168,31 @@ function BracketMatch({ fixture, matchNo }) {
   const home = resolveBracketTeamDisplay(fixture?.teams?.home, feeders.home);
   const away = resolveBracketTeamDisplay(fixture?.teams?.away, feeders.away);
 
+  const isHomeLoser = score
+    ? score.home < score.away ||
+      (score.home === score.away && score.hasPenalties && score.homePenalty < score.awayPenalty)
+    : false;
+  const isAwayLoser = score
+    ? score.away < score.home ||
+      (score.home === score.away && score.hasPenalties && score.awayPenalty < score.homePenalty)
+    : false;
+
   const content = (
     <div className="flex h-full flex-col rounded-md border border-[hsl(var(--border))] bg-[hsl(var(--card))] px-3">
-      <BracketTeamRow team={home} score={score?.home} isRef={home.isRef} />
-      <BracketTeamRow team={away} score={score?.away} isRef={away.isRef} />
+      <BracketTeamRow
+        team={home}
+        score={score?.home}
+        penalty={score?.homePenalty}
+        isLoser={isHomeLoser}
+        isRef={home.isRef}
+      />
+      <BracketTeamRow
+        team={away}
+        score={score?.away}
+        penalty={score?.awayPenalty}
+        isLoser={isAwayLoser}
+        isRef={away.isRef}
+      />
     </div>
   );
 
@@ -189,9 +210,14 @@ function BracketMatch({ fixture, matchNo }) {
   );
 }
 
-function BracketTeamRow({ team, score, isRef = false }) {
+function BracketTeamRow({ team, score, penalty, isLoser, isRef = false }) {
   return (
-    <div className="flex min-h-0 flex-1 items-center gap-1.5">
+    <div
+      className={cn(
+        "flex min-h-0 flex-1 items-center gap-1.5",
+        isLoser && "opacity-50",
+      )}
+    >
       <span className="flex h-5 w-6 shrink-0 items-center justify-center">
         {team.logo ? (
           <Image
@@ -218,11 +244,16 @@ function BracketTeamRow({ team, score, isRef = false }) {
       </span>
       <span
         className={cn(
-          "w-6 shrink-0 text-right text-sm font-semibold tabular-nums leading-none",
+          "flex items-center justify-end gap-1",
           isRef && "text-[hsl(var(--muted-foreground))]",
         )}
       >
-        {score !== null && score !== undefined ? score : "-"}
+        <span className="w-6 shrink-0 text-right text-sm font-semibold tabular-nums leading-none">
+          {score !== null && score !== undefined ? score : "-"}
+        </span>
+        {penalty != null ? (
+          <span className="text-[11px] opacity-70">({penalty})</span>
+        ) : null}
       </span>
     </div>
   );
