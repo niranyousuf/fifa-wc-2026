@@ -1,5 +1,5 @@
 {
-  "savedAt": 1782878635310,
+  "savedAt": 1782899459710,
   "data": {
     "year": 2026,
     "count": 104,
@@ -30180,9 +30180,9 @@
         "awayTeam": "Ecuador",
         "homeRef": "1A",
         "awayRef": "3CEFHI",
-        "homeScore": null,
-        "awayScore": null,
-        "result": null,
+        "homeScore": 2,
+        "awayScore": 0,
+        "result": "2-0",
         "extraTime": false,
         "penalties": null,
         "stadium": "Mexico City Stadium",
@@ -30201,11 +30201,11 @@
           "windKmh": 1.1,
           "code": 51
         },
-        "status": "live",
+        "status": "finished",
         "liveMinute": null,
-        "liveMinuteAt": "2026-07-01T04:01:00.000Z",
+        "liveMinuteAt": null,
         "clockSource": "apifootball",
-        "clockSourceAt": "2026-07-01T04:01:02.001Z",
+        "clockSourceAt": "2026-07-01T04:10:12.151Z",
         "lineups": {
           "home": [
             {
@@ -30528,7 +30528,33 @@
           "home": "4-3-3",
           "away": "4-4-2"
         },
-        "livePhase": "2H",
+        "goals": [
+          {
+            "minute": 22,
+            "team": "home",
+            "scorer": "J. Quinones",
+            "assist": "R. Alvarado",
+            "type": "normal",
+            "provisional": true
+          },
+          {
+            "minute": 31,
+            "team": "home",
+            "scorer": "R. Jimenez",
+            "assist": "J. Quinones",
+            "type": "normal",
+            "provisional": true
+          }
+        ],
+        "livePhase": null,
+        "cards": [
+          {
+            "minute": 45,
+            "team": "away",
+            "player": "A. Franco",
+            "color": "yellow"
+          }
+        ],
         "statistics": {
           "home": {
             "possessionPct": 56,
@@ -30573,10 +30599,6 @@
         "fairPlay": {
           "home": 0,
           "away": -1
-        },
-        "liveDataLocked": {
-          "reason": "live_data_is_pro",
-          "message": "Live in-match data (score, goals, cards, substitutions) is a Pro-tier feature. This match is in progress — upgrade at https://api.zafronix.com/pricing to read live tournament data."
         }
       },
       {
