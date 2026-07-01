@@ -18,7 +18,7 @@ import {
   filterFixturesByStage,
   filterFixturesForFavoriteTeams,
   getFixturesPageCount,
-  getScore,
+  getScoreDisplay,
   listFinishedMatches,
   listUpcomingMatches,
   paginateFixtures,
@@ -356,18 +356,27 @@ function ResultMatchRow({ fixture, favoriteIds, hydrated }) {
   const home = fixture.teams.home;
   const away = fixture.teams.away;
   const kickoff = fixture.fixture.date;
-  const score = getScore(fixture);
+  const score = getScoreDisplay(fixture);
   const highVoltage = getHighVoltageInfo(fixture);
   const involvesFavorite =
     hydrated &&
     (favoriteIds.includes(home.id) || favoriteIds.includes(away.id));
+
+  const isHomeLoser = score
+    ? score.home < score.away ||
+      (score.home === score.away && score.hasPenalties && score.homePenalty < score.awayPenalty)
+    : false;
+  const isAwayLoser = score
+    ? score.away < score.home ||
+      (score.home === score.away && score.hasPenalties && score.awayPenalty < score.homePenalty)
+    : false;
 
   return (
     <li>
       <Link
         href={matchDetailPath(fixture.fixture.id)}
         className={cn(
-          "grid grid-cols-[4.25rem_minmax(0,1fr)_2.75rem_2.5rem] items-center gap-3 px-3 py-3 transition-colors hover:bg-[hsl(var(--muted))]/40 sm:grid-cols-[4.5rem_minmax(0,1fr)_3rem_2.75rem] sm:gap-4 sm:px-4",
+          "grid grid-cols-[4.25rem_minmax(0,1fr)_auto_2.5rem] items-center gap-3 px-3 py-3 transition-colors hover:bg-[hsl(var(--muted))]/40 sm:grid-cols-[4.5rem_minmax(0,1fr)_auto_2.75rem] sm:gap-4 sm:px-4",
           involvesFavorite && "bg-[hsl(var(--accent))]/5",
           highVoltage.highVoltage && "border-l-2 border-l-[hsl(var(--accent))]",
         )}
@@ -384,16 +393,22 @@ function ResultMatchRow({ fixture, favoriteIds, hydrated }) {
         </div>
 
         <div className="min-w-0 space-y-2">
-          <TeamLine team={home} />
-          <TeamLine team={away} />
+          <TeamLine team={home} isLoser={isHomeLoser} />
+          <TeamLine team={away} isLoser={isAwayLoser} />
         </div>
 
-        <div className="text-center font-sans text-lg font-semibold tabular-nums tracking-wide text-wc-accent">
+        <div className="text-center font-sans text-lg font-semibold tabular-nums tracking-wide text-wc-accent whitespace-nowrap">
           {score ? (
             <>
-              {score.home}
+              <span>{score.home}</span>
+              {score.homePenalty != null ? (
+                <span className="ml-0.5 text-sm opacity-70">({score.homePenalty})</span>
+              ) : null}
               <span className="mx-0.5 text-[hsl(var(--muted-foreground))]">-</span>
-              {score.away}
+              <span>{score.away}</span>
+              {score.awayPenalty != null ? (
+                <span className="ml-0.5 text-sm opacity-70">({score.awayPenalty})</span>
+              ) : null}
             </>
           ) : (
             "–"
@@ -424,7 +439,7 @@ function MatchRowActions({ home, away, highVoltage }) {
   );
 }
 
-function TeamLine({ team }) {
+function TeamLine({ team, isLoser }) {
   return (
     <div className="flex min-w-0 items-center gap-2">
       {team.logo ? (
@@ -443,7 +458,14 @@ function TeamLine({ team }) {
           aria-hidden
         />
       )}
-      <span className="truncate text-sm font-medium">{team.name}</span>
+      <span
+        className={cn(
+          "truncate text-sm font-medium",
+          isLoser && "opacity-50",
+        )}
+      >
+        {team.name}
+      </span>
     </div>
   );
 }

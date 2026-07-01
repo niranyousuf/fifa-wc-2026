@@ -5,7 +5,7 @@ import Image from "next/image";
 import { useMemo } from "react";
 import { DragScrollArea } from "@/components/DragScrollArea";
 import { matchDetailPath } from "@/lib/matchPaths";
-import { getScore, cn } from "@/lib/utils";
+import { getScoreDisplay, cn } from "@/lib/utils";
 import {
   BRACKET_CARD_H,
   buildBracketLayout,
@@ -163,7 +163,7 @@ export function KnockoutBracket({ fixtures }) {
 
 function BracketMatch({ fixture, matchNo }) {
   const isPlaceholder = !fixture?.fixture;
-  const score = getScore(fixture);
+  const score = getScoreDisplay(fixture);
   const feeders = feederRefsForMatchNo(matchNo, fixture?._raw);
   const home = resolveBracketTeamDisplay(fixture?.teams?.home, feeders.home);
   const away = resolveBracketTeamDisplay(fixture?.teams?.away, feeders.away);
@@ -218,7 +218,7 @@ function BracketTeamRow({ team, score, isRef = false }) {
       </span>
       <span
         className={cn(
-          "w-4 shrink-0 text-right text-sm font-semibold tabular-nums leading-none",
+          "w-6 shrink-0 text-right text-sm font-semibold tabular-nums leading-none",
           isRef && "text-[hsl(var(--muted-foreground))]",
         )}
       >

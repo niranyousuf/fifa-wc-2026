@@ -1,0 +1,398 @@
+{
+  "savedAt": 1782864154688,
+  "data": {
+    "id": "2026-001",
+    "matchNo": 1,
+    "date": "2026-06-11",
+    "kickoff": "13:00",
+    "kickoffUtc": "2026-06-11T19:00:00.000Z",
+    "timezone": "mexico_city",
+    "stage": "group_a",
+    "homeTeam": "Mexico",
+    "awayTeam": "South Africa",
+    "homeRef": "Mexico",
+    "awayRef": "South Africa",
+    "homeScore": 2,
+    "awayScore": 0,
+    "result": "2-0",
+    "extraTime": false,
+    "penalties": null,
+    "stadium": "Mexico City Stadium",
+    "stadiumId": "estadio-azteca",
+    "city": "Ciudad de México",
+    "country": "Mexico",
+    "attendance": 80824,
+    "referee": {
+      "name": "Wilton Sampaio",
+      "country": "Brazil"
+    },
+    "weather": {
+      "tempC": 22.6,
+      "humidityPct": 53,
+      "precipitationMm": 0.7,
+      "windKmh": 2.5,
+      "code": 53
+    },
+    "goals": [
+      {
+        "minute": 9,
+        "team": "home",
+        "scorer": "Quiñones"
+      },
+      {
+        "minute": 67,
+        "team": "home",
+        "scorer": "Jiménez"
+      }
+    ],
+    "lineups": {
+      "home": [
+        {
+          "player": "Raúl Rangel",
+          "number": 1,
+          "position": "GK",
+          "starter": true
+        },
+        {
+          "player": "Israel Reyes",
+          "number": 15,
+          "position": "RB",
+          "starter": true
+        },
+        {
+          "player": "César Montes",
+          "number": 3,
+          "position": "CB",
+          "starter": true,
+          "captain": true
+        },
+        {
+          "player": "Johan Vásquez",
+          "number": 5,
+          "position": "CB",
+          "starter": true
+        },
+        {
+          "player": "Jesús Gallardo",
+          "number": 23,
+          "position": "LB",
+          "starter": true
+        },
+        {
+          "player": "Érik Lira",
+          "number": 6,
+          "position": "DM",
+          "starter": true
+        },
+        {
+          "player": "Álvaro Fidalgo",
+          "number": 8,
+          "position": "CM",
+          "starter": true
+        },
+        {
+          "player": "Brian Gutiérrez",
+          "number": 26,
+          "position": "CM",
+          "starter": true
+        },
+        {
+          "player": "Roberto Alvarado",
+          "number": 25,
+          "position": "RF",
+          "starter": true
+        },
+        {
+          "player": "Raúl Jiménez",
+          "number": 9,
+          "position": "CF",
+          "starter": true
+        },
+        {
+          "player": "Julián Quiñones",
+          "number": 16,
+          "position": "LF",
+          "starter": true
+        },
+        {
+          "player": "Gilberto Mora",
+          "number": 19,
+          "position": "MF",
+          "starter": false
+        },
+        {
+          "player": "Luis Chávez",
+          "number": 24,
+          "position": "MF",
+          "starter": false
+        },
+        {
+          "player": "Edson Álvarez",
+          "number": 4,
+          "position": "DF",
+          "starter": false
+        },
+        {
+          "player": "Armando González",
+          "number": 14,
+          "position": "FW",
+          "starter": false
+        },
+        {
+          "player": "Alexis Vega",
+          "number": 10,
+          "position": "FW",
+          "starter": false
+        }
+      ],
+      "away": [
+        {
+          "player": "Ronwen Williams",
+          "number": 1,
+          "position": "GK",
+          "starter": true,
+          "captain": true
+        },
+        {
+          "player": "Ime Okon",
+          "number": 21,
+          "position": "CB",
+          "starter": true
+        },
+        {
+          "player": "Nkosinathi Sibisi",
+          "number": 19,
+          "position": "CB",
+          "starter": true
+        },
+        {
+          "player": "Mbekezeli Mbokazi",
+          "number": 14,
+          "position": "CB",
+          "starter": true
+        },
+        {
+          "player": "Khuliso Mudau",
+          "number": 20,
+          "position": "RWB",
+          "starter": true
+        },
+        {
+          "player": "Aubrey Modiba",
+          "number": 6,
+          "position": "LWB",
+          "starter": true
+        },
+        {
+          "player": "Jayden Adams",
+          "number": 23,
+          "position": "RM",
+          "starter": true
+        },
+        {
+          "player": "Sphephelo Sithole",
+          "number": 13,
+          "position": "CM",
+          "starter": true
+        },
+        {
+          "player": "Teboho Mokoena",
+          "number": 4,
+          "position": "LM",
+          "starter": true
+        },
+        {
+          "player": "Lyle Foster",
+          "number": 9,
+          "position": "CF",
+          "starter": true
+        },
+        {
+          "player": "Iqraam Rayners",
+          "number": 15,
+          "position": "CF",
+          "starter": true
+        },
+        {
+          "player": "Thalente Mbatha",
+          "number": 5,
+          "position": "MF",
+          "starter": false
+        },
+        {
+          "player": "Themba Zwane",
+          "number": 11,
+          "position": "MF",
+          "starter": false
+        },
+        {
+          "player": "Oswin Appollis",
+          "number": 7,
+          "position": "FW",
+          "starter": false
+        },
+        {
+          "player": "Evidence Makgopa",
+          "number": 17,
+          "position": "FW",
+          "starter": false
+        }
+      ]
+    },
+    "formations": {
+      "home": "4-3-3",
+      "away": "5-3-2"
+    },
+    "managers": {
+      "home": "Javier Aguirre",
+      "away": "Hugo Broos"
+    },
+    "status": "finished",
+    "liveMinute": null,
+    "cards": [
+      {
+        "minute": 17,
+        "team": "away",
+        "player": "Teboho Mokoena",
+        "color": "yellow"
+      },
+      {
+        "minute": 23,
+        "team": "home",
+        "player": "Brian Gutiérrez",
+        "color": "yellow"
+      },
+      {
+        "minute": 49,
+        "team": "away",
+        "player": "Sphephelo Sithole",
+        "color": "red"
+      },
+      {
+        "minute": 74,
+        "team": "away",
+        "player": "Nkosinathi Sibisi",
+        "color": "yellow"
+      },
+      {
+        "minute": 84,
+        "team": "away",
+        "player": "Themba Zwane",
+        "color": "red"
+      },
+      {
+        "minute": 90,
+        "addedMinute": 2,
+        "team": "home",
+        "player": "César Montes",
+        "color": "red"
+      }
+    ],
+    "liveMinuteAt": null,
+    "clockSource": "wikipedia",
+    "clockSourceAt": "2026-06-16T19:32:27.031Z",
+    "substitutions": [
+      {
+        "minute": 56,
+        "team": "away",
+        "on": "Thalente Mbatha",
+        "off": "Lyle Foster"
+      },
+      {
+        "minute": 61,
+        "team": "away",
+        "on": "Themba Zwane",
+        "off": "Jayden Adams"
+      },
+      {
+        "minute": 66,
+        "team": "home",
+        "on": "Gilberto Mora",
+        "off": "Álvaro Fidalgo"
+      },
+      {
+        "minute": 66,
+        "team": "home",
+        "on": "Luis Chávez",
+        "off": "Brian Gutiérrez"
+      },
+      {
+        "minute": 76,
+        "team": "home",
+        "on": "Edson Álvarez",
+        "off": "Érik Lira"
+      },
+      {
+        "minute": 76,
+        "team": "home",
+        "on": "Armando González",
+        "off": "Raúl Jiménez"
+      },
+      {
+        "minute": 76,
+        "team": "away",
+        "on": "Oswin Appollis",
+        "off": "Aubrey Modiba"
+      },
+      {
+        "minute": 76,
+        "team": "away",
+        "on": "Evidence Makgopa",
+        "off": "Iqraam Rayners"
+      },
+      {
+        "minute": 79,
+        "team": "home",
+        "on": "Alexis Vega",
+        "off": "Julián Quiñones"
+      }
+    ],
+    "statistics": {
+      "home": {
+        "possessionPct": 61,
+        "shotsTotal": 16,
+        "shotsOnGoal": 4,
+        "shotsOffGoal": 7,
+        "shotsBlocked": 5,
+        "shotsInsideBox": 9,
+        "shotsOutsideBox": 7,
+        "corners": 3,
+        "offsides": 1,
+        "fouls": 12,
+        "yellowCards": 1,
+        "redCards": 1,
+        "goalkeeperSaves": 2,
+        "passesTotal": 520,
+        "passesAccurate": 467,
+        "passesPct": 90,
+        "expectedGoals": 1.41
+      },
+      "away": {
+        "possessionPct": 39,
+        "shotsTotal": 3,
+        "shotsOnGoal": 2,
+        "shotsOffGoal": 1,
+        "shotsBlocked": 0,
+        "shotsInsideBox": 1,
+        "shotsOutsideBox": 2,
+        "corners": 1,
+        "offsides": 1,
+        "fouls": 11,
+        "yellowCards": 2,
+        "redCards": 2,
+        "goalkeeperSaves": 2,
+        "passesTotal": 335,
+        "passesAccurate": 272,
+        "passesPct": 81,
+        "expectedGoals": 0.07
+      }
+    },
+    "livePhase": null,
+    "stageNormalized": "group_a",
+    "fairPlay": {
+      "home": -5,
+      "away": -10
+    },
+    "events": []
+  }
+}

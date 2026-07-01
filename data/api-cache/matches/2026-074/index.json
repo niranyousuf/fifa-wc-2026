@@ -1,0 +1,454 @@
+{
+  "savedAt": 1782864879142,
+  "data": {
+    "id": "2026-074",
+    "matchNo": 74,
+    "date": "2026-06-29",
+    "kickoff": "16:30",
+    "kickoffUtc": "2026-06-29T20:30:00.000Z",
+    "timezone": "us_east",
+    "stage": "r32",
+    "homeTeam": "Germany",
+    "awayTeam": "Paraguay",
+    "homeRef": "1E",
+    "awayRef": "3ABCDF",
+    "homeScore": 1,
+    "awayScore": 1,
+    "result": "1-1",
+    "extraTime": true,
+    "penalties": {
+      "home": 3,
+      "away": 4
+    },
+    "stadium": "Boston Stadium",
+    "stadiumId": "gillette-stadium",
+    "city": "Foxborough",
+    "country": "United States",
+    "attendance": null,
+    "referee": {
+      "name": "Jalal Jayed",
+      "country": null
+    },
+    "weather": {
+      "tempC": 28.6,
+      "humidityPct": 55,
+      "precipitationMm": 0,
+      "windKmh": 10.9,
+      "code": 1
+    },
+    "status": "finished",
+    "liveMinute": null,
+    "liveMinuteAt": null,
+    "livePhase": null,
+    "clockSource": "apifootball",
+    "clockSourceAt": "2026-06-29T23:43:36.893Z",
+    "goals": [
+      {
+        "minute": 42,
+        "team": "away",
+        "scorer": "J. Enciso",
+        "provisional": true
+      },
+      {
+        "minute": 54,
+        "team": "home",
+        "scorer": "K. Havertz",
+        "provisional": true
+      }
+    ],
+    "cards": [
+      {
+        "minute": 65,
+        "team": "away",
+        "player": "A. Cubas",
+        "color": "yellow"
+      },
+      {
+        "minute": 105,
+        "team": "away",
+        "player": "G. Alfaro",
+        "color": "yellow"
+      },
+      {
+        "minute": 105,
+        "team": "home",
+        "player": "J. Nagelsmann",
+        "color": "yellow"
+      },
+      {
+        "minute": 106,
+        "team": "home",
+        "player": "K. Havertz",
+        "color": "yellow"
+      },
+      {
+        "minute": 115,
+        "team": "home",
+        "player": "J. Musiala",
+        "color": "yellow"
+      },
+      {
+        "minute": 117,
+        "team": "away",
+        "player": "M. Galarza",
+        "color": "yellow"
+      }
+    ],
+    "lineups": {
+      "home": [
+        {
+          "player": "Manuel Neuer",
+          "number": 1,
+          "position": "G",
+          "starter": true
+        },
+        {
+          "player": "Joshua Kimmich",
+          "number": 6,
+          "position": "D",
+          "starter": true
+        },
+        {
+          "player": "Jonathan Tah",
+          "number": 4,
+          "position": "D",
+          "starter": true
+        },
+        {
+          "player": "Antonio Rüdiger",
+          "number": 2,
+          "position": "D",
+          "starter": true
+        },
+        {
+          "player": "Nathaniel Brown",
+          "number": 18,
+          "position": "D",
+          "starter": true
+        },
+        {
+          "player": "Leroy Sané",
+          "number": 19,
+          "position": "M",
+          "starter": true
+        },
+        {
+          "player": "Felix Nmecha",
+          "number": 23,
+          "position": "M",
+          "starter": true
+        },
+        {
+          "player": "Aleksandar Pavlović",
+          "number": 5,
+          "position": "M",
+          "starter": true
+        },
+        {
+          "player": "Florian Wirtz",
+          "number": 17,
+          "position": "M",
+          "starter": true
+        },
+        {
+          "player": "Kai Havertz",
+          "number": 7,
+          "position": "F",
+          "starter": true
+        },
+        {
+          "player": "Deniz Undav",
+          "number": 26,
+          "position": "F",
+          "starter": true
+        },
+        {
+          "player": "Leon Goretzka",
+          "number": 8,
+          "position": "M",
+          "starter": false
+        },
+        {
+          "player": "Jamal Musiala",
+          "number": 10,
+          "position": "M",
+          "starter": false
+        },
+        {
+          "player": "Waldemar Anton",
+          "number": 3,
+          "position": "D",
+          "starter": false
+        },
+        {
+          "player": "Nick Woltemade",
+          "number": 11,
+          "position": "F",
+          "starter": false
+        },
+        {
+          "player": "Malick Thiaw",
+          "number": 24,
+          "position": "D",
+          "starter": false
+        },
+        {
+          "player": "Nadiem Amiri",
+          "number": 20,
+          "position": "M",
+          "starter": false
+        },
+        {
+          "player": "Alexander Nübel",
+          "number": 21,
+          "position": "G",
+          "starter": false
+        },
+        {
+          "player": "Oliver Baumann",
+          "number": 12,
+          "position": "G",
+          "starter": false
+        },
+        {
+          "player": "David Raum",
+          "number": 22,
+          "position": "D",
+          "starter": false
+        },
+        {
+          "player": "Pascal Groß",
+          "number": 13,
+          "position": "M",
+          "starter": false
+        },
+        {
+          "player": "Angelo Stiller",
+          "number": 16,
+          "position": "M",
+          "starter": false
+        },
+        {
+          "player": "Assan Ouédraogo",
+          "number": 25,
+          "position": "M",
+          "starter": false
+        },
+        {
+          "player": "Jamie Leweling",
+          "number": 9,
+          "position": "F",
+          "starter": false
+        },
+        {
+          "player": "Maximilian Beier",
+          "number": 14,
+          "position": "F",
+          "starter": false
+        }
+      ],
+      "away": [
+        {
+          "player": "Orlando Gill",
+          "number": 12,
+          "position": "G",
+          "starter": true
+        },
+        {
+          "player": "Juan Cáceres",
+          "number": 4,
+          "position": "D",
+          "starter": true
+        },
+        {
+          "player": "Gustavo Gómez",
+          "number": 15,
+          "position": "D",
+          "starter": true
+        },
+        {
+          "player": "José Canale",
+          "number": 13,
+          "position": "D",
+          "starter": true
+        },
+        {
+          "player": "Junior Alonso",
+          "number": 6,
+          "position": "D",
+          "starter": true
+        },
+        {
+          "player": "Miguel Almirón",
+          "number": 10,
+          "position": "M",
+          "starter": true
+        },
+        {
+          "player": "Damián Bobadilla",
+          "number": 16,
+          "position": "M",
+          "starter": true
+        },
+        {
+          "player": "Andrés Cubas",
+          "number": 14,
+          "position": "M",
+          "starter": true
+        },
+        {
+          "player": "Matías Galarza",
+          "number": 23,
+          "position": "M",
+          "starter": true
+        },
+        {
+          "player": "Gabriel Ávalos",
+          "number": 21,
+          "position": "F",
+          "starter": true
+        },
+        {
+          "player": "Julio Enciso",
+          "number": 19,
+          "position": "F",
+          "starter": true
+        },
+        {
+          "player": "Gustavo Caballero",
+          "number": 24,
+          "position": "F",
+          "starter": false
+        },
+        {
+          "player": "Mauricio",
+          "number": 11,
+          "position": "M",
+          "starter": false
+        },
+        {
+          "player": "Gustavo Velázquez",
+          "number": 2,
+          "position": "D",
+          "starter": false
+        },
+        {
+          "player": "Braian Ojeda",
+          "number": 20,
+          "position": "M",
+          "starter": false
+        },
+        {
+          "player": "Antonio Sanabria",
+          "number": 9,
+          "position": "F",
+          "starter": false
+        },
+        {
+          "player": "Fabián Balbuena",
+          "number": 5,
+          "position": "D",
+          "starter": false
+        },
+        {
+          "player": "Gastón Olveira",
+          "number": 22,
+          "position": "G",
+          "starter": false
+        },
+        {
+          "player": "Roberto Fernández",
+          "number": 1,
+          "position": "G",
+          "starter": false
+        },
+        {
+          "player": "Omar Alderete",
+          "number": 3,
+          "position": "D",
+          "starter": false
+        },
+        {
+          "player": "Alexandro Maidana",
+          "number": 26,
+          "position": "D",
+          "starter": false
+        },
+        {
+          "player": "Alejandro Romero",
+          "number": 17,
+          "position": "M",
+          "starter": false
+        },
+        {
+          "player": "Ramón Sosa",
+          "number": 7,
+          "position": "F",
+          "starter": false
+        },
+        {
+          "player": "Alex Arce",
+          "number": 18,
+          "position": "F",
+          "starter": false
+        },
+        {
+          "player": "Isidro Pitta",
+          "number": 25,
+          "position": "F",
+          "starter": false
+        }
+      ]
+    },
+    "formations": {
+      "home": "4-4-2",
+      "away": "4-4-2"
+    },
+    "statistics": {
+      "home": {
+        "possessionPct": 75,
+        "shotsTotal": 21,
+        "shotsOnGoal": 6,
+        "shotsOffGoal": 7,
+        "shotsBlocked": 8,
+        "shotsInsideBox": 11,
+        "shotsOutsideBox": 10,
+        "corners": 16,
+        "offsides": 4,
+        "fouls": 18,
+        "yellowCards": 2,
+        "redCards": null,
+        "goalkeeperSaves": 2,
+        "passesTotal": 799,
+        "passesAccurate": 719,
+        "passesPct": 90,
+        "expectedGoals": 1.49
+      },
+      "away": {
+        "possessionPct": 25,
+        "shotsTotal": 7,
+        "shotsOnGoal": 3,
+        "shotsOffGoal": 2,
+        "shotsBlocked": 2,
+        "shotsInsideBox": 6,
+        "shotsOutsideBox": 1,
+        "corners": 6,
+        "offsides": 1,
+        "fouls": 12,
+        "yellowCards": 2,
+        "redCards": null,
+        "goalkeeperSaves": 6,
+        "passesTotal": 257,
+        "passesAccurate": 161,
+        "passesPct": 63,
+        "expectedGoals": 0.42
+      }
+    },
+    "stageNormalized": "round_of_32",
+    "fairPlay": {
+      "home": -3,
+      "away": -3
+    },
+    "events": []
+  }
+}

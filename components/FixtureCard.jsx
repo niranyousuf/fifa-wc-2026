@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { HighVoltageBadge } from "@/components/HighVoltageBadge";
 import { TeamLabel } from "@/components/TeamLabel";
-import { cn } from "@/lib/utils";
+import { cn, getScoreDisplay } from "@/lib/utils";
 import {
   LocalKickoffDate,
   LocalKickoffTime,
@@ -21,7 +21,7 @@ export function FixtureCard({ fixture, className }) {
   const feeders = feederRefsForMatchNo(matchNo, fixture._raw);
   const home = resolveBracketTeamDisplay(fixture.teams.home, feeders.home);
   const away = resolveBracketTeamDisplay(fixture.teams.away, feeders.away);
-  const score = getScore(fixture);
+  const score = getScoreDisplay(fixture);
   const finished = isFinished(fixture.fixture.status.short);
   const kickoff = fixture.fixture.date;
   const highVoltage = getHighVoltageInfo(fixture);
@@ -94,8 +94,16 @@ function TeamSide({ team, align, isRef = false }) {
 function ScoreBlock({ score, kickoff, finished }) {
   if (score) {
     return (
-      <div className="font-sans text-2xl tracking-wider text-wc-accent">
-        {score.home} - {score.away}
+      <div className="font-sans text-2xl tracking-wider text-wc-accent whitespace-nowrap">
+        <span>{score.home}</span>
+        {score.homePenalty != null ? (
+          <span className="ml-0.5 text-sm opacity-70">({score.homePenalty})</span>
+        ) : null}
+        <span className="mx-0.5 text-[hsl(var(--muted-foreground))]">-</span>
+        <span>{score.away}</span>
+        {score.awayPenalty != null ? (
+          <span className="ml-0.5 text-sm opacity-70">({score.awayPenalty})</span>
+        ) : null}
       </div>
     );
   }

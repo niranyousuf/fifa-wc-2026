@@ -11,7 +11,7 @@ import { MatchEvents } from "@/components/MatchEvents";
 import { TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Badge } from "@/components/ui/badge";
 import { LocalKickoffDateTime } from "@/components/LocalKickoffDateTime";
-import { cn, getScore, isFinished } from "@/lib/utils";
+import { cn, getScoreDisplay, isFinished } from "@/lib/utils";
 
 export function MatchDetailClient({ data }) {
   const [tab, setTab] = useState("events");
@@ -21,7 +21,7 @@ export function MatchDetailClient({ data }) {
 
   const home = fixture.teams.home;
   const away = fixture.teams.away;
-  const score = getScore(fixture);
+  const score = getScoreDisplay(fixture);
   const finished = isFinished(fixture.fixture.status.short);
   const highVoltage = getHighVoltageInfo(fixture);
 
@@ -60,8 +60,16 @@ export function MatchDetailClient({ data }) {
           </div>
           <div className="min-w-[2.25rem] shrink-0 text-center px-0.5 sm:min-w-0 sm:px-0">
             {score ? (
-              <p className="font-sans text-2xl tabular-nums tracking-wider text-wc-accent sm:text-4xl md:text-5xl">
-                {score.home} - {score.away}
+              <p className="font-sans text-2xl tabular-nums tracking-wider text-wc-accent sm:text-4xl md:text-5xl whitespace-nowrap">
+                <span>{score.home}</span>
+                {score.homePenalty != null ? (
+                  <span className="ml-0.5 text-sm opacity-70">({score.homePenalty})</span>
+                ) : null}
+                <span className="mx-0.5 text-[hsl(var(--muted-foreground))]">-</span>
+                <span>{score.away}</span>
+                {score.awayPenalty != null ? (
+                  <span className="ml-0.5 text-sm opacity-70">({score.awayPenalty})</span>
+                ) : null}
               </p>
             ) : (
               <div>

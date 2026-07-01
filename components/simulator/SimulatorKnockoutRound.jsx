@@ -75,6 +75,7 @@ export function SimulatorKnockoutRound({
                 awaySide={awaySide}
                 home={pick.home}
                 away={pick.away}
+                penalties={match.apiFixture?._raw?.penalties}
               />
             ) : (
               <MatchScorePicker

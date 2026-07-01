@@ -1,0 +1,411 @@
+{
+  "savedAt": 1782864131389,
+  "data": {
+    "id": "2026-078",
+    "matchNo": 78,
+    "date": "2026-06-30",
+    "kickoff": "12:00",
+    "kickoffUtc": "2026-06-30T17:00:00.000Z",
+    "timezone": "us_central",
+    "stage": "r32",
+    "homeTeam": "Côte d'Ivoire",
+    "awayTeam": "Norway",
+    "homeRef": "2E",
+    "awayRef": "2I",
+    "homeScore": 1,
+    "awayScore": 2,
+    "result": "1-2",
+    "extraTime": false,
+    "penalties": null,
+    "stadium": "Dallas Stadium",
+    "stadiumId": "att-stadium",
+    "city": "Arlington",
+    "country": "United States",
+    "attendance": null,
+    "referee": {
+      "name": "Jesús Valenzuela",
+      "country": null
+    },
+    "weather": {
+      "tempC": 32,
+      "humidityPct": 58,
+      "precipitationMm": 0,
+      "windKmh": 15.1,
+      "code": 0
+    },
+    "status": "finished",
+    "liveMinute": null,
+    "liveMinuteAt": null,
+    "clockSource": "apifootball",
+    "clockSourceAt": "2026-06-30T19:13:45.654Z",
+    "goals": [
+      {
+        "minute": 39,
+        "team": "away",
+        "scorer": "A. Nusa",
+        "assist": "M. Odegaard",
+        "type": "normal",
+        "provisional": true
+      },
+      {
+        "minute": 74,
+        "team": "home",
+        "scorer": "A. Diallo",
+        "assist": "N. Pepe",
+        "type": "normal",
+        "provisional": true
+      },
+      {
+        "minute": 86,
+        "team": "away",
+        "scorer": "E. Haaland",
+        "assist": "P. Berg",
+        "type": "normal",
+        "provisional": true
+      }
+    ],
+    "livePhase": null,
+    "lineups": {
+      "home": [
+        {
+          "player": "Yahia Fofana",
+          "number": 1,
+          "starter": true,
+          "captain": false
+        },
+        {
+          "player": "Guéla Doué",
+          "number": 17,
+          "starter": true,
+          "captain": false
+        },
+        {
+          "player": "Odilon Kossounou",
+          "number": 7,
+          "starter": true,
+          "captain": false
+        },
+        {
+          "player": "Emmanuel Agbadou",
+          "number": 20,
+          "starter": true,
+          "captain": false
+        },
+        {
+          "player": "Ghislain Konan",
+          "number": 3,
+          "starter": true,
+          "captain": false
+        },
+        {
+          "player": "Ibrahim Sangaré",
+          "number": 18,
+          "starter": true,
+          "captain": false
+        },
+        {
+          "player": "Nicolas Pépé",
+          "number": 19,
+          "starter": true,
+          "captain": false
+        },
+        {
+          "player": "Franck Kessié",
+          "number": 8,
+          "starter": true,
+          "captain": false
+        },
+        {
+          "player": "Christ Inao Oulaï",
+          "number": 26,
+          "starter": true,
+          "captain": false
+        },
+        {
+          "player": "Yan Diomande",
+          "number": 11,
+          "starter": true,
+          "captain": false
+        },
+        {
+          "player": "Ange-Yoan Bonny",
+          "number": 9,
+          "starter": true,
+          "captain": false
+        },
+        {
+          "player": "Mohamed Koné",
+          "number": 16,
+          "starter": false
+        },
+        {
+          "player": "Alban Lafont",
+          "number": 23,
+          "starter": false
+        },
+        {
+          "player": "Ousmane Diomande",
+          "number": 2,
+          "starter": false
+        },
+        {
+          "player": "Wilfried Singo",
+          "number": 5,
+          "starter": false
+        },
+        {
+          "player": "Christopher Operi",
+          "number": 13,
+          "starter": false
+        },
+        {
+          "player": "Evan Ndicka",
+          "number": 21,
+          "starter": false
+        },
+        {
+          "player": "Jean Michaël Seri",
+          "number": 4,
+          "starter": false
+        },
+        {
+          "player": "Seko Fofana",
+          "number": 6,
+          "starter": false
+        },
+        {
+          "player": "Parfait Guiagon",
+          "number": 25,
+          "starter": false
+        },
+        {
+          "player": "Simon Adingra",
+          "number": 10,
+          "starter": false
+        },
+        {
+          "player": "Amad Diallo",
+          "number": 15,
+          "starter": false
+        },
+        {
+          "player": "Bazoumana Touré",
+          "number": 24,
+          "starter": false
+        },
+        {
+          "player": "Elye Wahi",
+          "number": 12,
+          "starter": false
+        },
+        {
+          "player": "Oumar Diakité",
+          "number": 14,
+          "starter": false
+        },
+        {
+          "player": "Evann Guessand",
+          "number": 22,
+          "starter": false
+        }
+      ],
+      "away": [
+        {
+          "player": "Ørjan Nyland",
+          "number": 1,
+          "starter": true,
+          "captain": false
+        },
+        {
+          "player": "Marcus Pedersen",
+          "number": 16,
+          "starter": true,
+          "captain": false
+        },
+        {
+          "player": "Kristoffer Ajer",
+          "number": 3,
+          "starter": true,
+          "captain": false
+        },
+        {
+          "player": "Torbjørn Heggem",
+          "number": 17,
+          "starter": true,
+          "captain": false
+        },
+        {
+          "player": "David Møller Wolfe",
+          "number": 5,
+          "starter": true,
+          "captain": false
+        },
+        {
+          "player": "Martin Ødegaard",
+          "number": 10,
+          "starter": true,
+          "captain": false
+        },
+        {
+          "player": "Sander Berge",
+          "number": 8,
+          "starter": true,
+          "captain": false
+        },
+        {
+          "player": "Patrick Berg",
+          "number": 6,
+          "starter": true,
+          "captain": false
+        },
+        {
+          "player": "Alexander Sørloth",
+          "number": 7,
+          "starter": true,
+          "captain": false
+        },
+        {
+          "player": "Erling Haaland",
+          "number": 9,
+          "starter": true,
+          "captain": false
+        },
+        {
+          "player": "Antonio Nusa",
+          "number": 20,
+          "starter": true,
+          "captain": false
+        },
+        {
+          "player": "Sander Tangvik",
+          "number": 12,
+          "starter": false
+        },
+        {
+          "player": "Egil Selvik",
+          "number": 13,
+          "starter": false
+        },
+        {
+          "player": "Leo Østigård",
+          "number": 4,
+          "starter": false
+        },
+        {
+          "player": "Fredrik André Bjørkan",
+          "number": 15,
+          "starter": false
+        },
+        {
+          "player": "Sondre Langås",
+          "number": 24,
+          "starter": false
+        },
+        {
+          "player": "Henrik Sælebakke Falchener",
+          "number": 25,
+          "starter": false
+        },
+        {
+          "player": "Morten Thorsby",
+          "number": 2,
+          "starter": false
+        },
+        {
+          "player": "Fredrik Aursnes",
+          "number": 14,
+          "starter": false
+        },
+        {
+          "player": "Kristian Thorstvedt",
+          "number": 18,
+          "starter": false
+        },
+        {
+          "player": "Thelo Aasgaard",
+          "number": 19,
+          "starter": false
+        },
+        {
+          "player": "Andreas Schjelderup",
+          "number": 21,
+          "starter": false
+        },
+        {
+          "player": "Oscar Bobb",
+          "number": 22,
+          "starter": false
+        },
+        {
+          "player": "Julian Ryerson",
+          "number": 26,
+          "starter": false
+        },
+        {
+          "player": "Jørgen Strand Larsen",
+          "number": 11,
+          "starter": false
+        },
+        {
+          "player": "Jens Petter Hauge",
+          "number": 23,
+          "starter": false
+        }
+      ]
+    },
+    "cards": [
+      {
+        "minute": 45,
+        "team": "away",
+        "player": "A. Nusa",
+        "color": "yellow"
+      }
+    ],
+    "statistics": {
+      "home": {
+        "possessionPct": 46,
+        "shotsTotal": 12,
+        "shotsOnGoal": 4,
+        "shotsOffGoal": 8,
+        "shotsBlocked": 1,
+        "shotsInsideBox": 9,
+        "shotsOutsideBox": 3,
+        "corners": 12,
+        "offsides": 2,
+        "fouls": 6,
+        "yellowCards": 0,
+        "redCards": null,
+        "goalkeeperSaves": 1,
+        "passesTotal": 390,
+        "passesAccurate": 332,
+        "passesPct": 85,
+        "expectedGoals": 1.11
+      },
+      "away": {
+        "possessionPct": 54,
+        "shotsTotal": 9,
+        "shotsOnGoal": 4,
+        "shotsOffGoal": 2,
+        "shotsBlocked": 3,
+        "shotsInsideBox": 8,
+        "shotsOutsideBox": 1,
+        "corners": 3,
+        "offsides": 2,
+        "fouls": 6,
+        "yellowCards": 1,
+        "redCards": null,
+        "goalkeeperSaves": 3,
+        "passesTotal": 471,
+        "passesAccurate": 413,
+        "passesPct": 88,
+        "expectedGoals": 2.02
+      }
+    },
+    "stageNormalized": "round_of_32",
+    "fairPlay": {
+      "home": 0,
+      "away": -1
+    },
+    "events": []
+  }
+}

@@ -444,6 +444,7 @@ export function SimulatorPageClient({ fixtures: fixturesProp = [] }) {
                           awaySide={fixture.teams.away}
                           home={pick.home}
                           away={pick.away}
+                          penalties={fixture._raw?.penalties}
                         />
                       ) : (
                         <MatchScorePicker

@@ -10,7 +10,7 @@ import {
   LocalKickoffDate,
   LocalKickoffTime,
 } from "@/components/LocalKickoffDateTime";
-import { cn, getScore, isFinished } from "@/lib/utils";
+import { cn, getScoreDisplay, isFinished } from "@/lib/utils";
 
 export function MatchCountdownCard({ fixture, className }) {
   const home = fixture.teams.home;
@@ -18,7 +18,7 @@ export function MatchCountdownCard({ fixture, className }) {
   const kickoff = fixture.fixture.date;
   const highVoltage = getHighVoltageInfo(fixture);
   const finished = isFinished(fixture.fixture?.status?.short);
-  const score = finished ? getScore(fixture) : null;
+  const score = finished ? getScoreDisplay(fixture) : null;
   const countdown = useKickoffCountdown(kickoff);
 
   return (
@@ -46,12 +46,18 @@ export function MatchCountdownCard({ fixture, className }) {
         <TeamLabel team={home} align="left" size="md" />
         <div className="text-center">
           {finished ? (
-            <div className="font-sans text-xl font-semibold tabular-nums tracking-wide text-wc-accent">
+            <div className="font-sans text-xl font-semibold tabular-nums tracking-wide text-wc-accent whitespace-nowrap">
               {score ? (
                 <>
-                  {score.home}
+                  <span>{score.home}</span>
+                  {score.homePenalty != null ? (
+                    <span className="ml-0.5 text-sm opacity-70">({score.homePenalty})</span>
+                  ) : null}
                   <span className="mx-0.5 text-[hsl(var(--muted-foreground))]">-</span>
-                  {score.away}
+                  <span>{score.away}</span>
+                  {score.awayPenalty != null ? (
+                    <span className="ml-0.5 text-sm opacity-70">({score.awayPenalty})</span>
+                  ) : null}
                 </>
               ) : (
                 "FT"
