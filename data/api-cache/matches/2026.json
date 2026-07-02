@@ -1,5 +1,5 @@
 {
-  "savedAt": 1782963808157,
+  "savedAt": 1782983731550,
   "data": {
     "year": 2026,
     "count": 104,
@@ -16212,7 +16212,7 @@
               "starter": false
             },
             {
-              "player": "Julián Álvarez",
+              "player": "Julián Alvarez",
               "number": 9,
               "position": "FW",
               "starter": false
@@ -16224,15 +16224,15 @@
               "starter": false
             },
             {
-              "player": "Nicolás Tagliafico",
-              "number": 3,
-              "position": "DF",
-              "starter": false
-            },
-            {
               "player": "Leandro Paredes",
               "number": 5,
               "position": "MF",
+              "starter": false
+            },
+            {
+              "player": "Nicolás Tagliafico",
+              "number": 3,
+              "position": "DF",
               "starter": false
             }
           ],
@@ -16427,7 +16427,7 @@
           {
             "minute": 64,
             "team": "home",
-            "on": "Julián Álvarez",
+            "on": "Julián Alvarez",
             "off": "Thiago Almada"
           },
           {
@@ -31084,8 +31084,8 @@
         "status": "finished",
         "liveMinute": null,
         "liveMinuteAt": null,
-        "clockSource": "wikipedia",
-        "clockSourceAt": "2026-07-02T02:27:12.854Z",
+        "clockSource": "apifootball",
+        "clockSourceAt": "2026-07-02T04:00:28.495Z",
         "lineups": {
           "home": [
             {
