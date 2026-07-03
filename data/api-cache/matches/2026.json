@@ -1,5 +1,5 @@
 {
-  "savedAt": 1783087729012,
+  "savedAt": 1783106730703,
   "data": {
     "year": 2026,
     "count": 104,
@@ -33183,7 +33183,309 @@
         "attendance": null,
         "referee": null,
         "weather": null,
-        "stageNormalized": "round_of_32"
+        "lineups": {
+          "home": [
+            {
+              "player": "Patrick Beach",
+              "number": 18,
+              "position": "G",
+              "starter": true
+            },
+            {
+              "player": "Alessandro Circati",
+              "number": 3,
+              "position": "D",
+              "starter": true
+            },
+            {
+              "player": "Harry Souttar",
+              "number": 19,
+              "position": "D",
+              "starter": true
+            },
+            {
+              "player": "Lucas Herrington",
+              "number": 25,
+              "position": "D",
+              "starter": true
+            },
+            {
+              "player": "Jordan Bos",
+              "number": 5,
+              "position": "M",
+              "starter": true
+            },
+            {
+              "player": "Aiden O'Neill",
+              "number": 13,
+              "position": "M",
+              "starter": true
+            },
+            {
+              "player": "Jackson Irvine",
+              "number": 22,
+              "position": "M",
+              "starter": true
+            },
+            {
+              "player": "Aziz Behich",
+              "number": 16,
+              "position": "M",
+              "starter": true
+            },
+            {
+              "player": "Cristian Volpato",
+              "number": 20,
+              "position": "F",
+              "starter": true
+            },
+            {
+              "player": "Connor Metcalfe",
+              "number": 8,
+              "position": "F",
+              "starter": true
+            },
+            {
+              "player": "Nestory Irankunda",
+              "number": 17,
+              "position": "F",
+              "starter": true
+            },
+            {
+              "player": "Mathew Ryan",
+              "number": 1,
+              "position": "G",
+              "starter": false
+            },
+            {
+              "player": "Paul Izzo",
+              "number": 12,
+              "position": "G",
+              "starter": false
+            },
+            {
+              "player": "Miloš Degenek",
+              "number": 2,
+              "position": "D",
+              "starter": false
+            },
+            {
+              "player": "Jason Geria",
+              "number": 6,
+              "position": "D",
+              "starter": false
+            },
+            {
+              "player": "Cameron Burgess",
+              "number": 21,
+              "position": "D",
+              "starter": false
+            },
+            {
+              "player": "Kai Trewin",
+              "number": 15,
+              "position": "D",
+              "starter": false
+            },
+            {
+              "player": "Cameron Devlin",
+              "number": 14,
+              "position": "M",
+              "starter": false
+            },
+            {
+              "player": "Paul Okon-Engstler",
+              "number": 24,
+              "position": "M",
+              "starter": false
+            },
+            {
+              "player": "Ajdin Hrustić",
+              "number": 10,
+              "position": "M",
+              "starter": false
+            },
+            {
+              "player": "Awer Mabil",
+              "number": 11,
+              "position": "M",
+              "starter": false
+            },
+            {
+              "player": "Nishan Velupillay",
+              "number": 23,
+              "position": "F",
+              "starter": false
+            },
+            {
+              "player": "Mohamed Touré",
+              "number": 9,
+              "position": "F",
+              "starter": false
+            },
+            {
+              "player": "Tete Yengi",
+              "number": 26,
+              "position": "F",
+              "starter": false
+            }
+          ],
+          "away": [
+            {
+              "player": "Mostafa Shobeir",
+              "number": 23,
+              "position": "G",
+              "starter": true
+            },
+            {
+              "player": "Mohamed Hany",
+              "number": 3,
+              "position": "D",
+              "starter": true
+            },
+            {
+              "player": "Rami Rabia",
+              "number": 5,
+              "position": "D",
+              "starter": true
+            },
+            {
+              "player": "Yasser Ibrahim",
+              "number": 2,
+              "position": "D",
+              "starter": true
+            },
+            {
+              "player": "Karim Hafez",
+              "number": 15,
+              "position": "D",
+              "starter": true
+            },
+            {
+              "player": "Hamdy Fathy",
+              "number": 14,
+              "position": "M",
+              "starter": true
+            },
+            {
+              "player": "Marwan Attia",
+              "number": 19,
+              "position": "M",
+              "starter": true
+            },
+            {
+              "player": "Emam Ashour",
+              "number": 8,
+              "position": "M",
+              "starter": true
+            },
+            {
+              "player": "Mohamed Salah",
+              "number": 10,
+              "position": "M",
+              "starter": true
+            },
+            {
+              "player": "Mostafa Ziko",
+              "number": 11,
+              "position": "M",
+              "starter": true
+            },
+            {
+              "player": "Omar Marmoush",
+              "number": 22,
+              "position": "F",
+              "starter": true
+            },
+            {
+              "player": "Mohamed El-Shenawy",
+              "number": 1,
+              "position": "G",
+              "starter": false
+            },
+            {
+              "player": "Mohamed Alaa",
+              "number": 26,
+              "position": "G",
+              "starter": false
+            },
+            {
+              "player": "Mahdi Soliman",
+              "number": 16,
+              "position": "G",
+              "starter": false
+            },
+            {
+              "player": "Hossam Abdelmaguid",
+              "number": 4,
+              "position": "D",
+              "starter": false
+            },
+            {
+              "player": "Tarek Alaa",
+              "number": 24,
+              "position": "D",
+              "starter": false
+            },
+            {
+              "player": "Nabil Donga",
+              "number": 18,
+              "position": "M",
+              "starter": false
+            },
+            {
+              "player": "Mahmoud Trézéguet",
+              "number": 7,
+              "position": "F",
+              "starter": false
+            },
+            {
+              "player": "Mahmoud Saber",
+              "number": 21,
+              "position": "M",
+              "starter": false
+            },
+            {
+              "player": "Haissem Hassan",
+              "number": 12,
+              "position": "F",
+              "starter": false
+            },
+            {
+              "player": "Ibrahim Adel",
+              "number": 20,
+              "position": "F",
+              "starter": false
+            },
+            {
+              "player": "Zizo",
+              "number": 25,
+              "position": "F",
+              "starter": false
+            },
+            {
+              "player": "Hamza Abdelkarim",
+              "number": 9,
+              "position": "F",
+              "starter": false
+            }
+          ]
+        },
+        "formations": {
+          "home": "3-4-2-1",
+          "away": "4-2-3-1"
+        },
+        "status": "live",
+        "liveMinute": null,
+        "liveMinuteAt": null,
+        "clockSource": "wikipedia",
+        "clockSourceAt": "2026-07-03T19:25:24.590Z",
+        "livePhase": "1H",
+        "stageNormalized": "round_of_32",
+        "liveDataLocked": {
+          "reason": "live_data_is_pro",
+          "message": "Live in-match data (score, goals, cards, substitutions) is a Pro-tier feature. This match is in progress — upgrade at https://api.zafronix.com/pricing to read live tournament data."
+        }
       },
       {
         "id": "2026-089",
