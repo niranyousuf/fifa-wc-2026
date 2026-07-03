@@ -1,5 +1,5 @@
 {
-  "savedAt": 1783049127571,
+  "savedAt": 1783070447881,
   "data": {
     "year": 2026,
     "count": 104,
@@ -32702,9 +32702,9 @@
         "awayTeam": "Algeria",
         "homeRef": "1B",
         "awayRef": "3EFGIJ",
-        "homeScore": null,
-        "awayScore": null,
-        "result": null,
+        "homeScore": 2,
+        "awayScore": 0,
+        "result": "2-0",
         "extraTime": false,
         "penalties": null,
         "stadium": "BC Place Vancouver",
@@ -32712,13 +32712,22 @@
         "city": "Vancouver",
         "country": "Canada",
         "attendance": null,
-        "referee": null,
-        "weather": null,
-        "status": "live",
+        "referee": {
+          "name": "Yael Falcon Perez",
+          "country": null
+        },
+        "weather": {
+          "tempC": 13.9,
+          "humidityPct": 96,
+          "precipitationMm": 0.7,
+          "windKmh": 8.8,
+          "code": 53
+        },
+        "status": "finished",
         "liveMinute": null,
         "liveMinuteAt": null,
-        "clockSource": "wikipedia",
-        "clockSourceAt": "2026-07-03T03:22:55.994Z",
+        "clockSource": "apifootball",
+        "clockSourceAt": "2026-07-03T05:10:43.235Z",
         "lineups": {
           "home": [
             {
@@ -33023,11 +33032,79 @@
           "home": "4-2-3-1",
           "away": "4-2-3-1"
         },
-        "livePhase": "1H",
+        "goals": [
+          {
+            "minute": 10,
+            "team": "home",
+            "scorer": "B. Embolo",
+            "provisional": true
+          },
+          {
+            "minute": 46,
+            "team": "home",
+            "scorer": "D. Ndoye",
+            "provisional": true
+          }
+        ],
+        "livePhase": null,
+        "cards": [
+          {
+            "minute": 36,
+            "team": "away",
+            "player": "F. Chaibi",
+            "color": "yellow"
+          },
+          {
+            "minute": 72,
+            "team": "away",
+            "player": "H. Boudaoui",
+            "color": "yellow"
+          }
+        ],
+        "statistics": {
+          "home": {
+            "possessionPct": 45,
+            "shotsTotal": 11,
+            "shotsOnGoal": 5,
+            "shotsOffGoal": 4,
+            "shotsBlocked": 2,
+            "shotsInsideBox": 9,
+            "shotsOutsideBox": 2,
+            "corners": 4,
+            "offsides": 0,
+            "fouls": 10,
+            "yellowCards": 0,
+            "redCards": null,
+            "goalkeeperSaves": 2,
+            "passesTotal": 436,
+            "passesAccurate": 354,
+            "passesPct": 81,
+            "expectedGoals": 2.56
+          },
+          "away": {
+            "possessionPct": 55,
+            "shotsTotal": 8,
+            "shotsOnGoal": 2,
+            "shotsOffGoal": 3,
+            "shotsBlocked": 3,
+            "shotsInsideBox": 5,
+            "shotsOutsideBox": 3,
+            "corners": 2,
+            "offsides": 2,
+            "fouls": 12,
+            "yellowCards": 2,
+            "redCards": null,
+            "goalkeeperSaves": 2,
+            "passesTotal": 561,
+            "passesAccurate": 476,
+            "passesPct": 85,
+            "expectedGoals": 0.73
+          }
+        },
         "stageNormalized": "round_of_32",
-        "liveDataLocked": {
-          "reason": "live_data_is_pro",
-          "message": "Live in-match data (score, goals, cards, substitutions) is a Pro-tier feature. This match is in progress — upgrade at https://api.zafronix.com/pricing to read live tournament data."
+        "fairPlay": {
+          "home": 0,
+          "away": -2
         }
       },
       {

@@ -1,5 +1,5 @@
 {
-  "savedAt": 1783049127449,
+  "savedAt": 1783070447734,
   "data": [
     {
       "name": "Mexico",
@@ -2847,7 +2847,7 @@
             "name": "Rennes",
             "country": "France"
           },
-          "goals": 1,
+          "goals": 2,
           "captain": false
         },
         {
@@ -2900,7 +2900,7 @@
             "name": "Nottingham Forest",
             "country": "England"
           },
-          "goals": 0,
+          "goals": 1,
           "captain": false
         },
         {
@@ -14234,7 +14234,8 @@
             "country": "Germany"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": 11,
@@ -14286,7 +14287,8 @@
             "country": "France"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": 15,
