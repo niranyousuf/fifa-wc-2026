@@ -1,5 +1,5 @@
 {
-  "savedAt": 1783020406494,
+  "savedAt": 1783049127571,
   "data": {
     "year": 2026,
     "count": 104,
@@ -421,7 +421,7 @@
         "country": "Mexico",
         "attendance": 44985,
         "referee": {
-          "name": "Amin Mohamed Omar",
+          "name": "Amin Omar",
           "country": "Egypt"
         },
         "weather": {
@@ -31085,7 +31085,7 @@
         "liveMinute": null,
         "liveMinuteAt": null,
         "clockSource": "apifootball",
-        "clockSourceAt": "2026-07-02T04:00:28.495Z",
+        "clockSourceAt": "2026-07-02T22:44:30.305Z",
         "lineups": {
           "home": [
             {
@@ -31356,6 +31356,46 @@
             "off": "Sead Kolašinac"
           }
         ],
+        "statistics": {
+          "home": {
+            "possessionPct": 48,
+            "shotsTotal": 8,
+            "shotsOnGoal": 2,
+            "shotsOffGoal": 4,
+            "shotsBlocked": 2,
+            "shotsInsideBox": 6,
+            "shotsOutsideBox": 2,
+            "corners": 4,
+            "offsides": 3,
+            "fouls": 7,
+            "yellowCards": 0,
+            "redCards": 1,
+            "goalkeeperSaves": 3,
+            "passesTotal": 415,
+            "passesAccurate": 346,
+            "passesPct": 83,
+            "expectedGoals": 0.92
+          },
+          "away": {
+            "possessionPct": 52,
+            "shotsTotal": 10,
+            "shotsOnGoal": 3,
+            "shotsOffGoal": 4,
+            "shotsBlocked": 3,
+            "shotsInsideBox": 5,
+            "shotsOutsideBox": 5,
+            "corners": 3,
+            "offsides": 0,
+            "fouls": 13,
+            "yellowCards": 1,
+            "redCards": 0,
+            "goalkeeperSaves": 0,
+            "passesTotal": 446,
+            "passesAccurate": 364,
+            "passesPct": 82,
+            "expectedGoals": 0.25
+          }
+        },
         "stageNormalized": "round_of_32",
         "fairPlay": {
           "home": -4,
@@ -31384,7 +31424,10 @@
         "city": "Seattle",
         "country": "United States",
         "attendance": 66925,
-        "referee": null,
+        "referee": {
+          "name": "S. Martinez",
+          "country": null
+        },
         "weather": {
           "tempC": 16.2,
           "humidityPct": 74,
@@ -31395,8 +31438,8 @@
         "status": "finished",
         "liveMinute": null,
         "liveMinuteAt": null,
-        "clockSource": "wikipedia",
-        "clockSourceAt": "2026-07-01T22:29:54.701Z",
+        "clockSource": "apifootball",
+        "clockSourceAt": "2026-07-02T22:54:25.766Z",
         "lineups": {
           "home": [
             {
@@ -31700,7 +31743,65 @@
           }
         ],
         "livePhase": null,
-        "stageNormalized": "round_of_32"
+        "cards": [
+          {
+            "minute": 64,
+            "team": "home",
+            "player": "Brandon Mechele",
+            "color": "yellow"
+          },
+          {
+            "minute": 67,
+            "team": "away",
+            "player": "Lamine Camara",
+            "color": "yellow"
+          }
+        ],
+        "statistics": {
+          "home": {
+            "possessionPct": 52,
+            "shotsTotal": 19,
+            "shotsOnGoal": 5,
+            "shotsOffGoal": 9,
+            "shotsBlocked": 5,
+            "shotsInsideBox": 11,
+            "shotsOutsideBox": 8,
+            "corners": 4,
+            "offsides": 2,
+            "fouls": 22,
+            "yellowCards": 1,
+            "redCards": null,
+            "goalkeeperSaves": 3,
+            "passesTotal": 699,
+            "passesAccurate": 602,
+            "passesPct": 86,
+            "expectedGoals": 1.8
+          },
+          "away": {
+            "possessionPct": 48,
+            "shotsTotal": 19,
+            "shotsOnGoal": 5,
+            "shotsOffGoal": 11,
+            "shotsBlocked": 3,
+            "shotsInsideBox": 10,
+            "shotsOutsideBox": 9,
+            "corners": 2,
+            "offsides": 2,
+            "fouls": 12,
+            "yellowCards": 1,
+            "redCards": null,
+            "goalkeeperSaves": 3,
+            "passesTotal": 639,
+            "passesAccurate": 536,
+            "passesPct": 84,
+            "expectedGoals": 3.54
+          }
+        },
+        "stageNormalized": "round_of_32",
+        "fairPlay": {
+          "home": -1,
+          "away": -1
+        }
       },
       {
         "id": "2026-083",
@@ -31714,9 +31815,9 @@
         "awayTeam": "Croatia",
         "homeRef": "2K",
         "awayRef": "2L",
-        "homeScore": null,
-        "awayScore": null,
-        "result": null,
+        "homeScore": 2,
+        "awayScore": 1,
+        "result": "2-1",
         "extraTime": false,
         "penalties": null,
         "stadium": "Toronto Stadium",
@@ -31724,9 +31825,435 @@
         "city": "Toronto",
         "country": "Canada",
         "attendance": null,
-        "referee": null,
-        "weather": null,
-        "stageNormalized": "round_of_32"
+        "referee": {
+          "name": "Espen Eskas",
+          "country": null
+        },
+        "weather": {
+          "tempC": 28.8,
+          "humidityPct": 67,
+          "precipitationMm": 0,
+          "windKmh": 16.1,
+          "code": 3
+        },
+        "lineups": {
+          "home": [
+            {
+              "player": "Diogo Costa",
+              "number": 1,
+              "position": "G",
+              "starter": true
+            },
+            {
+              "player": "João Cancelo",
+              "number": 20,
+              "position": "D",
+              "starter": true
+            },
+            {
+              "player": "Rúben Dias",
+              "number": 3,
+              "position": "D",
+              "starter": true
+            },
+            {
+              "player": "Renato Veiga",
+              "number": 13,
+              "position": "D",
+              "starter": true
+            },
+            {
+              "player": "Nuno Mendes",
+              "number": 25,
+              "position": "D",
+              "starter": true
+            },
+            {
+              "player": "João Neves",
+              "number": 15,
+              "position": "M",
+              "starter": true
+            },
+            {
+              "player": "Vitinha",
+              "number": 23,
+              "position": "M",
+              "starter": true
+            },
+            {
+              "player": "Pedro Neto",
+              "number": 18,
+              "position": "M",
+              "starter": true
+            },
+            {
+              "player": "Bruno Fernandes",
+              "number": 8,
+              "position": "M",
+              "starter": true
+            },
+            {
+              "player": "Rafael Leão",
+              "number": 17,
+              "position": "M",
+              "starter": true
+            },
+            {
+              "player": "Cristiano Ronaldo",
+              "number": 7,
+              "position": "F",
+              "starter": true
+            },
+            {
+              "player": "José Sá",
+              "number": 12,
+              "position": "G",
+              "starter": false
+            },
+            {
+              "player": "Rui Silva",
+              "number": 22,
+              "position": "G",
+              "starter": false
+            },
+            {
+              "player": "Tomás Araújo",
+              "number": 4,
+              "position": "D",
+              "starter": false
+            },
+            {
+              "player": "Nélson Semedo",
+              "number": 2,
+              "position": "D",
+              "starter": false
+            },
+            {
+              "player": "Matheus Nunes",
+              "number": 6,
+              "position": "M",
+              "starter": false
+            },
+            {
+              "player": "Gonçalo Inácio",
+              "number": 14,
+              "position": "D",
+              "starter": false
+            },
+            {
+              "player": "Diogo Dalot",
+              "number": 5,
+              "position": "D",
+              "starter": false
+            },
+            {
+              "player": "Francisco Trincão",
+              "number": 16,
+              "position": "F",
+              "starter": false
+            },
+            {
+              "player": "Gonçalo Guedes",
+              "number": 19,
+              "position": "F",
+              "starter": false
+            },
+            {
+              "player": "Bernardo Silva",
+              "number": 10,
+              "position": "M",
+              "starter": false
+            },
+            {
+              "player": "Rúben Neves",
+              "number": 21,
+              "position": "M",
+              "starter": false
+            },
+            {
+              "player": "Samú Costa",
+              "number": 24,
+              "position": "M",
+              "starter": false
+            },
+            {
+              "player": "Francisco Conceição",
+              "number": 26,
+              "position": "F",
+              "starter": false
+            },
+            {
+              "player": "Gonçalo Ramos",
+              "number": 9,
+              "position": "F",
+              "starter": false
+            },
+            {
+              "player": "João Félix",
+              "number": 11,
+              "position": "F",
+              "starter": false
+            }
+          ],
+          "away": [
+            {
+              "player": "Dominik Livaković",
+              "number": 1,
+              "position": "G",
+              "starter": true
+            },
+            {
+              "player": "Josip Stanišić",
+              "number": 2,
+              "position": "D",
+              "starter": true
+            },
+            {
+              "player": "Josip Šutalo",
+              "number": 6,
+              "position": "D",
+              "starter": true
+            },
+            {
+              "player": "Marin Pongračić",
+              "number": 3,
+              "position": "D",
+              "starter": true
+            },
+            {
+              "player": "Ivan Perišić",
+              "number": 14,
+              "position": "D",
+              "starter": true
+            },
+            {
+              "player": "Luka Modrić",
+              "number": 10,
+              "position": "M",
+              "starter": true
+            },
+            {
+              "player": "Mateo Kovačić",
+              "number": 8,
+              "position": "M",
+              "starter": true
+            },
+            {
+              "player": "Nikola Vlašić",
+              "number": 13,
+              "position": "M",
+              "starter": true
+            },
+            {
+              "player": "Petar Sučić",
+              "number": 17,
+              "position": "M",
+              "starter": true
+            },
+            {
+              "player": "Martin Baturina",
+              "number": 16,
+              "position": "M",
+              "starter": true
+            },
+            {
+              "player": "Ante Budimir",
+              "number": 11,
+              "position": "F",
+              "starter": true
+            },
+            {
+              "player": "Ivor Pandur",
+              "number": 12,
+              "position": "G",
+              "starter": false
+            },
+            {
+              "player": "Dominik Kotarski",
+              "number": 23,
+              "position": "G",
+              "starter": false
+            },
+            {
+              "player": "Joško Gvardiol",
+              "number": 4,
+              "position": "D",
+              "starter": false
+            },
+            {
+              "player": "Duje Ćaleta-Car",
+              "number": 5,
+              "position": "D",
+              "starter": false
+            },
+            {
+              "player": "Luka Vušković",
+              "number": 22,
+              "position": "D",
+              "starter": false
+            },
+            {
+              "player": "Martin Erlić",
+              "number": 25,
+              "position": "D",
+              "starter": false
+            },
+            {
+              "player": "Nikola Moro",
+              "number": 7,
+              "position": "M",
+              "starter": false
+            },
+            {
+              "player": "Mario Pašalić",
+              "number": 15,
+              "position": "M",
+              "starter": false
+            },
+            {
+              "player": "Marco Pašalić",
+              "number": 24,
+              "position": "F",
+              "starter": false
+            },
+            {
+              "player": "Toni Fruk",
+              "number": 19,
+              "position": "M",
+              "starter": false
+            },
+            {
+              "player": "Luka Sučić",
+              "number": 21,
+              "position": "M",
+              "starter": false
+            },
+            {
+              "player": "Kristijan Jakić",
+              "number": 18,
+              "position": "M",
+              "starter": false
+            },
+            {
+              "player": "Andrej Kramarić",
+              "number": 9,
+              "position": "F",
+              "starter": false
+            },
+            {
+              "player": "Igor Matanović",
+              "number": 20,
+              "position": "F",
+              "starter": false
+            },
+            {
+              "player": "Petar Musa",
+              "number": 26,
+              "position": "F",
+              "starter": false
+            }
+          ]
+        },
+        "formations": {
+          "home": "4-2-3-1",
+          "away": "4-2-3-1"
+        },
+        "status": "finished",
+        "liveMinute": null,
+        "liveMinuteAt": null,
+        "livePhase": null,
+        "clockSource": "apifootball",
+        "clockSourceAt": "2026-07-03T02:51:22.311Z",
+        "goals": [
+          {
+            "minute": 53,
+            "team": "away",
+            "scorer": "I. Perisic",
+            "type": "normal",
+            "provisional": true
+          },
+          {
+            "minute": 68,
+            "team": "home",
+            "scorer": "C. Ronaldo",
+            "type": "penalty",
+            "provisional": true
+          },
+          {
+            "minute": 90,
+            "addedMinute": 4,
+            "team": "home",
+            "scorer": "G. Ramos",
+            "assist": "R. Leao",
+            "type": "normal",
+            "provisional": true
+          }
+        ],
+        "cards": [
+          {
+            "minute": 17,
+            "team": "home",
+            "player": "R. Dias",
+            "color": "yellow"
+          },
+          {
+            "minute": 59,
+            "team": "away",
+            "player": "L. Modric",
+            "color": "yellow"
+          },
+          {
+            "minute": 90,
+            "team": "away",
+            "player": "I. Perisic",
+            "color": "yellow"
+          }
+        ],
+        "statistics": {
+          "home": {
+            "possessionPct": 61,
+            "shotsTotal": 15,
+            "shotsOnGoal": 3,
+            "shotsOffGoal": 8,
+            "shotsBlocked": 4,
+            "shotsInsideBox": 10,
+            "shotsOutsideBox": 5,
+            "corners": 9,
+            "offsides": 1,
+            "fouls": 6,
+            "yellowCards": 1,
+            "redCards": null,
+            "goalkeeperSaves": 5,
+            "passesTotal": 584,
+            "passesAccurate": 532,
+            "passesPct": 91,
+            "expectedGoals": 2.18
+          },
+          "away": {
+            "possessionPct": 39,
+            "shotsTotal": 13,
+            "shotsOnGoal": 6,
+            "shotsOffGoal": 5,
+            "shotsBlocked": 2,
+            "shotsInsideBox": 10,
+            "shotsOutsideBox": 3,
+            "corners": 5,
+            "offsides": 4,
+            "fouls": 12,
+            "yellowCards": 2,
+            "redCards": null,
+            "goalkeeperSaves": 2,
+            "passesTotal": 368,
+            "passesAccurate": 311,
+            "passesPct": 85,
+            "expectedGoals": 1.34
+          }
+        },
+        "stageNormalized": "round_of_32",
+        "fairPlay": {
+          "home": -1,
+          "away": -2
+        }
       },
       {
         "id": "2026-084",
@@ -31740,9 +32267,9 @@
         "awayTeam": "Austria",
         "homeRef": "1H",
         "awayRef": "2J",
-        "homeScore": null,
-        "awayScore": null,
-        "result": null,
+        "homeScore": 3,
+        "awayScore": 0,
+        "result": "3-0",
         "extraTime": false,
         "penalties": null,
         "stadium": "Los Angeles Stadium",
@@ -31750,17 +32277,417 @@
         "city": "Inglewood",
         "country": "United States",
         "attendance": null,
-        "referee": null,
-        "weather": null,
-        "status": "live",
+        "referee": {
+          "name": "Glenn Nyberg",
+          "country": null
+        },
+        "weather": {
+          "tempC": 21.2,
+          "humidityPct": 73,
+          "precipitationMm": 0,
+          "windKmh": 8.9,
+          "code": 3
+        },
+        "status": "finished",
         "liveMinute": null,
         "liveMinuteAt": null,
-        "clockSource": "wikipedia",
-        "clockSourceAt": "2026-07-02T19:26:26.436Z",
+        "clockSource": "apifootball",
+        "clockSourceAt": "2026-07-02T23:00:29.461Z",
+        "livePhase": null,
+        "goals": [
+          {
+            "minute": 36,
+            "team": "home",
+            "scorer": "M. Oyarzabal",
+            "provisional": true
+          },
+          {
+            "minute": 66,
+            "team": "home",
+            "scorer": "P. Porro",
+            "provisional": true
+          },
+          {
+            "minute": 89,
+            "team": "home",
+            "scorer": "M. Oyarzabal",
+            "provisional": true
+          }
+        ],
+        "cards": [
+          {
+            "minute": 83,
+            "team": "away",
+            "player": "S. Posch",
+            "color": "yellow"
+          }
+        ],
+        "lineups": {
+          "home": [
+            {
+              "player": "Unai Simón",
+              "number": 23,
+              "position": "G",
+              "starter": true
+            },
+            {
+              "player": "Pedro Porro",
+              "number": 12,
+              "position": "D",
+              "starter": true
+            },
+            {
+              "player": "Pau Cubarsí",
+              "number": 22,
+              "position": "D",
+              "starter": true
+            },
+            {
+              "player": "Aymeric Laporte",
+              "number": 14,
+              "position": "D",
+              "starter": true
+            },
+            {
+              "player": "Marc Cucurella",
+              "number": 24,
+              "position": "D",
+              "starter": true
+            },
+            {
+              "player": "Rodri",
+              "number": 16,
+              "position": "M",
+              "starter": true
+            },
+            {
+              "player": "Pedri",
+              "number": 20,
+              "position": "M",
+              "starter": true
+            },
+            {
+              "player": "Lamine Yamal",
+              "number": 19,
+              "position": "M",
+              "starter": true
+            },
+            {
+              "player": "Dani Olmo",
+              "number": 10,
+              "position": "M",
+              "starter": true
+            },
+            {
+              "player": "Alex Baena",
+              "number": 15,
+              "position": "M",
+              "starter": true
+            },
+            {
+              "player": "Mikel Oyarzabal",
+              "number": 21,
+              "position": "F",
+              "starter": true
+            },
+            {
+              "player": "Mikel Merino",
+              "number": 6,
+              "position": "M",
+              "starter": false
+            },
+            {
+              "player": "Ferran Torres",
+              "number": 7,
+              "position": "F",
+              "starter": false
+            },
+            {
+              "player": "Pablo Gavi",
+              "number": 9,
+              "position": "M",
+              "starter": false
+            },
+            {
+              "player": "Marc Pubill",
+              "number": 2,
+              "position": "D",
+              "starter": false
+            },
+            {
+              "player": "Fabián Ruiz",
+              "number": 8,
+              "position": "M",
+              "starter": false
+            },
+            {
+              "player": "David Raya",
+              "number": 1,
+              "position": "G",
+              "starter": false
+            },
+            {
+              "player": "Joan García",
+              "number": 13,
+              "position": "G",
+              "starter": false
+            },
+            {
+              "player": "Eric García",
+              "number": 4,
+              "position": "D",
+              "starter": false
+            },
+            {
+              "player": "Marcos Llorente",
+              "number": 5,
+              "position": "M",
+              "starter": false
+            },
+            {
+              "player": "Alejandro Grimaldo",
+              "number": 3,
+              "position": "D",
+              "starter": false
+            },
+            {
+              "player": "Martín Zubimendi",
+              "number": 18,
+              "position": "M",
+              "starter": false
+            },
+            {
+              "player": "Nico Williams",
+              "number": 17,
+              "position": "F",
+              "starter": false
+            },
+            {
+              "player": "Borja Iglesias",
+              "number": 26,
+              "position": "F",
+              "starter": false
+            },
+            {
+              "player": "Víctor Muñoz",
+              "number": 25,
+              "position": "F",
+              "starter": false
+            },
+            {
+              "player": "Yéremy Pino",
+              "number": 11,
+              "position": "M",
+              "starter": false
+            }
+          ],
+          "away": [
+            {
+              "player": "Alexander Schlager",
+              "number": 1,
+              "position": "G",
+              "starter": true
+            },
+            {
+              "player": "Stefan Posch",
+              "number": 5,
+              "position": "D",
+              "starter": true
+            },
+            {
+              "player": "Kevin Danso",
+              "number": 3,
+              "position": "D",
+              "starter": true
+            },
+            {
+              "player": "David Alaba",
+              "number": 8,
+              "position": "D",
+              "starter": true
+            },
+            {
+              "player": "Konrad Laimer",
+              "number": 20,
+              "position": "D",
+              "starter": true
+            },
+            {
+              "player": "Nicolas Seiwald",
+              "number": 6,
+              "position": "M",
+              "starter": true
+            },
+            {
+              "player": "Xaver Schlager",
+              "number": 4,
+              "position": "M",
+              "starter": true
+            },
+            {
+              "player": "Romano Schmid",
+              "number": 18,
+              "position": "M",
+              "starter": true
+            },
+            {
+              "player": "Paul Wanner",
+              "number": 24,
+              "position": "M",
+              "starter": true
+            },
+            {
+              "player": "Marcel Sabitzer",
+              "number": 9,
+              "position": "M",
+              "starter": true
+            },
+            {
+              "player": "Michael Gregoritsch",
+              "number": 11,
+              "position": "F",
+              "starter": true
+            },
+            {
+              "player": "Carney Chukwuemeka",
+              "number": 17,
+              "position": "M",
+              "starter": false
+            },
+            {
+              "player": "Florian Grillitsch",
+              "number": 10,
+              "position": "M",
+              "starter": false
+            },
+            {
+              "player": "Marko Arnautović",
+              "number": 7,
+              "position": "F",
+              "starter": false
+            },
+            {
+              "player": "Saša Kalajdžić",
+              "number": 14,
+              "position": "F",
+              "starter": false
+            },
+            {
+              "player": "Alexander Prass",
+              "number": 22,
+              "position": "D",
+              "starter": false
+            },
+            {
+              "player": "Florian Wiegele",
+              "number": 12,
+              "position": "G",
+              "starter": false
+            },
+            {
+              "player": "Patrick Pentz",
+              "number": 13,
+              "position": "G",
+              "starter": false
+            },
+            {
+              "player": "David Affengruber",
+              "number": 2,
+              "position": "D",
+              "starter": false
+            },
+            {
+              "player": "Marco Friedl",
+              "number": 23,
+              "position": "D",
+              "starter": false
+            },
+            {
+              "player": "Michael Svoboda",
+              "number": 25,
+              "position": "D",
+              "starter": false
+            },
+            {
+              "player": "Philipp Lienhart",
+              "number": 15,
+              "position": "D",
+              "starter": false
+            },
+            {
+              "player": "Dejan Ljubičić",
+              "number": 19,
+              "position": "M",
+              "starter": false
+            },
+            {
+              "player": "Alessandro Schöpf",
+              "number": 26,
+              "position": "M",
+              "starter": false
+            },
+            {
+              "player": "Patrick Wimmer",
+              "number": 21,
+              "position": "M",
+              "starter": false
+            },
+            {
+              "player": "Phillipp Mwene",
+              "number": 16,
+              "position": "D",
+              "starter": false
+            }
+          ]
+        },
+        "formations": {
+          "home": "4-2-3-1",
+          "away": "4-2-3-1"
+        },
+        "statistics": {
+          "home": {
+            "possessionPct": 65,
+            "shotsTotal": 23,
+            "shotsOnGoal": 10,
+            "shotsOffGoal": 6,
+            "shotsBlocked": 7,
+            "shotsInsideBox": 15,
+            "shotsOutsideBox": 8,
+            "corners": 9,
+            "offsides": 2,
+            "fouls": 8,
+            "yellowCards": 0,
+            "redCards": null,
+            "goalkeeperSaves": 0,
+            "passesTotal": 629,
+            "passesAccurate": 570,
+            "passesPct": 91,
+            "expectedGoals": 2.84
+          },
+          "away": {
+            "possessionPct": 35,
+            "shotsTotal": 5,
+            "shotsOnGoal": 0,
+            "shotsOffGoal": 4,
+            "shotsBlocked": 1,
+            "shotsInsideBox": 4,
+            "shotsOutsideBox": 1,
+            "corners": 0,
+            "offsides": 5,
+            "fouls": 15,
+            "yellowCards": 1,
+            "redCards": null,
+            "goalkeeperSaves": 6,
+            "passesTotal": 346,
+            "passesAccurate": 284,
+            "passesPct": 82,
+            "expectedGoals": 0.32
+          }
+        },
         "stageNormalized": "round_of_32",
-        "liveDataLocked": {
-          "reason": "live_data_is_pro",
-          "message": "Live in-match data (score, goals, cards, substitutions) is a Pro-tier feature. This match is in progress — upgrade at https://api.zafronix.com/pricing to read live tournament data."
+        "fairPlay": {
+          "home": 0,
+          "away": -1
         }
       },
       {
@@ -31787,7 +32714,321 @@
         "attendance": null,
         "referee": null,
         "weather": null,
-        "stageNormalized": "round_of_32"
+        "status": "live",
+        "liveMinute": null,
+        "liveMinuteAt": null,
+        "clockSource": "wikipedia",
+        "clockSourceAt": "2026-07-03T03:22:55.994Z",
+        "lineups": {
+          "home": [
+            {
+              "player": "Gregor Kobel",
+              "number": 1,
+              "position": "G",
+              "starter": true
+            },
+            {
+              "player": "Denis Zakaria",
+              "number": 6,
+              "position": "D",
+              "starter": true
+            },
+            {
+              "player": "Nico Elvedi",
+              "number": 4,
+              "position": "D",
+              "starter": true
+            },
+            {
+              "player": "Manuel Akanji",
+              "number": 5,
+              "position": "D",
+              "starter": true
+            },
+            {
+              "player": "Ricardo Rodríguez",
+              "number": 13,
+              "position": "D",
+              "starter": true
+            },
+            {
+              "player": "Remo Freuler",
+              "number": 8,
+              "position": "M",
+              "starter": true
+            },
+            {
+              "player": "Granit Xhaka",
+              "number": 10,
+              "position": "M",
+              "starter": true
+            },
+            {
+              "player": "Dan Ndoye",
+              "number": 11,
+              "position": "M",
+              "starter": true
+            },
+            {
+              "player": "Johan Manzambi",
+              "number": 9,
+              "position": "M",
+              "starter": true
+            },
+            {
+              "player": "Rubén Vargas",
+              "number": 17,
+              "position": "M",
+              "starter": true
+            },
+            {
+              "player": "Breel Embolo",
+              "number": 7,
+              "position": "F",
+              "starter": true
+            },
+            {
+              "player": "Yvon Mvogo",
+              "number": 12,
+              "position": "G",
+              "starter": false
+            },
+            {
+              "player": "Marvin Keller",
+              "number": 21,
+              "position": "G",
+              "starter": false
+            },
+            {
+              "player": "Eray Cömert",
+              "number": 18,
+              "position": "D",
+              "starter": false
+            },
+            {
+              "player": "Aurèle Amenda",
+              "number": 24,
+              "position": "D",
+              "starter": false
+            },
+            {
+              "player": "Silvan Widmer",
+              "number": 3,
+              "position": "D",
+              "starter": false
+            },
+            {
+              "player": "Miro Muheim",
+              "number": 2,
+              "position": "D",
+              "starter": false
+            },
+            {
+              "player": "Christian Fassnacht",
+              "number": 16,
+              "position": "M",
+              "starter": false
+            },
+            {
+              "player": "Ardon Jashari",
+              "number": 14,
+              "position": "M",
+              "starter": false
+            },
+            {
+              "player": "Djibril Sow",
+              "number": 15,
+              "position": "M",
+              "starter": false
+            },
+            {
+              "player": "Fabian Rieder",
+              "number": 22,
+              "position": "M",
+              "starter": false
+            },
+            {
+              "player": "Michel Aebischer",
+              "number": 20,
+              "position": "M",
+              "starter": false
+            },
+            {
+              "player": "Cédric Itten",
+              "number": 26,
+              "position": "F",
+              "starter": false
+            },
+            {
+              "player": "Noah Okafor",
+              "number": 19,
+              "position": "F",
+              "starter": false
+            },
+            {
+              "player": "Zeki Amdouni",
+              "number": 23,
+              "position": "F",
+              "starter": false
+            }
+          ],
+          "away": [
+            {
+              "player": "Luca Zidane",
+              "number": 23,
+              "position": "G",
+              "starter": true
+            },
+            {
+              "player": "Rafik Belghali",
+              "number": 17,
+              "position": "D",
+              "starter": true
+            },
+            {
+              "player": "Aïssa Mandi",
+              "number": 2,
+              "position": "D",
+              "starter": true
+            },
+            {
+              "player": "Ramy Bensebaini",
+              "number": 21,
+              "position": "D",
+              "starter": true
+            },
+            {
+              "player": "Rayan Aït-Nouri",
+              "number": 15,
+              "position": "D",
+              "starter": true
+            },
+            {
+              "player": "Ramiz Zerrouki",
+              "number": 6,
+              "position": "M",
+              "starter": true
+            },
+            {
+              "player": "Nabil Bentaleb",
+              "number": 19,
+              "position": "M",
+              "starter": true
+            },
+            {
+              "player": "Riyad Mahrez",
+              "number": 7,
+              "position": "M",
+              "starter": true
+            },
+            {
+              "player": "Houssem Aouar",
+              "number": 8,
+              "position": "M",
+              "starter": true
+            },
+            {
+              "player": "Farès Chaïbi",
+              "number": 10,
+              "position": "M",
+              "starter": true
+            },
+            {
+              "player": "Ibrahim Maza",
+              "number": 22,
+              "position": "F",
+              "starter": true
+            },
+            {
+              "player": "Melvin Mastil",
+              "number": 1,
+              "position": "G",
+              "starter": false
+            },
+            {
+              "player": "Oussama Benbot",
+              "number": 16,
+              "position": "G",
+              "starter": false
+            },
+            {
+              "player": "Achref Abada",
+              "number": 3,
+              "position": "D",
+              "starter": false
+            },
+            {
+              "player": "Mohamed Tougai",
+              "number": 4,
+              "position": "D",
+              "starter": false
+            },
+            {
+              "player": "Zineddine Belaid",
+              "number": 5,
+              "position": "D",
+              "starter": false
+            },
+            {
+              "player": "Jaouen Hadjam",
+              "number": 13,
+              "position": "D",
+              "starter": false
+            },
+            {
+              "player": "Samir Sophian Chergui",
+              "number": 26,
+              "position": "D",
+              "starter": false
+            },
+            {
+              "player": "Adil Boulbina",
+              "number": 20,
+              "position": "F",
+              "starter": false
+            },
+            {
+              "player": "Anis Hadj Moussa",
+              "number": 11,
+              "position": "F",
+              "starter": false
+            },
+            {
+              "player": "Hicham Boudaoui",
+              "number": 14,
+              "position": "M",
+              "starter": false
+            },
+            {
+              "player": "Yassine Titraoui",
+              "number": 24,
+              "position": "M",
+              "starter": false
+            },
+            {
+              "player": "Amine Gouiri",
+              "number": 9,
+              "position": "F",
+              "starter": false
+            },
+            {
+              "player": "Farès Ghedjemis",
+              "number": 25,
+              "position": "F",
+              "starter": false
+            }
+          ]
+        },
+        "formations": {
+          "home": "4-2-3-1",
+          "away": "4-2-3-1"
+        },
+        "livePhase": "1H",
+        "stageNormalized": "round_of_32",
+        "liveDataLocked": {
+          "reason": "live_data_is_pro",
+          "message": "Live in-match data (score, goals, cards, substitutions) is a Pro-tier feature. This match is in progress — upgrade at https://api.zafronix.com/pricing to read live tournament data."
+        }
       },
       {
         "id": "2026-086",

@@ -1,5 +1,5 @@
 {
-  "savedAt": 1783020406273,
+  "savedAt": 1783049127449,
   "data": [
     {
       "name": "Mexico",
@@ -9309,7 +9309,8 @@
             "country": ""
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": null,
@@ -10807,7 +10808,7 @@
             "name": "Tottenham Hotspur",
             "country": "England"
           },
-          "goals": 0,
+          "goals": 1,
           "captain": false
         },
         {
@@ -10965,7 +10966,7 @@
             "name": "Real Sociedad",
             "country": "Spain"
           },
-          "goals": 2,
+          "goals": 4,
           "captain": false
         },
         {
@@ -12696,7 +12697,8 @@
             "country": "France"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": 9,
@@ -14542,7 +14544,7 @@
           },
           "goals": 0,
           "captain": false,
-          "yellowCards": 1
+          "yellowCards": 2
         },
         {
           "jersey": 6,
@@ -15287,7 +15289,8 @@
             "country": "England"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": null,
@@ -15485,7 +15488,7 @@
             "name": "Al-Nassr",
             "country": "Saudi Arabia"
           },
-          "goals": 2,
+          "goals": 3,
           "captain": true
         },
         {
@@ -15512,7 +15515,8 @@
             "country": "Italy"
           },
           "goals": 1,
-          "captain": false
+          "captain": false,
+          "assists": 1
         },
         {
           "jersey": null,
@@ -15537,7 +15541,7 @@
             "name": "Paris Saint-Germain",
             "country": "France"
           },
-          "goals": 0,
+          "goals": 1,
           "captain": false
         },
         {
@@ -17270,7 +17274,8 @@
             "country": "Italy"
           },
           "goals": 0,
-          "captain": true
+          "captain": true,
+          "yellowCards": 1
         },
         {
           "jersey": null,
@@ -17400,9 +17405,9 @@
             "name": "PSV Eindhoven",
             "country": "Netherlands"
           },
-          "goals": 0,
+          "goals": 1,
           "captain": false,
-          "yellowCards": 1
+          "yellowCards": 2
         },
         {
           "jersey": null,
