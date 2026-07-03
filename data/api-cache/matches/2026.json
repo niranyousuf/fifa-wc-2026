@@ -1,5 +1,5 @@
 {
-  "savedAt": 1783070447881,
+  "savedAt": 1783087729012,
   "data": {
     "year": 2026,
     "count": 104,
@@ -9138,7 +9138,7 @@
           "humidityPct": 82,
           "precipitationMm": 30.2,
           "windKmh": 13.9,
-          "code": 95
+          "code": 82
         },
         "goals": [
           {
@@ -24913,7 +24913,7 @@
           "humidityPct": 56,
           "precipitationMm": 2.6,
           "windKmh": 2.2,
-          "code": 95
+          "code": 81
         },
         "goals": [
           {
@@ -26052,7 +26052,7 @@
           "humidityPct": 78,
           "precipitationMm": 0,
           "windKmh": 13.1,
-          "code": 95
+          "code": 3
         },
         "goals": [
           {
