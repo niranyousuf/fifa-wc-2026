@@ -1,5 +1,5 @@
 {
-  "savedAt": 1783172203732,
+  "savedAt": 1783192576720,
   "data": {
     "year": 2026,
     "count": 104,
@@ -34470,6 +34470,323 @@
         "attendance": null,
         "referee": null,
         "weather": null,
+        "lineups": {
+          "home": [
+            {
+              "player": "Maxime Crépeau",
+              "number": 16,
+              "position": "G",
+              "starter": true
+            },
+            {
+              "player": "Alistair Johnston",
+              "number": 2,
+              "position": "D",
+              "starter": true
+            },
+            {
+              "player": "Luc De Fougerolles",
+              "number": 4,
+              "position": "D",
+              "starter": true
+            },
+            {
+              "player": "Moise Bombito",
+              "number": 15,
+              "position": "D",
+              "starter": true
+            },
+            {
+              "player": "Richie Laryea",
+              "number": 22,
+              "position": "D",
+              "starter": true
+            },
+            {
+              "player": "Tajon Buchanan",
+              "number": 17,
+              "position": "M",
+              "starter": true
+            },
+            {
+              "player": "Niko Sigur",
+              "number": 23,
+              "position": "M",
+              "starter": true
+            },
+            {
+              "player": "Stephen Eustaquio",
+              "number": 7,
+              "position": "M",
+              "starter": true
+            },
+            {
+              "player": "Ali Ahmed",
+              "number": 20,
+              "position": "M",
+              "starter": true
+            },
+            {
+              "player": "Jonathan David",
+              "number": 10,
+              "position": "F",
+              "starter": true
+            },
+            {
+              "player": "Tani Oluwaseyi",
+              "number": 12,
+              "position": "F",
+              "starter": true
+            },
+            {
+              "player": "Owen Goodman",
+              "number": 18,
+              "position": "G",
+              "starter": false
+            },
+            {
+              "player": "Dayne St. Clair",
+              "number": 1,
+              "position": "G",
+              "starter": false
+            },
+            {
+              "player": "Joel Waterman",
+              "number": 5,
+              "position": "D",
+              "starter": false
+            },
+            {
+              "player": "Alphonso Davies",
+              "number": 19,
+              "position": "D",
+              "starter": false
+            },
+            {
+              "player": "Alfie Jones",
+              "number": 3,
+              "position": "D",
+              "starter": false
+            },
+            {
+              "player": "Derek Cornelius",
+              "number": 13,
+              "position": "D",
+              "starter": false
+            },
+            {
+              "player": "Jonathan Osorio",
+              "number": 21,
+              "position": "M",
+              "starter": false
+            },
+            {
+              "player": "Mathieu Choinière",
+              "number": 6,
+              "position": "M",
+              "starter": false
+            },
+            {
+              "player": "Jacob Shaffelburg",
+              "number": 14,
+              "position": "F",
+              "starter": false
+            },
+            {
+              "player": "Nathan-Dylan Saliba",
+              "number": 25,
+              "position": "M",
+              "starter": false
+            },
+            {
+              "player": "Liam Millar",
+              "number": 11,
+              "position": "F",
+              "starter": false
+            },
+            {
+              "player": "Promise David",
+              "number": 24,
+              "position": "F",
+              "starter": false
+            },
+            {
+              "player": "Cyle Larin",
+              "number": 9,
+              "position": "F",
+              "starter": false
+            },
+            {
+              "player": "Jayden Nelson",
+              "number": 26,
+              "position": "F",
+              "starter": false
+            }
+          ],
+          "away": [
+            {
+              "player": "Yassine Bounou",
+              "number": 1,
+              "position": "G",
+              "starter": true
+            },
+            {
+              "player": "Achraf Hakimi",
+              "number": 2,
+              "position": "D",
+              "starter": true
+            },
+            {
+              "player": "Issa Diop",
+              "number": 14,
+              "position": "D",
+              "starter": true
+            },
+            {
+              "player": "Redouane Halhal",
+              "number": 25,
+              "position": "D",
+              "starter": true
+            },
+            {
+              "player": "Noussair Mazraoui",
+              "number": 3,
+              "position": "D",
+              "starter": true
+            },
+            {
+              "player": "Ayyoub Bouaddi",
+              "number": 6,
+              "position": "M",
+              "starter": true
+            },
+            {
+              "player": "Neil El Aynaoui",
+              "number": 24,
+              "position": "M",
+              "starter": true
+            },
+            {
+              "player": "Brahim Díaz",
+              "number": 10,
+              "position": "M",
+              "starter": true
+            },
+            {
+              "player": "Azzedine Ounahi",
+              "number": 8,
+              "position": "M",
+              "starter": true
+            },
+            {
+              "player": "Bilal El Khannouss",
+              "number": 23,
+              "position": "M",
+              "starter": true
+            },
+            {
+              "player": "Ismael Saibari",
+              "number": 11,
+              "position": "F",
+              "starter": true
+            },
+            {
+              "player": "Munir El Kajoui",
+              "number": 12,
+              "position": "G",
+              "starter": false
+            },
+            {
+              "player": "Ahmed Reda Tagnaouti",
+              "number": 22,
+              "position": "G",
+              "starter": false
+            },
+            {
+              "player": "Anass Salah-Eddine",
+              "number": 26,
+              "position": "D",
+              "starter": false
+            },
+            {
+              "player": "Marwane Saadane",
+              "number": 5,
+              "position": "D",
+              "starter": false
+            },
+            {
+              "player": "Zakaria El Ouahdi",
+              "number": 13,
+              "position": "D",
+              "starter": false
+            },
+            {
+              "player": "Youssef Belammari",
+              "number": 19,
+              "position": "D",
+              "starter": false
+            },
+            {
+              "player": "Chadi Riad",
+              "number": 18,
+              "position": "D",
+              "starter": false
+            },
+            {
+              "player": "Amine Sbai",
+              "number": 17,
+              "position": "F",
+              "starter": false
+            },
+            {
+              "player": "Sofyan Amrabat",
+              "number": 4,
+              "position": "M",
+              "starter": false
+            },
+            {
+              "player": "Samir El Mourabet",
+              "number": 15,
+              "position": "M",
+              "starter": false
+            },
+            {
+              "player": "Chemsdine Talbi",
+              "number": 7,
+              "position": "F",
+              "starter": false
+            },
+            {
+              "player": "Gessime Yassine",
+              "number": 16,
+              "position": "F",
+              "starter": false
+            },
+            {
+              "player": "Ayoub El Kaabi",
+              "number": 20,
+              "position": "F",
+              "starter": false
+            },
+            {
+              "player": "Soufiane Rahimi",
+              "number": 9,
+              "position": "F",
+              "starter": false
+            },
+            {
+              "player": "Ayoube Amaimouni Echghouyab",
+              "number": 21,
+              "position": "F",
+              "starter": false
+            }
+          ]
+        },
+        "formations": {
+          "home": "4-4-2",
+          "away": "4-2-3-1"
+        },
+        "status": "scheduled",
         "stageNormalized": "round_of_16"
       },
       {
