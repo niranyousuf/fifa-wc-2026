@@ -1,5 +1,5 @@
 {
-  "savedAt": 1783106730557,
+  "savedAt": 1783135154010,
   "data": [
     {
       "name": "Mexico",
@@ -9596,7 +9596,7 @@
           },
           "goals": 0,
           "captain": false,
-          "yellowCards": 1
+          "yellowCards": 2
         },
         {
           "jersey": 3,
@@ -9673,7 +9673,7 @@
             "name": "Al Ahly",
             "country": "Egypt"
           },
-          "goals": 1,
+          "goals": 2,
           "captain": false
         },
         {
@@ -9726,7 +9726,8 @@
             "country": "Spain"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": 13,
@@ -11225,7 +11226,7 @@
             "name": "Benfica",
             "country": ""
           },
-          "goals": 0,
+          "goals": 1,
           "captain": false,
           "yellowCards": 2
         },
@@ -11278,7 +11279,7 @@
             "name": "Ludogorets Razgrad",
             "country": "Bulgaria"
           },
-          "goals": 0,
+          "goals": 1,
           "captain": false
         },
         {
@@ -11318,7 +11319,8 @@
             "country": ""
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "assists": 1
         },
         {
           "jersey": null,
@@ -11331,7 +11333,8 @@
             "country": "Turkey"
           },
           "goals": 0,
-          "captain": true
+          "captain": true,
+          "assists": 1
         },
         {
           "jersey": null,
@@ -13777,7 +13780,8 @@
             "country": "Argentina"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": 5,
@@ -13855,8 +13859,9 @@
             "name": "Inter Miami CF",
             "country": "United States"
           },
-          "goals": 6,
-          "captain": true
+          "goals": 7,
+          "captain": true,
+          "assists": 0
         },
         {
           "jersey": 11,
@@ -13986,7 +13991,8 @@
             "country": "England"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "assists": 1
         },
         {
           "jersey": 21,
