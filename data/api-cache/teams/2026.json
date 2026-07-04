@@ -1,5 +1,5 @@
 {
-  "savedAt": 1783135154010,
+  "savedAt": 1783154367484,
   "data": [
     {
       "name": "Mexico",
@@ -16579,8 +16579,9 @@
             "name": "Palmeiras",
             "country": "Brazil"
           },
-          "goals": 0,
-          "captain": false
+          "goals": 1,
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": null,
@@ -16593,7 +16594,8 @@
             "country": ""
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": null,
@@ -16698,7 +16700,8 @@
             "country": ""
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "assists": 1
         },
         {
           "jersey": null,
@@ -17542,7 +17545,8 @@
             "country": "France"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": 3,
@@ -17556,7 +17560,7 @@
           },
           "goals": 1,
           "captain": false,
-          "yellowCards": 1
+          "yellowCards": 2
         },
         {
           "jersey": 4,
@@ -17608,7 +17612,8 @@
             "country": "England"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": 8,

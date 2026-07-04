@@ -1,5 +1,5 @@
 {
-  "savedAt": 1783135154221,
+  "savedAt": 1783154367610,
   "data": {
     "year": 2026,
     "count": 104,
@@ -33133,7 +33133,13 @@
           "name": "Drew Fischer",
           "country": null
         },
-        "weather": null,
+        "weather": {
+          "tempC": 27.7,
+          "humidityPct": 76,
+          "precipitationMm": 0,
+          "windKmh": 12.1,
+          "code": 2
+        },
         "lineups": {
           "home": [
             {
@@ -33570,9 +33576,9 @@
         "awayTeam": "Ghana",
         "homeRef": "1K",
         "awayRef": "3DEIJL",
-        "homeScore": null,
-        "awayScore": null,
-        "result": null,
+        "homeScore": 1,
+        "awayScore": 0,
+        "result": "1-0",
         "extraTime": false,
         "penalties": null,
         "stadium": "Kansas City Stadium",
@@ -33580,8 +33586,17 @@
         "city": "Kansas City",
         "country": "United States",
         "attendance": null,
-        "referee": null,
-        "weather": null,
+        "referee": {
+          "name": "Clement Turpin",
+          "country": null
+        },
+        "weather": {
+          "tempC": 31,
+          "humidityPct": 59,
+          "precipitationMm": 0,
+          "windKmh": 13.7,
+          "code": 0
+        },
         "lineups": {
           "home": [
             {
@@ -33904,16 +33919,98 @@
           "home": "4-3-3",
           "away": "4-1-4-1"
         },
-        "status": "live",
+        "status": "finished",
         "liveMinute": null,
         "liveMinuteAt": null,
-        "clockSource": "wikipedia",
-        "clockSourceAt": "2026-07-04T03:18:54.351Z",
-        "livePhase": "1H",
+        "clockSource": "apifootball",
+        "clockSourceAt": "2026-07-04T03:42:27.055Z",
+        "goals": [
+          {
+            "minute": 14,
+            "team": "home",
+            "scorer": "J. Arias",
+            "assist": "L. Suarez",
+            "type": "normal",
+            "provisional": true
+          }
+        ],
+        "livePhase": null,
+        "cards": [
+          {
+            "minute": 12,
+            "team": "home",
+            "player": "J. Arias",
+            "color": "yellow"
+          },
+          {
+            "minute": 49,
+            "team": "away",
+            "player": "C. Yirenkyi",
+            "color": "yellow"
+          },
+          {
+            "minute": 66,
+            "team": "away",
+            "player": "I. Fatawu",
+            "color": "yellow"
+          },
+          {
+            "minute": 76,
+            "team": "away",
+            "player": "A. Seidu",
+            "color": "yellow"
+          },
+          {
+            "minute": 78,
+            "team": "home",
+            "player": "R. Rios",
+            "color": "yellow"
+          }
+        ],
+        "statistics": {
+          "home": {
+            "possessionPct": 61,
+            "shotsTotal": 20,
+            "shotsOnGoal": 8,
+            "shotsOffGoal": 8,
+            "shotsBlocked": 4,
+            "shotsInsideBox": 12,
+            "shotsOutsideBox": 8,
+            "corners": 3,
+            "offsides": 2,
+            "fouls": 14,
+            "yellowCards": 2,
+            "redCards": null,
+            "goalkeeperSaves": 0,
+            "passesTotal": 586,
+            "passesAccurate": 532,
+            "passesPct": 91,
+            "expectedGoals": 2.18
+          },
+          "away": {
+            "possessionPct": 39,
+            "shotsTotal": 8,
+            "shotsOnGoal": 0,
+            "shotsOffGoal": 3,
+            "shotsBlocked": 5,
+            "shotsInsideBox": 2,
+            "shotsOutsideBox": 6,
+            "corners": 2,
+            "offsides": 0,
+            "fouls": 10,
+            "yellowCards": 3,
+            "redCards": null,
+            "goalkeeperSaves": 7,
+            "passesTotal": 376,
+            "passesAccurate": 312,
+            "passesPct": 83,
+            "expectedGoals": 0.26
+          }
+        },
         "stageNormalized": "round_of_32",
-        "liveDataLocked": {
-          "reason": "live_data_is_pro",
-          "message": "Live in-match data (score, goals, cards, substitutions) is a Pro-tier feature. This match is in progress — upgrade at https://api.zafronix.com/pricing to read live tournament data."
+        "fairPlay": {
+          "home": -2,
+          "away": -3
         }
       },
       {
