@@ -1,5 +1,5 @@
 {
-  "savedAt": 1783241705447,
+  "savedAt": 1783258964505,
   "data": [
     {
       "name": "Mexico",
@@ -953,7 +953,7 @@
           },
           "goals": 0,
           "captain": false,
-          "yellowCards": 0
+          "yellowCards": 1
         },
         {
           "jersey": null,
@@ -1588,7 +1588,8 @@
             "country": ""
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": null,
@@ -1683,7 +1684,7 @@
           },
           "goals": 0,
           "captain": false,
-          "yellowCards": 1
+          "yellowCards": 2
         },
         {
           "jersey": null,
@@ -1894,7 +1895,7 @@
           },
           "goals": 2,
           "captain": false,
-          "yellowCards": 1
+          "yellowCards": 2
         },
         {
           "jersey": null,
@@ -1907,7 +1908,8 @@
             "country": "Italy"
           },
           "goals": 3,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": null,
@@ -3563,7 +3565,8 @@
             "country": "France"
           },
           "goals": 1,
-          "captain": true
+          "captain": true,
+          "yellowCards": 1
         },
         {
           "jersey": null,
@@ -3668,7 +3671,8 @@
             "country": ""
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": null,
@@ -3693,8 +3697,9 @@
             "name": "Girona",
             "country": "Spain"
           },
-          "goals": 0,
-          "captain": false
+          "goals": 2,
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": null,
@@ -3707,7 +3712,8 @@
             "country": "Germany"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": null,
@@ -3797,7 +3803,7 @@
             "name": "Al Ain",
             "country": "United Arab Emirates"
           },
-          "goals": 1,
+          "goals": 2,
           "captain": false
         },
         {
@@ -12298,7 +12304,8 @@
             "country": "Italy"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": 7,
@@ -12350,7 +12357,7 @@
             "name": "Real Madrid",
             "country": "Spain"
           },
-          "goals": 6,
+          "goals": 7,
           "captain": true
         },
         {
@@ -12364,7 +12371,8 @@
             "country": "Germany"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": 12,
@@ -12377,7 +12385,8 @@
             "country": "France"
           },
           "goals": 2,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": 13,
@@ -13807,9 +13816,9 @@
             "name": "Manchester United",
             "country": "England"
           },
-          "goals": 1,
+          "goals": 0,
           "captain": false,
-          "assists": 1
+          "assists": 0
         },
         {
           "jersey": 7,

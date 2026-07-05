@@ -1,5 +1,5 @@
 {
-  "savedAt": 1783241705568,
+  "savedAt": 1783258964657,
   "data": {
     "year": 2026,
     "count": 104,
@@ -34428,8 +34428,8 @@
         "kickoffUtc": "2026-07-04T21:00:00.000Z",
         "timezone": "us_east",
         "stage": "r16",
-        "homeTeam": null,
-        "awayTeam": null,
+        "homeTeam": "Paraguay",
+        "awayTeam": "France",
         "homeRef": "W74",
         "awayRef": "W77",
         "homeScore": 0,
@@ -34441,10 +34441,10 @@
         "stadiumId": "lincoln-financial-field",
         "city": "Philadelphia",
         "country": "United States",
-        "attendance": null,
+        "attendance": 68324,
         "referee": {
           "name": "Ilgiz Tantashev",
-          "country": null
+          "country": "Uzbekistan"
         },
         "weather": {
           "tempC": 37.4,
@@ -34458,28 +34458,28 @@
           {
             "minute": 70,
             "team": "away",
-            "scorer": "K. Mbappe",
-            "type": "penalty",
-            "provisional": true
+            "scorer": "Mbappé 70' pen",
+            "type": "penalty"
           }
         ],
         "cards": [
           {
             "minute": 19,
             "team": "away",
-            "player": "B. Barcola",
+            "player": "Bradley Barcola",
             "color": "yellow"
           },
           {
             "minute": 81,
             "team": "away",
-            "player": "M. Kone",
+            "player": "Manu Koné",
             "color": "yellow"
           },
           {
             "minute": 90,
+            "addedMinute": 7,
             "team": "away",
-            "player": "M. Olise",
+            "player": "Michael Olise",
             "color": "yellow"
           }
         ],
@@ -34488,157 +34488,92 @@
             {
               "player": "Orlando Gill",
               "number": 12,
-              "position": "G",
-              "starter": true
-            },
-            {
-              "player": "Juan Cáceres",
-              "number": 4,
-              "position": "D",
+              "position": "GK",
               "starter": true
             },
             {
               "player": "Gustavo Velázquez",
               "number": 2,
-              "position": "D",
+              "position": "CB",
               "starter": true
             },
             {
               "player": "Gustavo Gómez",
               "number": 15,
-              "position": "D",
-              "starter": true
+              "position": "CB",
+              "starter": true,
+              "captain": true
             },
             {
               "player": "Omar Alderete",
               "number": 3,
-              "position": "D",
+              "position": "CB",
               "starter": true
             },
             {
-              "player": "Junior Alonso",
+              "player": "Juan José Cáceres",
+              "number": 4,
+              "position": "RWB",
+              "starter": true
+            },
+            {
+              "player": "Júnior Alonso",
               "number": 6,
-              "position": "D",
+              "position": "LWB",
               "starter": true
             },
             {
               "player": "Miguel Almirón",
               "number": 10,
-              "position": "M",
+              "position": "RM",
               "starter": true
             },
             {
               "player": "Diego Gómez",
               "number": 8,
-              "position": "M",
+              "position": "CM",
               "starter": true
             },
             {
               "player": "Andrés Cubas",
               "number": 14,
-              "position": "M",
+              "position": "CM",
               "starter": true
             },
             {
               "player": "Matías Galarza",
               "number": 23,
-              "position": "M",
+              "position": "LM",
               "starter": true
             },
             {
               "player": "Julio Enciso",
               "number": 19,
-              "position": "F",
+              "position": "CF",
               "starter": true
             },
             {
               "player": "José Canale",
               "number": 13,
-              "position": "D",
+              "position": "DF",
               "starter": false
             },
             {
               "player": "Gustavo Caballero",
               "number": 24,
-              "position": "F",
-              "starter": false
-            },
-            {
-              "player": "Mauricio",
-              "number": 11,
-              "position": "M",
+              "position": "MF",
               "starter": false
             },
             {
               "player": "Gabriel Ávalos",
               "number": 21,
-              "position": "F",
+              "position": "FW",
               "starter": false
             },
             {
-              "player": "Gastón Olveira",
-              "number": 22,
-              "position": "G",
-              "starter": false
-            },
-            {
-              "player": "Roberto Fernández",
-              "number": 1,
-              "position": "G",
-              "starter": false
-            },
-            {
-              "player": "Fabián Balbuena",
-              "number": 5,
-              "position": "D",
-              "starter": false
-            },
-            {
-              "player": "Alexandro Maidana",
-              "number": 26,
-              "position": "D",
-              "starter": false
-            },
-            {
-              "player": "Damián Bobadilla",
-              "number": 16,
-              "position": "M",
-              "starter": false
-            },
-            {
-              "player": "Braian Ojeda",
-              "number": 20,
-              "position": "M",
-              "starter": false
-            },
-            {
-              "player": "Alejandro Romero",
-              "number": 17,
-              "position": "M",
-              "starter": false
-            },
-            {
-              "player": "Ramón Sosa",
-              "number": 7,
-              "position": "F",
-              "starter": false
-            },
-            {
-              "player": "Antonio Sanabria",
-              "number": 9,
-              "position": "F",
-              "starter": false
-            },
-            {
-              "player": "Alex Arce",
-              "number": 18,
-              "position": "F",
-              "starter": false
-            },
-            {
-              "player": "Isidro Pitta",
-              "number": 25,
-              "position": "F",
+              "player": "Maurício",
+              "number": 11,
+              "position": "MF",
               "starter": false
             }
           ],
@@ -34646,164 +34581,87 @@
             {
               "player": "Mike Maignan",
               "number": 16,
-              "position": "G",
+              "position": "GK",
               "starter": true
             },
             {
               "player": "Jules Koundé",
               "number": 5,
-              "position": "D",
+              "position": "RB",
               "starter": true
             },
             {
               "player": "Dayot Upamecano",
               "number": 4,
-              "position": "D",
+              "position": "CB",
               "starter": true
             },
             {
               "player": "William Saliba",
               "number": 17,
-              "position": "D",
+              "position": "CB",
               "starter": true
             },
             {
               "player": "Lucas Digne",
               "number": 3,
-              "position": "D",
+              "position": "LB",
               "starter": true
             },
             {
               "player": "Manu Koné",
               "number": 6,
-              "position": "M",
+              "position": "CM",
               "starter": true
             },
             {
               "player": "Adrien Rabiot",
               "number": 14,
-              "position": "M",
+              "position": "CM",
               "starter": true
             },
             {
               "player": "Ousmane Dembélé",
               "number": 7,
-              "position": "M",
+              "position": "RW",
               "starter": true
             },
             {
               "player": "Michael Olise",
               "number": 11,
-              "position": "M",
+              "position": "AM",
               "starter": true
             },
             {
               "player": "Bradley Barcola",
               "number": 12,
-              "position": "M",
+              "position": "LW",
               "starter": true
             },
             {
               "player": "Kylian Mbappé",
               "number": 10,
-              "position": "F",
-              "starter": true
+              "position": "CF",
+              "starter": true,
+              "captain": true
             },
             {
               "player": "Désiré Doué",
               "number": 20,
-              "position": "F",
+              "position": "FW",
               "starter": false
             },
             {
               "player": "Rayan Cherki",
               "number": 24,
-              "position": "M",
-              "starter": false
-            },
-            {
-              "player": "Robin Risser",
-              "number": 23,
-              "position": "G",
-              "starter": false
-            },
-            {
-              "player": "Brice Samba",
-              "number": 1,
-              "position": "G",
-              "starter": false
-            },
-            {
-              "player": "Malo Gusto",
-              "number": 2,
-              "position": "D",
-              "starter": false
-            },
-            {
-              "player": "Ibrahima Konaté",
-              "number": 15,
-              "position": "D",
-              "starter": false
-            },
-            {
-              "player": "Theo Hernández",
-              "number": 19,
-              "position": "D",
-              "starter": false
-            },
-            {
-              "player": "Lucas Hernández",
-              "number": 21,
-              "position": "D",
-              "starter": false
-            },
-            {
-              "player": "Maxence Lacroix",
-              "number": 26,
-              "position": "D",
-              "starter": false
-            },
-            {
-              "player": "Aurélien Tchouaméni",
-              "number": 8,
-              "position": "M",
-              "starter": false
-            },
-            {
-              "player": "N'Golo Kanté",
-              "number": 13,
-              "position": "M",
-              "starter": false
-            },
-            {
-              "player": "Warren Zaïre-Emery",
-              "number": 18,
-              "position": "M",
-              "starter": false
-            },
-            {
-              "player": "Maghnes Akliouche",
-              "number": 25,
-              "position": "M",
-              "starter": false
-            },
-            {
-              "player": "Marcus Thuram",
-              "number": 9,
-              "position": "F",
-              "starter": false
-            },
-            {
-              "player": "Jean-Philippe Mateta",
-              "number": 22,
-              "position": "F",
+              "position": "MF",
               "starter": false
             }
           ]
         },
         "formations": {
           "home": "5-4-1",
-          "away": "4-2-3-1"
+          "away": "4-5-1"
         },
         "statistics": {
           "home": {
@@ -34850,6 +34708,48 @@
         "livePhase": null,
         "clockSource": "apifootball",
         "clockSourceAt": "2026-07-05T01:00:46.382Z",
+        "substitutions": [
+          {
+            "minute": 58,
+            "team": "home",
+            "on": "José Canale",
+            "off": "Omar Alderete"
+          },
+          {
+            "minute": 61,
+            "team": "home",
+            "on": "Gustavo Caballero",
+            "off": "Julio Enciso"
+          },
+          {
+            "minute": 61,
+            "team": "away",
+            "on": "Désiré Doué",
+            "off": "Bradley Barcola"
+          },
+          {
+            "minute": 71,
+            "team": "home",
+            "on": "Gabriel Ávalos",
+            "off": "Miguel Almirón"
+          },
+          {
+            "minute": 71,
+            "team": "home",
+            "on": "Maurício",
+            "off": "Diego Gómez"
+          },
+          {
+            "minute": 84,
+            "team": "away",
+            "on": "Rayan Cherki",
+            "off": "Ousmane Dembélé"
+          }
+        ],
+        "managers": {
+          "home": "Gustavo Alfaro",
+          "away": "Didier Deschamps"
+        },
         "stageNormalized": "round_of_16",
         "fairPlay": {
           "home": 0,
@@ -34864,8 +34764,8 @@
         "kickoffUtc": "2026-07-04T17:00:00.000Z",
         "timezone": "us_central",
         "stage": "r16",
-        "homeTeam": null,
-        "awayTeam": null,
+        "homeTeam": "Canada",
+        "awayTeam": "Morocco",
         "homeRef": "W73",
         "awayRef": "W75",
         "homeScore": 0,
@@ -34877,10 +34777,10 @@
         "stadiumId": "nrg-stadium",
         "city": "Houston",
         "country": "United States",
-        "attendance": null,
+        "attendance": 68777,
         "referee": {
           "name": "Michael Oliver",
-          "country": null
+          "country": "England"
         },
         "weather": {
           "tempC": 33.8,
@@ -34894,151 +34794,98 @@
             {
               "player": "Maxime Crépeau",
               "number": 16,
-              "position": "G",
+              "position": "GK",
               "starter": true
             },
             {
               "player": "Alistair Johnston",
               "number": 2,
-              "position": "D",
+              "position": "RB",
               "starter": true
             },
             {
-              "player": "Luc De Fougerolles",
-              "number": 4,
-              "position": "D",
-              "starter": true
-            },
-            {
-              "player": "Moise Bombito",
+              "player": "Moïse Bombito",
               "number": 15,
-              "position": "D",
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Luc de Fougerolles",
+              "number": 4,
+              "position": "CB",
               "starter": true
             },
             {
               "player": "Richie Laryea",
               "number": 22,
-              "position": "D",
+              "position": "LB",
               "starter": true
             },
             {
               "player": "Tajon Buchanan",
               "number": 17,
-              "position": "M",
+              "position": "RM",
               "starter": true
             },
             {
               "player": "Niko Sigur",
               "number": 23,
-              "position": "M",
+              "position": "CM",
               "starter": true
             },
             {
-              "player": "Stephen Eustaquio",
+              "player": "Stephen Eustáquio",
               "number": 7,
-              "position": "M",
-              "starter": true
+              "position": "CM",
+              "starter": true,
+              "captain": true
             },
             {
               "player": "Ali Ahmed",
               "number": 20,
-              "position": "M",
+              "position": "LM",
               "starter": true
             },
             {
               "player": "Jonathan David",
               "number": 10,
-              "position": "F",
+              "position": "CF",
               "starter": true
             },
             {
               "player": "Tani Oluwaseyi",
               "number": 12,
-              "position": "F",
+              "position": "CF",
               "starter": true
             },
             {
-              "player": "Owen Goodman",
-              "number": 18,
-              "position": "G",
-              "starter": false
-            },
-            {
-              "player": "Dayne St. Clair",
-              "number": 1,
-              "position": "G",
-              "starter": false
-            },
-            {
-              "player": "Joel Waterman",
-              "number": 5,
-              "position": "D",
-              "starter": false
-            },
-            {
-              "player": "Alphonso Davies",
-              "number": 19,
-              "position": "D",
-              "starter": false
-            },
-            {
-              "player": "Alfie Jones",
-              "number": 3,
-              "position": "D",
-              "starter": false
-            },
-            {
-              "player": "Derek Cornelius",
-              "number": 13,
-              "position": "D",
-              "starter": false
-            },
-            {
-              "player": "Jonathan Osorio",
-              "number": 21,
-              "position": "M",
-              "starter": false
-            },
-            {
-              "player": "Mathieu Choinière",
-              "number": 6,
-              "position": "M",
-              "starter": false
-            },
-            {
-              "player": "Jacob Shaffelburg",
-              "number": 14,
-              "position": "F",
-              "starter": false
-            },
-            {
-              "player": "Nathan-Dylan Saliba",
-              "number": 25,
-              "position": "M",
-              "starter": false
-            },
-            {
-              "player": "Liam Millar",
-              "number": 11,
-              "position": "F",
+              "player": "Cyle Larin",
+              "number": 9,
+              "position": "FW",
               "starter": false
             },
             {
               "player": "Promise David",
               "number": 24,
-              "position": "F",
+              "position": "FW",
               "starter": false
             },
             {
-              "player": "Cyle Larin",
-              "number": 9,
-              "position": "F",
+              "player": "Jacob Shaffelburg",
+              "number": 14,
+              "position": "MF",
               "starter": false
             },
             {
               "player": "Jayden Nelson",
               "number": 26,
-              "position": "F",
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Jonathan Osorio",
+              "number": 21,
+              "position": "MF",
               "starter": false
             }
           ],
@@ -35046,234 +34893,173 @@
             {
               "player": "Yassine Bounou",
               "number": 1,
-              "position": "G",
+              "position": "GK",
               "starter": true
             },
             {
               "player": "Achraf Hakimi",
               "number": 2,
-              "position": "D",
-              "starter": true
+              "position": "RB",
+              "starter": true,
+              "captain": true
             },
             {
               "player": "Issa Diop",
               "number": 14,
-              "position": "D",
+              "position": "CB",
               "starter": true
             },
             {
               "player": "Redouane Halhal",
               "number": 25,
-              "position": "D",
+              "position": "CB",
               "starter": true
             },
             {
               "player": "Noussair Mazraoui",
               "number": 3,
-              "position": "D",
+              "position": "LB",
               "starter": true
             },
             {
               "player": "Ayyoub Bouaddi",
               "number": 6,
-              "position": "M",
+              "position": "CM",
               "starter": true
             },
             {
               "player": "Neil El Aynaoui",
               "number": 24,
-              "position": "M",
+              "position": "CM",
               "starter": true
             },
             {
               "player": "Brahim Díaz",
               "number": 10,
-              "position": "M",
+              "position": "RW",
               "starter": true
             },
             {
               "player": "Azzedine Ounahi",
               "number": 8,
-              "position": "M",
+              "position": "AM",
               "starter": true
             },
             {
               "player": "Bilal El Khannouss",
               "number": 23,
-              "position": "M",
+              "position": "LW",
               "starter": true
             },
             {
               "player": "Ismael Saibari",
               "number": 11,
-              "position": "F",
+              "position": "CF",
               "starter": true
             },
             {
-              "player": "Munir El Kajoui",
-              "number": 12,
-              "position": "G",
-              "starter": false
-            },
-            {
-              "player": "Ahmed Reda Tagnaouti",
-              "number": 22,
-              "position": "G",
-              "starter": false
-            },
-            {
-              "player": "Anass Salah-Eddine",
-              "number": 26,
-              "position": "D",
-              "starter": false
-            },
-            {
-              "player": "Marwane Saadane",
-              "number": 5,
-              "position": "D",
-              "starter": false
-            },
-            {
-              "player": "Zakaria El Ouahdi",
-              "number": 13,
-              "position": "D",
-              "starter": false
-            },
-            {
-              "player": "Youssef Belammari",
-              "number": 19,
-              "position": "D",
-              "starter": false
-            },
-            {
-              "player": "Chadi Riad",
-              "number": 18,
-              "position": "D",
-              "starter": false
-            },
-            {
-              "player": "Amine Sbai",
-              "number": 17,
-              "position": "F",
-              "starter": false
-            },
-            {
-              "player": "Sofyan Amrabat",
-              "number": 4,
-              "position": "M",
-              "starter": false
-            },
-            {
-              "player": "Samir El Mourabet",
-              "number": 15,
-              "position": "M",
+              "player": "Soufiane Rahimi",
+              "number": 9,
+              "position": "FW",
               "starter": false
             },
             {
               "player": "Chemsdine Talbi",
               "number": 7,
-              "position": "F",
+              "position": "MF",
               "starter": false
             },
             {
-              "player": "Gessime Yassine",
-              "number": 16,
-              "position": "F",
+              "player": "Sofyan Amrabat",
+              "number": 4,
+              "position": "MF",
               "starter": false
             },
             {
-              "player": "Ayoub El Kaabi",
-              "number": 20,
-              "position": "F",
+              "player": "Marwane Saâdane",
+              "number": 5,
+              "position": "DF",
               "starter": false
             },
             {
-              "player": "Soufiane Rahimi",
-              "number": 9,
-              "position": "F",
-              "starter": false
-            },
-            {
-              "player": "Ayoube Amaimouni Echghouyab",
-              "number": 21,
-              "position": "F",
+              "player": "Samir El Mourabet",
+              "number": 15,
+              "position": "MF",
               "starter": false
             }
           ]
         },
         "formations": {
           "home": "4-4-2",
-          "away": "4-2-3-1"
+          "away": "4-5-1"
         },
         "status": "finished",
         "goals": [
           {
             "minute": 50,
             "team": "away",
-            "scorer": "A. Ounahi",
-            "provisional": true
+            "scorer": "Ounahi"
           },
           {
             "minute": 82,
             "team": "away",
-            "scorer": "A. Ounahi",
-            "provisional": true
+            "scorer": "Ounahi"
           },
           {
             "minute": 90,
             "addedMinute": 8,
             "team": "away",
-            "scorer": "S. Rahimi",
-            "provisional": true
+            "scorer": "Rahimi"
           }
         ],
         "cards": [
           {
             "minute": 20,
             "team": "away",
-            "player": "R. Halhal",
+            "player": "Redouane Halhal",
             "color": "yellow"
           },
           {
             "minute": 40,
             "team": "away",
-            "player": "A. Hakimi",
+            "player": "Achraf Hakimi",
             "color": "yellow"
           },
           {
             "minute": 40,
             "team": "home",
-            "player": "R. Laryea",
+            "player": "Richie Laryea",
             "color": "yellow"
           },
           {
             "minute": 43,
             "team": "home",
-            "player": "J. David",
+            "player": "Jonathan David",
             "color": "yellow"
           },
           {
             "minute": 45,
             "team": "away",
-            "player": "A. Ounahi",
+            "player": "Azzedine Ounahi",
             "color": "yellow"
           },
           {
             "minute": 45,
+            "addedMinute": 6,
             "team": "away",
-            "player": "B. El Khannouss",
+            "player": "Bilal El Khannouss",
             "color": "yellow"
           },
           {
             "minute": 49,
             "team": "home",
-            "player": "L. De Fougerolles",
+            "player": "Luc de Fougerolles",
             "color": "yellow"
           },
           {
             "minute": 67,
             "team": "home",
-            "player": "C. Larin",
+            "player": "Cyle Larin",
             "color": "yellow"
           }
         ],
@@ -35322,6 +35108,72 @@
         "livePhase": null,
         "clockSource": "apifootball",
         "clockSourceAt": "2026-07-04T21:00:20.343Z",
+        "substitutions": [
+          {
+            "minute": 22,
+            "team": "away",
+            "on": "Soufiane Rahimi",
+            "off": "Ismael Saibari"
+          },
+          {
+            "minute": 63,
+            "team": "home",
+            "on": "Cyle Larin",
+            "off": "Tani Oluwaseyi"
+          },
+          {
+            "minute": 63,
+            "team": "away",
+            "on": "Chemsdine Talbi",
+            "off": "Ayyoub Bouaddi"
+          },
+          {
+            "minute": 63,
+            "team": "away",
+            "on": "Sofyan Amrabat",
+            "off": "Bilal El Khannouss"
+          },
+          {
+            "minute": 78,
+            "team": "home",
+            "on": "Promise David",
+            "off": "Richie Laryea"
+          },
+          {
+            "minute": 78,
+            "team": "home",
+            "on": "Jacob Shaffelburg",
+            "off": "Ali Ahmed"
+          },
+          {
+            "minute": 87,
+            "team": "home",
+            "on": "Jayden Nelson",
+            "off": "Tajon Buchanan"
+          },
+          {
+            "minute": 87,
+            "team": "home",
+            "on": "Jonathan Osorio",
+            "off": "Niko Sigur"
+          },
+          {
+            "minute": 87,
+            "team": "away",
+            "on": "Marwane Saâdane",
+            "off": "Issa Diop"
+          },
+          {
+            "minute": 87,
+            "team": "away",
+            "on": "Samir El Mourabet",
+            "off": "Azzedine Ounahi"
+          }
+        ],
+        "managers": {
+          "home": "Jesse Marsch",
+          "away": "Mohamed Ouahbi"
+        },
         "stageNormalized": "round_of_16",
         "fairPlay": {
           "home": -4,
@@ -35336,8 +35188,8 @@
         "kickoffUtc": "2026-07-05T20:00:00.000Z",
         "timezone": "us_east",
         "stage": "r16",
-        "homeTeam": null,
-        "awayTeam": null,
+        "homeTeam": "Brazil",
+        "awayTeam": "Norway",
         "homeRef": "W76",
         "awayRef": "W78",
         "homeScore": null,
@@ -35362,8 +35214,8 @@
         "kickoffUtc": "2026-07-06T00:00:00.000Z",
         "timezone": "mexico_city",
         "stage": "r16",
-        "homeTeam": null,
-        "awayTeam": null,
+        "homeTeam": "Mexico",
+        "awayTeam": "England",
         "homeRef": "W79",
         "awayRef": "W80",
         "homeScore": null,
@@ -35388,8 +35240,8 @@
         "kickoffUtc": "2026-07-06T19:00:00.000Z",
         "timezone": "us_central",
         "stage": "r16",
-        "homeTeam": null,
-        "awayTeam": null,
+        "homeTeam": "Portugal",
+        "awayTeam": "Spain",
         "homeRef": "W83",
         "awayRef": "W84",
         "homeScore": null,
@@ -35414,8 +35266,8 @@
         "kickoffUtc": "2026-07-07T00:00:00.000Z",
         "timezone": "us_pacific",
         "stage": "r16",
-        "homeTeam": null,
-        "awayTeam": null,
+        "homeTeam": "USA",
+        "awayTeam": "Belgium",
         "homeRef": "W81",
         "awayRef": "W82",
         "homeScore": null,
@@ -35440,8 +35292,8 @@
         "kickoffUtc": "2026-07-07T16:00:00.000Z",
         "timezone": "us_east",
         "stage": "r16",
-        "homeTeam": null,
-        "awayTeam": null,
+        "homeTeam": "Argentina",
+        "awayTeam": "Egypt",
         "homeRef": "W86",
         "awayRef": "W88",
         "homeScore": null,
@@ -35466,8 +35318,8 @@
         "kickoffUtc": "2026-07-07T20:00:00.000Z",
         "timezone": "vancouver",
         "stage": "r16",
-        "homeTeam": null,
-        "awayTeam": null,
+        "homeTeam": "Switzerland",
+        "awayTeam": "Colombia",
         "homeRef": "W85",
         "awayRef": "W87",
         "homeScore": null,
@@ -35492,8 +35344,8 @@
         "kickoffUtc": "2026-07-09T20:00:00.000Z",
         "timezone": "us_east",
         "stage": "qf",
-        "homeTeam": null,
-        "awayTeam": null,
+        "homeTeam": "France",
+        "awayTeam": "Morocco",
         "homeRef": "W89",
         "awayRef": "W90",
         "homeScore": null,
