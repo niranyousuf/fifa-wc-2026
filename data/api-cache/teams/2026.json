@@ -1,5 +1,5 @@
 {
-  "savedAt": 1783192576642,
+  "savedAt": 1783222503596,
   "data": [
     {
       "name": "Mexico",
@@ -953,7 +953,7 @@
           },
           "goals": 0,
           "captain": false,
-          "yellowCards": 1
+          "yellowCards": 0
         },
         {
           "jersey": null,
@@ -13807,8 +13807,9 @@
             "name": "Manchester United",
             "country": "England"
           },
-          "goals": 0,
-          "captain": false
+          "goals": 1,
+          "captain": false,
+          "assists": 1
         },
         {
           "jersey": 7,
