@@ -1,5 +1,5 @@
 {
-  "savedAt": 1783309324989,
+  "savedAt": 1783333563329,
   "data": [
     {
       "name": "Mexico",
@@ -50,7 +50,8 @@
             "country": "Greece"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": 3,
@@ -91,7 +92,8 @@
             "country": "Italy"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": 6,
@@ -142,7 +144,7 @@
             "name": "Fulham",
             "country": "England"
           },
-          "goals": 2,
+          "goals": 3,
           "captain": false
         },
         {
@@ -233,7 +235,7 @@
             "name": "Al-Qadsiah",
             "country": "Saudi Arabia"
           },
-          "goals": 3,
+          "goals": 4,
           "captain": false,
           "assists": 0
         },
@@ -11236,7 +11238,7 @@
             "name": "Benfica",
             "country": ""
           },
-          "goals": 0,
+          "goals": 1,
           "captain": false,
           "yellowCards": 2
         },
@@ -15013,7 +15015,7 @@
             "name": "Rennes",
             "country": "France"
           },
-          "goals": 1,
+          "goals": 2,
           "captain": false
         },
         {
@@ -16843,7 +16845,8 @@
             "country": "England"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": null,
@@ -16921,7 +16924,8 @@
             "country": "England"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": null,
@@ -16935,7 +16939,8 @@
           },
           "goals": 0,
           "captain": false,
-          "yellowCards": 1
+          "yellowCards": 1,
+          "redCards": 1
         },
         {
           "jersey": null,
@@ -16948,7 +16953,8 @@
             "country": "England"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": null,
@@ -16962,7 +16968,7 @@
           },
           "goals": 0,
           "captain": false,
-          "yellowCards": 1
+          "yellowCards": 2
         },
         {
           "jersey": null,
@@ -16974,7 +16980,7 @@
             "name": "Real Madrid",
             "country": "Spain"
           },
-          "goals": 2,
+          "goals": 4,
           "captain": false,
           "yellowCards": 1
         },
@@ -17027,8 +17033,9 @@
             "name": "Bayern Munich",
             "country": "Germany"
           },
-          "goals": 5,
-          "captain": true
+          "goals": 6,
+          "captain": true,
+          "assists": 0
         },
         {
           "jersey": null,
@@ -17054,7 +17061,8 @@
             "country": "England"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "assists": 0
         },
         {
           "jersey": null,

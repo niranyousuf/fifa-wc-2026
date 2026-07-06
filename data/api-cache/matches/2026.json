@@ -1,5 +1,5 @@
 {
-  "savedAt": 1783309325117,
+  "savedAt": 1783333563407,
   "data": {
     "year": 2026,
     "count": 104,
@@ -34891,9 +34891,9 @@
         "awayTeam": "England",
         "homeRef": "W79",
         "awayRef": "W80",
-        "homeScore": null,
-        "awayScore": null,
-        "result": null,
+        "homeScore": 2,
+        "awayScore": 3,
+        "result": "2-3",
         "extraTime": false,
         "penalties": null,
         "stadium": "Mexico City Stadium",
@@ -34912,6 +34912,35 @@
           "windKmh": 7.4,
           "code": 55
         },
+        "goals": [
+          {
+            "minute": 36,
+            "team": "away",
+            "scorer": "Bellingham"
+          },
+          {
+            "minute": 38,
+            "team": "away",
+            "scorer": "Bellingham"
+          },
+          {
+            "minute": 42,
+            "team": "home",
+            "scorer": "Quiñones"
+          },
+          {
+            "minute": 60,
+            "team": "away",
+            "scorer": "Kane 60' pen",
+            "type": "penalty"
+          },
+          {
+            "minute": 69,
+            "team": "home",
+            "scorer": "Jiménez 69' pen",
+            "type": "penalty"
+          }
+        ],
         "lineups": {
           "home": [
             {
@@ -35120,20 +35149,158 @@
           "home": "Javier Aguirre",
           "away": "Thomas Tuchel"
         },
-        "status": "live",
+        "status": "finished",
         "liveMinute": null,
-        "liveMinuteAt": "2026-07-06T03:02:42.000Z",
+        "liveMinuteAt": null,
         "clockSource": "apifootball",
-        "clockSourceAt": "2026-07-06T03:02:42.983Z",
-        "livePhase": "2H",
+        "clockSourceAt": "2026-07-06T04:03:07.063Z",
+        "livePhase": null,
+        "cards": [
+          {
+            "minute": 1,
+            "team": "away",
+            "player": "Declan Rice",
+            "color": "yellow"
+          },
+          {
+            "minute": 54,
+            "team": "away",
+            "player": "Jarell Quansah",
+            "color": "red"
+          },
+          {
+            "minute": 68,
+            "team": "away",
+            "player": "Marc Guéhi",
+            "color": "yellow"
+          },
+          {
+            "minute": 71,
+            "team": "home",
+            "player": "Jorge Sánchez",
+            "color": "yellow"
+          },
+          {
+            "minute": 72,
+            "team": "away",
+            "player": "Nico O'Reilly",
+            "color": "yellow"
+          },
+          {
+            "minute": 90,
+            "addedMinute": 8,
+            "team": "home",
+            "player": "Johan Vásquez",
+            "color": "yellow"
+          },
+          {
+            "minute": 90,
+            "addedMinute": 8,
+            "team": "away",
+            "player": "Jordan Henderson",
+            "color": "yellow"
+          }
+        ],
+        "substitutions": [
+          {
+            "minute": 46,
+            "team": "home",
+            "on": "Edson Álvarez",
+            "off": "César Montes"
+          },
+          {
+            "minute": 57,
+            "team": "away",
+            "on": "John Stones",
+            "off": "Bukayo Saka"
+          },
+          {
+            "minute": 61,
+            "team": "home",
+            "on": "Brian Gutiérrez",
+            "off": "Gilberto Mora"
+          },
+          {
+            "minute": 61,
+            "team": "home",
+            "on": "Santiago Giménez",
+            "off": "Luis Romo"
+          },
+          {
+            "minute": 75,
+            "team": "away",
+            "on": "Dan Burn",
+            "off": "Nico O'Reilly"
+          },
+          {
+            "minute": 75,
+            "team": "away",
+            "on": "Djed Spence",
+            "off": "Elliot Anderson"
+          },
+          {
+            "minute": 79,
+            "team": "home",
+            "on": "Álvaro Fidalgo",
+            "off": "Jorge Sánchez"
+          },
+          {
+            "minute": 81,
+            "team": "home",
+            "on": "Guillermo Martínez",
+            "off": "Julián Quiñones"
+          },
+          {
+            "minute": 90,
+            "team": "away",
+            "on": "Morgan Rogers",
+            "off": "Harry Kane"
+          }
+        ],
+        "statistics": {
+          "home": {
+            "possessionPct": 67,
+            "shotsTotal": 20,
+            "shotsOnGoal": 5,
+            "shotsOffGoal": 8,
+            "shotsBlocked": 7,
+            "shotsInsideBox": 12,
+            "shotsOutsideBox": 8,
+            "corners": 12,
+            "offsides": 1,
+            "fouls": 14,
+            "yellowCards": 2,
+            "redCards": 0,
+            "goalkeeperSaves": 2,
+            "passesTotal": 455,
+            "passesAccurate": 420,
+            "passesPct": 92,
+            "expectedGoals": 1.87
+          },
+          "away": {
+            "possessionPct": 33,
+            "shotsTotal": 6,
+            "shotsOnGoal": 5,
+            "shotsOffGoal": 1,
+            "shotsBlocked": 0,
+            "shotsInsideBox": 4,
+            "shotsOutsideBox": 2,
+            "corners": 2,
+            "offsides": 0,
+            "fouls": 7,
+            "yellowCards": 4,
+            "redCards": 1,
+            "goalkeeperSaves": 3,
+            "passesTotal": 244,
+            "passesAccurate": 195,
+            "passesPct": 80,
+            "expectedGoals": 1.55
+          }
+        },
         "stageNormalized": "round_of_16",
         "fairPlay": {
           "home": -2,
           "away": -8
-        },
-        "liveDataLocked": {
-          "reason": "live_data_is_pro",
-          "message": "Live in-match data (score, goals, cards, substitutions) is a Pro-tier feature. This match is in progress — upgrade at https://api.zafronix.com/pricing to read live tournament data."
         }
       },
       {
@@ -35300,8 +35467,8 @@
         "kickoffUtc": "2026-07-11T21:00:00.000Z",
         "timezone": "us_east",
         "stage": "qf",
-        "homeTeam": null,
-        "awayTeam": null,
+        "homeTeam": "Norway",
+        "awayTeam": "England",
         "homeRef": "W91",
         "awayRef": "W92",
         "homeScore": null,
