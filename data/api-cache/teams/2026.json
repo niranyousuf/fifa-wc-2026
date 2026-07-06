@@ -1,5 +1,5 @@
 {
-  "savedAt": 1783279200132,
+  "savedAt": 1783309324989,
   "data": [
     {
       "name": "Mexico",
@@ -235,7 +235,7 @@
           },
           "goals": 3,
           "captain": false,
-          "assists": 1
+          "assists": 0
         },
         {
           "jersey": 17,
@@ -353,7 +353,7 @@
           },
           "goals": 0,
           "captain": false,
-          "assists": 1
+          "assists": 0
         },
         {
           "jersey": 26,
@@ -2130,7 +2130,8 @@
             "country": "Croatia"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": null,
@@ -3200,7 +3201,7 @@
           },
           "goals": 0,
           "captain": false,
-          "yellowCards": 1
+          "yellowCards": 2
         },
         {
           "jersey": null,
@@ -3372,8 +3373,9 @@
             "name": "Santos",
             "country": "Brazil"
           },
-          "goals": 0,
-          "captain": false
+          "goals": 1,
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": null,
@@ -3831,7 +3833,7 @@
           },
           "goals": 0,
           "captain": false,
-          "assists": 1
+          "assists": 0
         },
         {
           "jersey": null,
@@ -7167,7 +7169,7 @@
           "goals": 2,
           "captain": false,
           "yellowCards": 1,
-          "assists": 1
+          "assists": 0
         },
         {
           "jersey": null,
@@ -7439,7 +7441,8 @@
             "country": "Argentina"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": 11,
@@ -7610,7 +7613,8 @@
             "country": "England"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": 24,
@@ -8028,7 +8032,7 @@
           "goals": 2,
           "captain": false,
           "yellowCards": 1,
-          "assists": 1
+          "assists": 0
         }
       ],
       "_squadFinalizedBy": "2026-05-26",
@@ -11232,7 +11236,7 @@
             "name": "Benfica",
             "country": ""
           },
-          "goals": 1,
+          "goals": 0,
           "captain": false,
           "yellowCards": 2
         },
@@ -11273,7 +11277,8 @@
             "country": "Russia"
           },
           "goals": 1,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": null,
@@ -11326,7 +11331,7 @@
           },
           "goals": 0,
           "captain": false,
-          "assists": 1
+          "assists": 0
         },
         {
           "jersey": null,
@@ -11340,7 +11345,7 @@
           },
           "goals": 0,
           "captain": true,
-          "assists": 1
+          "assists": 0
         },
         {
           "jersey": null,
@@ -13439,7 +13444,7 @@
           "goals": 0,
           "captain": false,
           "yellowCards": 1,
-          "assists": 1
+          "assists": 0
         },
         {
           "jersey": 7,
@@ -13477,7 +13482,7 @@
             "name": "Manchester City",
             "country": "England"
           },
-          "goals": 5,
+          "goals": 7,
           "captain": false
         },
         {
@@ -13492,7 +13497,7 @@
           },
           "goals": 0,
           "captain": true,
-          "assists": 1
+          "assists": 0
         },
         {
           "jersey": 11,
@@ -13816,7 +13821,7 @@
             "name": "Manchester United",
             "country": "England"
           },
-          "goals": 0,
+          "goals": 1,
           "captain": false,
           "assists": 0
         },
@@ -14002,7 +14007,7 @@
           },
           "goals": 0,
           "captain": false,
-          "assists": 1
+          "assists": 0
         },
         {
           "jersey": 21,
@@ -15534,7 +15539,7 @@
           },
           "goals": 1,
           "captain": false,
-          "assists": 1
+          "assists": 0
         },
         {
           "jersey": null,
@@ -15689,7 +15694,7 @@
           "goals": 0,
           "captain": true,
           "yellowCards": 1,
-          "assists": 1
+          "assists": 0
         },
         {
           "jersey": null,
@@ -16711,7 +16716,7 @@
           },
           "goals": 0,
           "captain": false,
-          "assists": 1
+          "assists": 0
         },
         {
           "jersey": null,
@@ -17076,7 +17081,7 @@
           },
           "goals": 0,
           "captain": false,
-          "assists": 1
+          "assists": 0
         },
         {
           "jersey": null,
