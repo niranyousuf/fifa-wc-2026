@@ -1,5 +1,5 @@
 {
-  "savedAt": 1783368000212,
+  "savedAt": 1783395228557,
   "data": {
     "year": 2026,
     "count": 104,
@@ -34906,10 +34906,10 @@
           "country": "Australia"
         },
         "weather": {
-          "tempC": 17.1,
-          "humidityPct": 86,
+          "tempC": 17,
+          "humidityPct": 88,
           "precipitationMm": 1.2,
-          "windKmh": 7.4,
+          "windKmh": 5.7,
           "code": 55
         },
         "goals": [
@@ -35315,18 +35315,27 @@
         "awayTeam": "Spain",
         "homeRef": "W83",
         "awayRef": "W84",
-        "homeScore": null,
-        "awayScore": null,
-        "result": null,
+        "homeScore": 0,
+        "awayScore": 1,
+        "result": "0-1",
         "extraTime": false,
         "penalties": null,
         "stadium": "Dallas Stadium",
         "stadiumId": "att-stadium",
         "city": "Arlington",
         "country": "United States",
-        "attendance": null,
-        "referee": null,
-        "weather": null,
+        "attendance": 70649,
+        "referee": {
+          "name": "Anthony Taylor",
+          "country": "England"
+        },
+        "weather": {
+          "tempC": 35.4,
+          "humidityPct": 42,
+          "precipitationMm": 0,
+          "windKmh": 3.4,
+          "code": 0
+        },
         "lineups": {
           "home": [
             {
@@ -35395,6 +35404,36 @@
               "position": "CF",
               "starter": true,
               "captain": true
+            },
+            {
+              "player": "Nélson Semedo",
+              "number": 2,
+              "position": "DF",
+              "starter": false
+            },
+            {
+              "player": "Rafael Leão",
+              "number": 17,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Diogo Dalot",
+              "number": 5,
+              "position": "DF",
+              "starter": false
+            },
+            {
+              "player": "Francisco Conceição",
+              "number": 26,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Bernardo Silva",
+              "number": 10,
+              "position": "MF",
+              "starter": false
             }
           ],
           "away": [
@@ -35464,6 +35503,30 @@
               "number": 15,
               "position": "LF",
               "starter": true
+            },
+            {
+              "player": "Ferran Torres",
+              "number": 7,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Mikel Merino",
+              "number": 6,
+              "position": "MF",
+              "starter": false
+            },
+            {
+              "player": "Fabián Ruiz",
+              "number": 8,
+              "position": "MF",
+              "starter": false
+            },
+            {
+              "player": "Borja Iglesias",
+              "number": 26,
+              "position": "FW",
+              "starter": false
             }
           ]
         },
@@ -35471,20 +35534,134 @@
           "home": "4-5-1",
           "away": "4-3-3"
         },
-        "status": "live",
+        "status": "finished",
+        "goals": [
+          {
+            "minute": 90,
+            "addedMinute": 1,
+            "team": "away",
+            "scorer": "Merino"
+          }
+        ],
         "managers": {
           "home": "Roberto Martínez",
           "away": "Luis de la Fuente"
         },
         "liveMinute": null,
         "liveMinuteAt": null,
-        "clockSource": "wikipedia",
-        "clockSourceAt": "2026-07-06T19:58:57.592Z",
-        "livePhase": "1H",
+        "clockSource": "apifootball",
+        "clockSourceAt": "2026-07-06T21:12:39.457Z",
+        "livePhase": null,
+        "cards": [
+          {
+            "minute": 89,
+            "team": "home",
+            "player": "Bernardo Silva",
+            "color": "yellow"
+          },
+          {
+            "minute": 90,
+            "addedMinute": 3,
+            "team": "home",
+            "player": "Renato Veiga",
+            "color": "yellow"
+          },
+          {
+            "minute": 90,
+            "addedMinute": 8,
+            "team": "away",
+            "player": "Ferran Torres",
+            "color": "yellow"
+          }
+        ],
+        "substitutions": [
+          {
+            "minute": 56,
+            "team": "home",
+            "on": "Nélson Semedo",
+            "off": "Nuno Mendes"
+          },
+          {
+            "minute": 71,
+            "team": "home",
+            "on": "Rafael Leão",
+            "off": "João Cancelo"
+          },
+          {
+            "minute": 71,
+            "team": "home",
+            "on": "Diogo Dalot",
+            "off": "João Félix"
+          },
+          {
+            "minute": 75,
+            "team": "away",
+            "on": "Ferran Torres",
+            "off": "Álex Baena"
+          },
+          {
+            "minute": 83,
+            "team": "home",
+            "on": "Francisco Conceição",
+            "off": "Vitinha"
+          },
+          {
+            "minute": 83,
+            "team": "home",
+            "on": "Bernardo Silva",
+            "off": "Pedro Neto"
+          },
+          {
+            "minute": 85,
+            "team": "away",
+            "on": "Mikel Merino",
+            "off": "Dani Olmo"
+          },
+          {
+            "minute": 85,
+            "team": "away",
+            "on": "Fabián Ruiz",
+            "off": "Pedri"
+          },
+          {
+            "minute": 90,
+            "team": "away",
+            "on": "Borja Iglesias",
+            "off": "Mikel Oyarzabal"
+          }
+        ],
+        "statistics": {
+          "home": {
+            "possessionPct": 44,
+            "shotsTotal": 9,
+            "shotsOnGoal": 2,
+            "shotsOffGoal": 4,
+            "shotsBlocked": 3,
+            "corners": 3,
+            "offsides": 2,
+            "fouls": 9,
+            "yellowCards": 2,
+            "redCards": 0,
+            "goalkeeperSaves": 5
+          },
+          "away": {
+            "possessionPct": 56,
+            "shotsTotal": 15,
+            "shotsOnGoal": 6,
+            "shotsOffGoal": 6,
+            "shotsBlocked": 3,
+            "corners": 7,
+            "offsides": 1,
+            "fouls": 13,
+            "yellowCards": 1,
+            "redCards": 0,
+            "goalkeeperSaves": 2
+          }
+        },
         "stageNormalized": "round_of_16",
-        "liveDataLocked": {
-          "reason": "live_data_is_pro",
-          "message": "Live in-match data (score, goals, cards, substitutions) is a Pro-tier feature. This match is in progress — upgrade at https://api.zafronix.com/pricing to read live tournament data."
+        "fairPlay": {
+          "home": -2,
+          "away": -1
         }
       },
       {
@@ -35499,19 +35676,398 @@
         "awayTeam": "Belgium",
         "homeRef": "W81",
         "awayRef": "W82",
-        "homeScore": null,
-        "awayScore": null,
-        "result": null,
+        "homeScore": 1,
+        "awayScore": 4,
+        "result": "1-4",
         "extraTime": false,
         "penalties": null,
         "stadium": "Seattle Stadium",
         "stadiumId": "lumen-field",
         "city": "Seattle",
         "country": "United States",
-        "attendance": null,
-        "referee": null,
-        "weather": null,
-        "stageNormalized": "round_of_16"
+        "attendance": 66925,
+        "referee": {
+          "name": "Adham Makhadmeh",
+          "country": "Jordan"
+        },
+        "weather": {
+          "tempC": 28,
+          "humidityPct": 40,
+          "precipitationMm": 0,
+          "windKmh": 10.5,
+          "code": 0
+        },
+        "goals": [
+          {
+            "minute": 9,
+            "team": "away",
+            "scorer": "De Ketelaere"
+          },
+          {
+            "minute": 31,
+            "team": "home",
+            "scorer": "Tillman"
+          },
+          {
+            "minute": 33,
+            "team": "away",
+            "scorer": "De Ketelaere"
+          },
+          {
+            "minute": 57,
+            "team": "away",
+            "scorer": "Vanaken"
+          },
+          {
+            "minute": 90,
+            "addedMinute": 3,
+            "team": "away",
+            "scorer": "Lukaku"
+          },
+          {
+            "minute": 90,
+            "addedMinute": 3,
+            "team": "away",
+            "scorer": "Unknown",
+            "type": "normal",
+            "provisional": true
+          }
+        ],
+        "lineups": {
+          "home": [
+            {
+              "player": "Matt Freese",
+              "number": 24,
+              "position": "GK",
+              "starter": true
+            },
+            {
+              "player": "Alex Freeman",
+              "number": 16,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Chris Richards",
+              "number": 3,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Tim Ream",
+              "number": 13,
+              "position": "CB",
+              "starter": true,
+              "captain": true
+            },
+            {
+              "player": "Sergiño Dest",
+              "number": 2,
+              "position": "RW",
+              "starter": true
+            },
+            {
+              "player": "Malik Tillman",
+              "number": 17,
+              "position": "RM",
+              "starter": true
+            },
+            {
+              "player": "Tyler Adams",
+              "number": 4,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Weston McKennie",
+              "number": 8,
+              "position": "LM",
+              "starter": true
+            },
+            {
+              "player": "Antonee Robinson",
+              "number": 5,
+              "position": "LW",
+              "starter": true
+            },
+            {
+              "player": "Christian Pulisic",
+              "number": 10,
+              "position": "CF",
+              "starter": true
+            },
+            {
+              "player": "Folarin Balogun",
+              "number": 20,
+              "position": "CF",
+              "starter": true
+            },
+            {
+              "player": "Giovanni Reyna",
+              "number": 7,
+              "position": "MF",
+              "starter": false
+            },
+            {
+              "player": "Sebastian Berhalter",
+              "number": 14,
+              "position": "MF",
+              "starter": false
+            },
+            {
+              "player": "Ricardo Pepi",
+              "number": 9,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Haji Wright",
+              "number": 19,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Max Arfsten",
+              "number": 18,
+              "position": "DF",
+              "starter": false
+            }
+          ],
+          "away": [
+            {
+              "player": "Thibaut Courtois",
+              "number": 1,
+              "position": "GK",
+              "starter": true
+            },
+            {
+              "player": "Timothy Castagne",
+              "number": 21,
+              "position": "RB",
+              "starter": true
+            },
+            {
+              "player": "Nathan Ngoy",
+              "number": 25,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Brandon Mechele",
+              "number": 4,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Maxim De Cuyper",
+              "number": 5,
+              "position": "LB",
+              "starter": true
+            },
+            {
+              "player": "Amadou Onana",
+              "number": 24,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Nicolas Raskin",
+              "number": 23,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Dodi Lukébakio",
+              "number": 14,
+              "position": "RW",
+              "starter": true
+            },
+            {
+              "player": "Youri Tielemans",
+              "number": 8,
+              "position": "AM",
+              "starter": true,
+              "captain": true
+            },
+            {
+              "player": "Leandro Trossard",
+              "number": 10,
+              "position": "LW",
+              "starter": true
+            },
+            {
+              "player": "Charles De Ketelaere",
+              "number": 17,
+              "position": "CF",
+              "starter": true
+            },
+            {
+              "player": "Hans Vanaken",
+              "number": 20,
+              "position": "MF",
+              "starter": false
+            },
+            {
+              "player": "Romelu Lukaku",
+              "number": 9,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Jérémy Doku",
+              "number": 11,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Alexis Saelemaekers",
+              "number": 22,
+              "position": "MF",
+              "starter": false
+            },
+            {
+              "player": "Axel Witsel",
+              "number": 6,
+              "position": "MF",
+              "starter": false
+            }
+          ]
+        },
+        "formations": {
+          "home": "3-5-2",
+          "away": "4-5-1"
+        },
+        "managers": {
+          "home": "Mauricio Pochettino",
+          "away": "Rudi Garcia"
+        },
+        "status": "finished",
+        "liveMinute": null,
+        "liveMinuteAt": null,
+        "clockSource": "apifootball",
+        "clockSourceAt": "2026-07-07T02:18:15.713Z",
+        "livePhase": null,
+        "cards": [
+          {
+            "minute": 35,
+            "team": "home",
+            "player": "Weston McKennie",
+            "color": "yellow"
+          },
+          {
+            "minute": 69,
+            "team": "home",
+            "player": "Malik Tillman",
+            "color": "yellow"
+          }
+        ],
+        "substitutions": [
+          {
+            "minute": 21,
+            "team": "away",
+            "on": "Hans Vanaken",
+            "off": "Amadou Onana"
+          },
+          {
+            "minute": 46,
+            "team": "home",
+            "on": "Giovanni Reyna",
+            "off": "Sergiño Dest"
+          },
+          {
+            "minute": 59,
+            "team": "home",
+            "on": "Sebastian Berhalter",
+            "off": "Christian Pulisic"
+          },
+          {
+            "minute": 67,
+            "team": "away",
+            "on": "Jérémy Doku",
+            "off": "Dodi Lukébakio"
+          },
+          {
+            "minute": 67,
+            "team": "away",
+            "on": "Romelu Lukaku",
+            "off": "Charles De Ketelaere"
+          },
+          {
+            "minute": 72,
+            "team": "home",
+            "on": "Ricardo Pepi",
+            "off": "Tyler Adams"
+          },
+          {
+            "minute": 89,
+            "team": "away",
+            "on": "Alexis Saelemaekers",
+            "off": "Nicolas Raskin"
+          },
+          {
+            "minute": 89,
+            "team": "away",
+            "on": "Axel Witsel",
+            "off": "Leandro Trossard"
+          },
+          {
+            "minute": 90,
+            "team": "home",
+            "on": "Haji Wright",
+            "off": "Antonee Robinson"
+          },
+          {
+            "minute": 90,
+            "team": "home",
+            "on": "Max Arfsten",
+            "off": "Folarin Balogun"
+          }
+        ],
+        "statistics": {
+          "home": {
+            "possessionPct": 56,
+            "shotsTotal": 7,
+            "shotsOnGoal": 2,
+            "shotsOffGoal": 5,
+            "shotsBlocked": 0,
+            "shotsInsideBox": 5,
+            "shotsOutsideBox": 2,
+            "corners": 3,
+            "offsides": 0,
+            "fouls": 11,
+            "yellowCards": 2,
+            "redCards": null,
+            "goalkeeperSaves": 3,
+            "passesTotal": 520,
+            "passesAccurate": 454,
+            "passesPct": 87,
+            "expectedGoals": 0.64
+          },
+          "away": {
+            "possessionPct": 44,
+            "shotsTotal": 14,
+            "shotsOnGoal": 6,
+            "shotsOffGoal": 4,
+            "shotsBlocked": 4,
+            "shotsInsideBox": 9,
+            "shotsOutsideBox": 5,
+            "corners": 5,
+            "offsides": 1,
+            "fouls": 9,
+            "yellowCards": 0,
+            "redCards": null,
+            "goalkeeperSaves": 1,
+            "passesTotal": 402,
+            "passesAccurate": 327,
+            "passesPct": 81,
+            "expectedGoals": 2.1
+          }
+        },
+        "stageNormalized": "round_of_16",
+        "fairPlay": {
+          "home": -2,
+          "away": 0
+        }
       },
       {
         "id": "2026-095",
@@ -35599,8 +36155,8 @@
         "kickoffUtc": "2026-07-10T19:00:00.000Z",
         "timezone": "us_pacific",
         "stage": "qf",
-        "homeTeam": null,
-        "awayTeam": null,
+        "homeTeam": "Spain",
+        "awayTeam": "Belgium",
         "homeRef": "W93",
         "awayRef": "W94",
         "homeScore": null,

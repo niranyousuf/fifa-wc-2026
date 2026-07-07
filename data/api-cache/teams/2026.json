@@ -1,5 +1,5 @@
 {
-  "savedAt": 1783367999923,
+  "savedAt": 1783395228368,
   "data": [
     {
       "name": "Mexico",
@@ -955,7 +955,7 @@
           },
           "goals": 0,
           "captain": false,
-          "yellowCards": 1
+          "yellowCards": 0
         },
         {
           "jersey": null,
@@ -4766,7 +4766,8 @@
             "country": "Italy"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": 9,
@@ -4883,8 +4884,9 @@
             "name": "Bayer Leverkusen",
             "country": "Germany"
           },
-          "goals": 1,
-          "captain": false
+          "goals": 2,
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": 18,
@@ -9400,7 +9402,7 @@
             "name": "Aston Villa",
             "country": "England"
           },
-          "goals": 2,
+          "goals": 0,
           "captain": true
         },
         {
@@ -9413,7 +9415,7 @@
             "name": "Club Brugge",
             "country": ""
           },
-          "goals": 0,
+          "goals": 1,
           "captain": false
         },
         {
@@ -9452,7 +9454,7 @@
             "name": "Napoli",
             "country": "Italy"
           },
-          "goals": 2,
+          "goals": 3,
           "captain": false,
           "yellowCards": 1
         },
@@ -9505,7 +9507,7 @@
             "name": "Atalanta",
             "country": "Italy"
           },
-          "goals": 0,
+          "goals": 2,
           "captain": false
         },
         {
@@ -10886,7 +10888,7 @@
             "name": "Arsenal",
             "country": "England"
           },
-          "goals": 0,
+          "goals": 1,
           "captain": false
         },
         {
@@ -10967,7 +10969,8 @@
             "country": "Spain"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": null,
@@ -15408,7 +15411,7 @@
           },
           "goals": 0,
           "captain": false,
-          "yellowCards": 1
+          "yellowCards": 2
         },
         {
           "jersey": null,
@@ -15436,7 +15439,7 @@
           },
           "goals": 0,
           "captain": false,
-          "yellowCards": 1
+          "yellowCards": 2
         },
         {
           "jersey": null,
