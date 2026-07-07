@@ -1,5 +1,5 @@
 {
-  "savedAt": 1783395228368,
+  "savedAt": 1783417505535,
   "data": [
     {
       "name": "Mexico",
@@ -955,7 +955,7 @@
           },
           "goals": 0,
           "captain": false,
-          "yellowCards": 0
+          "yellowCards": 1
         },
         {
           "jersey": null,
@@ -9402,7 +9402,7 @@
             "name": "Aston Villa",
             "country": "England"
           },
-          "goals": 0,
+          "goals": 2,
           "captain": true
         },
         {
