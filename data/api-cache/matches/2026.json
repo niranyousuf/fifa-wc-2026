@@ -1,5 +1,5 @@
 {
-  "savedAt": 1783435095427,
+  "savedAt": 1783454248793,
   "data": {
     "year": 2026,
     "count": 104,
@@ -36073,19 +36073,388 @@
         "awayTeam": "Egypt",
         "homeRef": "W86",
         "awayRef": "W88",
-        "homeScore": null,
-        "awayScore": null,
-        "result": null,
+        "homeScore": 3,
+        "awayScore": 2,
+        "result": "3-2",
         "extraTime": false,
         "penalties": null,
         "stadium": "Atlanta Stadium",
         "stadiumId": "mercedes-benz-stadium",
         "city": "Atlanta",
         "country": "United States",
-        "attendance": null,
-        "referee": null,
+        "attendance": 68239,
+        "referee": {
+          "name": "François Letexier",
+          "country": "France"
+        },
         "weather": null,
-        "stageNormalized": "round_of_16"
+        "lineups": {
+          "home": [
+            {
+              "player": "Emiliano Martínez",
+              "number": 23,
+              "position": "GK",
+              "starter": true
+            },
+            {
+              "player": "Nahuel Molina",
+              "number": 26,
+              "position": "RB",
+              "starter": true
+            },
+            {
+              "player": "Cristian Romero",
+              "number": 13,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Lisandro Martínez",
+              "number": 6,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Nicolás Tagliafico",
+              "number": 3,
+              "position": "LB",
+              "starter": true
+            },
+            {
+              "player": "Leandro Paredes",
+              "number": 5,
+              "position": "DM",
+              "starter": true
+            },
+            {
+              "player": "Rodrigo De Paul",
+              "number": 7,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Enzo Fernández",
+              "number": 24,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Alexis Mac Allister",
+              "number": 20,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Lionel Messi",
+              "number": 10,
+              "position": "CF",
+              "starter": true,
+              "captain": true
+            },
+            {
+              "player": "Julián Alvarez",
+              "number": 9,
+              "position": "CF",
+              "starter": true
+            },
+            {
+              "player": "Nicolás González",
+              "number": 15,
+              "position": "MF",
+              "starter": false
+            },
+            {
+              "player": "Lautaro Martínez",
+              "number": 22,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Gonzalo Montiel",
+              "number": 4,
+              "position": "DF",
+              "starter": false
+            },
+            {
+              "player": "Nicolás Otamendi",
+              "number": 19,
+              "position": "DF",
+              "starter": false
+            },
+            {
+              "player": "Facundo Medina",
+              "number": 25,
+              "position": "DF",
+              "starter": false
+            }
+          ],
+          "away": [
+            {
+              "player": "Mostafa Shobeir",
+              "number": 23,
+              "position": "GK",
+              "starter": true
+            },
+            {
+              "player": "Mohamed Hany",
+              "number": 3,
+              "position": "RB",
+              "starter": true
+            },
+            {
+              "player": "Ramy Rabia",
+              "number": 5,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Yasser Ibrahim",
+              "number": 2,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Karim Hafez",
+              "number": 15,
+              "position": "LB",
+              "starter": true
+            },
+            {
+              "player": "Mohanad Lasheen",
+              "number": 17,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Marwan Attia",
+              "number": 19,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Haissem Hassan",
+              "number": 12,
+              "position": "RW",
+              "starter": true
+            },
+            {
+              "player": "Mohamed Salah",
+              "number": 10,
+              "position": "AM",
+              "starter": true,
+              "captain": true
+            },
+            {
+              "player": "Emam Ashour",
+              "number": 8,
+              "position": "LW",
+              "starter": true
+            },
+            {
+              "player": "Mostafa Ziko",
+              "number": 11,
+              "position": "CF",
+              "starter": true
+            },
+            {
+              "player": "Hamdy Fathy",
+              "number": 14,
+              "position": "MF",
+              "starter": false
+            },
+            {
+              "player": "Trézéguet",
+              "number": 7,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Omar Marmoush",
+              "number": 22,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Zizo",
+              "number": 25,
+              "position": "FW",
+              "starter": false
+            }
+          ]
+        },
+        "formations": {
+          "home": "4-4-2",
+          "away": "4-5-1"
+        },
+        "status": "finished",
+        "goals": [
+          {
+            "minute": 15,
+            "team": "away",
+            "scorer": "Ibrahim"
+          },
+          {
+            "minute": 67,
+            "team": "away",
+            "scorer": "Ziko"
+          },
+          {
+            "minute": 79,
+            "team": "home",
+            "scorer": "Romero"
+          },
+          {
+            "minute": 83,
+            "team": "home",
+            "scorer": "Messi"
+          },
+          {
+            "minute": 90,
+            "addedMinute": 2,
+            "team": "home",
+            "scorer": "Fernández"
+          }
+        ],
+        "managers": {
+          "home": "Lionel Scaloni",
+          "away": "Hossam Hassan"
+        },
+        "liveMinute": null,
+        "liveMinuteAt": null,
+        "clockSource": "apifootball",
+        "clockSourceAt": "2026-07-07T18:11:18.261Z",
+        "livePhase": null,
+        "cards": [
+          {
+            "minute": 90,
+            "addedMinute": 3,
+            "team": "away",
+            "player": "Mostafa Shobeir",
+            "color": "yellow"
+          },
+          {
+            "minute": 90,
+            "addedMinute": 8,
+            "team": "away",
+            "player": "Marwan Attia",
+            "color": "yellow"
+          },
+          {
+            "minute": 90,
+            "addedMinute": 4,
+            "team": "away",
+            "player": "Hamdy Fathy",
+            "color": "yellow"
+          },
+          {
+            "minute": 90,
+            "addedMinute": 13,
+            "team": "away",
+            "player": "Haissem Hassan",
+            "color": "yellow"
+          }
+        ],
+        "substitutions": [
+          {
+            "minute": 46,
+            "team": "away",
+            "on": "Hamdy Fathy",
+            "off": "Emam Ashour"
+          },
+          {
+            "minute": 66,
+            "team": "home",
+            "on": "Lautaro Martínez",
+            "off": "Nicolás Tagliafico"
+          },
+          {
+            "minute": 66,
+            "team": "home",
+            "on": "Nicolás González",
+            "off": "Rodrigo De Paul"
+          },
+          {
+            "minute": 73,
+            "team": "home",
+            "on": "Gonzalo Montiel",
+            "off": "Nahuel Molina"
+          },
+          {
+            "minute": 73,
+            "team": "away",
+            "on": "Trézéguet",
+            "off": "Haissem Hassan"
+          },
+          {
+            "minute": 80,
+            "team": "away",
+            "on": "Omar Marmoush",
+            "off": "Mostafa Ziko"
+          },
+          {
+            "minute": 90,
+            "team": "home",
+            "on": "Nicolás Otamendi",
+            "off": "Cristian Romero"
+          },
+          {
+            "minute": 90,
+            "team": "home",
+            "on": "Facundo Medina",
+            "off": "Julián Alvarez"
+          },
+          {
+            "minute": 90,
+            "team": "away",
+            "on": "Zizo",
+            "off": "Mohanad Lasheen"
+          }
+        ],
+        "statistics": {
+          "home": {
+            "possessionPct": 64,
+            "shotsTotal": 19,
+            "shotsOnGoal": 7,
+            "shotsOffGoal": 8,
+            "shotsBlocked": 4,
+            "shotsInsideBox": 11,
+            "shotsOutsideBox": 8,
+            "corners": 6,
+            "offsides": 3,
+            "fouls": 13,
+            "yellowCards": 0,
+            "redCards": null,
+            "goalkeeperSaves": 0,
+            "passesTotal": 602,
+            "passesAccurate": 540,
+            "passesPct": 90,
+            "expectedGoals": 2.9
+          },
+          "away": {
+            "possessionPct": 36,
+            "shotsTotal": 5,
+            "shotsOnGoal": 2,
+            "shotsOffGoal": 3,
+            "shotsBlocked": 1,
+            "shotsInsideBox": 4,
+            "shotsOutsideBox": 1,
+            "corners": 1,
+            "offsides": 0,
+            "fouls": 11,
+            "yellowCards": 3,
+            "redCards": null,
+            "goalkeeperSaves": 4,
+            "passesTotal": 348,
+            "passesAccurate": 289,
+            "passesPct": 83,
+            "expectedGoals": 0.97
+          }
+        },
+        "stageNormalized": "round_of_16",
+        "fairPlay": {
+          "home": 0,
+          "away": -4
+        }
       },
       {
         "id": "2026-096",
@@ -36099,8 +36468,8 @@
         "awayTeam": "Colombia",
         "homeRef": "W85",
         "awayRef": "W87",
-        "homeScore": null,
-        "awayScore": null,
+        "homeScore": 0,
+        "awayScore": 0,
         "result": null,
         "extraTime": false,
         "penalties": null,
@@ -36111,6 +36480,160 @@
         "attendance": null,
         "referee": null,
         "weather": null,
+        "lineups": {
+          "home": [
+            {
+              "player": "Gregor Kobel",
+              "number": 1,
+              "position": "GK",
+              "starter": true
+            },
+            {
+              "player": "Denis Zakaria",
+              "number": 6,
+              "position": "RB",
+              "starter": true
+            },
+            {
+              "player": "Nico Elvedi",
+              "number": 4,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Manuel Akanji",
+              "number": 5,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Ricardo Rodriguez",
+              "number": 13,
+              "position": "LB",
+              "starter": true
+            },
+            {
+              "player": "Ardon Jashari",
+              "number": 14,
+              "position": "RM",
+              "starter": true
+            },
+            {
+              "player": "Granit Xhaka",
+              "number": 10,
+              "position": "CM",
+              "starter": true,
+              "captain": true
+            },
+            {
+              "player": "Remo Freuler",
+              "number": 8,
+              "position": "LM",
+              "starter": true
+            },
+            {
+              "player": "Dan Ndoye",
+              "number": 11,
+              "position": "RF",
+              "starter": true
+            },
+            {
+              "player": "Breel Embolo",
+              "number": 7,
+              "position": "CF",
+              "starter": true
+            },
+            {
+              "player": "Fabian Rieder",
+              "number": 22,
+              "position": "LF",
+              "starter": true
+            }
+          ],
+          "away": [
+            {
+              "player": "Camilo Vargas",
+              "number": 12,
+              "position": "GK",
+              "starter": true
+            },
+            {
+              "player": "Daniel Muñoz",
+              "number": 2,
+              "position": "RB",
+              "starter": true
+            },
+            {
+              "player": "Davinson Sánchez",
+              "number": 23,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Jhon Lucumí",
+              "number": 3,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Johan Mojica",
+              "number": 17,
+              "position": "LB",
+              "starter": true
+            },
+            {
+              "player": "Jefferson Lerma",
+              "number": 16,
+              "position": "DM",
+              "starter": true
+            },
+            {
+              "player": "Gustavo Puerta",
+              "number": 14,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Jhon Arias",
+              "number": 11,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "James Rodríguez",
+              "number": 10,
+              "position": "RF",
+              "starter": true,
+              "captain": true
+            },
+            {
+              "player": "Luis Suárez",
+              "number": 25,
+              "position": "CF",
+              "starter": true
+            },
+            {
+              "player": "Luis Díaz",
+              "number": 7,
+              "position": "LF",
+              "starter": true
+            }
+          ]
+        },
+        "formations": {
+          "home": "4-3-3",
+          "away": "4-3-3"
+        },
+        "status": "scheduled",
+        "goals": [],
+        "managers": {
+          "home": "Murat Yakin",
+          "away": "Néstor Lorenzo"
+        },
+        "liveMinute": null,
+        "liveMinuteAt": null,
+        "clockSource": "wikipedia",
+        "clockSourceAt": "2026-07-07T19:55:59.702Z",
         "stageNormalized": "round_of_16"
       },
       {
@@ -36199,7 +36722,7 @@
         "kickoffUtc": "2026-07-12T01:00:00.000Z",
         "timezone": "us_central",
         "stage": "qf",
-        "homeTeam": null,
+        "homeTeam": "Argentina",
         "awayTeam": null,
         "homeRef": "W95",
         "awayRef": "W96",

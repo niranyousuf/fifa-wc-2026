@@ -1,5 +1,5 @@
 {
-  "savedAt": 1783435095258,
+  "savedAt": 1783454248504,
   "data": [
     {
       "name": "Mexico",
@@ -9608,7 +9608,7 @@
             "name": "Al Ahly",
             "country": "Egypt"
           },
-          "goals": 0,
+          "goals": 1,
           "captain": false,
           "yellowCards": 2
         },
@@ -9726,7 +9726,7 @@
             "name": "Pyramids",
             "country": "Egypt"
           },
-          "goals": 1,
+          "goals": 2,
           "captain": false
         },
         {
@@ -9741,7 +9741,7 @@
           },
           "goals": 0,
           "captain": false,
-          "yellowCards": 1
+          "yellowCards": 2
         },
         {
           "jersey": 13,
@@ -9768,7 +9768,8 @@
             "country": "Qatar"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": 15,
@@ -9835,7 +9836,7 @@
           },
           "goals": 0,
           "captain": false,
-          "yellowCards": 1
+          "yellowCards": 2
         },
         {
           "jersey": 20,
@@ -9888,7 +9889,8 @@
             "country": "Egypt"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": 24,
@@ -13879,7 +13881,7 @@
             "name": "Inter Miami CF",
             "country": "United States"
           },
-          "goals": 7,
+          "goals": 8,
           "captain": true,
           "assists": 0
         },
@@ -13919,7 +13921,7 @@
             "name": "Tottenham Hotspur",
             "country": "England"
           },
-          "goals": 0,
+          "goals": 1,
           "captain": false
         },
         {
@@ -14063,7 +14065,7 @@
             "name": "Chelsea",
             "country": "England"
           },
-          "goals": 0,
+          "goals": 1,
           "captain": false
         },
         {
