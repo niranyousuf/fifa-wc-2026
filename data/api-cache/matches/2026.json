@@ -1,5 +1,5 @@
 {
-  "savedAt": 1783454248793,
+  "savedAt": 1783478971493,
   "data": {
     "year": 2026,
     "count": 104,
@@ -36087,7 +36087,13 @@
           "name": "François Letexier",
           "country": "France"
         },
-        "weather": null,
+        "weather": {
+          "tempC": 29.6,
+          "humidityPct": 68,
+          "precipitationMm": 0,
+          "windKmh": 10.8,
+          "code": 1
+        },
         "lineups": {
           "home": [
             {
@@ -36470,16 +36476,28 @@
         "awayRef": "W87",
         "homeScore": 0,
         "awayScore": 0,
-        "result": null,
-        "extraTime": false,
-        "penalties": null,
+        "result": "0-0",
+        "extraTime": true,
+        "penalties": {
+          "home": 4,
+          "away": 3
+        },
         "stadium": "BC Place Vancouver",
         "stadiumId": "bc-place",
         "city": "Vancouver",
         "country": "Canada",
-        "attendance": null,
-        "referee": null,
-        "weather": null,
+        "attendance": 52497,
+        "referee": {
+          "name": "Iván Barton",
+          "country": "El Salvador"
+        },
+        "weather": {
+          "tempC": 23.1,
+          "humidityPct": 57,
+          "precipitationMm": 0,
+          "windKmh": 6.8,
+          "code": 0
+        },
         "lineups": {
           "home": [
             {
@@ -36495,14 +36513,14 @@
               "starter": true
             },
             {
-              "player": "Nico Elvedi",
-              "number": 4,
+              "player": "Manuel Akanji",
+              "number": 5,
               "position": "CB",
               "starter": true
             },
             {
-              "player": "Manuel Akanji",
-              "number": 5,
+              "player": "Nico Elvedi",
+              "number": 4,
               "position": "CB",
               "starter": true
             },
@@ -36513,27 +36531,27 @@
               "starter": true
             },
             {
-              "player": "Ardon Jashari",
-              "number": 14,
-              "position": "RM",
-              "starter": true
-            },
-            {
               "player": "Granit Xhaka",
               "number": 10,
-              "position": "CM",
+              "position": "DM",
               "starter": true,
               "captain": true
             },
             {
               "player": "Remo Freuler",
               "number": 8,
-              "position": "LM",
+              "position": "CM",
               "starter": true
             },
             {
-              "player": "Dan Ndoye",
-              "number": 11,
+              "player": "Ardon Jashari",
+              "number": 14,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Fabian Rieder",
+              "number": 22,
               "position": "RF",
               "starter": true
             },
@@ -36544,10 +36562,46 @@
               "starter": true
             },
             {
-              "player": "Fabian Rieder",
-              "number": 22,
+              "player": "Dan Ndoye",
+              "number": 11,
               "position": "LF",
               "starter": true
+            },
+            {
+              "player": "Djibril Sow",
+              "number": 15,
+              "position": "MF",
+              "starter": false
+            },
+            {
+              "player": "Miro Muheim",
+              "number": 2,
+              "position": "DF",
+              "starter": false
+            },
+            {
+              "player": "Cedric Itten",
+              "number": 26,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Silvan Widmer",
+              "number": 3,
+              "position": "DF",
+              "starter": false
+            },
+            {
+              "player": "Rubén Vargas",
+              "number": 17,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Zeki Amdouni",
+              "number": 23,
+              "position": "FW",
+              "starter": false
             }
           ],
           "away": [
@@ -36588,14 +36642,14 @@
               "starter": true
             },
             {
-              "player": "Gustavo Puerta",
-              "number": 14,
+              "player": "Jhon Arias",
+              "number": 11,
               "position": "CM",
               "starter": true
             },
             {
-              "player": "Jhon Arias",
-              "number": 11,
+              "player": "Gustavo Puerta",
+              "number": 14,
               "position": "CM",
               "starter": true
             },
@@ -36617,6 +36671,36 @@
               "number": 7,
               "position": "LF",
               "starter": true
+            },
+            {
+              "player": "Jaminton Campaz",
+              "number": 21,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Juan Fernando Quintero",
+              "number": 20,
+              "position": "MF",
+              "starter": false
+            },
+            {
+              "player": "Richard Ríos",
+              "number": 6,
+              "position": "MF",
+              "starter": false
+            },
+            {
+              "player": "Cucho Hernández",
+              "number": 19,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Yerry Mina",
+              "number": 13,
+              "position": "DF",
+              "starter": false
             }
           ]
         },
@@ -36624,7 +36708,7 @@
           "home": "4-3-3",
           "away": "4-3-3"
         },
-        "status": "scheduled",
+        "status": "finished",
         "goals": [],
         "managers": {
           "home": "Murat Yakin",
@@ -36632,9 +36716,154 @@
         },
         "liveMinute": null,
         "liveMinuteAt": null,
-        "clockSource": "wikipedia",
-        "clockSourceAt": "2026-07-07T19:55:59.702Z",
-        "stageNormalized": "round_of_16"
+        "clockSource": "apifootball",
+        "clockSourceAt": "2026-07-08T00:03:11.779Z",
+        "livePhase": null,
+        "cards": [
+          {
+            "minute": 51,
+            "team": "home",
+            "player": "Granit Xhaka",
+            "color": "yellow"
+          },
+          {
+            "minute": 59,
+            "team": "home",
+            "player": "Denis Zakaria",
+            "color": "yellow"
+          },
+          {
+            "minute": 60,
+            "team": "away",
+            "player": "Luis Suárez",
+            "color": "yellow"
+          },
+          {
+            "minute": 94,
+            "team": "away",
+            "player": "Davinson Sánchez",
+            "color": "yellow"
+          },
+          {
+            "minute": 105,
+            "team": "home",
+            "player": "Miro Muheim",
+            "color": "yellow"
+          }
+        ],
+        "substitutions": [
+          {
+            "minute": 46,
+            "team": "home",
+            "on": "Djibril Sow",
+            "off": "Ardon Jashari"
+          },
+          {
+            "minute": 66,
+            "team": "away",
+            "on": "Juan Fernando Quintero",
+            "off": "Jhon Arias"
+          },
+          {
+            "minute": 66,
+            "team": "away",
+            "on": "Jaminton Campaz",
+            "off": "James Rodríguez"
+          },
+          {
+            "minute": 71,
+            "team": "home",
+            "on": "Miro Muheim",
+            "off": "Ricardo Rodriguez"
+          },
+          {
+            "minute": 82,
+            "team": "away",
+            "on": "Richard Ríos",
+            "off": "Jefferson Lerma"
+          },
+          {
+            "minute": 82,
+            "team": "away",
+            "on": "Cucho Hernández",
+            "off": "Luis Suárez"
+          },
+          {
+            "minute": 87,
+            "team": "home",
+            "on": "Cedric Itten",
+            "off": "Denis Zakaria"
+          },
+          {
+            "minute": 87,
+            "team": "home",
+            "on": "Silvan Widmer",
+            "off": "Breel Embolo"
+          },
+          {
+            "minute": 90,
+            "team": "home",
+            "on": "Rubén Vargas",
+            "off": "Dan Ndoye"
+          },
+          {
+            "minute": 103,
+            "team": "home",
+            "on": "Zeki Amdouni",
+            "off": "Fabian Rieder"
+          },
+          {
+            "minute": 118,
+            "team": "away",
+            "on": "Yerry Mina",
+            "off": "Jhon Lucumí"
+          }
+        ],
+        "statistics": {
+          "home": {
+            "possessionPct": 49,
+            "shotsTotal": 2,
+            "shotsOnGoal": 2,
+            "shotsOffGoal": 0,
+            "shotsBlocked": 0,
+            "shotsInsideBox": 2,
+            "shotsOutsideBox": 0,
+            "corners": 1,
+            "offsides": 1,
+            "fouls": 6,
+            "yellowCards": null,
+            "redCards": null,
+            "goalkeeperSaves": 1,
+            "passesTotal": 248,
+            "passesAccurate": 217,
+            "passesPct": 88,
+            "expectedGoals": 0.06
+          },
+          "away": {
+            "possessionPct": 51,
+            "shotsTotal": 5,
+            "shotsOnGoal": 1,
+            "shotsOffGoal": 1,
+            "shotsBlocked": 3,
+            "shotsInsideBox": 3,
+            "shotsOutsideBox": 2,
+            "corners": 4,
+            "offsides": 1,
+            "fouls": 6,
+            "yellowCards": null,
+            "redCards": null,
+            "goalkeeperSaves": 2,
+            "passesTotal": 256,
+            "passesAccurate": 218,
+            "passesPct": 85,
+            "expectedGoals": 0.25
+          }
+        },
+        "stageNormalized": "round_of_16",
+        "fairPlay": {
+          "home": -3,
+          "away": -2
+        }
       },
       {
         "id": "2026-097",
@@ -36723,7 +36952,7 @@
         "timezone": "us_central",
         "stage": "qf",
         "homeTeam": "Argentina",
-        "awayTeam": null,
+        "awayTeam": "Switzerland",
         "homeRef": "W95",
         "awayRef": "W96",
         "homeScore": null,
