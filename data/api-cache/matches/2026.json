@@ -1,5 +1,5 @@
 {
-  "savedAt": 1783609993281,
+  "savedAt": 1783626526245,
   "data": {
     "year": 2026,
     "count": 104,
@@ -36877,8 +36877,8 @@
         "awayTeam": "Morocco",
         "homeRef": "W89",
         "awayRef": "W90",
-        "homeScore": null,
-        "awayScore": null,
+        "homeScore": 0,
+        "awayScore": 0,
         "result": null,
         "extraTime": false,
         "penalties": null,
@@ -36889,6 +36889,160 @@
         "attendance": null,
         "referee": null,
         "weather": null,
+        "lineups": {
+          "home": [
+            {
+              "player": "Mike Maignan",
+              "number": 16,
+              "position": "GK",
+              "starter": true
+            },
+            {
+              "player": "Jules Koundé",
+              "number": 5,
+              "position": "RB",
+              "starter": true
+            },
+            {
+              "player": "Dayot Upamecano",
+              "number": 4,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "William Saliba",
+              "number": 17,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Lucas Digne",
+              "number": 3,
+              "position": "LB",
+              "starter": true
+            },
+            {
+              "player": "Manu Koné",
+              "number": 6,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Adrien Rabiot",
+              "number": 14,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Ousmane Dembélé",
+              "number": 7,
+              "position": "RW",
+              "starter": true
+            },
+            {
+              "player": "Michael Olise",
+              "number": 11,
+              "position": "AM",
+              "starter": true
+            },
+            {
+              "player": "Désiré Doué",
+              "number": 20,
+              "position": "LW",
+              "starter": true
+            },
+            {
+              "player": "Kylian Mbappé",
+              "number": 10,
+              "position": "CF",
+              "starter": true,
+              "captain": true
+            }
+          ],
+          "away": [
+            {
+              "player": "Yassine Bounou",
+              "number": 1,
+              "position": "GK",
+              "starter": true
+            },
+            {
+              "player": "Achraf Hakimi",
+              "number": 2,
+              "position": "RB",
+              "starter": true,
+              "captain": true
+            },
+            {
+              "player": "Issa Diop",
+              "number": 14,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Noussair Mazraoui",
+              "number": 3,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Anass Salah-Eddine",
+              "number": 26,
+              "position": "LB",
+              "starter": true
+            },
+            {
+              "player": "Ayyoub Bouaddi",
+              "number": 6,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Neil El Aynaoui",
+              "number": 24,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Brahim Díaz",
+              "number": 10,
+              "position": "RW",
+              "starter": true
+            },
+            {
+              "player": "Azzedine Ounahi",
+              "number": 8,
+              "position": "AM",
+              "starter": true
+            },
+            {
+              "player": "Bilal El Khannouss",
+              "number": 23,
+              "position": "LW",
+              "starter": true
+            },
+            {
+              "player": "Chemsdine Talbi",
+              "number": 7,
+              "position": "CF",
+              "starter": true
+            }
+          ]
+        },
+        "formations": {
+          "home": "4-5-1",
+          "away": "4-5-1"
+        },
+        "status": "scheduled",
+        "goals": [],
+        "managers": {
+          "home": "Didier Deschamps",
+          "away": "Mohamed Ouahbi"
+        },
+        "liveMinute": null,
+        "liveMinuteAt": null,
+        "clockSource": "wikipedia",
+        "clockSourceAt": "2026-07-09T19:48:12.502Z",
         "stageNormalized": "quarter_final"
       },
       {
