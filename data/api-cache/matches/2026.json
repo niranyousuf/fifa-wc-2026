@@ -1,5 +1,5 @@
 {
-  "savedAt": 1783693789958,
+  "savedAt": 1783712117147,
   "data": {
     "year": 2026,
     "count": 104,
@@ -32833,7 +32833,7 @@
           {
             "minute": 103,
             "team": "away",
-            "scorer": "S. Cabral"
+            "scorer": "Lopes Cabral"
           },
           {
             "minute": 111,
@@ -36115,7 +36115,7 @@
               "starter": true
             },
             {
-              "player": "Lautaro Martínez",
+              "player": "Lisandro Martínez",
               "number": 6,
               "position": "CB",
               "starter": true
@@ -37252,7 +37252,165 @@
         "attendance": null,
         "referee": null,
         "weather": null,
-        "stageNormalized": "quarter_final"
+        "lineups": {
+          "home": [
+            {
+              "player": "Unai Simón",
+              "number": 23,
+              "position": "GK",
+              "starter": true
+            },
+            {
+              "player": "Pedro Porro",
+              "number": 12,
+              "position": "RB",
+              "starter": true
+            },
+            {
+              "player": "Pau Cubarsí",
+              "number": 22,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Aymeric Laporte",
+              "number": 14,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Marc Cucurella",
+              "number": 24,
+              "position": "LB",
+              "starter": true
+            },
+            {
+              "player": "Rodri",
+              "number": 16,
+              "position": "CM",
+              "starter": true,
+              "captain": true
+            },
+            {
+              "player": "Fabián Ruiz",
+              "number": 8,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Lamine Yamal",
+              "number": 19,
+              "position": "RW",
+              "starter": true
+            },
+            {
+              "player": "Dani Olmo",
+              "number": 10,
+              "position": "AM",
+              "starter": true
+            },
+            {
+              "player": "Álex Baena",
+              "number": 15,
+              "position": "LW",
+              "starter": true
+            },
+            {
+              "player": "Mikel Oyarzabal",
+              "number": 21,
+              "position": "CF",
+              "starter": true
+            }
+          ],
+          "away": [
+            {
+              "player": "Thibaut Courtois",
+              "number": 1,
+              "position": "GK",
+              "starter": true
+            },
+            {
+              "player": "Timothy Castagne",
+              "number": 21,
+              "position": "RB",
+              "starter": true
+            },
+            {
+              "player": "Nathan Ngoy",
+              "number": 25,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Brandon Mechele",
+              "number": 4,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Maxim De Cuyper",
+              "number": 5,
+              "position": "LB",
+              "starter": true
+            },
+            {
+              "player": "Hans Vanaken",
+              "number": 20,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Nicolas Raskin",
+              "number": 23,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Leandro Trossard",
+              "number": 10,
+              "position": "RW",
+              "starter": true
+            },
+            {
+              "player": "Kevin De Bruyne",
+              "number": 7,
+              "position": "AM",
+              "starter": true,
+              "captain": true
+            },
+            {
+              "player": "Jérémy Doku",
+              "number": 11,
+              "position": "LW",
+              "starter": true
+            },
+            {
+              "player": "Charles De Ketelaere",
+              "number": 17,
+              "position": "CF",
+              "starter": true
+            }
+          ]
+        },
+        "formations": {
+          "home": "4-5-1",
+          "away": "4-5-1"
+        },
+        "status": "live",
+        "managers": {
+          "home": "Luis de la Fuente",
+          "away": "Rudi Garcia"
+        },
+        "liveMinute": null,
+        "liveMinuteAt": "2026-07-10T19:32:13.000Z",
+        "clockSource": "apifootball",
+        "clockSourceAt": "2026-07-10T19:32:14.421Z",
+        "livePhase": "1H",
+        "stageNormalized": "quarter_final",
+        "liveDataLocked": {
+          "reason": "live_data_is_pro",
+          "message": "Live in-match data (score, goals, cards, substitutions) is a Pro-tier feature. This match is in progress — upgrade at https://api.zafronix.com/pricing to read live tournament data."
+        }
       },
       {
         "id": "2026-099",
