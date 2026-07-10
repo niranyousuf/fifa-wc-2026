@@ -1,5 +1,5 @@
 {
-  "savedAt": 1783626526245,
+  "savedAt": 1783654180816,
   "data": {
     "year": 2026,
     "count": 104,
@@ -36877,18 +36877,27 @@
         "awayTeam": "Morocco",
         "homeRef": "W89",
         "awayRef": "W90",
-        "homeScore": 0,
+        "homeScore": 2,
         "awayScore": 0,
-        "result": null,
+        "result": "2-0",
         "extraTime": false,
         "penalties": null,
         "stadium": "Boston Stadium",
         "stadiumId": "gillette-stadium",
         "city": "Foxborough",
         "country": "United States",
-        "attendance": null,
-        "referee": null,
-        "weather": null,
+        "attendance": 63811,
+        "referee": {
+          "name": "Facundo Tello",
+          "country": "Argentina"
+        },
+        "weather": {
+          "tempC": 30.7,
+          "humidityPct": 59,
+          "precipitationMm": 0,
+          "windKmh": 18.2,
+          "code": 0
+        },
         "lineups": {
           "home": [
             {
@@ -36957,6 +36966,30 @@
               "position": "CF",
               "starter": true,
               "captain": true
+            },
+            {
+              "player": "Warren Zaïre-Emery",
+              "number": 18,
+              "position": "MF",
+              "starter": false
+            },
+            {
+              "player": "Jean-Philippe Mateta",
+              "number": 22,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Bradley Barcola",
+              "number": 12,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Malo Gusto",
+              "number": 2,
+              "position": "DF",
+              "starter": false
             }
           ],
           "away": [
@@ -37016,16 +37049,46 @@
               "starter": true
             },
             {
-              "player": "Bilal El Khannouss",
-              "number": 23,
+              "player": "Chemsdine Talbi",
+              "number": 7,
               "position": "LW",
               "starter": true
             },
             {
-              "player": "Chemsdine Talbi",
-              "number": 7,
+              "player": "Bilal El Khannouss",
+              "number": 23,
               "position": "CF",
               "starter": true
+            },
+            {
+              "player": "Sofyan Amrabat",
+              "number": 4,
+              "position": "MF",
+              "starter": false
+            },
+            {
+              "player": "Soufiane Rahimi",
+              "number": 9,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Zakaria El Ouahdi",
+              "number": 13,
+              "position": "DF",
+              "starter": false
+            },
+            {
+              "player": "Gessime Yassine",
+              "number": 16,
+              "position": "MF",
+              "starter": false
+            },
+            {
+              "player": "Amine Sbaï",
+              "number": 17,
+              "position": "FW",
+              "starter": false
             }
           ]
         },
@@ -37033,17 +37096,137 @@
           "home": "4-5-1",
           "away": "4-5-1"
         },
-        "status": "scheduled",
-        "goals": [],
+        "status": "finished",
+        "goals": [
+          {
+            "minute": 60,
+            "team": "home",
+            "scorer": "Mbappé"
+          },
+          {
+            "minute": 66,
+            "team": "home",
+            "scorer": "Dembélé"
+          }
+        ],
         "managers": {
           "home": "Didier Deschamps",
           "away": "Mohamed Ouahbi"
         },
         "liveMinute": null,
         "liveMinuteAt": null,
-        "clockSource": "wikipedia",
-        "clockSourceAt": "2026-07-09T19:48:12.502Z",
-        "stageNormalized": "quarter_final"
+        "clockSource": "apifootball",
+        "clockSourceAt": "2026-07-09T22:20:45.476Z",
+        "livePhase": null,
+        "cards": [
+          {
+            "minute": 63,
+            "team": "away",
+            "player": "Issa Diop",
+            "color": "yellow"
+          }
+        ],
+        "substitutions": [
+          {
+            "minute": 62,
+            "team": "away",
+            "on": "Sofyan Amrabat",
+            "off": "Ayyoub Bouaddi"
+          },
+          {
+            "minute": 62,
+            "team": "away",
+            "on": "Soufiane Rahimi",
+            "off": "Bilal El Khannouss"
+          },
+          {
+            "minute": 71,
+            "team": "home",
+            "on": "Warren Zaïre-Emery",
+            "off": "Manu Koné"
+          },
+          {
+            "minute": 74,
+            "team": "away",
+            "on": "Zakaria El Ouahdi",
+            "off": "Anass Salah-Eddine"
+          },
+          {
+            "minute": 74,
+            "team": "away",
+            "on": "Gessime Yassine",
+            "off": "Brahim Díaz"
+          },
+          {
+            "minute": 77,
+            "team": "home",
+            "on": "Jean-Philippe Mateta",
+            "off": "Désiré Doué"
+          },
+          {
+            "minute": 77,
+            "team": "home",
+            "on": "Bradley Barcola",
+            "off": "Kylian Mbappé"
+          },
+          {
+            "minute": 85,
+            "team": "away",
+            "on": "Amine Sbaï",
+            "off": "Chemsdine Talbi"
+          },
+          {
+            "minute": 87,
+            "team": "home",
+            "on": "Malo Gusto",
+            "off": "Jules Koundé"
+          }
+        ],
+        "statistics": {
+          "home": {
+            "possessionPct": 48,
+            "shotsTotal": 22,
+            "shotsOnGoal": 8,
+            "shotsOffGoal": 9,
+            "shotsBlocked": 5,
+            "shotsInsideBox": 12,
+            "shotsOutsideBox": 10,
+            "corners": 5,
+            "offsides": null,
+            "fouls": 10,
+            "yellowCards": 0,
+            "redCards": null,
+            "goalkeeperSaves": 1,
+            "passesTotal": 485,
+            "passesAccurate": 432,
+            "passesPct": 89,
+            "expectedGoals": 3.04
+          },
+          "away": {
+            "possessionPct": 52,
+            "shotsTotal": 5,
+            "shotsOnGoal": 1,
+            "shotsOffGoal": 3,
+            "shotsBlocked": 1,
+            "shotsInsideBox": 1,
+            "shotsOutsideBox": 4,
+            "corners": 5,
+            "offsides": null,
+            "fouls": 13,
+            "yellowCards": 1,
+            "redCards": null,
+            "goalkeeperSaves": 6,
+            "passesTotal": 524,
+            "passesAccurate": 452,
+            "passesPct": 86,
+            "expectedGoals": 0.14
+          }
+        },
+        "stageNormalized": "quarter_final",
+        "fairPlay": {
+          "home": 0,
+          "away": -1
+        }
       },
       {
         "id": "2026-098",
@@ -37131,7 +37314,7 @@
         "kickoffUtc": "2026-07-14T19:00:00.000Z",
         "timezone": "us_central",
         "stage": "sf",
-        "homeTeam": null,
+        "homeTeam": "France",
         "awayTeam": null,
         "homeRef": "W97",
         "awayRef": "W98",

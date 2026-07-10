@@ -1,5 +1,5 @@
 {
-  "savedAt": 1783626525955,
+  "savedAt": 1783654180670,
   "data": [
     {
       "name": "Mexico",
@@ -3650,7 +3650,7 @@
           },
           "goals": 1,
           "captain": false,
-          "yellowCards": 2
+          "yellowCards": 3
         },
         {
           "jersey": null,
@@ -12330,7 +12330,7 @@
             "name": "Paris Saint-Germain",
             "country": "France"
           },
-          "goals": 4,
+          "goals": 5,
           "captain": false
         },
         {
@@ -12370,7 +12370,7 @@
             "name": "Real Madrid",
             "country": "Spain"
           },
-          "goals": 7,
+          "goals": 8,
           "captain": true
         },
         {
