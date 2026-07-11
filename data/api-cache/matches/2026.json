@@ -1,5 +1,5 @@
 {
-  "savedAt": 1783712117147,
+  "savedAt": 1783737955700,
   "data": {
     "year": 2026,
     "count": 104,
@@ -32833,7 +32833,7 @@
           {
             "minute": 103,
             "team": "away",
-            "scorer": "Lopes Cabral"
+            "scorer": "S. Cabral"
           },
           {
             "minute": 111,
@@ -37240,18 +37240,27 @@
         "awayTeam": "Belgium",
         "homeRef": "W93",
         "awayRef": "W94",
-        "homeScore": null,
-        "awayScore": null,
-        "result": null,
+        "homeScore": 2,
+        "awayScore": 1,
+        "result": "2-1",
         "extraTime": false,
         "penalties": null,
         "stadium": "Los Angeles Stadium",
         "stadiumId": "sofi-stadium",
         "city": "Inglewood",
         "country": "United States",
-        "attendance": null,
-        "referee": null,
-        "weather": null,
+        "attendance": 70492,
+        "referee": {
+          "name": "Michael Oliver",
+          "country": "England"
+        },
+        "weather": {
+          "tempC": 26.1,
+          "humidityPct": 60,
+          "precipitationMm": 0,
+          "windKmh": 15,
+          "code": 1
+        },
         "lineups": {
           "home": [
             {
@@ -37320,6 +37329,30 @@
               "number": 21,
               "position": "CF",
               "starter": true
+            },
+            {
+              "player": "Ferran Torres",
+              "number": 7,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Pedri",
+              "number": 20,
+              "position": "MF",
+              "starter": false
+            },
+            {
+              "player": "Nico Williams",
+              "number": 17,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Mikel Merino",
+              "number": 6,
+              "position": "MF",
+              "starter": false
             }
           ],
           "away": [
@@ -37389,6 +37422,36 @@
               "number": 17,
               "position": "CF",
               "starter": true
+            },
+            {
+              "player": "Romelu Lukaku",
+              "number": 9,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Axel Witsel",
+              "number": 6,
+              "position": "MF",
+              "starter": false
+            },
+            {
+              "player": "Joaquin Seys",
+              "number": 18,
+              "position": "DF",
+              "starter": false
+            },
+            {
+              "player": "Senne Lammens",
+              "number": 12,
+              "position": "GK",
+              "starter": false
+            },
+            {
+              "player": "Alexis Saelemaekers",
+              "number": 22,
+              "position": "MF",
+              "starter": false
             }
           ]
         },
@@ -37396,20 +37459,168 @@
           "home": "4-5-1",
           "away": "4-5-1"
         },
-        "status": "live",
+        "status": "finished",
+        "goals": [
+          {
+            "minute": 30,
+            "team": "home",
+            "scorer": "Fabián"
+          },
+          {
+            "minute": 30,
+            "team": "home",
+            "scorer": "F. Ruiz",
+            "type": "normal",
+            "provisional": true
+          },
+          {
+            "minute": 41,
+            "team": "away",
+            "scorer": "De Ketelaere"
+          },
+          {
+            "minute": 88,
+            "team": "home",
+            "scorer": "Merino"
+          }
+        ],
         "managers": {
           "home": "Luis de la Fuente",
           "away": "Rudi Garcia"
         },
         "liveMinute": null,
-        "liveMinuteAt": "2026-07-10T19:32:13.000Z",
+        "liveMinuteAt": null,
         "clockSource": "apifootball",
-        "clockSourceAt": "2026-07-10T19:32:14.421Z",
-        "livePhase": "1H",
+        "clockSourceAt": "2026-07-10T21:20:40.181Z",
+        "livePhase": null,
+        "cards": [
+          {
+            "minute": 43,
+            "team": "home",
+            "player": "Pau Cubarsí",
+            "color": "yellow"
+          },
+          {
+            "minute": 85,
+            "team": "away",
+            "player": "Kevin De Bruyne",
+            "color": "yellow"
+          },
+          {
+            "minute": 90,
+            "addedMinute": 3,
+            "team": "home",
+            "player": "Aymeric Laporte",
+            "color": "yellow"
+          },
+          {
+            "minute": 90,
+            "addedMinute": 5,
+            "team": "away",
+            "player": "Axel Witsel",
+            "color": "yellow"
+          }
+        ],
+        "substitutions": [
+          {
+            "minute": 55,
+            "team": "home",
+            "on": "Ferran Torres",
+            "off": "Fabián Ruiz"
+          },
+          {
+            "minute": 55,
+            "team": "home",
+            "on": "Pedri",
+            "off": "Álex Baena"
+          },
+          {
+            "minute": 60,
+            "team": "away",
+            "on": "Axel Witsel",
+            "off": "Maxim De Cuyper"
+          },
+          {
+            "minute": 60,
+            "team": "away",
+            "on": "Joaquin Seys",
+            "off": "Hans Vanaken"
+          },
+          {
+            "minute": 60,
+            "team": "away",
+            "on": "Romelu Lukaku",
+            "off": "Leandro Trossard"
+          },
+          {
+            "minute": 71,
+            "team": "away",
+            "on": "Senne Lammens",
+            "off": "Thibaut Courtois"
+          },
+          {
+            "minute": 79,
+            "team": "home",
+            "on": "Nico Williams",
+            "off": "Mikel Oyarzabal"
+          },
+          {
+            "minute": 86,
+            "team": "home",
+            "on": "Mikel Merino",
+            "off": "Dani Olmo"
+          },
+          {
+            "minute": 86,
+            "team": "away",
+            "on": "Alexis Saelemaekers",
+            "off": "Kevin De Bruyne"
+          }
+        ],
+        "statistics": {
+          "home": {
+            "possessionPct": 68,
+            "shotsTotal": 16,
+            "shotsOnGoal": 7,
+            "shotsOffGoal": 4,
+            "shotsBlocked": 5,
+            "shotsInsideBox": 10,
+            "shotsOutsideBox": 6,
+            "corners": 5,
+            "offsides": 3,
+            "fouls": 13,
+            "yellowCards": 2,
+            "redCards": null,
+            "goalkeeperSaves": 1,
+            "passesTotal": 644,
+            "passesAccurate": 582,
+            "passesPct": 90,
+            "expectedGoals": 2.04
+          },
+          "away": {
+            "possessionPct": 32,
+            "shotsTotal": 5,
+            "shotsOnGoal": 2,
+            "shotsOffGoal": 1,
+            "shotsBlocked": 2,
+            "shotsInsideBox": 4,
+            "shotsOutsideBox": 1,
+            "corners": 1,
+            "offsides": 1,
+            "fouls": 16,
+            "yellowCards": 1,
+            "redCards": null,
+            "goalkeeperSaves": 5,
+            "passesTotal": 308,
+            "passesAccurate": 242,
+            "passesPct": 79,
+            "expectedGoals": 0.38
+          }
+        },
         "stageNormalized": "quarter_final",
-        "liveDataLocked": {
-          "reason": "live_data_is_pro",
-          "message": "Live in-match data (score, goals, cards, substitutions) is a Pro-tier feature. This match is in progress — upgrade at https://api.zafronix.com/pricing to read live tournament data."
+        "fairPlay": {
+          "home": -2,
+          "away": -2
         }
       },
       {
@@ -37473,7 +37684,7 @@
         "timezone": "us_central",
         "stage": "sf",
         "homeTeam": "France",
-        "awayTeam": null,
+        "awayTeam": "Spain",
         "homeRef": "W97",
         "awayRef": "W98",
         "homeScore": null,

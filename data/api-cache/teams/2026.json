@@ -1,5 +1,5 @@
 {
-  "savedAt": 1783712117020,
+  "savedAt": 1783737955608,
   "data": [
     {
       "name": "Mexico",
@@ -9378,7 +9378,8 @@
             "country": "Spain"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": null,
@@ -9391,7 +9392,8 @@
             "country": "Italy"
           },
           "goals": 1,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": null,
@@ -9508,7 +9510,7 @@
             "name": "Atalanta",
             "country": "Italy"
           },
-          "goals": 2,
+          "goals": 3,
           "captain": false
         },
         {
@@ -10775,7 +10777,8 @@
             "country": "Spain"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": null,
@@ -10853,7 +10856,8 @@
             "country": "Spain"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": null,
@@ -10891,7 +10895,7 @@
             "name": "Arsenal",
             "country": "England"
           },
-          "goals": 1,
+          "goals": 2,
           "captain": false
         },
         {
@@ -10904,7 +10908,7 @@
             "name": "Paris Saint-Germain",
             "country": "France"
           },
-          "goals": 0,
+          "goals": 2,
           "captain": false
         },
         {
