@@ -1,5 +1,5 @@
 {
-  "savedAt": 1783824858735,
+  "savedAt": 1783844414912,
   "data": {
     "year": 2026,
     "count": 104,
@@ -38033,17 +38033,20 @@
         "awayTeam": "Switzerland",
         "homeRef": "W95",
         "awayRef": "W96",
-        "homeScore": null,
-        "awayScore": null,
-        "result": null,
+        "homeScore": 0,
+        "awayScore": 0,
+        "result": "0-0",
         "extraTime": false,
         "penalties": null,
         "stadium": "Kansas City Stadium",
         "stadiumId": "arrowhead-stadium",
         "city": "Kansas City",
         "country": "United States",
-        "attendance": null,
-        "referee": null,
+        "attendance": 69045,
+        "referee": {
+          "name": "João Pinheiro",
+          "country": "Portugal"
+        },
         "weather": null,
         "lineups": {
           "home": [
@@ -38113,6 +38116,42 @@
               "number": 9,
               "position": "CF",
               "starter": true
+            },
+            {
+              "player": "Nicolás González",
+              "number": 15,
+              "position": "MF",
+              "starter": false
+            },
+            {
+              "player": "Lautaro Martínez",
+              "number": 22,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Gonzalo Montiel",
+              "number": 4,
+              "position": "DF",
+              "starter": false
+            },
+            {
+              "player": "Thiago Almada",
+              "number": 16,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Nicolás Otamendi",
+              "number": 19,
+              "position": "DF",
+              "starter": false
+            },
+            {
+              "player": "José Manuel López",
+              "number": 21,
+              "position": "FW",
+              "starter": false
             }
           ],
           "away": [
@@ -38182,6 +38221,42 @@
               "number": 7,
               "position": "CF",
               "starter": true
+            },
+            {
+              "player": "Miro Muheim",
+              "number": 2,
+              "position": "DF",
+              "starter": false
+            },
+            {
+              "player": "Silvan Widmer",
+              "number": 3,
+              "position": "DF",
+              "starter": false
+            },
+            {
+              "player": "Zeki Amdouni",
+              "number": 23,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Eray Cömert",
+              "number": 18,
+              "position": "DF",
+              "starter": false
+            },
+            {
+              "player": "Ardon Jashari",
+              "number": 14,
+              "position": "MF",
+              "starter": false
+            },
+            {
+              "player": "Rubén Vargas",
+              "number": 17,
+              "position": "FW",
+              "starter": false
             }
           ]
         },
@@ -38189,20 +38264,149 @@
           "home": "4-4-2",
           "away": "4-5-1"
         },
-        "status": "live",
+        "status": "finished",
+        "goals": [
+          {
+            "minute": 10,
+            "team": "home",
+            "scorer": "Mac Allister"
+          },
+          {
+            "minute": 67,
+            "team": "away",
+            "scorer": "Ndoye"
+          },
+          {
+            "minute": 112,
+            "team": "home",
+            "scorer": "Alvarez"
+          },
+          {
+            "minute": 120,
+            "addedMinute": 1,
+            "team": "home",
+            "scorer": "La. Martínez"
+          }
+        ],
         "managers": {
           "home": "Lionel Scaloni",
           "away": "Murat Yakin"
         },
         "liveMinute": null,
         "liveMinuteAt": null,
-        "clockSource": "wikipedia",
-        "clockSourceAt": "2026-07-12T02:52:38.829Z",
-        "livePhase": "1H",
+        "clockSource": "apifootball",
+        "clockSourceAt": "2026-07-12T05:00:05.388Z",
+        "livePhase": null,
+        "cards": [
+          {
+            "minute": 2,
+            "team": "away",
+            "player": "Breel Embolo",
+            "color": "yellow"
+          },
+          {
+            "minute": 44,
+            "team": "away",
+            "player": "Breel Embolo",
+            "color": "second_yellow"
+          },
+          {
+            "minute": 97,
+            "team": "home",
+            "player": "Thiago Almada",
+            "color": "yellow"
+          },
+          {
+            "minute": 98,
+            "team": "home",
+            "player": "Lautaro Martínez",
+            "color": "yellow"
+          },
+          {
+            "minute": 114,
+            "team": "home",
+            "player": "José Manuel López",
+            "color": "yellow"
+          }
+        ],
+        "substitutions": [
+          {
+            "minute": 78,
+            "team": "home",
+            "on": "Nicolás González",
+            "off": "Nicolás Tagliafico"
+          },
+          {
+            "minute": 85,
+            "team": "home",
+            "on": "Gonzalo Montiel",
+            "off": "Nahuel Molina"
+          },
+          {
+            "minute": 85,
+            "team": "home",
+            "on": "Lautaro Martínez",
+            "off": "Rodrigo De Paul"
+          },
+          {
+            "minute": 86,
+            "team": "away",
+            "on": "Silvan Widmer",
+            "off": "Djibril Sow"
+          },
+          {
+            "minute": 86,
+            "team": "away",
+            "on": "Zeki Amdouni",
+            "off": "Fabian Rieder"
+          },
+          {
+            "minute": 86,
+            "team": "away",
+            "on": "Miro Muheim",
+            "off": "Dan Ndoye"
+          },
+          {
+            "minute": 90,
+            "team": "away",
+            "on": "Eray Cömert",
+            "off": "Ricardo Rodriguez"
+          },
+          {
+            "minute": 91,
+            "team": "home",
+            "on": "Thiago Almada",
+            "off": "Enzo Fernández"
+          },
+          {
+            "minute": 96,
+            "team": "away",
+            "on": "Ardon Jashari",
+            "off": "Denis Zakaria"
+          },
+          {
+            "minute": 106,
+            "team": "home",
+            "on": "Nicolás Otamendi",
+            "off": "Cristian Romero"
+          },
+          {
+            "minute": 110,
+            "team": "home",
+            "on": "José Manuel López",
+            "off": "Leandro Paredes"
+          },
+          {
+            "minute": 115,
+            "team": "away",
+            "on": "Rubén Vargas",
+            "off": "Remo Freuler"
+          }
+        ],
         "stageNormalized": "quarter_final",
-        "liveDataLocked": {
-          "reason": "live_data_is_pro",
-          "message": "Live in-match data (score, goals, cards, substitutions) is a Pro-tier feature. This match is in progress — upgrade at https://api.zafronix.com/pricing to read live tournament data."
+        "fairPlay": {
+          "home": -3,
+          "away": -4
         }
       },
       {

@@ -1,5 +1,5 @@
 {
-  "savedAt": 1783824858442,
+  "savedAt": 1783844414632,
   "data": [
     {
       "name": "Mexico",
@@ -955,7 +955,7 @@
           },
           "goals": 0,
           "captain": false,
-          "yellowCards": 0
+          "yellowCards": 1
         },
         {
           "jersey": null,
@@ -2854,7 +2854,9 @@
             "country": "France"
           },
           "goals": 2,
-          "captain": false
+          "captain": false,
+          "yellowCards": 2,
+          "redCards": 1
         },
         {
           "jersey": 8,
@@ -2906,7 +2908,7 @@
             "name": "Nottingham Forest",
             "country": "England"
           },
-          "goals": 1,
+          "goals": 2,
           "captain": false
         },
         {
@@ -9405,7 +9407,7 @@
             "name": "Aston Villa",
             "country": "England"
           },
-          "goals": 0,
+          "goals": 2,
           "captain": true
         },
         {
@@ -10908,7 +10910,7 @@
             "name": "Paris Saint-Germain",
             "country": "France"
           },
-          "goals": 0,
+          "goals": 1,
           "captain": false
         },
         {
@@ -13874,7 +13876,7 @@
             "name": "Atlético Madrid",
             "country": "Spain"
           },
-          "goals": 0,
+          "goals": 1,
           "captain": false
         },
         {
@@ -13967,7 +13969,8 @@
             "country": "Spain"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": 17,
@@ -14018,7 +14021,7 @@
             "name": "Liverpool",
             "country": "England"
           },
-          "goals": 0,
+          "goals": 1,
           "captain": false,
           "assists": 0
         },
@@ -14033,7 +14036,8 @@
             "country": "Brazil"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": 22,
@@ -14045,8 +14049,9 @@
             "name": "Inter Milan",
             "country": "Italy"
           },
-          "goals": 1,
-          "captain": false
+          "goals": 2,
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": 23,
