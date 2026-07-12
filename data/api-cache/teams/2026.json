@@ -1,5 +1,5 @@
 {
-  "savedAt": 1783796748563,
+  "savedAt": 1783824858442,
   "data": [
     {
       "name": "Mexico",
@@ -955,7 +955,7 @@
           },
           "goals": 0,
           "captain": false,
-          "yellowCards": 1
+          "yellowCards": 0
         },
         {
           "jersey": null,
@@ -9405,7 +9405,7 @@
             "name": "Aston Villa",
             "country": "England"
           },
-          "goals": 2,
+          "goals": 0,
           "captain": true
         },
         {
@@ -10908,7 +10908,7 @@
             "name": "Paris Saint-Germain",
             "country": "France"
           },
-          "goals": 1,
+          "goals": 0,
           "captain": false
         },
         {
@@ -13415,7 +13415,8 @@
             "country": "England"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": 4,
@@ -13652,7 +13653,7 @@
             "name": "Benfica",
             "country": ""
           },
-          "goals": 0,
+          "goals": 1,
           "captain": false
         },
         {
@@ -16992,7 +16993,7 @@
             "name": "Real Madrid",
             "country": "Spain"
           },
-          "goals": 4,
+          "goals": 6,
           "captain": false,
           "yellowCards": 1
         },
