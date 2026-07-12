@@ -1,5 +1,5 @@
 {
-  "savedAt": 1783844414912,
+  "savedAt": 1783862572151,
   "data": {
     "year": 2026,
     "count": 104,
@@ -38047,7 +38047,13 @@
           "name": "João Pinheiro",
           "country": "Portugal"
         },
-        "weather": null,
+        "weather": {
+          "tempC": 28.6,
+          "humidityPct": 60,
+          "precipitationMm": 0,
+          "windKmh": 7.7,
+          "code": 0
+        },
         "lineups": {
           "home": [
             {
