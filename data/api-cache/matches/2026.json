@@ -1,5 +1,5 @@
 {
-  "savedAt": 1783935020226,
+  "savedAt": 1783953437210,
   "data": {
     "year": 2026,
     "count": 104,
@@ -38301,7 +38301,7 @@
         "liveMinute": null,
         "liveMinuteAt": null,
         "clockSource": "apifootball",
-        "clockSourceAt": "2026-07-12T05:00:05.388Z",
+        "clockSourceAt": "2026-07-13T12:00:22.237Z",
         "livePhase": null,
         "cards": [
           {
@@ -38409,6 +38409,46 @@
             "off": "Remo Freuler"
           }
         ],
+        "statistics": {
+          "home": {
+            "possessionPct": 59,
+            "shotsTotal": 22,
+            "shotsOnGoal": 7,
+            "shotsOffGoal": 8,
+            "shotsBlocked": 7,
+            "shotsInsideBox": 12,
+            "shotsOutsideBox": 10,
+            "corners": 8,
+            "offsides": 4,
+            "fouls": 14,
+            "yellowCards": 3,
+            "redCards": 0,
+            "goalkeeperSaves": 4,
+            "passesTotal": 692,
+            "passesAccurate": 615,
+            "passesPct": 89,
+            "expectedGoals": 2
+          },
+          "away": {
+            "possessionPct": 41,
+            "shotsTotal": 11,
+            "shotsOnGoal": 5,
+            "shotsOffGoal": 3,
+            "shotsBlocked": 3,
+            "shotsInsideBox": 5,
+            "shotsOutsideBox": 6,
+            "corners": 2,
+            "offsides": 3,
+            "fouls": 18,
+            "yellowCards": 2,
+            "redCards": 1,
+            "goalkeeperSaves": 4,
+            "passesTotal": 474,
+            "passesAccurate": 399,
+            "passesPct": 84,
+            "expectedGoals": 0.53
+          }
+        },
         "stageNormalized": "quarter_final",
         "fairPlay": {
           "home": -3,
