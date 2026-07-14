@@ -1,5 +1,5 @@
 {
-  "savedAt": 1784036818765,
+  "savedAt": 1784056929629,
   "data": {
     "year": 2026,
     "count": 104,
@@ -32669,7 +32669,7 @@
               "starter": true
             },
             {
-              "player": "Nico González",
+              "player": "Nicolás González",
               "number": 15,
               "position": "MF",
               "starter": false
@@ -32907,7 +32907,7 @@
           {
             "minute": 63,
             "team": "home",
-            "on": "Nico González",
+            "on": "Nicolás González",
             "off": "Thiago Almada"
           },
           {
@@ -38479,7 +38479,165 @@
         "attendance": null,
         "referee": null,
         "weather": null,
-        "stageNormalized": "semi_final"
+        "lineups": {
+          "home": [
+            {
+              "player": "Mike Maignan",
+              "number": 16,
+              "position": "GK",
+              "starter": true
+            },
+            {
+              "player": "Jules Koundé",
+              "number": 5,
+              "position": "RB",
+              "starter": true
+            },
+            {
+              "player": "Dayot Upamecano",
+              "number": 4,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "William Saliba",
+              "number": 17,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Lucas Digne",
+              "number": 3,
+              "position": "LB",
+              "starter": true
+            },
+            {
+              "player": "Aurélien Tchouaméni",
+              "number": 8,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Adrien Rabiot",
+              "number": 14,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Ousmane Dembélé",
+              "number": 7,
+              "position": "RW",
+              "starter": true
+            },
+            {
+              "player": "Michael Olise",
+              "number": 11,
+              "position": "AM",
+              "starter": true
+            },
+            {
+              "player": "Bradley Barcola",
+              "number": 12,
+              "position": "LW",
+              "starter": true
+            },
+            {
+              "player": "Kylian Mbappé",
+              "number": 10,
+              "position": "CF",
+              "starter": true,
+              "captain": true
+            }
+          ],
+          "away": [
+            {
+              "player": "Unai Simón",
+              "number": 23,
+              "position": "GK",
+              "starter": true
+            },
+            {
+              "player": "Pedro Porro",
+              "number": 12,
+              "position": "RB",
+              "starter": true
+            },
+            {
+              "player": "Pau Cubarsí",
+              "number": 22,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Aymeric Laporte",
+              "number": 14,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Marc Cucurella",
+              "number": 24,
+              "position": "LB",
+              "starter": true
+            },
+            {
+              "player": "Rodri",
+              "number": 16,
+              "position": "DM",
+              "starter": true,
+              "captain": true
+            },
+            {
+              "player": "Dani Olmo",
+              "number": 10,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Fabián Ruiz",
+              "number": 8,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Lamine Yamal",
+              "number": 19,
+              "position": "RF",
+              "starter": true
+            },
+            {
+              "player": "Mikel Oyarzabal",
+              "number": 21,
+              "position": "CF",
+              "starter": true
+            },
+            {
+              "player": "Álex Baena",
+              "number": 15,
+              "position": "LF",
+              "starter": true
+            }
+          ]
+        },
+        "formations": {
+          "home": "4-5-1",
+          "away": "4-3-3"
+        },
+        "status": "live",
+        "managers": {
+          "home": "Didier Deschamps",
+          "away": "Luis de la Fuente"
+        },
+        "liveMinute": null,
+        "liveMinuteAt": "2026-07-14T19:18:33.000Z",
+        "clockSource": "apifootball",
+        "clockSourceAt": "2026-07-14T19:18:34.092Z",
+        "livePhase": "1H",
+        "stageNormalized": "semi_final",
+        "liveDataLocked": {
+          "reason": "live_data_is_pro",
+          "message": "Live in-match data (score, goals, cards, substitutions) is a Pro-tier feature. This match is in progress — upgrade at https://api.zafronix.com/pricing to read live tournament data."
+        }
       },
       {
         "id": "2026-102",
