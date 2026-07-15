@@ -1,5 +1,5 @@
 {
-  "savedAt": 1784056929629,
+  "savedAt": 1784082886402,
   "data": {
     "year": 2026,
     "count": 104,
@@ -38467,18 +38467,27 @@
         "awayTeam": "Spain",
         "homeRef": "W97",
         "awayRef": "W98",
-        "homeScore": null,
-        "awayScore": null,
-        "result": null,
+        "homeScore": 0,
+        "awayScore": 2,
+        "result": "0-2",
         "extraTime": false,
         "penalties": null,
         "stadium": "Dallas Stadium",
         "stadiumId": "att-stadium",
         "city": "Arlington",
         "country": "United States",
-        "attendance": null,
-        "referee": null,
-        "weather": null,
+        "attendance": 70176,
+        "referee": {
+          "name": "Iván Barton",
+          "country": "El Salvador"
+        },
+        "weather": {
+          "tempC": 29.8,
+          "humidityPct": 65,
+          "precipitationMm": 0.7,
+          "windKmh": 15,
+          "code": 53
+        },
         "lineups": {
           "home": [
             {
@@ -38547,6 +38556,36 @@
               "position": "CF",
               "starter": true,
               "captain": true
+            },
+            {
+              "player": "Maxence Lacroix",
+              "number": 26,
+              "position": "DF",
+              "starter": false
+            },
+            {
+              "player": "Manu Koné",
+              "number": 6,
+              "position": "MF",
+              "starter": false
+            },
+            {
+              "player": "Désiré Doué",
+              "number": 20,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Rayan Cherki",
+              "number": 24,
+              "position": "MF",
+              "starter": false
+            },
+            {
+              "player": "Théo Hernandez",
+              "number": 19,
+              "position": "DF",
+              "starter": false
             }
           ],
           "away": [
@@ -38616,6 +38655,36 @@
               "number": 15,
               "position": "LF",
               "starter": true
+            },
+            {
+              "player": "Ferran Torres",
+              "number": 7,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Pedri",
+              "number": 20,
+              "position": "MF",
+              "starter": false
+            },
+            {
+              "player": "Mikel Merino",
+              "number": 6,
+              "position": "MF",
+              "starter": false
+            },
+            {
+              "player": "Nico Williams",
+              "number": 17,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Marcos Llorente",
+              "number": 5,
+              "position": "DF",
+              "starter": false
             }
           ]
         },
@@ -38623,20 +38692,151 @@
           "home": "4-5-1",
           "away": "4-3-3"
         },
-        "status": "live",
+        "status": "finished",
+        "goals": [
+          {
+            "minute": 22,
+            "team": "away",
+            "scorer": "Oyarzabal 22' pen",
+            "type": "penalty"
+          },
+          {
+            "minute": 58,
+            "team": "away",
+            "scorer": "Porro"
+          }
+        ],
         "managers": {
           "home": "Didier Deschamps",
           "away": "Luis de la Fuente"
         },
         "liveMinute": null,
-        "liveMinuteAt": "2026-07-14T19:18:33.000Z",
+        "liveMinuteAt": null,
         "clockSource": "apifootball",
-        "clockSourceAt": "2026-07-14T19:18:34.092Z",
-        "livePhase": "1H",
+        "clockSourceAt": "2026-07-14T21:22:45.577Z",
+        "livePhase": null,
+        "cards": [
+          {
+            "minute": 8,
+            "team": "home",
+            "player": "Adrien Rabiot",
+            "color": "yellow"
+          },
+          {
+            "minute": 31,
+            "team": "away",
+            "player": "Marc Cucurella",
+            "color": "yellow"
+          },
+          {
+            "minute": 86,
+            "team": "home",
+            "player": "Kylian Mbappé",
+            "color": "yellow"
+          }
+        ],
+        "substitutions": [
+          {
+            "minute": 30,
+            "team": "home",
+            "on": "Maxence Lacroix",
+            "off": "William Saliba"
+          },
+          {
+            "minute": 46,
+            "team": "home",
+            "on": "Manu Koné",
+            "off": "Adrien Rabiot"
+          },
+          {
+            "minute": 57,
+            "team": "home",
+            "on": "Désiré Doué",
+            "off": "Bradley Barcola"
+          },
+          {
+            "minute": 72,
+            "team": "home",
+            "on": "Rayan Cherki",
+            "off": "Lucas Digne"
+          },
+          {
+            "minute": 72,
+            "team": "home",
+            "on": "Théo Hernandez",
+            "off": "Michael Olise"
+          },
+          {
+            "minute": 74,
+            "team": "away",
+            "on": "Ferran Torres",
+            "off": "Mikel Oyarzabal"
+          },
+          {
+            "minute": 77,
+            "team": "away",
+            "on": "Mikel Merino",
+            "off": "Dani Olmo"
+          },
+          {
+            "minute": 77,
+            "team": "away",
+            "on": "Pedri",
+            "off": "Fabián Ruiz"
+          },
+          {
+            "minute": 83,
+            "team": "away",
+            "on": "Nico Williams",
+            "off": "Pedro Porro"
+          },
+          {
+            "minute": 83,
+            "team": "away",
+            "on": "Marcos Llorente",
+            "off": "Álex Baena"
+          }
+        ],
+        "statistics": {
+          "home": {
+            "possessionPct": 49,
+            "shotsTotal": 10,
+            "shotsOnGoal": 3,
+            "shotsOffGoal": 5,
+            "shotsBlocked": 2,
+            "shotsInsideBox": 4,
+            "shotsOutsideBox": 6,
+            "corners": 7,
+            "offsides": 4,
+            "fouls": 11,
+            "yellowCards": 2,
+            "redCards": 0,
+            "goalkeeperSaves": 0,
+            "passesTotal": 472,
+            "passesAccurate": 395
+          },
+          "away": {
+            "possessionPct": 51,
+            "shotsTotal": 10,
+            "shotsOnGoal": 2,
+            "shotsOffGoal": 5,
+            "shotsBlocked": 3,
+            "shotsInsideBox": 5,
+            "shotsOutsideBox": 5,
+            "corners": 1,
+            "offsides": 5,
+            "fouls": 12,
+            "yellowCards": 1,
+            "redCards": 0,
+            "goalkeeperSaves": 3,
+            "passesTotal": 500,
+            "passesAccurate": 428
+          }
+        },
         "stageNormalized": "semi_final",
-        "liveDataLocked": {
-          "reason": "live_data_is_pro",
-          "message": "Live in-match data (score, goals, cards, substitutions) is a Pro-tier feature. This match is in progress — upgrade at https://api.zafronix.com/pricing to read live tournament data."
+        "fairPlay": {
+          "home": -2,
+          "away": -1
         }
       },
       {
@@ -38673,7 +38873,7 @@
         "kickoffUtc": "2026-07-18T21:00:00.000Z",
         "timezone": "us_east",
         "stage": "thirdPlace",
-        "homeTeam": null,
+        "homeTeam": "France",
         "awayTeam": null,
         "homeRef": "L101",
         "awayRef": "L102",
@@ -38699,7 +38899,7 @@
         "kickoffUtc": "2026-07-19T19:00:00.000Z",
         "timezone": "us_east",
         "stage": "final",
-        "homeTeam": null,
+        "homeTeam": "Spain",
         "awayTeam": null,
         "homeRef": "W101",
         "awayRef": "W102",
