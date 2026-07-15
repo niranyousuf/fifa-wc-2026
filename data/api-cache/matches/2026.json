@@ -1,5 +1,5 @@
 {
-  "savedAt": 1784123170981,
+  "savedAt": 1784142799256,
   "data": {
     "year": 2026,
     "count": 104,
@@ -38863,7 +38863,165 @@
         "attendance": null,
         "referee": null,
         "weather": null,
-        "stageNormalized": "semi_final"
+        "lineups": {
+          "home": [
+            {
+              "player": "Jordan Pickford",
+              "number": 1,
+              "position": "GK",
+              "starter": true
+            },
+            {
+              "player": "Reece James",
+              "number": 24,
+              "position": "RB",
+              "starter": true
+            },
+            {
+              "player": "John Stones",
+              "number": 5,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Marc Guéhi",
+              "number": 6,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Djed Spence",
+              "number": 25,
+              "position": "LB",
+              "starter": true
+            },
+            {
+              "player": "Declan Rice",
+              "number": 4,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Elliot Anderson",
+              "number": 8,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Morgan Rogers",
+              "number": 17,
+              "position": "RW",
+              "starter": true
+            },
+            {
+              "player": "Jude Bellingham",
+              "number": 10,
+              "position": "AM",
+              "starter": true
+            },
+            {
+              "player": "Anthony Gordon",
+              "number": 18,
+              "position": "LW",
+              "starter": true
+            },
+            {
+              "player": "Harry Kane",
+              "number": 9,
+              "position": "CF",
+              "starter": true,
+              "captain": true
+            }
+          ],
+          "away": [
+            {
+              "player": "Emiliano Martínez",
+              "number": 23,
+              "position": "GK",
+              "starter": true
+            },
+            {
+              "player": "Nahuel Molina",
+              "number": 26,
+              "position": "RB",
+              "starter": true
+            },
+            {
+              "player": "Cristian Romero",
+              "number": 13,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Lisandro Martínez",
+              "number": 6,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Nicolás Tagliafico",
+              "number": 3,
+              "position": "LB",
+              "starter": true
+            },
+            {
+              "player": "Giuliano Simeone",
+              "number": 17,
+              "position": "RM",
+              "starter": true
+            },
+            {
+              "player": "Leandro Paredes",
+              "number": 5,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Alexis Mac Allister",
+              "number": 20,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Enzo Fernández",
+              "number": 24,
+              "position": "LM",
+              "starter": true
+            },
+            {
+              "player": "Lionel Messi",
+              "number": 10,
+              "position": "CF",
+              "starter": true,
+              "captain": true
+            },
+            {
+              "player": "Julián Alvarez",
+              "number": 9,
+              "position": "CF",
+              "starter": true
+            }
+          ]
+        },
+        "formations": {
+          "home": "4-5-1",
+          "away": "4-4-2"
+        },
+        "status": "live",
+        "managers": {
+          "home": "Thomas Tuchel",
+          "away": "Lionel Scaloni"
+        },
+        "liveMinute": null,
+        "liveMinuteAt": "2026-07-15T19:10:41.000Z",
+        "clockSource": "apifootball",
+        "clockSourceAt": "2026-07-15T19:10:42.323Z",
+        "livePhase": "1H",
+        "stageNormalized": "semi_final",
+        "liveDataLocked": {
+          "reason": "live_data_is_pro",
+          "message": "Live in-match data (score, goals, cards, substitutions) is a Pro-tier feature. This match is in progress — upgrade at https://api.zafronix.com/pricing to read live tournament data."
+        }
       },
       {
         "id": "2026-103",
