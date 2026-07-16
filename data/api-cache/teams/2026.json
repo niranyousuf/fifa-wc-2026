@@ -1,5 +1,5 @@
 {
-  "savedAt": 1784142799039,
+  "savedAt": 1784169783853,
   "data": [
     {
       "name": "Mexico",
@@ -13841,7 +13841,8 @@
           },
           "goals": 1,
           "captain": false,
-          "assists": 0
+          "assists": 0,
+          "yellowCards": 1
         },
         {
           "jersey": 7,
@@ -13854,7 +13855,8 @@
             "country": "United States"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": 8,
@@ -13933,7 +13935,8 @@
             "country": "England"
           },
           "goals": 1,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": 14,
@@ -14052,7 +14055,7 @@
             "name": "Inter Milan",
             "country": "Italy"
           },
-          "goals": 2,
+          "goals": 3,
           "captain": false,
           "yellowCards": 1
         },
@@ -14079,7 +14082,7 @@
             "name": "Chelsea",
             "country": "England"
           },
-          "goals": 1,
+          "goals": 2,
           "captain": false
         },
         {
@@ -17042,7 +17045,8 @@
             "country": "England"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": null,
@@ -17108,7 +17112,7 @@
             "name": "Newcastle United",
             "country": "England"
           },
-          "goals": 0,
+          "goals": 1,
           "captain": false,
           "assists": 0
         },
