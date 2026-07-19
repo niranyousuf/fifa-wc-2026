@@ -1,5 +1,5 @@
 {
-  "savedAt": 1784401610106,
+  "savedAt": 1784429460399,
   "data": {
     "year": 2026,
     "count": 104,
@@ -4443,7 +4443,7 @@
               "starter": false
             },
             {
-              "player": "Hadj Mahmoud",
+              "player": "Mohamed Belhadj Mahmoud",
               "number": 15,
               "position": "MF",
               "starter": false
@@ -4552,7 +4552,7 @@
           {
             "minute": 72,
             "team": "away",
-            "on": "Hadj Mahmoud",
+            "on": "Mohamed Belhadj Mahmoud",
             "off": "Ellyes Skhiri"
           },
           {
@@ -21883,16 +21883,17 @@
               "starter": true
             },
             {
-              "player": "Rani Khedira",
-              "number": 13,
-              "position": "CB",
-              "starter": true
-            },
-            {
               "player": "Montassar Talbi",
               "number": 3,
               "position": "CB",
               "starter": true
+            },
+            {
+              "player": "Ellyes Skhiri",
+              "number": 17,
+              "position": "CB",
+              "starter": true,
+              "captain": true
             },
             {
               "player": "Mohamed Amine Ben Hamida",
@@ -21913,16 +21914,9 @@
               "starter": true
             },
             {
-              "player": "Ellyes Skhiri",
-              "number": 17,
-              "position": "CM",
-              "starter": true,
-              "captain": true
-            },
-            {
-              "player": "Hannibal Mejbri",
-              "number": 10,
-              "position": "CM",
+              "player": "Anis Ben Slimane",
+              "number": 25,
+              "position": "RM",
               "starter": true
             },
             {
@@ -21932,33 +21926,39 @@
               "starter": true
             },
             {
+              "player": "Rani Khedira",
+              "number": 13,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Hannibal Mejbri",
+              "number": 10,
+              "position": "LM",
+              "starter": true
+            },
+            {
               "player": "Hazem Mastouri",
               "number": 9,
               "position": "CF",
               "starter": true
             },
             {
-              "player": "Anis Ben Slimane",
-              "number": 25,
-              "position": "CF",
-              "starter": true
-            },
-            {
-              "player": "Hadj Mahmoud",
+              "player": "Mohamed Belhadj Mahmoud",
               "number": 15,
               "position": "MF",
-              "starter": false
-            },
-            {
-              "player": "Elias Achouri",
-              "number": 7,
-              "position": "FW",
               "starter": false
             },
             {
               "player": "Mortadha Ben Ouanes",
               "number": 12,
               "position": "DF",
+              "starter": false
+            },
+            {
+              "player": "Elias Achouri",
+              "number": 7,
+              "position": "FW",
               "starter": false
             },
             {
@@ -22007,14 +22007,14 @@
               "starter": true
             },
             {
-              "player": "Ryan Gravenberch",
-              "number": 8,
-              "position": "CM",
+              "player": "Frenkie de Jong",
+              "number": 21,
+              "position": "DM",
               "starter": true
             },
             {
-              "player": "Frenkie de Jong",
-              "number": 21,
+              "player": "Ryan Gravenberch",
+              "number": 8,
               "position": "CM",
               "starter": true
             },
@@ -22092,7 +22092,7 @@
           {
             "minute": 67,
             "team": "home",
-            "on": "Hadj Mahmoud",
+            "on": "Mohamed Belhadj Mahmoud",
             "off": "Mohamed Amine Ben Hamida"
           },
           {
@@ -22227,7 +22227,7 @@
           {
             "minute": 31,
             "team": "home",
-            "scorer": "Yılmaz"
+            "scorer": "Kökcü"
           },
           {
             "minute": 49,
@@ -39251,18 +39251,401 @@
         "awayTeam": "England",
         "homeRef": "L101",
         "awayRef": "L102",
-        "homeScore": null,
-        "awayScore": null,
-        "result": null,
+        "homeScore": 4,
+        "awayScore": 6,
+        "result": "4-6",
         "extraTime": false,
         "penalties": null,
         "stadium": "Miami Stadium",
         "stadiumId": "hard-rock-stadium",
         "city": "Miami Gardens",
         "country": "United States",
-        "attendance": null,
-        "referee": null,
-        "weather": null,
+        "attendance": 64478,
+        "referee": {
+          "name": "Jesús Valenzuela",
+          "country": "Venezuela"
+        },
+        "weather": {
+          "tempC": 31.4,
+          "humidityPct": 69,
+          "precipitationMm": 0,
+          "windKmh": 14.8,
+          "code": 3
+        },
+        "lineups": {
+          "home": [
+            {
+              "player": "Mike Maignan",
+              "number": 16,
+              "position": "GK",
+              "starter": true
+            },
+            {
+              "player": "Malo Gusto",
+              "number": 2,
+              "position": "RB",
+              "starter": true
+            },
+            {
+              "player": "Ibrahima Konaté",
+              "number": 15,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Maxence Lacroix",
+              "number": 26,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Théo Hernandez",
+              "number": 19,
+              "position": "LB",
+              "starter": true
+            },
+            {
+              "player": "Warren Zaïre-Emery",
+              "number": 18,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Adrien Rabiot",
+              "number": 14,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Michael Olise",
+              "number": 11,
+              "position": "RW",
+              "starter": true
+            },
+            {
+              "player": "Rayan Cherki",
+              "number": 24,
+              "position": "AM",
+              "starter": true
+            },
+            {
+              "player": "Désiré Doué",
+              "number": 20,
+              "position": "LW",
+              "starter": true
+            },
+            {
+              "player": "Kylian Mbappé",
+              "number": 10,
+              "position": "CF",
+              "starter": true,
+              "captain": true
+            },
+            {
+              "player": "Dayot Upamecano",
+              "number": 4,
+              "position": "DF",
+              "starter": false
+            },
+            {
+              "player": "Bradley Barcola",
+              "number": 12,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Lucas Digne",
+              "number": 3,
+              "position": "DF",
+              "starter": false
+            },
+            {
+              "player": "Ousmane Dembélé",
+              "number": 7,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Jules Koundé",
+              "number": 5,
+              "position": "DF",
+              "starter": false
+            }
+          ],
+          "away": [
+            {
+              "player": "Dean Henderson",
+              "number": 13,
+              "position": "GK",
+              "starter": true
+            },
+            {
+              "player": "Jarell Quansah",
+              "number": 26,
+              "position": "RB",
+              "starter": true
+            },
+            {
+              "player": "Ezri Konsa",
+              "number": 2,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Marc Guéhi",
+              "number": 6,
+              "position": "CB",
+              "starter": true
+            },
+            {
+              "player": "Djed Spence",
+              "number": 25,
+              "position": "LB",
+              "starter": true
+            },
+            {
+              "player": "Declan Rice",
+              "number": 4,
+              "position": "DM",
+              "starter": true,
+              "captain": true
+            },
+            {
+              "player": "Morgan Rogers",
+              "number": 17,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Eberechi Eze",
+              "number": 21,
+              "position": "CM",
+              "starter": true
+            },
+            {
+              "player": "Bukayo Saka",
+              "number": 7,
+              "position": "RF",
+              "starter": true
+            },
+            {
+              "player": "Ivan Toney",
+              "number": 22,
+              "position": "CF",
+              "starter": true
+            },
+            {
+              "player": "Marcus Rashford",
+              "number": 11,
+              "position": "LF",
+              "starter": true
+            },
+            {
+              "player": "Ollie Watkins",
+              "number": 19,
+              "position": "FW",
+              "starter": false
+            },
+            {
+              "player": "Elliot Anderson",
+              "number": 8,
+              "position": "MF",
+              "starter": false
+            },
+            {
+              "player": "Jude Bellingham",
+              "number": 10,
+              "position": "MF",
+              "starter": false
+            },
+            {
+              "player": "Reece James",
+              "number": 24,
+              "position": "DF",
+              "starter": false
+            },
+            {
+              "player": "Trevoh Chalobah",
+              "number": 12,
+              "position": "DF",
+              "starter": false
+            }
+          ]
+        },
+        "formations": {
+          "home": "4-5-1",
+          "away": "4-3-3"
+        },
+        "status": "finished",
+        "goals": [
+          {
+            "minute": 3,
+            "team": "away",
+            "scorer": "Rice"
+          },
+          {
+            "minute": 18,
+            "team": "away",
+            "scorer": "Konsa"
+          },
+          {
+            "minute": 37,
+            "team": "away",
+            "scorer": "Saka 37', 45+1', 87' pen",
+            "type": "penalty"
+          },
+          {
+            "minute": 45,
+            "addedMinute": 1,
+            "team": "away",
+            "scorer": "Saka 37', 45+1', 87' pen",
+            "type": "penalty"
+          },
+          {
+            "minute": 48,
+            "team": "home",
+            "scorer": "Mbappé"
+          },
+          {
+            "minute": 54,
+            "team": "home",
+            "scorer": "Barcola"
+          },
+          {
+            "minute": 66,
+            "team": "home",
+            "scorer": "Mbappé"
+          },
+          {
+            "minute": 87,
+            "team": "away",
+            "scorer": "Saka 37', 45+1', 87' pen",
+            "type": "penalty"
+          },
+          {
+            "minute": 90,
+            "addedMinute": 6,
+            "team": "home",
+            "scorer": "Dembélé"
+          },
+          {
+            "minute": 90,
+            "addedMinute": 8,
+            "team": "away",
+            "scorer": "Bellingham"
+          }
+        ],
+        "managers": {
+          "home": "Didier Deschamps",
+          "away": "Thomas Tuchel"
+        },
+        "liveMinute": null,
+        "liveMinuteAt": null,
+        "clockSource": "apifootball",
+        "clockSourceAt": "2026-07-18T23:23:30.455Z",
+        "livePhase": null,
+        "substitutions": [
+          {
+            "minute": 46,
+            "team": "home",
+            "on": "Lucas Digne",
+            "off": "Ibrahima Konaté"
+          },
+          {
+            "minute": 46,
+            "team": "home",
+            "on": "Dayot Upamecano",
+            "off": "Théo Hernandez"
+          },
+          {
+            "minute": 46,
+            "team": "home",
+            "on": "Ousmane Dembélé",
+            "off": "Rayan Cherki"
+          },
+          {
+            "minute": 46,
+            "team": "home",
+            "on": "Bradley Barcola",
+            "off": "Désiré Doué"
+          },
+          {
+            "minute": 46,
+            "team": "away",
+            "on": "Ollie Watkins",
+            "off": "Marcus Rashford"
+          },
+          {
+            "minute": 79,
+            "team": "away",
+            "on": "Elliot Anderson",
+            "off": "Eberechi Eze"
+          },
+          {
+            "minute": 79,
+            "team": "away",
+            "on": "Jude Bellingham",
+            "off": "Ivan Toney"
+          },
+          {
+            "minute": 83,
+            "team": "away",
+            "on": "Reece James",
+            "off": "Jarell Quansah"
+          },
+          {
+            "minute": 90,
+            "team": "home",
+            "on": "Jules Koundé",
+            "off": "Malo Gusto"
+          },
+          {
+            "minute": 90,
+            "team": "away",
+            "on": "Trevoh Chalobah",
+            "off": "Marc Guéhi"
+          }
+        ],
+        "statistics": {
+          "home": {
+            "possessionPct": 46,
+            "shotsTotal": 19,
+            "shotsOnGoal": 9,
+            "shotsOffGoal": 6,
+            "shotsBlocked": 4,
+            "shotsInsideBox": 12,
+            "shotsOutsideBox": 7,
+            "corners": 3,
+            "offsides": 3,
+            "fouls": 14,
+            "yellowCards": null,
+            "redCards": null,
+            "goalkeeperSaves": 4,
+            "passesTotal": 442,
+            "passesAccurate": 402,
+            "passesPct": 91,
+            "expectedGoals": 2.87
+          },
+          "away": {
+            "possessionPct": 54,
+            "shotsTotal": 19,
+            "shotsOnGoal": 11,
+            "shotsOffGoal": 2,
+            "shotsBlocked": 6,
+            "shotsInsideBox": 16,
+            "shotsOutsideBox": 3,
+            "corners": 4,
+            "offsides": 3,
+            "fouls": 8,
+            "yellowCards": null,
+            "redCards": null,
+            "goalkeeperSaves": 5,
+            "passesTotal": 515,
+            "passesAccurate": 467,
+            "passesPct": 91,
+            "expectedGoals": 2.58
+          }
+        },
         "stageNormalized": "third_place"
       },
       {

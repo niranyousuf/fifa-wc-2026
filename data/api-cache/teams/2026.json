@@ -1,5 +1,5 @@
 {
-  "savedAt": 1784401609978,
+  "savedAt": 1784429460260,
   "data": [
     {
       "name": "Mexico",
@@ -5882,7 +5882,7 @@
             "name": "Beşiktaş",
             "country": "Turkey"
           },
-          "goals": 0,
+          "goals": 1,
           "captain": false
         },
         {
@@ -6079,7 +6079,7 @@
             "name": "Galatasaray",
             "country": "Turkey"
           },
-          "goals": 1,
+          "goals": 0,
           "captain": false
         },
         {
@@ -12337,7 +12337,7 @@
             "name": "Paris Saint-Germain",
             "country": "France"
           },
-          "goals": 5,
+          "goals": 6,
           "captain": false
         },
         {
@@ -12377,7 +12377,7 @@
             "name": "Real Madrid",
             "country": "Spain"
           },
-          "goals": 8,
+          "goals": 10,
           "captain": true,
           "yellowCards": 1
         },
@@ -12405,7 +12405,7 @@
             "name": "Paris Saint-Germain",
             "country": "France"
           },
-          "goals": 2,
+          "goals": 3,
           "captain": false,
           "yellowCards": 1
         },
@@ -16895,7 +16895,7 @@
             "name": "Aston Villa",
             "country": "England"
           },
-          "goals": 0,
+          "goals": 1,
           "captain": false
         },
         {
@@ -16990,7 +16990,7 @@
             "name": "Arsenal",
             "country": "England"
           },
-          "goals": 0,
+          "goals": 1,
           "captain": false,
           "yellowCards": 2
         },
@@ -17004,7 +17004,7 @@
             "name": "Real Madrid",
             "country": "Spain"
           },
-          "goals": 6,
+          "goals": 7,
           "captain": false,
           "yellowCards": 1
         },
@@ -17085,7 +17085,7 @@
             "name": "Arsenal",
             "country": "England"
           },
-          "goals": 0,
+          "goals": 3,
           "captain": false,
           "assists": 0
         },
