@@ -1,5 +1,5 @@
 {
-  "savedAt": 1784467221422,
+  "savedAt": 1784488107385,
   "data": {
     "year": 2026,
     "count": 104,
@@ -39672,7 +39672,338 @@
         "attendance": null,
         "referee": null,
         "weather": null,
-        "stageNormalized": "final"
+        "lineups": {
+          "home": [
+            {
+              "player": "Unai Simón",
+              "number": 23,
+              "position": "G",
+              "starter": true
+            },
+            {
+              "player": "Pedro Porro",
+              "number": 12,
+              "position": "D",
+              "starter": true
+            },
+            {
+              "player": "Pau Cubarsí Paredes",
+              "number": 22,
+              "position": "D",
+              "starter": true
+            },
+            {
+              "player": "Aymeric Laporte",
+              "number": 14,
+              "position": "D",
+              "starter": true
+            },
+            {
+              "player": "Marc Cucurella",
+              "number": 24,
+              "position": "D",
+              "starter": true
+            },
+            {
+              "player": "Rodri",
+              "number": 16,
+              "position": "M",
+              "starter": true
+            },
+            {
+              "player": "Dani Olmo",
+              "number": 10,
+              "position": "M",
+              "starter": true
+            },
+            {
+              "player": "Fabián Ruiz",
+              "number": 8,
+              "position": "M",
+              "starter": true
+            },
+            {
+              "player": "Lamine Yamal",
+              "number": 19,
+              "position": "F",
+              "starter": true
+            },
+            {
+              "player": "Mikel Oyarzabal",
+              "number": 21,
+              "position": "F",
+              "starter": true
+            },
+            {
+              "player": "Álex Baena",
+              "number": 15,
+              "position": "M",
+              "starter": true
+            },
+            {
+              "player": "David Raya",
+              "number": 1,
+              "position": "G",
+              "starter": false
+            },
+            {
+              "player": "Marcos Llorente",
+              "number": 5,
+              "position": "D",
+              "starter": false
+            },
+            {
+              "player": "Álex Grimaldo",
+              "number": 3,
+              "position": "D",
+              "starter": false
+            },
+            {
+              "player": "Mikel Merino",
+              "number": 6,
+              "position": "M",
+              "starter": false
+            },
+            {
+              "player": "Víctor Muñoz",
+              "number": 25,
+              "position": "F",
+              "starter": false
+            },
+            {
+              "player": "Borja Iglesias",
+              "number": 26,
+              "position": "F",
+              "starter": false
+            },
+            {
+              "player": "Ferran Torres",
+              "number": 7,
+              "position": "F",
+              "starter": false
+            },
+            {
+              "player": "Eric García",
+              "number": 4,
+              "position": "D",
+              "starter": false
+            },
+            {
+              "player": "Martín Zubimendi",
+              "number": 18,
+              "position": "M",
+              "starter": false
+            },
+            {
+              "player": "Pedri",
+              "number": 20,
+              "position": "M",
+              "starter": false
+            },
+            {
+              "player": "Yeremy Pino",
+              "number": 11,
+              "position": "F",
+              "starter": false
+            },
+            {
+              "player": "Joan García",
+              "number": 13,
+              "position": "G",
+              "starter": false
+            },
+            {
+              "player": "Nico Williams",
+              "number": 17,
+              "position": "F",
+              "starter": false
+            },
+            {
+              "player": "Gavi",
+              "number": 9,
+              "position": "M",
+              "starter": false
+            },
+            {
+              "player": "Marc Pubill",
+              "number": 2,
+              "position": "D",
+              "starter": false
+            }
+          ],
+          "away": [
+            {
+              "player": "E. Martínez",
+              "number": 23,
+              "position": "G",
+              "starter": true
+            },
+            {
+              "player": "G. Montiel",
+              "number": 4,
+              "position": "D",
+              "starter": true
+            },
+            {
+              "player": "C. Romero",
+              "number": 13,
+              "position": "D",
+              "starter": true
+            },
+            {
+              "player": "Lisandro Martínez",
+              "number": 6,
+              "position": "D",
+              "starter": true
+            },
+            {
+              "player": "N. Tagliafico",
+              "number": 3,
+              "position": "D",
+              "starter": true
+            },
+            {
+              "player": "R. De Paul",
+              "number": 7,
+              "position": "M",
+              "starter": true
+            },
+            {
+              "player": "E. Fernández",
+              "number": 24,
+              "position": "M",
+              "starter": true
+            },
+            {
+              "player": "A. Mac Allister",
+              "number": 20,
+              "position": "M",
+              "starter": true
+            },
+            {
+              "player": "N. González",
+              "number": 15,
+              "position": "F",
+              "starter": true
+            },
+            {
+              "player": "L. Messi",
+              "number": 10,
+              "position": "F",
+              "starter": true
+            },
+            {
+              "player": "J. Álvarez",
+              "number": 9,
+              "position": "F",
+              "starter": true
+            },
+            {
+              "player": "G. Simeone",
+              "number": 17,
+              "position": "F",
+              "starter": false
+            },
+            {
+              "player": "V. Barco",
+              "number": 8,
+              "position": "M",
+              "starter": false
+            },
+            {
+              "player": "J. López",
+              "number": 21,
+              "position": "F",
+              "starter": false
+            },
+            {
+              "player": "T. Almada",
+              "number": 16,
+              "position": "F",
+              "starter": false
+            },
+            {
+              "player": "F. Medina",
+              "number": 25,
+              "position": "D",
+              "starter": false
+            },
+            {
+              "player": "N. Molina",
+              "number": 26,
+              "position": "D",
+              "starter": false
+            },
+            {
+              "player": "M. Senesi",
+              "number": 2,
+              "position": "D",
+              "starter": false
+            },
+            {
+              "player": "Lautaro Martínez",
+              "number": 22,
+              "position": "F",
+              "starter": false
+            },
+            {
+              "player": "E. Palacios",
+              "number": 14,
+              "position": "M",
+              "starter": false
+            },
+            {
+              "player": "G. Lo Celso",
+              "number": 11,
+              "position": "M",
+              "starter": false
+            },
+            {
+              "player": "J. Musso",
+              "number": 1,
+              "position": "G",
+              "starter": false
+            },
+            {
+              "player": "L. Paredes",
+              "number": 5,
+              "position": "M",
+              "starter": false
+            },
+            {
+              "player": "G. Rulli",
+              "number": 12,
+              "position": "G",
+              "starter": false
+            },
+            {
+              "player": "N. Otamendi",
+              "number": 19,
+              "position": "D",
+              "starter": false
+            },
+            {
+              "player": "N. Paz",
+              "number": 18,
+              "position": "M",
+              "starter": false
+            }
+          ]
+        },
+        "formations": {
+          "home": "4-1-2-3",
+          "away": "4-4-2"
+        },
+        "status": "live",
+        "liveMinute": null,
+        "liveMinuteAt": null,
+        "clockSource": "wikipedia",
+        "clockSourceAt": "2026-07-19T19:07:44.422Z",
+        "stageNormalized": "final",
+        "liveDataLocked": {
+          "reason": "live_data_is_pro",
+          "message": "Live in-match data (score, goals, cards, substitutions) is a Pro-tier feature. This match is in progress — upgrade at https://api.zafronix.com/pricing to read live tournament data."
+        }
       }
     ]
   }
