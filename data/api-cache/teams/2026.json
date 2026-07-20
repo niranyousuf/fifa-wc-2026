@@ -1,5 +1,5 @@
 {
-  "savedAt": 1784539013407,
+  "savedAt": 1784556530411,
   "data": [
     {
       "name": "Mexico",
@@ -5882,7 +5882,7 @@
             "name": "Beşiktaş",
             "country": "Turkey"
           },
-          "goals": 1,
+          "goals": 0,
           "captain": false
         },
         {
@@ -6079,7 +6079,7 @@
             "name": "Galatasaray",
             "country": "Turkey"
           },
-          "goals": 0,
+          "goals": 1,
           "captain": false
         },
         {
