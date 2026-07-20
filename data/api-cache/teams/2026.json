@@ -1,5 +1,5 @@
 {
-  "savedAt": 1784488107151,
+  "savedAt": 1784517841755,
   "data": [
     {
       "name": "Mexico",
@@ -10978,7 +10978,7 @@
             "name": "Barcelona",
             "country": "Spain"
           },
-          "goals": 0,
+          "goals": 1,
           "captain": false,
           "yellowCards": 1
         },
@@ -11019,7 +11019,8 @@
             "country": "Spain"
           },
           "goals": 0,
-          "captain": false
+          "captain": false,
+          "assists": 1
         },
         {
           "jersey": null,
@@ -13827,7 +13828,7 @@
           },
           "goals": 0,
           "captain": false,
-          "yellowCards": 1
+          "yellowCards": 2
         },
         {
           "jersey": 6,
@@ -13842,7 +13843,7 @@
           "goals": 1,
           "captain": false,
           "assists": 0,
-          "yellowCards": 1
+          "yellowCards": 2
         },
         {
           "jersey": 7,
@@ -13896,7 +13897,8 @@
           },
           "goals": 8,
           "captain": true,
-          "assists": 0
+          "assists": 0,
+          "yellowCards": 1
         },
         {
           "jersey": 11,
@@ -13936,7 +13938,7 @@
           },
           "goals": 1,
           "captain": false,
-          "yellowCards": 1
+          "yellowCards": 2
         },
         {
           "jersey": 14,
@@ -14029,7 +14031,8 @@
           },
           "goals": 1,
           "captain": false,
-          "assists": 0
+          "assists": 0,
+          "yellowCards": 1
         },
         {
           "jersey": 21,
@@ -14083,7 +14086,8 @@
             "country": "England"
           },
           "goals": 2,
-          "captain": false
+          "captain": false,
+          "yellowCards": 1
         },
         {
           "jersey": 25,

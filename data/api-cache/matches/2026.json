@@ -1,5 +1,5 @@
 {
-  "savedAt": 1784488107385,
+  "savedAt": 1784517841876,
   "data": {
     "year": 2026,
     "count": 104,
@@ -39660,18 +39660,27 @@
         "awayTeam": "Argentina",
         "homeRef": "W101",
         "awayRef": "W102",
-        "homeScore": null,
-        "awayScore": null,
-        "result": null,
-        "extraTime": false,
+        "homeScore": 1,
+        "awayScore": 0,
+        "result": "1-0",
+        "extraTime": true,
         "penalties": null,
         "stadium": "New York/New Jersey Stadium",
         "stadiumId": "metlife-stadium",
         "city": "East Rutherford",
         "country": "United States",
         "attendance": null,
-        "referee": null,
-        "weather": null,
+        "referee": {
+          "name": "Slavko Vinčić",
+          "country": null
+        },
+        "weather": {
+          "tempC": 26.9,
+          "humidityPct": 41,
+          "precipitationMm": 0,
+          "windKmh": 18.5,
+          "code": 0
+        },
         "lineups": {
           "home": [
             {
@@ -39994,15 +40003,100 @@
           "home": "4-1-2-3",
           "away": "4-4-2"
         },
-        "status": "live",
+        "status": "finished",
         "liveMinute": null,
         "liveMinuteAt": null,
-        "clockSource": "wikipedia",
-        "clockSourceAt": "2026-07-19T19:07:44.422Z",
+        "clockSource": "apifootball",
+        "clockSourceAt": "2026-07-19T23:03:36.913Z",
+        "goals": [
+          {
+            "minute": 106,
+            "team": "home",
+            "scorer": "Ferrán Torres",
+            "assist": "Nico Williams",
+            "type": "normal",
+            "provisional": true
+          }
+        ],
+        "livePhase": null,
+        "cards": [
+          {
+            "minute": 41,
+            "team": "away",
+            "player": "Lisandro Martínez",
+            "color": "yellow"
+          },
+          {
+            "minute": 52,
+            "team": "away",
+            "player": "Leandro Paredes",
+            "color": "yellow"
+          },
+          {
+            "minute": 82,
+            "team": "away",
+            "player": "Enzo Fernández",
+            "color": "yellow"
+          },
+          {
+            "minute": 90,
+            "team": "away",
+            "player": "Cristian Romero",
+            "color": "yellow"
+          },
+          {
+            "minute": 104,
+            "team": "away",
+            "player": "Lionel Sebastián Scaloni",
+            "color": "yellow"
+          },
+          {
+            "minute": 111,
+            "team": "away",
+            "player": "Alexis Mac Allister",
+            "color": "yellow"
+          }
+        ],
+        "statistics": {
+          "home": {
+            "possessionPct": 65,
+            "shotsTotal": 20,
+            "shotsOnGoal": 12,
+            "shotsOffGoal": 5,
+            "shotsBlocked": 3,
+            "shotsInsideBox": 9,
+            "shotsOutsideBox": 11,
+            "corners": 9,
+            "offsides": 4,
+            "fouls": 21,
+            "yellowCards": 0,
+            "redCards": 0,
+            "goalkeeperSaves": 0,
+            "passesTotal": 852,
+            "passesAccurate": 762
+          },
+          "away": {
+            "possessionPct": 35,
+            "shotsTotal": 2,
+            "shotsOnGoal": 0,
+            "shotsOffGoal": 1,
+            "shotsBlocked": 1,
+            "shotsInsideBox": 1,
+            "shotsOutsideBox": 1,
+            "corners": 4,
+            "offsides": 1,
+            "fouls": 25,
+            "yellowCards": 5,
+            "redCards": 1,
+            "goalkeeperSaves": 11,
+            "passesTotal": 463,
+            "passesAccurate": 358
+          }
+        },
         "stageNormalized": "final",
-        "liveDataLocked": {
-          "reason": "live_data_is_pro",
-          "message": "Live in-match data (score, goals, cards, substitutions) is a Pro-tier feature. This match is in progress — upgrade at https://api.zafronix.com/pricing to read live tournament data."
+        "fairPlay": {
+          "home": 0,
+          "away": -6
         }
       }
     ]
