@@ -1,5 +1,5 @@
 {
-  "savedAt": 1784834409566,
+  "savedAt": 1784861198259,
   "data": [
     {
       "name": "Mexico",
@@ -8,17 +8,30 @@
       "confederation": "Concacaf",
       "groupStage": {
         "group": "A",
-        "played": 0,
-        "won": 0,
+        "played": 3,
+        "won": 3,
         "drawn": 0,
         "lost": 0,
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "points": 0,
-        "position": null
+        "gf": 6,
+        "ga": 0,
+        "pts": 9,
+        "position": 1
       },
-      "knockoutPath": [],
-      "finalPosition": null,
+      "knockoutPath": [
+        {
+          "stage": "r32",
+          "opponent": "Ecuador",
+          "result": "2-0",
+          "won": true
+        },
+        {
+          "stage": "r16",
+          "opponent": "England",
+          "result": "2-3",
+          "won": false
+        }
+      ],
+      "finalPosition": 9,
       "coach": {
         "name": "Javier Aguirre",
         "country": "Mexico",
@@ -389,17 +402,24 @@
       "confederation": "CAF",
       "groupStage": {
         "group": "A",
-        "played": 0,
-        "won": 0,
-        "drawn": 0,
-        "lost": 0,
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "points": 0,
-        "position": null
+        "played": 3,
+        "won": 1,
+        "drawn": 1,
+        "lost": 1,
+        "gf": 2,
+        "ga": 3,
+        "pts": 4,
+        "position": 2
       },
-      "knockoutPath": [],
-      "finalPosition": null,
+      "knockoutPath": [
+        {
+          "stage": "r32",
+          "opponent": "Canada",
+          "result": "0-1",
+          "won": false
+        }
+      ],
+      "finalPosition": 26,
       "coach": {
         "name": "Hugo Broos",
         "country": "Belgium",
@@ -769,17 +789,17 @@
       "confederation": "AFC",
       "groupStage": {
         "group": "A",
-        "played": 0,
-        "won": 0,
+        "played": 3,
+        "won": 1,
         "drawn": 0,
-        "lost": 0,
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "points": 0,
-        "position": null
+        "lost": 2,
+        "gf": 2,
+        "ga": 3,
+        "pts": 3,
+        "position": 3
       },
       "knockoutPath": [],
-      "finalPosition": null,
+      "finalPosition": 34,
       "coach": {
         "name": "Hong Myung-bo",
         "country": "South Korea",
@@ -1147,17 +1167,17 @@
       "confederation": "UEFA",
       "groupStage": {
         "group": "A",
-        "played": 0,
+        "played": 3,
         "won": 0,
-        "drawn": 0,
-        "lost": 0,
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "points": 0,
-        "position": null
+        "drawn": 1,
+        "lost": 2,
+        "gf": 2,
+        "ga": 6,
+        "pts": 1,
+        "position": 4
       },
       "knockoutPath": [],
-      "finalPosition": null,
+      "finalPosition": 39,
       "coach": {
         "name": "Ivan Hašek",
         "country": "Czech Republic",
@@ -1522,17 +1542,30 @@
       "confederation": "Concacaf",
       "groupStage": {
         "group": "B",
-        "played": 0,
-        "won": 0,
-        "drawn": 0,
-        "lost": 0,
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "points": 0,
-        "position": null
+        "played": 3,
+        "won": 1,
+        "drawn": 1,
+        "lost": 1,
+        "gf": 8,
+        "ga": 3,
+        "pts": 4,
+        "position": 2
       },
-      "knockoutPath": [],
-      "finalPosition": null,
+      "knockoutPath": [
+        {
+          "stage": "r32",
+          "opponent": "South Africa",
+          "result": "1-0",
+          "won": true
+        },
+        {
+          "stage": "r16",
+          "opponent": "Morocco",
+          "result": "0-3",
+          "won": false
+        }
+      ],
+      "finalPosition": 14,
       "coach": {
         "name": "Jesse Marsch",
         "country": "United States",
@@ -1983,17 +2016,24 @@
       "confederation": "UEFA",
       "groupStage": {
         "group": "B",
-        "played": 0,
-        "won": 0,
-        "drawn": 0,
-        "lost": 0,
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "points": 0,
-        "position": null
+        "played": 3,
+        "won": 1,
+        "drawn": 1,
+        "lost": 1,
+        "gf": 5,
+        "ga": 6,
+        "pts": 4,
+        "position": 3
       },
-      "knockoutPath": [],
-      "finalPosition": null,
+      "knockoutPath": [
+        {
+          "stage": "r32",
+          "opponent": "United States",
+          "result": "0-2",
+          "won": false
+        }
+      ],
+      "finalPosition": 29,
       "coach": {
         "name": "Sergej Barbarez",
         "country": "Bosnia and Herzegovina",
@@ -2365,17 +2405,17 @@
       "confederation": "AFC",
       "groupStage": {
         "group": "B",
-        "played": 0,
+        "played": 3,
         "won": 0,
-        "drawn": 0,
-        "lost": 0,
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "points": 0,
-        "position": null
+        "drawn": 1,
+        "lost": 2,
+        "gf": 2,
+        "ga": 10,
+        "pts": 1,
+        "position": 4
       },
       "knockoutPath": [],
-      "finalPosition": null,
+      "finalPosition": 41,
       "coach": {
         "name": "Julen Lopetegui",
         "country": "Spain",
@@ -2744,17 +2784,36 @@
       "confederation": "UEFA",
       "groupStage": {
         "group": "B",
-        "played": 0,
-        "won": 0,
-        "drawn": 0,
+        "played": 3,
+        "won": 2,
+        "drawn": 1,
         "lost": 0,
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "points": 0,
-        "position": null
+        "gf": 7,
+        "ga": 3,
+        "pts": 7,
+        "position": 1
       },
-      "knockoutPath": [],
-      "finalPosition": null,
+      "knockoutPath": [
+        {
+          "stage": "r32",
+          "opponent": "Algeria",
+          "result": "2-0",
+          "won": true
+        },
+        {
+          "stage": "r16",
+          "opponent": "Colombia",
+          "result": "0-0 (4-3 pens)",
+          "won": true
+        },
+        {
+          "stage": "qf",
+          "opponent": "Argentina",
+          "result": "1-3",
+          "won": false
+        }
+      ],
+      "finalPosition": 8,
       "coach": {
         "name": "Murat Yakin",
         "country": "Switzerland",
@@ -3124,17 +3183,30 @@
       "confederation": "CONMEBOL",
       "groupStage": {
         "group": "C",
-        "played": 0,
-        "won": 0,
-        "drawn": 0,
+        "played": 3,
+        "won": 2,
+        "drawn": 1,
         "lost": 0,
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "points": 0,
-        "position": null
+        "gf": 7,
+        "ga": 1,
+        "pts": 7,
+        "position": 1
       },
-      "knockoutPath": [],
-      "finalPosition": null,
+      "knockoutPath": [
+        {
+          "stage": "r32",
+          "opponent": "Japan",
+          "result": "2-1",
+          "won": true
+        },
+        {
+          "stage": "r16",
+          "opponent": "Norway",
+          "result": "1-2",
+          "won": false
+        }
+      ],
+      "finalPosition": 11,
       "coach": {
         "name": "Carlo Ancelotti",
         "country": "Italy",
@@ -3504,17 +3576,36 @@
       "confederation": "CAF",
       "groupStage": {
         "group": "C",
-        "played": 0,
-        "won": 0,
-        "drawn": 0,
+        "played": 3,
+        "won": 2,
+        "drawn": 1,
         "lost": 0,
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "points": 0,
-        "position": null
+        "gf": 6,
+        "ga": 3,
+        "pts": 7,
+        "position": 2
       },
-      "knockoutPath": [],
-      "finalPosition": null,
+      "knockoutPath": [
+        {
+          "stage": "r32",
+          "opponent": "Netherlands",
+          "result": "1-1 (3-2 pens)",
+          "won": true
+        },
+        {
+          "stage": "r16",
+          "opponent": "Canada",
+          "result": "3-0",
+          "won": true
+        },
+        {
+          "stage": "qf",
+          "opponent": "France",
+          "result": "0-2",
+          "won": false
+        }
+      ],
+      "finalPosition": 7,
       "coach": {
         "name": "Walid Regragui",
         "country": "Morocco",
@@ -3884,17 +3975,17 @@
       "confederation": "Concacaf",
       "groupStage": {
         "group": "C",
-        "played": 0,
+        "played": 3,
         "won": 0,
         "drawn": 0,
-        "lost": 0,
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "points": 0,
-        "position": null
+        "lost": 3,
+        "gf": 2,
+        "ga": 8,
+        "pts": 0,
+        "position": 4
       },
       "knockoutPath": [],
-      "finalPosition": null,
+      "finalPosition": 45,
       "coach": {
         "name": "Sébastien Migné",
         "country": "France",
@@ -4265,17 +4356,17 @@
       "confederation": "UEFA",
       "groupStage": {
         "group": "C",
-        "played": 0,
-        "won": 0,
+        "played": 3,
+        "won": 1,
         "drawn": 0,
-        "lost": 0,
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "points": 0,
-        "position": null
+        "lost": 2,
+        "gf": 1,
+        "ga": 4,
+        "pts": 3,
+        "position": 3
       },
       "knockoutPath": [],
-      "finalPosition": null,
+      "finalPosition": 36,
       "coach": {
         "name": "Steve Clarke",
         "country": "Scotland",
@@ -4646,17 +4737,30 @@
       "confederation": "Concacaf",
       "groupStage": {
         "group": "D",
-        "played": 0,
-        "won": 0,
+        "played": 3,
+        "won": 2,
         "drawn": 0,
-        "lost": 0,
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "points": 0,
-        "position": null
+        "lost": 1,
+        "gf": 8,
+        "ga": 4,
+        "pts": 6,
+        "position": 1
       },
-      "knockoutPath": [],
-      "finalPosition": null,
+      "knockoutPath": [
+        {
+          "stage": "r32",
+          "opponent": "Bosnia and Herzegovina",
+          "result": "2-0",
+          "won": true
+        },
+        {
+          "stage": "r16",
+          "opponent": "Belgium",
+          "result": "1-4",
+          "won": false
+        }
+      ],
+      "finalPosition": 12,
       "coach": {
         "name": "Mauricio Pochettino",
         "country": "Argentina",
@@ -5028,17 +5132,30 @@
       "confederation": "CONMEBOL",
       "groupStage": {
         "group": "D",
-        "played": 0,
-        "won": 0,
-        "drawn": 0,
-        "lost": 0,
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "points": 0,
-        "position": null
+        "played": 3,
+        "won": 1,
+        "drawn": 1,
+        "lost": 1,
+        "gf": 2,
+        "ga": 4,
+        "pts": 4,
+        "position": 3
       },
-      "knockoutPath": [],
-      "finalPosition": null,
+      "knockoutPath": [
+        {
+          "stage": "r32",
+          "opponent": "Germany",
+          "result": "1-1 (4-3 pens)",
+          "won": true
+        },
+        {
+          "stage": "r16",
+          "opponent": "France",
+          "result": "0-1",
+          "won": false
+        }
+      ],
+      "finalPosition": 16,
       "coach": {
         "name": "Gustavo Alfaro",
         "country": "Argentina",
@@ -5410,17 +5527,24 @@
       "confederation": "AFC",
       "groupStage": {
         "group": "D",
-        "played": 0,
-        "won": 0,
-        "drawn": 0,
-        "lost": 0,
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "points": 0,
-        "position": null
+        "played": 3,
+        "won": 1,
+        "drawn": 1,
+        "lost": 1,
+        "gf": 2,
+        "ga": 2,
+        "pts": 4,
+        "position": 2
       },
-      "knockoutPath": [],
-      "finalPosition": null,
+      "knockoutPath": [
+        {
+          "stage": "r32",
+          "opponent": "Egypt",
+          "result": "1-1 (2-4 pens)",
+          "won": false
+        }
+      ],
+      "finalPosition": 22,
       "coach": {
         "name": "Tony Popovic",
         "country": "Australia",
@@ -5789,17 +5913,17 @@
       "confederation": "UEFA",
       "groupStage": {
         "group": "D",
-        "played": 0,
-        "won": 0,
+        "played": 3,
+        "won": 1,
         "drawn": 0,
-        "lost": 0,
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "points": 0,
-        "position": null
+        "lost": 2,
+        "gf": 3,
+        "ga": 5,
+        "pts": 3,
+        "position": 4
       },
       "knockoutPath": [],
-      "finalPosition": null,
+      "finalPosition": 35,
       "coach": {
         "name": "Vincenzo Montella",
         "country": "Italy",
@@ -6165,17 +6289,24 @@
       "confederation": "UEFA",
       "groupStage": {
         "group": "E",
-        "played": 0,
-        "won": 0,
+        "played": 3,
+        "won": 2,
         "drawn": 0,
-        "lost": 0,
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "points": 0,
-        "position": null
+        "lost": 1,
+        "gf": 10,
+        "ga": 4,
+        "pts": 6,
+        "position": 1
       },
-      "knockoutPath": [],
-      "finalPosition": null,
+      "knockoutPath": [
+        {
+          "stage": "r32",
+          "opponent": "Paraguay",
+          "result": "1-1 (3-4 pens)",
+          "won": false
+        }
+      ],
+      "finalPosition": 18,
       "coach": {
         "name": "Julian Nagelsmann",
         "country": "Germany",
@@ -6542,17 +6673,17 @@
       "confederation": "Concacaf",
       "groupStage": {
         "group": "E",
-        "played": 0,
+        "played": 3,
         "won": 0,
-        "drawn": 0,
-        "lost": 0,
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "points": 0,
-        "position": null
+        "drawn": 1,
+        "lost": 2,
+        "gf": 1,
+        "ga": 9,
+        "pts": 1,
+        "position": 4
       },
       "knockoutPath": [],
-      "finalPosition": null,
+      "finalPosition": 42,
       "coach": {
         "name": "Dick Advocaat",
         "country": "Netherlands",
@@ -6921,17 +7052,24 @@
       "confederation": "CAF",
       "groupStage": {
         "group": "E",
-        "played": 0,
-        "won": 0,
+        "played": 3,
+        "won": 2,
         "drawn": 0,
-        "lost": 0,
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "points": 0,
-        "position": null
+        "lost": 1,
+        "gf": 4,
+        "ga": 2,
+        "pts": 6,
+        "position": 2
       },
-      "knockoutPath": [],
-      "finalPosition": null,
+      "knockoutPath": [
+        {
+          "stage": "r32",
+          "opponent": "Norway",
+          "result": "1-2",
+          "won": false
+        }
+      ],
+      "finalPosition": 19,
       "coach": {
         "name": "Emerse Faé",
         "country": "Ivory Coast",
@@ -7300,17 +7438,24 @@
       "confederation": "CONMEBOL",
       "groupStage": {
         "group": "E",
-        "played": 0,
-        "won": 0,
-        "drawn": 0,
-        "lost": 0,
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "points": 0,
-        "position": null
+        "played": 3,
+        "won": 1,
+        "drawn": 1,
+        "lost": 1,
+        "gf": 2,
+        "ga": 2,
+        "pts": 4,
+        "position": 3
       },
-      "knockoutPath": [],
-      "finalPosition": null,
+      "knockoutPath": [
+        {
+          "stage": "r32",
+          "opponent": "Mexico",
+          "result": "0-2",
+          "won": false
+        }
+      ],
+      "finalPosition": 25,
       "coach": {
         "name": "Sebastián Beccacece",
         "country": "Argentina",
@@ -7681,17 +7826,24 @@
       "confederation": "UEFA",
       "groupStage": {
         "group": "F",
-        "played": 0,
-        "won": 0,
-        "drawn": 0,
+        "played": 3,
+        "won": 2,
+        "drawn": 1,
         "lost": 0,
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "points": 0,
-        "position": null
+        "gf": 10,
+        "ga": 4,
+        "pts": 7,
+        "position": 1
       },
-      "knockoutPath": [],
-      "finalPosition": null,
+      "knockoutPath": [
+        {
+          "stage": "r32",
+          "opponent": "Morocco",
+          "result": "1-1 (2-3 pens)",
+          "won": false
+        }
+      ],
+      "finalPosition": 17,
       "coach": {
         "name": "Ronald Koeman",
         "country": "Netherlands",
@@ -8059,17 +8211,24 @@
       "confederation": "AFC",
       "groupStage": {
         "group": "F",
-        "played": 0,
-        "won": 0,
-        "drawn": 0,
+        "played": 3,
+        "won": 1,
+        "drawn": 2,
         "lost": 0,
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "points": 0,
-        "position": null
+        "gf": 7,
+        "ga": 3,
+        "pts": 5,
+        "position": 2
       },
-      "knockoutPath": [],
-      "finalPosition": null,
+      "knockoutPath": [
+        {
+          "stage": "r32",
+          "opponent": "Brazil",
+          "result": "1-2",
+          "won": false
+        }
+      ],
+      "finalPosition": 21,
       "coach": {
         "name": "Hajime Moriyasu",
         "country": "Japan",
@@ -8437,17 +8596,24 @@
       "confederation": "UEFA",
       "groupStage": {
         "group": "F",
-        "played": 0,
-        "won": 0,
-        "drawn": 0,
-        "lost": 0,
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "points": 0,
-        "position": null
+        "played": 3,
+        "won": 1,
+        "drawn": 1,
+        "lost": 1,
+        "gf": 7,
+        "ga": 7,
+        "pts": 4,
+        "position": 3
       },
-      "knockoutPath": [],
-      "finalPosition": null,
+      "knockoutPath": [
+        {
+          "stage": "r32",
+          "opponent": "France",
+          "result": "0-3",
+          "won": false
+        }
+      ],
+      "finalPosition": 27,
       "coach": {
         "name": "Graham Potter",
         "country": "England",
@@ -8816,17 +8982,17 @@
       "confederation": "CAF",
       "groupStage": {
         "group": "F",
-        "played": 0,
+        "played": 3,
         "won": 0,
         "drawn": 0,
-        "lost": 0,
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "points": 0,
-        "position": null
+        "lost": 3,
+        "gf": 2,
+        "ga": 12,
+        "pts": 0,
+        "position": 4
       },
       "knockoutPath": [],
-      "finalPosition": null,
+      "finalPosition": 47,
       "coach": {
         "name": "Sami Trabelsi",
         "country": "Tunisia",
@@ -9191,17 +9357,36 @@
       "confederation": "UEFA",
       "groupStage": {
         "group": "G",
-        "played": 0,
-        "won": 0,
-        "drawn": 0,
+        "played": 3,
+        "won": 1,
+        "drawn": 2,
         "lost": 0,
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "points": 0,
-        "position": null
+        "gf": 6,
+        "ga": 2,
+        "pts": 5,
+        "position": 1
       },
-      "knockoutPath": [],
-      "finalPosition": null,
+      "knockoutPath": [
+        {
+          "stage": "r32",
+          "opponent": "Senegal",
+          "result": "3-2",
+          "won": true
+        },
+        {
+          "stage": "r16",
+          "opponent": "United States",
+          "result": "4-1",
+          "won": true
+        },
+        {
+          "stage": "qf",
+          "opponent": "Spain",
+          "result": "1-2",
+          "won": false
+        }
+      ],
+      "finalPosition": 6,
       "coach": {
         "name": "Rudi Garcia",
         "country": "France",
@@ -9572,17 +9757,30 @@
       "confederation": "CAF",
       "groupStage": {
         "group": "G",
-        "played": 0,
-        "won": 0,
-        "drawn": 0,
+        "played": 3,
+        "won": 1,
+        "drawn": 2,
         "lost": 0,
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "points": 0,
-        "position": null
+        "gf": 5,
+        "ga": 3,
+        "pts": 5,
+        "position": 2
       },
-      "knockoutPath": [],
-      "finalPosition": null,
+      "knockoutPath": [
+        {
+          "stage": "r32",
+          "opponent": "Australia",
+          "result": "1-1 (4-2 pens)",
+          "won": true
+        },
+        {
+          "stage": "r16",
+          "opponent": "Argentina",
+          "result": "2-3",
+          "won": false
+        }
+      ],
+      "finalPosition": 15,
       "coach": {
         "name": "Hossam Hassan",
         "country": "Egypt",
@@ -9954,17 +10152,17 @@
       "confederation": "AFC",
       "groupStage": {
         "group": "G",
-        "played": 0,
+        "played": 3,
         "won": 0,
-        "drawn": 0,
+        "drawn": 3,
         "lost": 0,
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "points": 0,
-        "position": null
+        "gf": 3,
+        "ga": 3,
+        "pts": 3,
+        "position": 3
       },
       "knockoutPath": [],
-      "finalPosition": null,
+      "finalPosition": 33,
       "coach": {
         "name": "Amir Ghalenoei",
         "country": "Iran",
@@ -10333,17 +10531,17 @@
       "confederation": "OFC",
       "groupStage": {
         "group": "G",
-        "played": 0,
+        "played": 3,
         "won": 0,
-        "drawn": 0,
-        "lost": 0,
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "points": 0,
-        "position": null
+        "drawn": 1,
+        "lost": 2,
+        "gf": 4,
+        "ga": 10,
+        "pts": 1,
+        "position": 4
       },
       "knockoutPath": [],
-      "finalPosition": null,
+      "finalPosition": 40,
       "coach": {
         "name": "Darren Bazeley",
         "country": "England",
@@ -10711,17 +10909,48 @@
       "confederation": "UEFA",
       "groupStage": {
         "group": "H",
-        "played": 0,
-        "won": 0,
-        "drawn": 0,
+        "played": 3,
+        "won": 2,
+        "drawn": 1,
         "lost": 0,
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "points": 0,
-        "position": null
+        "gf": 5,
+        "ga": 0,
+        "pts": 7,
+        "position": 1
       },
-      "knockoutPath": [],
-      "finalPosition": null,
+      "knockoutPath": [
+        {
+          "stage": "r32",
+          "opponent": "Austria",
+          "result": "3-0",
+          "won": true
+        },
+        {
+          "stage": "r16",
+          "opponent": "Portugal",
+          "result": "1-0",
+          "won": true
+        },
+        {
+          "stage": "qf",
+          "opponent": "Belgium",
+          "result": "2-1",
+          "won": true
+        },
+        {
+          "stage": "sf",
+          "opponent": "France",
+          "result": "2-0",
+          "won": true
+        },
+        {
+          "stage": "final",
+          "opponent": "Argentina",
+          "result": "1-0",
+          "won": true
+        }
+      ],
+      "finalPosition": 1,
       "coach": {
         "name": "Luis de la Fuente",
         "country": "Spain",
@@ -11092,17 +11321,24 @@
       "confederation": "CAF",
       "groupStage": {
         "group": "H",
-        "played": 0,
+        "played": 3,
         "won": 0,
-        "drawn": 0,
+        "drawn": 3,
         "lost": 0,
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "points": 0,
-        "position": null
+        "gf": 2,
+        "ga": 2,
+        "pts": 3,
+        "position": 2
       },
-      "knockoutPath": [],
-      "finalPosition": null,
+      "knockoutPath": [
+        {
+          "stage": "r32",
+          "opponent": "Argentina",
+          "result": "2-3",
+          "won": false
+        }
+      ],
+      "finalPosition": 32,
       "coach": {
         "name": "Bubista",
         "country": "Cape Verde",
@@ -11472,17 +11708,17 @@
       "confederation": "AFC",
       "groupStage": {
         "group": "H",
-        "played": 0,
+        "played": 3,
         "won": 0,
-        "drawn": 0,
-        "lost": 0,
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "points": 0,
-        "position": null
+        "drawn": 2,
+        "lost": 1,
+        "gf": 1,
+        "ga": 5,
+        "pts": 2,
+        "position": 4
       },
       "knockoutPath": [],
-      "finalPosition": null,
+      "finalPosition": 38,
       "coach": {
         "name": "Hervé Renard",
         "country": "France",
@@ -11852,17 +12088,17 @@
       "confederation": "CONMEBOL",
       "groupStage": {
         "group": "H",
-        "played": 0,
+        "played": 3,
         "won": 0,
-        "drawn": 0,
-        "lost": 0,
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "points": 0,
-        "position": null
+        "drawn": 2,
+        "lost": 1,
+        "gf": 3,
+        "ga": 4,
+        "pts": 2,
+        "position": 3
       },
       "knockoutPath": [],
-      "finalPosition": null,
+      "finalPosition": 37,
       "coach": {
         "name": "Marcelo Bielsa",
         "country": "Argentina",
@@ -12231,17 +12467,48 @@
       "confederation": "UEFA",
       "groupStage": {
         "group": "I",
-        "played": 0,
-        "won": 0,
+        "played": 3,
+        "won": 3,
         "drawn": 0,
         "lost": 0,
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "points": 0,
-        "position": null
+        "gf": 10,
+        "ga": 2,
+        "pts": 9,
+        "position": 1
       },
-      "knockoutPath": [],
-      "finalPosition": null,
+      "knockoutPath": [
+        {
+          "stage": "r32",
+          "opponent": "Sweden",
+          "result": "3-0",
+          "won": true
+        },
+        {
+          "stage": "r16",
+          "opponent": "Paraguay",
+          "result": "1-0",
+          "won": true
+        },
+        {
+          "stage": "qf",
+          "opponent": "Morocco",
+          "result": "2-0",
+          "won": true
+        },
+        {
+          "stage": "sf",
+          "opponent": "Spain",
+          "result": "0-2",
+          "won": false
+        },
+        {
+          "stage": "thirdPlace",
+          "opponent": "England",
+          "result": "4-6",
+          "won": false
+        }
+      ],
+      "finalPosition": 4,
       "coach": {
         "name": "Didier Deschamps",
         "country": "France",
@@ -12611,17 +12878,24 @@
       "confederation": "CAF",
       "groupStage": {
         "group": "I",
-        "played": 0,
-        "won": 0,
+        "played": 3,
+        "won": 1,
         "drawn": 0,
-        "lost": 0,
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "points": 0,
-        "position": null
+        "lost": 2,
+        "gf": 8,
+        "ga": 6,
+        "pts": 3,
+        "position": 3
       },
-      "knockoutPath": [],
-      "finalPosition": null,
+      "knockoutPath": [
+        {
+          "stage": "r32",
+          "opponent": "Belgium",
+          "result": "2-3",
+          "won": false
+        }
+      ],
+      "finalPosition": 31,
       "coach": {
         "name": "Pape Thiaw",
         "country": "Senegal",
@@ -12988,17 +13262,17 @@
       "confederation": "AFC",
       "groupStage": {
         "group": "I",
-        "played": 0,
+        "played": 3,
         "won": 0,
         "drawn": 0,
-        "lost": 0,
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "points": 0,
-        "position": null
+        "lost": 3,
+        "gf": 1,
+        "ga": 12,
+        "pts": 0,
+        "position": 4
       },
       "knockoutPath": [],
-      "finalPosition": null,
+      "finalPosition": 48,
       "coach": {
         "name": "Graham Arnold",
         "country": "Australia",
@@ -13366,17 +13640,36 @@
       "confederation": "UEFA",
       "groupStage": {
         "group": "I",
-        "played": 0,
-        "won": 0,
+        "played": 3,
+        "won": 2,
         "drawn": 0,
-        "lost": 0,
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "points": 0,
-        "position": null
+        "lost": 1,
+        "gf": 8,
+        "ga": 7,
+        "pts": 6,
+        "position": 2
       },
-      "knockoutPath": [],
-      "finalPosition": null,
+      "knockoutPath": [
+        {
+          "stage": "r32",
+          "opponent": "Ivory Coast",
+          "result": "2-1",
+          "won": true
+        },
+        {
+          "stage": "r16",
+          "opponent": "Brazil",
+          "result": "2-1",
+          "won": true
+        },
+        {
+          "stage": "qf",
+          "opponent": "England",
+          "result": "1-2",
+          "won": false
+        }
+      ],
+      "finalPosition": 5,
       "coach": {
         "name": "Ståle Solbakken",
         "country": "Norway",
@@ -13745,17 +14038,48 @@
       "confederation": "CONMEBOL",
       "groupStage": {
         "group": "J",
-        "played": 0,
-        "won": 0,
+        "played": 3,
+        "won": 3,
         "drawn": 0,
         "lost": 0,
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "points": 0,
-        "position": null
+        "gf": 8,
+        "ga": 1,
+        "pts": 9,
+        "position": 1
       },
-      "knockoutPath": [],
-      "finalPosition": null,
+      "knockoutPath": [
+        {
+          "stage": "r32",
+          "opponent": "Cape Verde",
+          "result": "3-2",
+          "won": true
+        },
+        {
+          "stage": "r16",
+          "opponent": "Egypt",
+          "result": "3-2",
+          "won": true
+        },
+        {
+          "stage": "qf",
+          "opponent": "Switzerland",
+          "result": "3-1",
+          "won": true
+        },
+        {
+          "stage": "sf",
+          "opponent": "England",
+          "result": "2-1",
+          "won": true
+        },
+        {
+          "stage": "final",
+          "opponent": "Spain",
+          "result": "0-1",
+          "won": false
+        }
+      ],
+      "finalPosition": 2,
       "coach": {
         "name": "Lionel Scaloni",
         "country": "Argentina",
@@ -14135,17 +14459,24 @@
       "confederation": "CAF",
       "groupStage": {
         "group": "J",
-        "played": 0,
-        "won": 0,
-        "drawn": 0,
-        "lost": 0,
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "points": 0,
-        "position": null
+        "played": 3,
+        "won": 1,
+        "drawn": 1,
+        "lost": 1,
+        "gf": 5,
+        "ga": 7,
+        "pts": 4,
+        "position": 3
       },
-      "knockoutPath": [],
-      "finalPosition": null,
+      "knockoutPath": [
+        {
+          "stage": "r32",
+          "opponent": "Switzerland",
+          "result": "0-2",
+          "won": false
+        }
+      ],
+      "finalPosition": 30,
       "coach": {
         "name": "Vladimir Petković",
         "country": "Bosnia and Herzegovina",
@@ -14513,17 +14844,24 @@
       "confederation": "UEFA",
       "groupStage": {
         "group": "J",
-        "played": 0,
-        "won": 0,
-        "drawn": 0,
-        "lost": 0,
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "points": 0,
-        "position": null
+        "played": 3,
+        "won": 1,
+        "drawn": 1,
+        "lost": 1,
+        "gf": 6,
+        "ga": 6,
+        "pts": 4,
+        "position": 2
       },
-      "knockoutPath": [],
-      "finalPosition": null,
+      "knockoutPath": [
+        {
+          "stage": "r32",
+          "opponent": "Spain",
+          "result": "0-3",
+          "won": false
+        }
+      ],
+      "finalPosition": 28,
       "coach": {
         "name": "Ralf Rangnick",
         "country": "Germany",
@@ -14893,17 +15231,17 @@
       "confederation": "AFC",
       "groupStage": {
         "group": "J",
-        "played": 0,
+        "played": 3,
         "won": 0,
         "drawn": 0,
-        "lost": 0,
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "points": 0,
-        "position": null
+        "lost": 3,
+        "gf": 3,
+        "ga": 8,
+        "pts": 0,
+        "position": 4
       },
       "knockoutPath": [],
-      "finalPosition": null,
+      "finalPosition": 44,
       "coach": {
         "name": "Jamal Sellami",
         "country": "Morocco",
@@ -15272,17 +15610,30 @@
       "confederation": "UEFA",
       "groupStage": {
         "group": "K",
-        "played": 0,
-        "won": 0,
-        "drawn": 0,
+        "played": 3,
+        "won": 1,
+        "drawn": 2,
         "lost": 0,
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "points": 0,
-        "position": null
+        "gf": 6,
+        "ga": 1,
+        "pts": 5,
+        "position": 2
       },
-      "knockoutPath": [],
-      "finalPosition": null,
+      "knockoutPath": [
+        {
+          "stage": "r32",
+          "opponent": "Croatia",
+          "result": "2-1",
+          "won": true
+        },
+        {
+          "stage": "r16",
+          "opponent": "Spain",
+          "result": "0-1",
+          "won": false
+        }
+      ],
+      "finalPosition": 13,
       "coach": {
         "name": "Roberto Martínez",
         "country": "Spain",
@@ -15652,17 +16003,24 @@
       "confederation": "CAF",
       "groupStage": {
         "group": "K",
-        "played": 0,
-        "won": 0,
-        "drawn": 0,
-        "lost": 0,
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "points": 0,
-        "position": null
+        "played": 3,
+        "won": 1,
+        "drawn": 1,
+        "lost": 1,
+        "gf": 4,
+        "ga": 3,
+        "pts": 4,
+        "position": 3
       },
-      "knockoutPath": [],
-      "finalPosition": null,
+      "knockoutPath": [
+        {
+          "stage": "r32",
+          "opponent": "England",
+          "result": "1-2",
+          "won": false
+        }
+      ],
+      "finalPosition": 23,
       "coach": {
         "name": "Sébastien Desabre",
         "country": "France",
@@ -16032,17 +16390,17 @@
       "confederation": "AFC",
       "groupStage": {
         "group": "K",
-        "played": 0,
+        "played": 3,
         "won": 0,
         "drawn": 0,
-        "lost": 0,
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "points": 0,
-        "position": null
+        "lost": 3,
+        "gf": 2,
+        "ga": 11,
+        "pts": 0,
+        "position": 4
       },
       "knockoutPath": [],
-      "finalPosition": null,
+      "finalPosition": 46,
       "coach": {
         "name": "Timur Kapadze",
         "country": "Uzbekistan",
@@ -16409,17 +16767,30 @@
       "confederation": "CONMEBOL",
       "groupStage": {
         "group": "K",
-        "played": 0,
-        "won": 0,
-        "drawn": 0,
+        "played": 3,
+        "won": 2,
+        "drawn": 1,
         "lost": 0,
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "points": 0,
-        "position": null
+        "gf": 4,
+        "ga": 1,
+        "pts": 7,
+        "position": 1
       },
-      "knockoutPath": [],
-      "finalPosition": null,
+      "knockoutPath": [
+        {
+          "stage": "r32",
+          "opponent": "Ghana",
+          "result": "1-0",
+          "won": true
+        },
+        {
+          "stage": "r16",
+          "opponent": "Switzerland",
+          "result": "0-0 (3-4 pens)",
+          "won": false
+        }
+      ],
+      "finalPosition": 10,
       "coach": {
         "name": "Néstor Lorenzo",
         "country": "Argentina",
@@ -16792,17 +17163,48 @@
       "confederation": "UEFA",
       "groupStage": {
         "group": "L",
-        "played": 0,
-        "won": 0,
-        "drawn": 0,
+        "played": 3,
+        "won": 2,
+        "drawn": 1,
         "lost": 0,
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "points": 0,
-        "position": null
+        "gf": 6,
+        "ga": 2,
+        "pts": 7,
+        "position": 1
       },
-      "knockoutPath": [],
-      "finalPosition": null,
+      "knockoutPath": [
+        {
+          "stage": "r32",
+          "opponent": "DR Congo",
+          "result": "2-1",
+          "won": true
+        },
+        {
+          "stage": "r16",
+          "opponent": "Mexico",
+          "result": "3-2",
+          "won": true
+        },
+        {
+          "stage": "qf",
+          "opponent": "Norway",
+          "result": "2-1",
+          "won": true
+        },
+        {
+          "stage": "sf",
+          "opponent": "Argentina",
+          "result": "1-2",
+          "won": false
+        },
+        {
+          "stage": "thirdPlace",
+          "opponent": "France",
+          "result": "6-4",
+          "won": true
+        }
+      ],
+      "finalPosition": 3,
       "coach": {
         "name": "Thomas Tuchel",
         "country": "Germany",
@@ -17178,17 +17580,24 @@
       "confederation": "UEFA",
       "groupStage": {
         "group": "L",
-        "played": 0,
-        "won": 0,
+        "played": 3,
+        "won": 2,
         "drawn": 0,
-        "lost": 0,
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "points": 0,
-        "position": null
+        "lost": 1,
+        "gf": 5,
+        "ga": 5,
+        "pts": 6,
+        "position": 2
       },
-      "knockoutPath": [],
-      "finalPosition": null,
+      "knockoutPath": [
+        {
+          "stage": "r32",
+          "opponent": "Portugal",
+          "result": "1-2",
+          "won": false
+        }
+      ],
+      "finalPosition": 20,
       "coach": {
         "name": "Zlatko Dalić",
         "country": "Croatia",
@@ -17555,17 +17964,24 @@
       "confederation": "CAF",
       "groupStage": {
         "group": "L",
-        "played": 0,
-        "won": 0,
-        "drawn": 0,
-        "lost": 0,
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "points": 0,
-        "position": null
+        "played": 3,
+        "won": 1,
+        "drawn": 1,
+        "lost": 1,
+        "gf": 2,
+        "ga": 2,
+        "pts": 4,
+        "position": 3
       },
-      "knockoutPath": [],
-      "finalPosition": null,
+      "knockoutPath": [
+        {
+          "stage": "r32",
+          "opponent": "Colombia",
+          "result": "0-1",
+          "won": false
+        }
+      ],
+      "finalPosition": 24,
       "coach": {
         "name": "Otto Addo",
         "country": "Ghana",
@@ -17934,17 +18350,17 @@
       "confederation": "Concacaf",
       "groupStage": {
         "group": "L",
-        "played": 0,
+        "played": 3,
         "won": 0,
         "drawn": 0,
-        "lost": 0,
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "points": 0,
-        "position": null
+        "lost": 3,
+        "gf": 0,
+        "ga": 4,
+        "pts": 0,
+        "position": 4
       },
       "knockoutPath": [],
-      "finalPosition": null,
+      "finalPosition": 43,
       "coach": {
         "name": "Thomas Christiansen",
         "country": "Spain",
