@@ -1,5 +1,5 @@
 {
-  "savedAt": 1785852957911,
+  "savedAt": 1785872333479,
   "data": {
     "year": 2026,
     "count": 104,
@@ -18789,13 +18789,6 @@
             "team": "away",
             "scorer": "Bounou 10' og",
             "type": "own_goal"
-          },
-          {
-            "minute": 10,
-            "team": "home",
-            "scorer": "Bono",
-            "type": "own_goal",
-            "provisional": true
           },
           {
             "minute": 39,
