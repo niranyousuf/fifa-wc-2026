@@ -1,5 +1,5 @@
 {
-  "savedAt": 1785811147800,
+  "savedAt": 1785832712254,
   "data": {
     "year": 2026,
     "count": 104,
@@ -26455,14 +26455,6 @@
             "minute": 55,
             "team": "home",
             "scorer": "Al-Taamari"
-          },
-          {
-            "minute": 55,
-            "team": "home",
-            "scorer": "M. Tamari",
-            "assist": "E. Haddad",
-            "type": "normal",
-            "provisional": true
           },
           {
             "minute": 80,

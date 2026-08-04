@@ -1,5 +1,5 @@
 {
-  "savedAt": 1785811147580,
+  "savedAt": 1785832712146,
   "data": [
     {
       "name": "Mexico",
@@ -15379,7 +15379,7 @@
             "name": "Rennes",
             "country": "France"
           },
-          "goals": 2,
+          "goals": 1,
           "captain": false
         },
         {
@@ -15551,7 +15551,7 @@
           },
           "goals": 0,
           "captain": true,
-          "assists": 1
+          "assists": 0
         },
         {
           "jersey": 24,
