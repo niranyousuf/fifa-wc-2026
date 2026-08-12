@@ -1,5 +1,5 @@
 {
-  "savedAt": 1786413000625,
+  "savedAt": 1786500152782,
   "data": {
     "year": 2026,
     "count": 104,
@@ -794,10 +794,10 @@
           "country": "Argentina"
         },
         "weather": {
-          "tempC": 25.7,
-          "humidityPct": 50,
+          "tempC": 26.1,
+          "humidityPct": 41,
           "precipitationMm": 0,
-          "windKmh": 24.7,
+          "windKmh": 21.8,
           "code": 0
         },
         "goals": [
@@ -1195,11 +1195,11 @@
           "country": "Netherlands"
         },
         "weather": {
-          "tempC": 20.8,
-          "humidityPct": 85,
+          "tempC": 21.1,
+          "humidityPct": 74,
           "precipitationMm": 0,
-          "windKmh": 18.8,
-          "code": 2
+          "windKmh": 25.2,
+          "code": 0
         },
         "goals": [
           {
@@ -1571,10 +1571,10 @@
           "country": "Algeria"
         },
         "weather": {
-          "tempC": 22.3,
-          "humidityPct": 59,
+          "tempC": 21.7,
+          "humidityPct": 60,
           "precipitationMm": 0,
-          "windKmh": 9.2,
+          "windKmh": 10.9,
           "code": 0
         },
         "goals": [
@@ -1937,11 +1937,11 @@
           "country": "Venezuela"
         },
         "weather": {
-          "tempC": 21.8,
-          "humidityPct": 56,
+          "tempC": 22.2,
+          "humidityPct": 41,
           "precipitationMm": 0,
-          "windKmh": 2.5,
-          "code": 0
+          "windKmh": 8.9,
+          "code": 3
         },
         "goals": [
           {
@@ -2312,10 +2312,10 @@
           "country": "Slovenia"
         },
         "weather": {
-          "tempC": 30.9,
-          "humidityPct": 31,
+          "tempC": 31.8,
+          "humidityPct": 26,
           "precipitationMm": 0,
-          "windKmh": 14.9,
+          "windKmh": 11.2,
           "code": 0
         },
         "goals": [
@@ -2693,10 +2693,10 @@
           "country": "Honduras"
         },
         "weather": {
-          "tempC": 21.6,
-          "humidityPct": 76,
+          "tempC": 29.2,
+          "humidityPct": 30,
           "precipitationMm": 0,
-          "windKmh": 11.5,
+          "windKmh": 8.7,
           "code": 0
         },
         "goals": [
@@ -3083,11 +3083,11 @@
           "country": "France"
         },
         "weather": {
-          "tempC": 29.4,
-          "humidityPct": 49,
-          "precipitationMm": 0,
-          "windKmh": 18.5,
-          "code": 0
+          "tempC": 28.1,
+          "humidityPct": 53,
+          "precipitationMm": 0.1,
+          "windKmh": 17.3,
+          "code": 51
         },
         "goals": [
           {
@@ -3459,11 +3459,11 @@
           "country": "Morocco"
         },
         "weather": {
-          "tempC": 29.8,
-          "humidityPct": 83,
-          "precipitationMm": 0.4,
-          "windKmh": 17.3,
-          "code": 51
+          "tempC": 32.5,
+          "humidityPct": 57,
+          "precipitationMm": 0,
+          "windKmh": 15,
+          "code": 1
         },
         "goals": [
           {
@@ -3831,11 +3831,11 @@
           "country": "United States"
         },
         "weather": {
-          "tempC": 29.1,
-          "humidityPct": 73,
+          "tempC": 32.3,
+          "humidityPct": 50,
           "precipitationMm": 0,
-          "windKmh": 17.9,
-          "code": 3
+          "windKmh": 14.7,
+          "code": 1
         },
         "goals": [
           {
@@ -4229,11 +4229,11 @@
           "country": "Argentina"
         },
         "weather": {
-          "tempC": 28.9,
-          "humidityPct": 70,
-          "precipitationMm": 0,
-          "windKmh": 9.8,
-          "code": 1
+          "tempC": 27.6,
+          "humidityPct": 68,
+          "precipitationMm": 0.3,
+          "windKmh": 9.7,
+          "code": 51
         },
         "goals": [
           {
@@ -4625,11 +4625,11 @@
           "country": "Italy"
         },
         "weather": {
-          "tempC": 32.9,
-          "humidityPct": 49,
-          "precipitationMm": 0,
-          "windKmh": 20,
-          "code": 3
+          "tempC": 33.1,
+          "humidityPct": 44,
+          "precipitationMm": 0.8,
+          "windKmh": 10.2,
+          "code": 53
         },
         "goals": [
           {
@@ -5000,11 +5000,11 @@
           "country": "Jordan"
         },
         "weather": {
-          "tempC": 25.9,
-          "humidityPct": 59,
+          "tempC": 26.7,
+          "humidityPct": 45,
           "precipitationMm": 0,
-          "windKmh": 15.4,
-          "code": 0
+          "windKmh": 17.1,
+          "code": 3
         },
         "goals": [],
         "lineups": {
@@ -5359,11 +5359,11 @@
           "country": "Mexico"
         },
         "weather": {
-          "tempC": 19.8,
-          "humidityPct": 79,
+          "tempC": 19.3,
+          "humidityPct": 73,
           "precipitationMm": 0,
-          "windKmh": 16.6,
-          "code": 1
+          "windKmh": 22.7,
+          "code": 0
         },
         "goals": [
           {
@@ -5720,11 +5720,11 @@
           "country": "Brazil"
         },
         "weather": {
-          "tempC": 28.9,
-          "humidityPct": 37,
+          "tempC": 31.5,
+          "humidityPct": 26,
           "precipitationMm": 0,
-          "windKmh": 1.8,
-          "code": 0
+          "windKmh": 6.2,
+          "code": 3
         },
         "goals": [
           {
