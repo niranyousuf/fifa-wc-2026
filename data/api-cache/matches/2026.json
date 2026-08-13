@@ -1,5 +1,5 @@
 {
-  "savedAt": 1786561386814,
+  "savedAt": 1786586687750,
   "data": {
     "year": 2026,
     "count": 104,
@@ -31,11 +31,11 @@
           "country": "Brazil"
         },
         "weather": {
-          "tempC": 22.6,
+          "tempC": 23.3,
           "humidityPct": 53,
-          "precipitationMm": 0.7,
-          "windKmh": 2.5,
-          "code": 53
+          "precipitationMm": 1,
+          "windKmh": 5.4,
+          "code": 55
         },
         "goals": [
           {
@@ -425,11 +425,11 @@
           "country": "Egypt"
         },
         "weather": {
-          "tempC": 21,
-          "humidityPct": 77,
+          "tempC": 23.2,
+          "humidityPct": 58,
           "precipitationMm": 0,
-          "windKmh": 11.6,
-          "code": 1
+          "windKmh": 5.5,
+          "code": 0
         },
         "status": "finished",
         "liveMinute": null,
