@@ -1,5 +1,5 @@
 {
-  "savedAt": 1786647829443,
+  "savedAt": 1786672949639,
   "data": {
     "year": 2026,
     "count": 104,
@@ -4625,11 +4625,11 @@
           "country": "Italy"
         },
         "weather": {
-          "tempC": 33.1,
-          "humidityPct": 44,
-          "precipitationMm": 0.8,
-          "windKmh": 10.2,
-          "code": 53
+          "tempC": 29.3,
+          "humidityPct": 75,
+          "precipitationMm": 1,
+          "windKmh": 8,
+          "code": 80
         },
         "goals": [
           {
@@ -5000,10 +5000,10 @@
           "country": "Jordan"
         },
         "weather": {
-          "tempC": 26.7,
-          "humidityPct": 45,
+          "tempC": 24.6,
+          "humidityPct": 55,
           "precipitationMm": 0,
-          "windKmh": 17.1,
+          "windKmh": 13.3,
           "code": 3
         },
         "goals": [],
@@ -5359,10 +5359,10 @@
           "country": "Mexico"
         },
         "weather": {
-          "tempC": 19.3,
-          "humidityPct": 73,
+          "tempC": 21.8,
+          "humidityPct": 67,
           "precipitationMm": 0,
-          "windKmh": 22.7,
+          "windKmh": 9.7,
           "code": 0
         },
         "goals": [
@@ -5720,10 +5720,10 @@
           "country": "Brazil"
         },
         "weather": {
-          "tempC": 31.5,
-          "humidityPct": 26,
+          "tempC": 27.5,
+          "humidityPct": 36,
           "precipitationMm": 0,
-          "windKmh": 6.2,
+          "windKmh": 5.6,
           "code": 3
         },
         "goals": [
