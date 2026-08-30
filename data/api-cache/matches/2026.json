@@ -1,5 +1,5 @@
 {
-  "savedAt": 1788035581665,
+  "savedAt": 1788063077466,
   "data": {
     "year": 2026,
     "count": 104,
@@ -27608,10 +27608,10 @@
           "country": "Portugal"
         },
         "weather": {
-          "tempC": 21,
-          "humidityPct": 64,
+          "tempC": 20.8,
+          "humidityPct": 57,
           "precipitationMm": 0,
-          "windKmh": 7.4,
+          "windKmh": 12.5,
           "code": 3
         },
         "status": "finished",
@@ -27964,11 +27964,11 @@
           "country": "Morocco"
         },
         "weather": {
-          "tempC": 28.6,
-          "humidityPct": 55,
+          "tempC": 29,
+          "humidityPct": 36,
           "precipitationMm": 0,
-          "windKmh": 10.9,
-          "code": 1
+          "windKmh": 13.4,
+          "code": 0
         },
         "status": "finished",
         "liveMinute": null,
@@ -28396,10 +28396,10 @@
           "country": "Brazil"
         },
         "weather": {
-          "tempC": 32.2,
-          "humidityPct": 43,
+          "tempC": 31.8,
+          "humidityPct": 40,
           "precipitationMm": 0,
-          "windKmh": 21.7,
+          "windKmh": 23,
           "code": 0
         },
         "status": "finished",
@@ -28772,11 +28772,11 @@
           "country": "Italy"
         },
         "weather": {
-          "tempC": 34.3,
-          "humidityPct": 65,
+          "tempC": 34.9,
+          "humidityPct": 45,
           "precipitationMm": 0,
-          "windKmh": 15.3,
-          "code": 1
+          "windKmh": 15.5,
+          "code": 0
         },
         "status": "finished",
         "liveMinute": null,
@@ -29165,11 +29165,11 @@
           "country": "Netherlands"
         },
         "weather": {
-          "tempC": 32.5,
-          "humidityPct": 39,
+          "tempC": 32.1,
+          "humidityPct": 37,
           "precipitationMm": 0,
-          "windKmh": 17.6,
-          "code": 0
+          "windKmh": 13.8,
+          "code": 3
         },
         "status": "finished",
         "liveMinute": null,
@@ -29533,10 +29533,10 @@
           "country": "Venezuela"
         },
         "weather": {
-          "tempC": 32,
-          "humidityPct": 58,
+          "tempC": 33,
+          "humidityPct": 43,
           "precipitationMm": 0,
-          "windKmh": 15.1,
+          "windKmh": 18.5,
           "code": 0
         },
         "status": "finished",
@@ -30280,11 +30280,11 @@
           "country": "Jordan"
         },
         "weather": {
-          "tempC": 32.4,
-          "humidityPct": 63,
+          "tempC": 34.7,
+          "humidityPct": 42,
           "precipitationMm": 0,
-          "windKmh": 3,
-          "code": 1
+          "windKmh": 6.2,
+          "code": 0
         },
         "lineups": {
           "home": [
@@ -30654,10 +30654,10 @@
           "country": "Brazil"
         },
         "weather": {
-          "tempC": 21.5,
-          "humidityPct": 66,
+          "tempC": 26.7,
+          "humidityPct": 34,
           "precipitationMm": 0,
-          "windKmh": 23.6,
+          "windKmh": 14,
           "code": 0
         },
         "status": "finished",
@@ -31011,11 +31011,11 @@
           "country": "Honduras"
         },
         "weather": {
-          "tempC": 16.2,
-          "humidityPct": 74,
+          "tempC": 20.2,
+          "humidityPct": 43,
           "precipitationMm": 0,
-          "windKmh": 9,
-          "code": 2
+          "windKmh": 11.8,
+          "code": 3
         },
         "status": "finished",
         "liveMinute": null,
@@ -31434,11 +31434,11 @@
           "country": "Norway"
         },
         "weather": {
-          "tempC": 28.8,
-          "humidityPct": 67,
+          "tempC": 32.2,
+          "humidityPct": 50,
           "precipitationMm": 0,
-          "windKmh": 16.1,
-          "code": 3
+          "windKmh": 18.5,
+          "code": 0
         },
         "lineups": {
           "home": [
@@ -31817,11 +31817,11 @@
           "country": "Sweden"
         },
         "weather": {
-          "tempC": 21.2,
-          "humidityPct": 73,
+          "tempC": 20.4,
+          "humidityPct": 63,
           "precipitationMm": 0,
-          "windKmh": 8.9,
-          "code": 3
+          "windKmh": 11.6,
+          "code": 1
         },
         "status": "finished",
         "liveMinute": null,
@@ -32197,11 +32197,11 @@
           "country": "Argentina"
         },
         "weather": {
-          "tempC": 13.9,
-          "humidityPct": 96,
-          "precipitationMm": 0.7,
-          "windKmh": 8.8,
-          "code": 53
+          "tempC": 13.2,
+          "humidityPct": 95,
+          "precipitationMm": 0,
+          "windKmh": 8.6,
+          "code": 3
         },
         "status": "finished",
         "liveMinute": null,
@@ -32579,10 +32579,10 @@
         },
         "weather": {
           "tempC": 27.7,
-          "humidityPct": 76,
-          "precipitationMm": 0,
-          "windKmh": 12.1,
-          "code": 2
+          "humidityPct": 78,
+          "precipitationMm": 13.4,
+          "windKmh": 3.7,
+          "code": 95
         },
         "lineups": {
           "home": [
@@ -32993,11 +32993,11 @@
           "country": "France"
         },
         "weather": {
-          "tempC": 31,
-          "humidityPct": 59,
+          "tempC": 27.7,
+          "humidityPct": 80,
           "precipitationMm": 0,
-          "windKmh": 13.7,
-          "code": 0
+          "windKmh": 12,
+          "code": 3
         },
         "lineups": {
           "home": [
@@ -33378,11 +33378,11 @@
           "country": "Uruguay"
         },
         "weather": {
-          "tempC": 34.5,
-          "humidityPct": 46,
+          "tempC": 34.6,
+          "humidityPct": 39,
           "precipitationMm": 0,
-          "windKmh": 11.9,
-          "code": 1
+          "windKmh": 14.1,
+          "code": 0
         },
         "lineups": {
           "home": [
