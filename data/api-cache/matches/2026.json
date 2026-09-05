@@ -1,5 +1,5 @@
 {
-  "savedAt": 1788553487792,
+  "savedAt": 1788578737632,
   "data": {
     "year": 2026,
     "count": 104,
@@ -35315,11 +35315,11 @@
           "country": "England"
         },
         "weather": {
-          "tempC": 35.4,
-          "humidityPct": 42,
+          "tempC": 35.6,
+          "humidityPct": 37,
           "precipitationMm": 0,
-          "windKmh": 3.4,
-          "code": 0
+          "windKmh": 5.8,
+          "code": 1
         },
         "lineups": {
           "home": [
@@ -35676,10 +35676,10 @@
           "country": "Jordan"
         },
         "weather": {
-          "tempC": 28,
-          "humidityPct": 40,
+          "tempC": 25.5,
+          "humidityPct": 41,
           "precipitationMm": 0,
-          "windKmh": 10.5,
+          "windKmh": 11.4,
           "code": 0
         },
         "goals": [
@@ -36073,11 +36073,11 @@
           "country": "France"
         },
         "weather": {
-          "tempC": 29.6,
-          "humidityPct": 68,
+          "tempC": 29.7,
+          "humidityPct": 57,
           "precipitationMm": 0,
-          "windKmh": 10.8,
-          "code": 1
+          "windKmh": 9.7,
+          "code": 2
         },
         "lineups": {
           "home": [
@@ -36477,11 +36477,11 @@
           "country": "El Salvador"
         },
         "weather": {
-          "tempC": 23.1,
-          "humidityPct": 57,
+          "tempC": 22.1,
+          "humidityPct": 46,
           "precipitationMm": 0,
-          "windKmh": 6.8,
-          "code": 0
+          "windKmh": 8.8,
+          "code": 3
         },
         "lineups": {
           "home": [
@@ -36877,11 +36877,11 @@
           "country": "Argentina"
         },
         "weather": {
-          "tempC": 30.7,
-          "humidityPct": 59,
+          "tempC": 27.4,
+          "humidityPct": 60,
           "precipitationMm": 0,
-          "windKmh": 18.2,
-          "code": 0
+          "windKmh": 17.3,
+          "code": 3
         },
         "lineups": {
           "home": [
