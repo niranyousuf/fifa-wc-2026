@@ -1,5 +1,5 @@
 {
-  "savedAt": 1789592338553,
+  "savedAt": 1789617230310,
   "data": {
     "year": 2026,
     "count": 104,
@@ -39251,10 +39251,10 @@
           "country": "Venezuela"
         },
         "weather": {
-          "tempC": 31.4,
-          "humidityPct": 69,
+          "tempC": 33.1,
+          "humidityPct": 50,
           "precipitationMm": 0,
-          "windKmh": 14.8,
+          "windKmh": 22.5,
           "code": 3
         },
         "lineups": {
@@ -39660,11 +39660,11 @@
           "country": null
         },
         "weather": {
-          "tempC": 26.9,
-          "humidityPct": 41,
+          "tempC": 28,
+          "humidityPct": 28,
           "precipitationMm": 0,
-          "windKmh": 18.5,
-          "code": 0
+          "windKmh": 17.4,
+          "code": 1
         },
         "lineups": {
           "home": [
