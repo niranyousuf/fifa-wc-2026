@@ -1,5 +1,5 @@
 {
-  "savedAt": 1793887860343,
+  "savedAt": 1793943224220,
   "data": [
     {
       "name": "Mexico",
@@ -16525,7 +16525,7 @@
           },
           "goals": 0,
           "captain": false,
-          "yellowCards": 1
+          "yellowCards": 2
         },
         {
           "jersey": 10,
